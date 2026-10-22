@@ -4,7 +4,7 @@ An experimental **dual-SDRAM** ST-V build with an optional 180-degree flip for S
 
 ## Download and install
 
-1. Download [MiSTer-STV-Shienryu-Flip-v1.1.zip](https://github.com/djjohnson13p/MiSTer-STV-Shienryu-Flip/releases/download/v1.1-share-20261022/MiSTer-STV-Shienryu-Flip-v1.1.zip) from release **v1.1-share-20261022** and extract it on your computer.
+1. Download [MiSTer-STV-Shienryu-Flip-v1.1.zip](https://github.com/djjohnson13p/MiSTer-STV-Shienryu-Flip/releases/tag/v1.1-share-20261022) from release **v1.1-share-20261022** and extract it on your computer.
 2. Copy the **contents of `install/`** to your MiSTer SD card’s root, merging `_Arcade/`. The resulting files are:
 
    ```text
