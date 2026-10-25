@@ -115,6 +115,12 @@ module STV_CART (
 	
 	bit [23:1] SEGA_315_5838_MEM_A;
 	bit        SEGA_315_5838_MEM_RD;
+`ifdef SHIENRYU_ONLY
+	assign SEGA_315_5838_DO = 16'd0;
+	assign SEGA_315_5838_WAIT = 1'b0;
+	assign SEGA_315_5838_MEM_A = 23'd0;
+	assign SEGA_315_5838_MEM_RD = 1'b0;
+`else
 	SEGA_315_5838 SEGA_315_5838 (
 		.CLK(CLK),
 		.RST_N(RST_N),
@@ -135,6 +141,7 @@ module STV_CART (
 		.MEM_RD(SEGA_315_5838_MEM_RD),
 		.MEM_RDY(MEM_RDY)
 	);
+`endif
 
 	//315-5881
 	bit [15:0] SEGA_315_5881_DO;
@@ -145,6 +152,13 @@ module STV_CART (
 	
 	bit [25:1] SEGA_315_5881_MEM_A;
 	bit        SEGA_315_5881_MEM_RD;
+`ifdef SHIENRYU_ONLY
+	assign SEGA_315_5881_DO = 16'd0;
+	assign SEGA_315_5881_WAIT = 1'b0;
+	assign SEGA_315_5881_ACT = 1'b0;
+	assign SEGA_315_5881_MEM_A = 25'd0;
+	assign SEGA_315_5881_MEM_RD = 1'b0;
+`else
 	SEGA_315_5881 SEGA_315_5881 (
 		.CLK(CLK),
 		.RST_N(RST_N),
@@ -168,7 +182,16 @@ module STV_CART (
 		.MEM_RD(SEGA_315_5881_MEM_RD),
 		.MEM_RDY(MEM_RDY)
 	);
+`endif
 	
+`ifdef SHIENRYU_ONLY
+	assign RAX_MEM_A = 24'd0;
+	assign RAX_MEM_DO = 16'd0;
+	assign RAX_MEM_RD = 1'b0;
+	assign RAX_MEM_WR = 1'b0;
+	assign RAX_SOUND_L = 16'd0;
+	assign RAX_SOUND_R = 16'd0;
+`else
 	//Acclaim RAX (Batman Forever)
 	bit          RES_N_SYNCED;
 	always @(posedge CLK or negedge RST_N) begin	
@@ -266,6 +289,7 @@ module STV_CART (
 	assign RAX_MEM_RD = RAX_ROM_SEL ? RAX_ROM_RD_PULSE : RAX_RAM_RD_PULSE;
 	assign RAX_MEM_WR = RAX_ROM_SEL ? 1'b0             : RAX_RAM_WR_PULSE;
 	
+`endif
 	
 	assign ADO = STV_5838_SEL ? SEGA_315_5838_DO : 
 	             STV_5881_SEL ? SEGA_315_5881_DO : ABUS_DO;
