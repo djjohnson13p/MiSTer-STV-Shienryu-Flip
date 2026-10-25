@@ -1,0 +1,12 @@
+{
+  "seed": 5,
+  "restored_files": 1051,
+  "exact_checkpoint_verified": true,
+  "destination": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\control-r2-seed-restore-validation\\seed05-assembled",
+  "rbf_sha256": "e65748acbb3a33e520bad90620c96c5d030ac9a6e9a3420f2fe3af51606a2cff",
+  "reviewer": "root",
+  "utc": "2026-10-25T17:17:23.283829+00:00",
+  "restore_helper_sha256": "8dc2fdcfb773fdb8972f50c5682f9492d011a0ae48db3c79854c7f7a62ed04e1",
+  "SOF_sha256": "23798fdfa332d11ac07a5a02709395889e70b58fde0a20a1c2b94d6178b45bba",
+  "bit_identical_rebuild_demonstrated": false
+}

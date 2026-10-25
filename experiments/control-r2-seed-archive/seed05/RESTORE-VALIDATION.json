@@ -1,0 +1,46 @@
+{
+  "reviewer": "agent:shienryu_constraints_review",
+  "prepared_by": "agent:shienryu_build_admission",
+  "manual_root_review": false,
+  "validation_source": "Independent agent actual fresh-folder restore; not root approval",
+  "independent_agent_review_file": "INDEPENDENT-AGENT-PACKAGE-REVIEW.json",
+  "independent_agent_review_sha256": "c6a1778fba7420c323be58662a5b3af9cf921dc3ea5f49587a434075be21014d",
+  "actual_complete_archive_restore_test": {
+    "seed": 5,
+    "restored_files": 1051,
+    "restored_bytes": 267587976,
+    "exact_checkpoint_verified": true,
+    "destination": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\seed05-independent-agent-restore-r1",
+    "assembled_snapshot_sha256": "362ebbe3d61c74b492844548d66b7781affaee7957697340efe245b6498ce321",
+    "rbf_sha256": "e65748acbb3a33e520bad90620c96c5d030ac9a6e9a3420f2fe3af51606a2cff",
+    "sof_sha256": "23798fdfa332d11ac07a5a02709395889e70b58fde0a20a1c2b94d6178b45bba"
+  },
+  "actual_independent_agent_restoration_details": {
+    "state": "ACTUAL_NEW_FOLDER_RESTORATION_VERIFIED",
+    "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\seed05-independent-agent-restore-r1",
+    "base_files_written": 1050,
+    "overlay_files_applied": 11,
+    "deleted_files": 0,
+    "restored_files": 1051,
+    "restored_bytes": 267587976,
+    "assembled_snapshot_sha256": "362ebbe3d61c74b492844548d66b7781affaee7957697340efe245b6498ce321",
+    "all1051_file_hashes_match": true,
+    "RBF": {
+      "bytes": 4348472,
+      "sha256": "e65748acbb3a33e520bad90620c96c5d030ac9a6e9a3420f2fe3af51606a2cff"
+    },
+    "SOF": {
+      "bytes": 6705018,
+      "sha256": "23798fdfa332d11ac07a5a02709395889e70b58fde0a20a1c2b94d6178b45bba"
+    },
+    "package_originals_unchanged": true,
+    "build_or_native_tool_executed": false,
+    "bit_identical_rebuild_demonstrated": false
+  },
+  "exact_original_RBF_and_all_checkpoint_bytes_restored": true,
+  "no_native_rebuild_performed": true,
+  "prepared_restore_helper_sha256": "8dc2fdcfb773fdb8972f50c5682f9492d011a0ae48db3c79854c7f7a62ed04e1",
+  "prepared_helper_checks": "AST syntax and --help pass; exactly three seed4-to5 identity substitutions. The new helper was not used for the independent historical restore.",
+  "prepared_helper_actual_restore_execution": false,
+  "bit_identical_rebuild_demonstrated": false
+}

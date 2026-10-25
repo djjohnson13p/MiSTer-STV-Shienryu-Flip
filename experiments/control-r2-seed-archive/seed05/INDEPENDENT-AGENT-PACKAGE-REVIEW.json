@@ -1,0 +1,378 @@
+{
+  "reviewer": "agent:shienryu_constraints_review",
+  "review_kind": "INDEPENDENT_AGENT_LOCAL_PACKAGE_INTEGRITY_AND_RESTORATION_REVIEW",
+  "manual_root_review": false,
+  "filename_qualification": "ROOT-prefixed output filename was explicitly requested; this receipt is agent-attributed and does not impersonate root approval.",
+  "observed_utc": "2026-10-25 17:07:34 UTC",
+  "decision": "LOCAL_SEED05_PACKAGE_INTEGRITY_AND_FRESH_RESTORATION_VERIFIED_FOR_ROOT_REVIEW",
+  "package_directory": "core-lab/research/shienryu-timing-20261024/control-r2-seed05-preservation",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "seed": 5,
+  "bindings": {
+    "package_index_sha256": "331cf3d7ac3a5d15d1ca46dd8d41e241900a095109e26aaa62ae2f33724c32bf",
+    "member_hashes_sha256": "1f27fb66ed1ffb3bcd9bd3833e9e36ecc568f872ea2164be9cc13516215d1e3d",
+    "sealed_preservation_index_sha256": "9a2b535d248ce88961c302aaf5995d213a71fb23aef0709c05f78a8021a4bbe8",
+    "root_timing_result_sha256": "8975dc2f85109a9fed252e61593148829e14920ec8f84f50b0614b611477e8df",
+    "independent_timing_review_sha256": "8a9d2b923e2ac2607e0ec253b68aae1820c3e916797f6bb1ab8d448d51e725d6",
+    "original_package_sidecar_sha256": {
+      "ASM-OVERLAY.json": "f05abed35f768a804be5c4c390293d07c8c4a4a6ea38abd510764dce6acaa357",
+      "CHECKPOINT-MEMBER-HASHES.json": "f642a23f92a56965b11fefbb79d3fcd980cee4116ae43da6af3b5d51c576c8b9",
+      "MEMBER-HASHES.json": "1f27fb66ed1ffb3bcd9bd3833e9e36ecc568f872ea2164be9cc13516215d1e3d",
+      "ORIGINAL-PRESERVATION-CHECK.json": "5cc36ef798021a0361d27c37e59d614313b0919bbfef6b58b57bd109de250228",
+      "PACKAGE-INDEX.json": "331cf3d7ac3a5d15d1ca46dd8d41e241900a095109e26aaa62ae2f33724c32bf",
+      "README.md": "7331afc848469a8c6cd4e10b96596ef07e64fecdb8f4fa029c0ad8269e13fc69",
+      "SAFETY-AUDIT.json": "17352631d88c798ae10a80d9dee64e553ab905fe0c40aebf1aa49d5c6be8f802",
+      "SEALED-PRESERVATION-INDEX.json": "9a2b535d248ce88961c302aaf5995d213a71fb23aef0709c05f78a8021a4bbe8",
+      "SEED-PRESERVATION-MANIFEST.json": "3aa7f07f479199fbf43456f69e93ed4e06acc3da911c7ac91b0803668b7430cd",
+      "SEED05-ASM-SNAPSHOT.json": "c1679b6452ad60d4f7e9e5151b3f6111e9612e75496f00daa55d3f05803de934",
+      "SEED05-FIT-SNAPSHOT.json": "30ce20a0be6289880ddac56adb6abc3c48b9917c10ff3aedc2ac403ae1defcf4",
+      "SEED05-STA-SNAPSHOT.json": "b031305b4572ac911cd09f4a1ef2b11adf3f4f4255a644ad72d6f427671ebd02"
+    }
+  },
+  "archive_verification": {
+    "ZIP_count": 7,
+    "ZIP_bytes": 215953892,
+    "actual_members": 1207,
+    "all7_CRC_pass": true,
+    "every_member_size_and_SHA256_matches_manifest": true,
+    "no_duplicate_unsafe_encrypted_or_symlink_members": true,
+    "all_ZIPs_under100000000_bytes": true,
+    "packages": {
+      "control-r2-seed05-DRAFT-assembled-checkpoint-overlay-01.zip": {
+        "bytes": 6712681,
+        "sha256": "94f2d04e2dec7988eccf6c59b6229280e92b87f780b81a50dd21e13256227588",
+        "members": 11,
+        "uncompressed_bytes": 14254282,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed05-DRAFT-checkpoint-db-01.zip": {
+        "bytes": 60759807,
+        "sha256": "ca5b7b3fbb83a4bea20a812e4931f376f05d916acd4db51f61fc8002403f5e42",
+        "members": 688,
+        "uncompressed_bytes": 84221647,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed05-DRAFT-checkpoint-db-02.zip": {
+        "bytes": 51455350,
+        "sha256": "93db5af98609ffdc86ecba4990544bc3aaac874cc144eba599475ed21981185e",
+        "members": 17,
+        "uncompressed_bytes": 58444308,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed05-DRAFT-checkpoint-db-03.zip": {
+        "bytes": 37673548,
+        "sha256": "509e178c63a5ae6664e3c1e95c802b26488621812ea95f84e531857c05dc7e0c",
+        "members": 92,
+        "uncompressed_bytes": 40073068,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed05-DRAFT-checkpoint-incremental-db-01.zip": {
+        "bytes": 46347921,
+        "sha256": "8d4d61446c5052c6f9cc9a2e0c744de24faa012fc84c1cce662dc01b4cd54018",
+        "members": 31,
+        "uncompressed_bytes": 49481542,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed05-DRAFT-checkpoint-project-and-outputs-01.zip": {
+        "bytes": 5557552,
+        "sha256": "c2f41ef41f44ab56d3ab5f20ad75637355236370c43c3cd19bd606df0113b8f1",
+        "members": 222,
+        "uncompressed_bytes": 35174445,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed05-DRAFT-source-programming-and-evidence-01.zip": {
+        "bytes": 7447033,
+        "sha256": "e1068d449e0ca9fe55448e2ff68934f51afb67004dd7fd8cda2001238ea1fd40",
+        "members": 146,
+        "uncompressed_bytes": 73117562,
+        "CRC_and_every_member_SHA256": "PASS"
+      }
+    },
+    "source_archive_nested_CRC_pass": true,
+    "frozen_adapter_nested_CRC_pass": true,
+    "frozen_adapter_nested_members": 31,
+    "deterministic_second_serialization_independently_retested": false
+  },
+  "checkpoint_coverage": {
+    "full_fit_files": 1050,
+    "full_fit_bytes": 267395010,
+    "fit_snapshot_sha256": "3c380b592cad497103583f9c32980ab964b5cc5ed6d48cda8cd49e82040c065c",
+    "assembler_overlay_changed_or_added": 11,
+    "overlay_deleted": 0,
+    "assembled_files": 1051,
+    "assembled_bytes": 267587976,
+    "assembled_snapshot_sha256": "362ebbe3d61c74b492844548d66b7781affaee7957697340efe245b6498ce321",
+    "all_fit_and_assembled_member_hashes_match_sealed_native_snapshots": true,
+    "actual_STA_report_files": 96,
+    "all96_actual_STA_members_match_sealed_index": true,
+    "STA_cache_qualification": "Complete fit/map/incremental DB plus assembled checkpoint retained. Redundant derived STA working databases are omitted, with exact STA snapshot metadata and all96 raw report/Tcl/result/qualification evidence preserved."
+  },
+  "native_programming_outputs": {
+    "RBF": {
+      "bytes": 4348472,
+      "sha256": "e65748acbb3a33e520bad90620c96c5d030ac9a6e9a3420f2fe3af51606a2cff"
+    },
+    "SOF": {
+      "bytes": 6705018,
+      "sha256": "23798fdfa332d11ac07a5a02709395889e70b58fde0a20a1c2b94d6178b45bba"
+    },
+    "authoritative_origin": "Fresh seed5 assembler output, matching programming ZIP, ASM overlay, assembled snapshot, archived root review and actual restored bytes. Fitter-inherited programming files are not labelled fresh seed5 outputs."
+  },
+  "source_settings_provenance": {
+    "canonical_source_files": 203,
+    "canonical_source_Git_blob_SHA1_and_SHA256_all_verified": true,
+    "unchanged_working_source_files": 202,
+    "only_working_delta": "STV_DS.qsf: exact LAST_QUARTUS_VERSION 25.1std.0 Standard Edition->25.1std.0 Lite Edition;63LF->CRLF;stored SEED1->5.",
+    "working_QSF_sha256": "a7b89e1e946dbee5cca617b720618a5b1c7287219b3e6b3dfb230112b1e3ac6f",
+    "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+    "generated_build_date": "261025",
+    "SDC_PLL_clocks_preserved_by_202_exact_source_files": true,
+    "generated_and_map_match_frozen_seed1": true,
+    "installed_tool_hashes_recorded_and_match_archived_batch": true,
+    "quartus_reported_version": "25.1std.0 Lite Edition Build 1129 10/21/2025 SC Lite Edition (version wording retained in native reports)",
+    "frozen_adapter_CRC_and_provenance_retained": true
+  },
+  "native_stage_receipts": {
+    "fit": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 2713.89,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    },
+    "asm": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 48.188,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    },
+    "sta": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 365.578,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    }
+  },
+  "timing_evidence": {
+    "root_and_agent_review_exact_hashes_match": true,
+    "full8_matrix_matches_archived_global_native_evidence": true,
+    "voltage_mV": 1100,
+    "matrix": [
+      {
+        "model": "slow",
+        "temperature_C": -40,
+        "setup_ns": -0.413,
+        "setup_result": "FAIL",
+        "hold_ns": 0.115,
+        "hold_result": "PASS",
+        "recovery_ns": 3.773,
+        "removal_ns": 0.87,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          0.508,
+          0.103,
+          -0.413
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.115,
+          0.218,
+          0.197
+        ],
+        "mode_setup_ns": 2.131,
+        "mode_hold_ns": 1.217
+      },
+      {
+        "model": "slow",
+        "temperature_C": 0,
+        "setup_ns": -0.35,
+        "setup_result": "FAIL",
+        "hold_ns": 0.133,
+        "hold_result": "PASS",
+        "recovery_ns": 3.77,
+        "removal_ns": 0.858,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          0.483,
+          0.187,
+          -0.35
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.133,
+          0.179,
+          0.202
+        ],
+        "mode_setup_ns": 2.161,
+        "mode_hold_ns": 1.212
+      },
+      {
+        "model": "slow",
+        "temperature_C": 85,
+        "setup_ns": -0.216,
+        "setup_result": "FAIL",
+        "hold_ns": 0.134,
+        "hold_result": "PASS",
+        "recovery_ns": 3.661,
+        "removal_ns": 0.862,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          0.418,
+          0.292,
+          -0.216
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.165,
+          0.134,
+          0.247
+        ],
+        "mode_setup_ns": 2.128,
+        "mode_hold_ns": 1.29
+      },
+      {
+        "model": "slow",
+        "temperature_C": 100,
+        "setup_ns": -0.204,
+        "setup_result": "FAIL",
+        "hold_ns": 0.117,
+        "hold_result": "PASS",
+        "recovery_ns": 3.618,
+        "removal_ns": 0.858,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          0.393,
+          0.263,
+          -0.204
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.163,
+          0.117,
+          0.243
+        ],
+        "mode_setup_ns": 2.101,
+        "mode_hold_ns": 1.287
+      },
+      {
+        "model": "fast",
+        "temperature_C": -40,
+        "setup_ns": 3.365,
+        "setup_result": "PASS",
+        "hold_ns": 0,
+        "hold_result": "PASS",
+        "recovery_ns": 5.186,
+        "removal_ns": 0.359,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          4.511,
+          4.748,
+          3.365
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.087,
+          0,
+          0.116
+        ],
+        "mode_setup_ns": 4.475,
+        "mode_hold_ns": 0.577
+      },
+      {
+        "model": "fast",
+        "temperature_C": 0,
+        "setup_ns": 3.266,
+        "setup_result": "PASS",
+        "hold_ns": 0.01,
+        "hold_result": "PASS",
+        "recovery_ns": 5.141,
+        "removal_ns": 0.379,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          4.389,
+          4.601,
+          3.266
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.098,
+          0.01,
+          0.118
+        ],
+        "mode_setup_ns": 4.397,
+        "mode_hold_ns": 0.601
+      },
+      {
+        "model": "fast",
+        "temperature_C": 85,
+        "setup_ns": 2.923,
+        "setup_result": "PASS",
+        "hold_ns": 0.047,
+        "hold_result": "PASS",
+        "recovery_ns": 4.978,
+        "removal_ns": 0.424,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          4.034,
+          4.124,
+          2.923
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.127,
+          0.047,
+          0.128
+        ],
+        "mode_setup_ns": 4.155,
+        "mode_hold_ns": 0.659
+      },
+      {
+        "model": "fast",
+        "temperature_C": 100,
+        "setup_ns": 2.819,
+        "setup_result": "PASS",
+        "hold_ns": 0.058,
+        "hold_result": "PASS",
+        "recovery_ns": 4.928,
+        "removal_ns": 0.434,
+        "min_pulse_width_ns": 1.091,
+        "core0_core1_HDMI_setup_ns": [
+          3.945,
+          3.933,
+          2.819
+        ],
+        "core0_core1_HDMI_hold_ns": [
+          0.13,
+          0.058,
+          0.131
+        ],
+        "mode_setup_ns": 4.076,
+        "mode_hold_ns": 0.682
+      }
+    ],
+    "qualification": "Failed timing trial, not selected for hardware. Four Slow setup failures. Fast-40C hold0.000ns is nonnegative at report precision with zero native violations, not positive visible margin. No new timing run or hardware acceptance is asserted.",
+    "whole_batch_cleanup": "Per-stage owned Jobs are terminal/closed; the parent batch remains separate and whole-batch cleanup is not claimed."
+  },
+  "actual_new_folder_restoration": {
+    "state": "ACTUAL_NEW_FOLDER_RESTORATION_VERIFIED",
+    "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\seed05-independent-agent-restore-r1",
+    "base_files_written": 1050,
+    "overlay_files_applied": 11,
+    "deleted_files": 0,
+    "restored_files": 1051,
+    "restored_bytes": 267587976,
+    "assembled_snapshot_sha256": "362ebbe3d61c74b492844548d66b7781affaee7957697340efe245b6498ce321",
+    "all1051_file_hashes_match": true,
+    "RBF": {
+      "bytes": 4348472,
+      "sha256": "e65748acbb3a33e520bad90620c96c5d030ac9a6e9a3420f2fe3af51606a2cff"
+    },
+    "SOF": {
+      "bytes": 6705018,
+      "sha256": "23798fdfa332d11ac07a5a02709395889e70b58fde0a20a1c2b94d6178b45bba"
+    },
+    "package_originals_unchanged": true,
+    "build_or_native_tool_executed": false,
+    "bit_identical_rebuild_demonstrated": false
+  },
+  "package_original_files_unchanged_after_review_and_restore": true,
+  "preserved_originals_or_other_seed_trees_accessed_or_modified": false,
+  "no_Git_device_native_Quartus_or_active_seed06_access": true,
+  "no_files_deleted": true,
+  "remote_uploaded": false,
+  "bit_identical_rebuild_demonstrated": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false
+}
