@@ -1,0 +1,21 @@
+{
+  "reviewer": "root",
+  "decision": "ACCEPTED_6EB_NATIVE_PRESERVATION_PACKAGER",
+  "utc": "2026-10-25T22:52:11.849956+00:00",
+  "script_sha256": "02ce14c2959684027a6be45169504300e51d341211b8d461396d5226cd742725",
+  "metadata_bindings_sha256": "c2b37805430fee5fa793d5f6c16bf4561df3c7f3dc45f7850abdb127b25b393f",
+  "provider_sha256": "1f4def931bdef7ccf1ed7c52de6418582b2e2e1b1bcdd729867da077816d52b3",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "RBF_sha256": "483da40e9bf6a231bb393e793aa11b9fa3ac82a82b201437c6259a42cb3561fc",
+  "full_checkpoint_files": 1051,
+  "STA_reports": 117,
+  "derived_STA_caches_excluded": true,
+  "not_all2245_files_remote_restorable": true,
+  "additional_review_files": [],
+  "reviewed_scope": "Root read whole newadapter and extractedprovider; native/fullmap+fit+ASM exactcheckpoint,117rawreports,source/settings/tools/control; sevenexclusive ZIPs, exact hash/CRC/member verification,1051-file fresh-target restore; no native/Git/delete/device operations",
+  "root_actual_plan_passed": true,
+  "timing_acceptance": false,
+  "hardware_acceptance": false,
+  "remote_verification_pending": true,
+  "bit_identical_recompile_proven": false
+}

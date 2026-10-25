@@ -1,0 +1,121 @@
+{
+ "reviewer": "agent:shienryu_constraints_review",
+ "decision": "ACTUAL_LOCAL_ARCHIVE_QC_PASSED_FOR_ROOT_REVIEW",
+ "scope": "Independent read-only ZIP/member/metadata/report QC. Original native DB bytes were not reread; no filesystem restore, native tool, adapter, Git or device execution. Root owns actual restore and publication.",
+ "bindings": {
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 4,
+  "BUILD_DATE": "261025",
+  "package_index_sha256": "25f98d09074811e5aaa5834f08235c7498a690cb55eed9b4a98e30aa4b31350b",
+  "member_hashes_sha256": "edd113f0e8dde4fe9dc332e931389cb7ab11c891c9485bd701b94ea8afc22e81",
+  "packager_sha256": "02ce14c2959684027a6be45169504300e51d341211b8d461396d5226cd742725",
+  "standalone_provider_sha256": "1f4def931bdef7ccf1ed7c52de6418582b2e2e1b1bcdd729867da077816d52b3",
+  "metadata_bindings_sha256": "c2b37805430fee5fa793d5f6c16bf4561df3c7f3dc45f7850abdb127b25b393f",
+  "root_create_admission_sha256": "15ff68843b2004dfcc44fac890893c0e8c8c1ff8395991ad39963b513bd503cd"
+ },
+ "archives": {
+  "count": 7,
+  "total_bytes": 232723242,
+  "total_members": 1239,
+  "all_whole_ZIP_SHA_bytes_and_every_member_SHA_bytes_CRC_verified": true,
+  "unsafe_paths_duplicates_case_collisions_directory_encryption_or_nonregular_entries_found": false,
+  "fixed1980_Unix_regular_metadata_verified": true,
+  "columns": [
+   "file",
+   "bytes",
+   "members",
+   "SHA256"
+  ],
+  "parts": [
+   [
+    "rowpred6eb-seed04-DRAFT-checkpoint-db-01.zip",
+    60677771,
+    688,
+    "3985daa09a63fa79fc7985280115468cb7d0c0721a25a7ec6908194497156af9"
+   ],
+   [
+    "rowpred6eb-seed04-DRAFT-checkpoint-db-02.zip",
+    74852736,
+    18,
+    "b040a245136a7aa74d49f077c9419b84d6f730d426c507e59e475043244b17a5"
+   ],
+   [
+    "rowpred6eb-seed04-DRAFT-checkpoint-db-03.zip",
+    37772685,
+    92,
+    "3f0ded50e742129c5027b70efcc63bdecceec47050ece10e4a1f16926a0868b3"
+   ],
+   [
+    "rowpred6eb-seed04-DRAFT-checkpoint-incremental-db-01.zip",
+    46272052,
+    31,
+    "c2fd6e33b6e3869db80fe5da0f03bfc3696cd38d4d31256d825c04e92c3cede8"
+   ],
+   [
+    "rowpred6eb-seed04-DRAFT-checkpoint-project-and-outputs-01.zip",
+    5563650,
+    222,
+    "720cde0ef32a58a18a52fd0cdb79fce2850989928992d91f1ab80b264ccbaafa"
+   ],
+   [
+    "rowpred6eb-seed04-DRAFT-programming-01.zip",
+    3959349,
+    2,
+    "84f28214aa84db9d6ef3c1546997e2c5a2dad6239239e4e9af6febde94604d4b"
+   ],
+   [
+    "rowpred6eb-seed04-DRAFT-source-and-evidence-01.zip",
+    3624999,
+    186,
+    "f37e1549f13b2aa3eaf48d0c1f13b8b7c621bc6d0018097dadaafadee885c7af"
+   ]
+  ]
+ },
+ "actual_coverage": {
+  "full_checkpoint_files": 1051,
+  "full_checkpoint_bytes": 291305021,
+  "full_union_equals_actual_completed_full_checkpoint_JSON_and_full_snapshot": true,
+  "overlay_required": false,
+  "all129_sealed_non_tree_stage_files_included": true,
+  "all117_STA_raw_report_current_hashes_reverified_and_archived": true,
+  "actual20_frozen_adapter_members_current_and_archived_match_frozen_pins": true,
+  "frozen_pins_sha256": "2c65a083ccc72f86ff62e285ad1c9c217529ac2fa9bf70f96dae97b551eab6d2",
+  "frozen_adapter_QC_gap": "Closed for this actual package by comparing every archived/current frozen member, not merely the frozen-pins sidecar hash.",
+  "all_indexed_sidecars_verified_and_five_embedded_preservation_sidecars_byte_equal": true,
+  "all15_original_package_files_unchanged": true
+ },
+ "source_programming_provenance": {
+  "all203_compiled_source_hashes_match_frozen_recipe_after_exact_QSF_metadata_rewrite": true,
+  "ascal_sha256": "73ca65c64ef89e037e3995ca1faa56e3f7b8a1480b1a2f20190fb3d17b41ef57",
+  "generated_BUILD_DATE_exact261025": true,
+  "QSF_actual_sha256": "29cd056b1113fdab5f30de9b378932f2ced2736f25713fea057befdf3fe9543e",
+  "QSF_rule": "Frozen seed4 proposal -> exact Standard-to-Lite text plus LF-to-CRLF only; all other source/clocks/SDC/PLL hashes match recipe.",
+  "RBF": {
+   "bytes": 4367492,
+   "sha256": "483da40e9bf6a231bb393e793aa11b9fa3ac82a82b201437c6259a42cb3561fc"
+  },
+  "SOF": {
+   "bytes": 6705017,
+   "sha256": "3fd01dbefad46827ba07e59d861a3e4da434f7cfce7afc3bb05fc04a6e6b41f2"
+  },
+  "checkpoint_and_dedicated_programming_copies_exact": true,
+  "native_full_and_STA_terminal0_handles_closed_no_errors_command_source_guard_tool_input_bindings_verified": true,
+  "actual_all8_matrix_identical_in_archived_result_STA_qualification_manifest": true,
+  "root_member_review_sha256": "2cb03a3a579dbbbad0aa2e91ed4aab63a07acbdc1779785f9c4a1acd7b990e2b",
+  "root_final_review_sha256": "af63ed3481d815eff6a464ba6f213a5b0b15572f09282448784abebeef564012",
+  "peer_terminal_review_sha256": "9d8a4d93b0a9d0eb80c25b99df6db7fe5f88f440bad4300fa6783ccfb416fcab",
+  "cone_review_sha256": "14e202ae679cd1a0706a83527b8ef4fe2ba7b223f4afe891b2d28604e48ae857",
+  "all_bound_control_and_source_remote_receipts_present_and_exact": true
+ },
+ "omitted_STA_working_cache": {
+  "local_seal_members": 2245,
+  "STA_hash_inventory_files": 1065,
+  "derived_versions_excluded": 19,
+  "added_only_to_STA": 14,
+  "changed_from_full": 5,
+  "finding": "All19 derived STA versions are absent from remote archive content. Five names retain their original full-checkpoint versions. Complete1065-file STA hashes and2245 local seal are archived; the STA working DB/all2245 stage files are NOT remotely restorable.",
+  "full1051_checkpoint_still_exactly_reconstructible": true
+ },
+ "findings": [],
+ "limitations": "Archive-layer content verification only. Root actual1051-file restore/compatible relocated DB usability, future bit-identical compilation and remote byte verification are separate. Experimental timing remains failed; no feature/timing/hardware acceptance or seed4 replacement."
+}

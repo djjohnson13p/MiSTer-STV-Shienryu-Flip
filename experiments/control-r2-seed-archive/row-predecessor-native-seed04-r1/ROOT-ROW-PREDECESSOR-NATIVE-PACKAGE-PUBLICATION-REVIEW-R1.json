@@ -1,0 +1,23 @@
+{
+  "reviewer": "root",
+  "decision": "ACCEPT_PRESERVED_EXPERIMENT_FOR_USER_LAB_ARCHIVE_ONLY",
+  "utc": "2026-10-25T22:57:21.280104+00:00",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "package_index_sha256": "25f98d09074811e5aaa5834f08235c7498a690cb55eed9b4a98e30aa4b31350b",
+  "peer_actual_package_qc_sha256": "2afa140c51f5d912d8544954c363e73525b70058e6b41ac950a1e60ac48da02e",
+  "root_actual_1051_restore_review_sha256": "9ba9124a34fc721dcaeff7ffcbe35f3f475187f10fde73e5b9a4e21f3277da53",
+  "zip_count": 7,
+  "zip_member_count": 1239,
+  "full_checkpoint_files": 1051,
+  "STA_reports": 117,
+  "archive_branch": "lab/shienryu-control-r2-seed-archive",
+  "expected_parent": "abac4eb4404b7366921feb13bae9d30b7092db25",
+  "only_changed_namespace": "experiments/control-r2-seed-archive/row-predecessor-native-seed04-r1",
+  "original_default_and_tag_sha": "41da931c75b8d1f2d5159cc1ca3770f613c19007",
+  "derived_STA_caches_excluded": true,
+  "all2245_native_stage_files_remote_restorable": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false,
+  "remote_byte_verification_pending": true,
+  "default_push_PR_release_contact_authorized": false
+}

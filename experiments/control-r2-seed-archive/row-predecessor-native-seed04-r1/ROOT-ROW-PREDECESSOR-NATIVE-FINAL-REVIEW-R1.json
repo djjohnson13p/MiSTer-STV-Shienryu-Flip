@@ -1,0 +1,306 @@
+{
+  "reviewer": "root",
+  "decision": "NATIVE_TRIAL_REVIEWED_OVERALL_REGRESSION_RETAIN_BASELINE4",
+  "utc": "2026-10-25T22:48:28.682609+00:00",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 4,
+  "BUILD_DATE": "261025",
+  "bindings": {
+    "ROOT-ROW-PREDECESSOR-NATIVE-MEMBER-REVIEW-R1.json": "2cb03a3a579dbbbad0aa2e91ed4aab63a07acbdc1779785f9c4a1acd7b990e2b",
+    "INDEPENDENT-ROW-PREDECESSOR-NATIVE-R1-REVIEW.json": "9d8a4d93b0a9d0eb80c25b99df6db7fe5f88f440bad4300fa6783ccfb416fcab",
+    "INDEPENDENT-ROW-PREDECESSOR-NATIVE-CONE-REVIEW.json": "14e202ae679cd1a0706a83527b8ef4fe2ba7b223f4afe891b2d28604e48ae857"
+  },
+  "experiment_result_sha256": "3afcb06b5992b91807ba26f5b1232a6f9689b2c4dcfc2f9d44ea9d92977df7d5",
+  "cleanup_sha256": "69be90cfc4f3109d0772fa0aa9650936e3f8c34eb3413818b60a0e0b3403bcaa",
+  "raw_cone_reports_independently_rehashed": 39,
+  "source_native_clock_constraint_diagnostic_coverage_gates_reviewed": true,
+  "full_member_hash_review": "2cb03a3a579dbbbad0aa2e91ed4aab63a07acbdc1779785f9c4a1acd7b990e2b",
+  "timing_condition_matrix": [
+    {
+      "model": "slow",
+      "temperature_C": -40,
+      "status": "FAIL",
+      "native_corner": 2,
+      "checks": {
+        "setup": {
+          "slack_ns": -0.43,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false
+        },
+        "hold": {
+          "slack_ns": 0.104,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.432,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.996,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "f59818d38156267b19f7c681e2fb89aa1c1cc92e6b4c01fd6bfe5c6780f72084"
+      }
+    },
+    {
+      "model": "slow",
+      "temperature_C": 0,
+      "status": "FAIL",
+      "native_corner": 4,
+      "checks": {
+        "setup": {
+          "slack_ns": -0.38,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false
+        },
+        "hold": {
+          "slack_ns": 0.114,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.424,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.998,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "fbfb5abf2ec8dd45c7b2378fecd2a503320e599897be81bbb694a62faef80480"
+      }
+    },
+    {
+      "model": "slow",
+      "temperature_C": 85,
+      "status": "FAIL",
+      "native_corner": 3,
+      "checks": {
+        "setup": {
+          "slack_ns": -0.477,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false
+        },
+        "hold": {
+          "slack_ns": 0.139,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.265,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 1.088,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "51c4ca58f1274fd6d3661a98d83ef4d7f64b50e165bda11f54917162f2f6647b"
+      }
+    },
+    {
+      "model": "slow",
+      "temperature_C": 100,
+      "status": "FAIL",
+      "native_corner": 1,
+      "checks": {
+        "setup": {
+          "slack_ns": -0.45,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false
+        },
+        "hold": {
+          "slack_ns": 0.142,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.234,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 1.098,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "2bdafb80015e67c16b8f1f8e207be7cfe79b56218874d0d35fff75fa9e349ace"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": -40,
+      "status": "PASS",
+      "native_corner": 5,
+      "checks": {
+        "setup": {
+          "slack_ns": 3.535,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.052,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.975,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.381,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "9449e945cf27cfba21c935d9694626c228e365858a8a13bb16a52577c31c4238"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": 0,
+      "status": "PASS",
+      "native_corner": 6,
+      "checks": {
+        "setup": {
+          "slack_ns": 3.458,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.064,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.911,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.401,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "97042e71f6e77f067aae40b1bb461948d288d4efb19093b41eff34123875c95c"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": 85,
+      "status": "PASS",
+      "native_corner": 7,
+      "checks": {
+        "setup": {
+          "slack_ns": 3.23,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.085,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.659,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.478,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "8d90df7ca1b58b5c3b74c6f4243c9b397d4b4a0268be88f56571622a920a91f2"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": 100,
+      "status": "PASS",
+      "native_corner": 8,
+      "checks": {
+        "setup": {
+          "slack_ns": 3.141,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.094,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.616,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.496,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "540419b14101b64264103a6d07a2ffcfa74515dafa618322fbb74f3d71b70769"
+      }
+    }
+  ],
+  "all16_new_target_paths_genuinely_timed": true,
+  "local_carry_chain_removed_in_reported_cone": true,
+  "exact_same_native_endpoint_improvement_proven": false,
+  "global_slow_failure": "unchanged-source SDRAM1 rbuf0[8] to dout[2][8], zero combinational levels, predominantly routing",
+  "HDMI_slow_failure": "registered o_adrs_pre DSP output to o_flip_adrs_pre through reflection compare",
+  "root_accepts_as_replacement": false,
+  "hardware_test_of_variant_not_warranted": true,
+  "preferred_baseline_seed": 4,
+  "original_preserved": true,
+  "next_trial_decision": "One seed5 placement trial on unchanged6eb mappeddesign, after archive verification and separate adapter review; not admitted to native launch yet",
+  "next_trial_reason": "Priorseed5 corecounter1 routing margin plus removal of its previous scaler decrementcone justify a measured single trial; layouts and margins are not portable",
+  "native_artifact_remote_backup_pending": true,
+  "full_board_signoff": false,
+  "bit_identical_recompile_proven": false
+}

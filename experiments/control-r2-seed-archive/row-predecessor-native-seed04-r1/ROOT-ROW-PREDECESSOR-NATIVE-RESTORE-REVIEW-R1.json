@@ -1,0 +1,20 @@
+{
+  "reviewer": "root",
+  "decision": "ACTUAL_ARCHIVE_RESTORE_VERIFIED",
+  "utc": "2026-10-25T22:54:32.763823+00:00",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 4,
+  "package_index_sha256": "25f98d09074811e5aaa5834f08235c7498a690cb55eed9b4a98e30aa4b31350b",
+  "restored_directory": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-native-restore-root-r1",
+  "restored_file_count": 1051,
+  "restored_bytes": 291305021,
+  "actual_restored_AND_original_fulltree_membership_and_bytes_rehashed": true,
+  "no_native_tool_run": true,
+  "RBF_sha256": "483da40e9bf6a231bb393e793aa11b9fa3ac82a82b201437c6259a42cb3561fc",
+  "SOF_sha256": "3fd01dbefad46827ba07e59d861a3e4da434f7cfce7afc3bb05fc04a6e6b41f2",
+  "compiled_source_map_fit_ASM_complete": true,
+  "derived_STA_caches_remote_archived": false,
+  "STA_cache_exclusions_explicit": true,
+  "remote_verified": false,
+  "bit_identical_recompile_verified": false
+}
