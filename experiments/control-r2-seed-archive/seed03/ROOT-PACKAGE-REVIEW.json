@@ -1,0 +1,18 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T15:16:29.429787+00:00",
+  "decision": "ACCEPTED_EXACT_EXPERIMENTAL_SEED03_PACKAGES_FOR_LAB_FORK_PRESERVATION",
+  "package_index_sha256": "5c062d5c2793cd6c3edb4164c19e1c980e1fc3cf3ab2d9240ec7ad20f33fde3c",
+  "zip_count": 7,
+  "total_zip_bytes": 216524034,
+  "all_members_independently_hashed_and_CRC_checked": 1211,
+  "full_fit_checkpoint_exact": true,
+  "assembler_overlay_reconstructs_exact1051_file_checkpoint": true,
+  "all100_STA_reports_member_complete": true,
+  "authoritative_RBF_sha256": "26424d1d5011076796be6cd10c356af8405654875e607dce847a68a03e0d7a83",
+  "batch_still_active_on_seed4": true,
+  "no_active_build_tree_accessed": true,
+  "bit_identical_rebuild_demonstrated": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false
+}

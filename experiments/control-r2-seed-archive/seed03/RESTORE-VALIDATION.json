@@ -1,0 +1,13 @@
+{
+  "reviewer": "root",
+  "restore_helper_sha256": "c22e516f803b9fc562779631dcef96c03b5560f7fd96fc9cfb6bda2063aa461d",
+  "actual_complete_archive_restore_test": {
+    "seed": 3,
+    "restored_files": 1051,
+    "exact_checkpoint_verified": true,
+    "destination": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\control-r2-seed-restore-validation\\seed03-assembled",
+    "rbf_sha256": "26424d1d5011076796be6cd10c356af8405654875e607dce847a68a03e0d7a83"
+  },
+  "no_native_rebuild_performed": true,
+  "exact_original_RBF_and_all_checkpoint_bytes_restored": true
+}

@@ -1,0 +1,54 @@
+{
+  "base_prefix": "seed03/fit-checkpoint/tree/",
+  "base_snapshot_sha256": "4c9de52bf3dcbab61b30e4179000db1c0d2c8141853d52077a5e23faf8305732",
+  "changed_or_added": {
+    "db/STV_DS.asm.qmsg": {
+      "bytes": 2292,
+      "sha256": "565d7b57d4f2a536e8dc166f6ba81c520075543e51233a4f11b6cc0f94399bd2"
+    },
+    "db/STV_DS.asm.rdb": {
+      "bytes": 1751,
+      "sha256": "b3690e19b83ba8510d0c97eca62b79bffc96aaa5702b06caeb26d65ea1a3eccb"
+    },
+    "db/STV_DS.cmp.hdb": {
+      "bytes": 2664756,
+      "sha256": "0e37b612f30762e50581dc39cf27c49f305c19a88c8641af459f92a8e3346106"
+    },
+    "db/STV_DS.cmp.rdb": {
+      "bytes": 396053,
+      "sha256": "690e0e493624581359b4c90528abd5826b8ba658c2f467b796bcc914f2c412f6"
+    },
+    "db/STV_DS.smart_action.txt": {
+      "bytes": 8,
+      "sha256": "a625e5913be8178c983635f6926dff958cecadff86b75a988840caf3d1df1a32"
+    },
+    "output_files/STV_DS.asm.rpt": {
+      "bytes": 11860,
+      "sha256": "de29250407d6fb1d2abc54ae6fdd1e343d7e75828b74e9f19c875c1d83d78436"
+    },
+    "output_files/STV_DS.done": {
+      "bytes": 26,
+      "sha256": "efb224434d4758bec11e87e3718f10c9dd981d5cc0d4db08f40f447be8b55501"
+    },
+    "output_files/STV_DS.flow.rpt": {
+      "bytes": 15319,
+      "sha256": "f943526a91b74049aed4ff5c44519c444f342cc72fa47095e15085dca0d19033"
+    },
+    "output_files/STV_DS.jditmp": {
+      "bytes": 111302,
+      "sha256": "8f8cbb4dd6d7e48cdf84e88ee83bbc8490ee249c8005dd5bc73ce2fb7639c671"
+    },
+    "output_files/STV_DS.rbf": {
+      "bytes": 4390248,
+      "sha256": "26424d1d5011076796be6cd10c356af8405654875e607dce847a68a03e0d7a83"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705018,
+      "sha256": "e2de339586016d36fd312019f5e56d47a4cd2da031fde8a6e4b566ccf3e08a54"
+    }
+  },
+  "deleted": [],
+  "overlay_prefix": "seed03/assembled-checkpoint-overlay/tree/",
+  "restore": "Extract all fit-checkpoint parts into a new empty directory, then apply the exact assembler overlay; remove only explicit deleted entries. Never overwrite original seed folders.",
+  "target_snapshot_sha256": "3f2eaedd0b185cd807693252e07932d637d8a30a3a9d92be98d79070786c307f"
+}

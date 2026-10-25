@@ -27,3 +27,5 @@ The full temperature comparison and inherited timing qualifications are in `froz
 | Fast | 0 | +3.466 | +0.010 | Pass | +3.571 | -0.392 | Fail hold |
 | Fast | 85 | +3.227 | +0.041 | Pass | +3.322 | -0.394 | Fail hold |
 | Fast | 100 | +3.103 | +0.053 | Pass | +3.241 | -0.392 | Fail hold |
+
+Additional preserved trial: [Seed 3](seed03/README.md), including its separate complete checkpoint, exact programming files, restore validation and full temperature matrix.

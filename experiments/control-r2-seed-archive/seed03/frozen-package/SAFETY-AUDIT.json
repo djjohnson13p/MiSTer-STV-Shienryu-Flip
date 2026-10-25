@@ -1,0 +1,21 @@
+{
+  "all_members_relative_no_parent_traversal": true,
+  "content_level_copyright_clearance_asserted": false,
+  "exact_inherited_tracked_source_MIF_microcode_retained": [
+    "rtl/FX68K/microrom.mem",
+    "rtl/FX68K/nanorom.mem",
+    "rtl/Saturn/CD/sh7034.mif",
+    "rtl/cdb105.mif",
+    "rtl/cdb105m.mif",
+    "rtl/cdb106.mif",
+    "rtl/cdb106m.mif",
+    "rtl/pll/pll.mif",
+    "rtl/stv_eeprom.mif"
+  ],
+  "no_externally_sourced_game_BIOS_runtime_archives_or_credentials_added": true,
+  "no_native_device_Git_actions": true,
+  "no_seed04_tree_data_read": true,
+  "only_completed_sealed_seed03_read": true,
+  "recorded_by": "agent:shienryu_build_admission",
+  "selected_text_credential_marker_scan_pass": true
+}

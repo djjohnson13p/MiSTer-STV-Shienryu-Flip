@@ -1,0 +1,340 @@
+{
+  "ASM_overlay_changed_or_added": 11,
+  "ASM_overlay_deleted": [],
+  "STA_working_DB_included": false,
+  "STA_working_DB_qualification": "Full immutable fit/map/incremental DB plus exact ASM overlay retained; derived STA caches omitted; all100 raw STA reports/Tcl/results/qualification retained.",
+  "all3_native_sequences_terminal_and_handles_closed": true,
+  "all_eight_timing_conditions": [
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.145
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 3.697
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.96
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false,
+          "slack_ns": -0.441
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "7b01118770f99e2fafbdfbb83a89f492666a9f425c2403edc26eb9f7ecb4b6ab",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 2,
+      "status": "FAIL",
+      "temperature_C": -40
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.15
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 3.737
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.953
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false,
+          "slack_ns": -0.388
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "563cb9001bdae1f57a747d0fe78693f941caf39f4fcd6e90bd02c88846ca5112",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 4,
+      "status": "FAIL",
+      "temperature_C": 0
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.181
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 3.432
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 1.029
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false,
+          "slack_ns": -0.358
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "5097fc1e57505c85dac1fd032bc7a1016837ef20d3be81f775c06cec66542480",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 3,
+      "status": "FAIL",
+      "temperature_C": 85
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.172
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 3.342
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 1.039
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false,
+          "slack_ns": -0.328
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "79b2a9fd908513b1ebd6674252038573f657b28b1c72a151a8f59dd508146425",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 1,
+      "status": "FAIL",
+      "temperature_C": 100
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.054
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 5.228
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.406
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 3.347
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "ac07236313662f6dce75d8fd8dfefd11460439e0205b6538c6c2570506280403",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 5,
+      "status": "PASS",
+      "temperature_C": -40
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.066
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 5.173
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.416
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 3.255
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "522548b8ec1e2ec653e8b790e62d8a71b3ad6fd2c5f0370052627bec6e843128",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 6,
+      "status": "PASS",
+      "temperature_C": 0
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.091
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 4.985
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.49
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 2.983
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "8efd38696d5b5a81adea5692e4930c258a51021a8210e598254ce7119bf45920",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 7,
+      "status": "PASS",
+      "temperature_C": 85
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.102
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 4.923
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 0.501
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true,
+          "slack_ns": 2.896
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "51cfdf005f270206aeeb4e88972ef96ff240c9c4ffb2e832fe9166405c4cf2a1",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 8,
+      "status": "PASS",
+      "temperature_C": 100
+    }
+  ],
+  "bit_identical_rebuild_demonstrated": false,
+  "complete_assembled_tree": {
+    "bytes": 267904381,
+    "files": 1051,
+    "snapshot_sha256": "3f2eaedd0b185cd807693252e07932d637d8a30a3a9d92be98d79070786c307f"
+  },
+  "complete_fit_tree": {
+    "bytes": 267669837,
+    "files": 1050,
+    "snapshot_sha256": "4c9de52bf3dcbab61b30e4179000db1c0d2c8141853d52077a5e23faf8305732"
+  },
+  "exact_source_comparison": {
+    "build_date": "261025",
+    "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+    "canonical_source_file_count": 203,
+    "only_delta": "STV_DS.qsf exact25.1 Standard->Lite/LF->CRLF plus stored SEED1->3",
+    "source_generated_map_clock_SDC_PLL_integrity": "Exact canonical/current input hashes are in the full checkpoint and sealed stage manifests; generated+map match frozen seed1.",
+    "unchanged_other_files": 202,
+    "working_qsf_sha256": "2c4b1cc2e5d9d77c21ea6e747ab6c11bc596e8b39029b83c355a21443109b895"
+  },
+  "hardware_acceptance": false,
+  "independent_timing_review_sha256": "bdb4e6802233550db9edcf079b0bd7d03089975311bae671244afccdaef06b30",
+  "no_other_seed_tree_access": true,
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_uploaded": false,
+  "root_package_review": "PENDING",
+  "root_seed_record": {
+    "binary_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\seeds\\seed-03\\asm",
+    "bit_identical_rebuild_retested": false,
+    "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+    "compiled_archive_uploaded_to_fork": false,
+    "exact_binary_restorable": true,
+    "fitted_checkpoint": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\seeds\\seed-03\\fit",
+    "preserved_separately": true,
+    "rbf": {
+      "bytes": 4390248,
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\seeds\\seed-03\\asm\\tree\\output_files\\STV_DS.rbf",
+      "sha256": "26424d1d5011076796be6cd10c356af8405654875e607dce847a68a03e0d7a83"
+    },
+    "seal_sha256": "28e8676a2a4359183cf6a669a0107ae4b8d4a43b34898444299467c333d2c212",
+    "seed": 3,
+    "sof": {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\seeds\\seed-03\\asm\\tree\\output_files\\STV_DS.sof",
+      "sha256": "e2de339586016d36fd312019f5e56d47a4cd2da031fde8a6e4b566ccf3e08a54"
+    },
+    "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+    "timing_result": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-SEED03-TIMING-RESULT.json",
+    "timing_result_sha256": "86a379ee9a6b11944624c42f16070aa8afc9f99924df3181dc2d6eaf41f2712a",
+    "timing_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\seeds\\seed-03\\sta",
+    "working_qsf_sha256": "2c4b1cc2e5d9d77c21ea6e747ab6c11bc596e8b39029b83c355a21443109b895"
+  },
+  "root_timing_review_sha256": "86a379ee9a6b11944624c42f16070aa8afc9f99924df3181dc2d6eaf41f2712a",
+  "sealed_preservation_index_sha256": "28e8676a2a4359183cf6a669a0107ae4b8d4a43b34898444299467c333d2c212",
+  "seed": 3,
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW",
+  "timing_acceptance": false,
+  "whole_batch_task_cleanup_complete": false,
+  "whole_batch_task_still_active": true
+}
