@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "recorded_by": "root",
+  "utc": "2026-10-25T13:38:30.048482+00:00",
+  "policy": "Exclusive per-seed/stage folders; never overwrite an earlier seed or programming output. Preserve exact RBF/SOF, full fit/map/generated date, exact working source/settings/clocks/constraints, tool identity and all8 reports. Archive backups are separately verified before marking uploaded.",
+  "source_fork_branch": "lab/shienryu-oldbase-hdmi",
+  "seed_records": [
+    {
+      "seed": 1,
+      "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+      "fitted_checkpoint": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-q251-candidate-r2",
+      "binary_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-q251-candidate-r2",
+      "timing_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-sta-all-corners-r2",
+      "rbf": {
+        "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-q251-candidate-r2\\tree\\output_files\\STV_DS.rbf",
+        "bytes": 4372784,
+        "sha256": "63fcb6892c69dddb4a88664555f6ddad46a10b6ce0fc437b9d43d27bb468592a"
+      },
+      "sof": {
+        "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-q251-candidate-r2\\tree\\output_files\\STV_DS.sof",
+        "sha256": "c21a561986fc052e74276e143f95d3c8ac0356cb994e7e4a4a7d63fcc2d33322"
+      },
+      "working_qsf_sha256": "16925fc53d95de6f8a8f7ef47bd830aeb755d9b13ab4c900ba95baf89ec10e4f",
+      "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+      "timing_result_sha256": "0e3162594abfa7e2b15c2714414c852ac7e71ee4b32f3109c18462b00b797b7f",
+      "preserved_separately": true,
+      "exact_binary_restorable": true,
+      "bit_identical_rebuild_retested": false,
+      "compiled_archive_uploaded_to_fork": false
+    },
+    {
+      "seed": 2,
+      "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+      "fitted_checkpoint": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-fit-r1",
+      "binary_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-asm-r1",
+      "timing_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-sta-all-corners-r1",
+      "rbf": {
+        "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-asm-r1\\tree\\output_files\\STV_DS.rbf",
+        "bytes": 4354548,
+        "sha256": "69bc89fe8e96f678ebcc1b698af3ab25661720a82bcebbaca6ddfff4c395895c"
+      },
+      "sof": {
+        "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-asm-r1\\tree\\output_files\\STV_DS.sof",
+        "sha256": "68bab162e91ea5716d9752d6b864818403ea42f21f9534bd2946d61b5471f8da"
+      },
+      "working_qsf_sha256": "1e399e6bbad6f12f74298e6ded1d53610852f67f90ea2b0a1d5294959f087348",
+      "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+      "timing_result_sha256": "16cafff73bdda21c9f07430c99e896dca47944e8d42549995ab2c9eca19c4911",
+      "preserved_separately": true,
+      "exact_binary_restorable": true,
+      "bit_identical_rebuild_retested": false,
+      "compiled_archive_uploaded_to_fork": false
+    }
+  ]
+}

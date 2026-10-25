@@ -1,0 +1,203 @@
+{
+  "all_eight_condition_matrix": [
+    {
+      "checks": {
+        "hold": -0.733,
+        "recovery": 3.093,
+        "removal": 0.735,
+        "setup": 0.204
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "1",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "slow",
+      "operating_condition": "Slow 1100mV 100C Model",
+      "setup_pass": true,
+      "speed": "7",
+      "temperature_C": "100",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.661,
+        "recovery": 3.329,
+        "removal": 0.731,
+        "setup": 0.009
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "2",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "slow",
+      "operating_condition": "Slow 1100mV -40C Model",
+      "setup_pass": true,
+      "speed": "7",
+      "temperature_C": "-40",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.711,
+        "recovery": 3.148,
+        "removal": 0.737,
+        "setup": 0.237
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "3",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "slow",
+      "operating_condition": "Slow 1100mV 85C Model",
+      "setup_pass": true,
+      "speed": "7",
+      "temperature_C": "85",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.692,
+        "recovery": 3.326,
+        "removal": 0.72,
+        "setup": 0.092
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "4",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "slow",
+      "operating_condition": "Slow 1100mV 0C Model",
+      "setup_pass": true,
+      "speed": "7",
+      "temperature_C": "0",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.39,
+        "recovery": 4.919,
+        "removal": 0.299,
+        "setup": 3.656
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "5",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "fast",
+      "operating_condition": "Fast 1100mV -40C Model",
+      "setup_pass": true,
+      "speed": "M",
+      "temperature_C": "-40",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.392,
+        "recovery": 4.851,
+        "removal": 0.309,
+        "setup": 3.571
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "6",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "fast",
+      "operating_condition": "Fast 1100mV 0C Model",
+      "setup_pass": true,
+      "speed": "M",
+      "temperature_C": "0",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.394,
+        "recovery": 4.601,
+        "removal": 0.347,
+        "setup": 3.322
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "7",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "fast",
+      "operating_condition": "Fast 1100mV 85C Model",
+      "setup_pass": true,
+      "speed": "M",
+      "temperature_C": "85",
+      "voltage_mV": "1100"
+    },
+    {
+      "checks": {
+        "hold": -0.392,
+        "recovery": 4.519,
+        "removal": 0.356,
+        "setup": 3.241
+      },
+      "clock_count": "13",
+      "grade": "Industrial",
+      "hold_pass": false,
+      "index": "8",
+      "minimum_pulse_width_ns": 1.091,
+      "model": "fast",
+      "operating_condition": "Fast 1100mV 100C Model",
+      "setup_pass": true,
+      "speed": "M",
+      "temperature_C": "100",
+      "voltage_mV": "1100"
+    }
+  ],
+  "bit_identical_rebuild_demonstrated": false,
+  "build_date": "261025",
+  "canonical_source": {
+    "bytes": 1108353,
+    "sha256": "4747ff94e65a56e8e44c3f4c8b9fbcb5d1ea415523abb55dab3d8747742d605b"
+  },
+  "canonical_source_deltas": [
+    "STV_DS.qsf: precise accepted edition/newline metadata rewrite and stored SEED 1 to 2"
+  ],
+  "checkpoint_strategy": "Full original fit tree, all map/fitted/incremental databases; exact assembler overlay reconstructs complete post-ASM tree. Copied fitter-only RBF/STA are inherited seed1, not seed2 results.",
+  "exact_binary_restoration_supported": true,
+  "external_runtime_game_bios_archive_added": false,
+  "hardware_acceptance": false,
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_uploaded": false,
+  "root_package_review": "PENDING",
+  "root_seed_index": {
+    "binary_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-asm-r1",
+    "bit_identical_rebuild_retested": false,
+    "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+    "compiled_archive_uploaded_to_fork": false,
+    "exact_binary_restorable": true,
+    "fitted_checkpoint": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-fit-r1",
+    "preserved_separately": true,
+    "rbf": {
+      "bytes": 4354548,
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-asm-r1\\tree\\output_files\\STV_DS.rbf",
+      "sha256": "69bc89fe8e96f678ebcc1b698af3ab25661720a82bcebbaca6ddfff4c395895c"
+    },
+    "seed": 2,
+    "sof": {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-asm-r1\\tree\\output_files\\STV_DS.sof",
+      "sha256": "68bab162e91ea5716d9752d6b864818403ea42f21f9534bd2946d61b5471f8da"
+    },
+    "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+    "timing_result_sha256": "16cafff73bdda21c9f07430c99e896dca47944e8d42549995ab2c9eca19c4911",
+    "timing_stage": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-sta-all-corners-r1",
+    "working_qsf_sha256": "1e399e6bbad6f12f74298e6ded1d53610852f67f90ea2b0a1d5294959f087348"
+  },
+  "seed": 2,
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "sta_database_workcopy_included": false,
+  "sta_database_workcopy_omission": "Timing-analysis caches are derived; complete immutable fit/assembled checkpoint and every raw all-corner report/Tcl/receipt are retained.",
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW",
+  "timing_acceptance": false,
+  "timing_root_review_sha256": "16cafff73bdda21c9f07430c99e896dca47944e8d42549995ab2c9eca19c4911",
+  "working_compiled_source_count": 203
+}

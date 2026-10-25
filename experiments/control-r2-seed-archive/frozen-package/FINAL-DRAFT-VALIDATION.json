@@ -1,0 +1,31 @@
+{
+  "ZIP_count": 13,
+  "all_ZIPs_under_100000000_bytes": true,
+  "all_actual_STA_report_files_included": {
+    "1": 100,
+    "2": 100
+  },
+  "all_match": true,
+  "checkpoint_member_union_matches_complete_snapshot": true,
+  "largest_ZIP_bytes": 74691028,
+  "origin_evidence_and_programming_files_rehashed_after_packaging": 403,
+  "per_seed": {
+    "1": {
+      "ZIP_bytes": 233093218,
+      "ZIP_count": 6,
+      "archived_member_count": 1233,
+      "complete_tree_member_coverage": true
+    },
+    "2": {
+      "ZIP_bytes": 215677945,
+      "ZIP_count": 7,
+      "archived_member_count": 1285,
+      "complete_tree_member_coverage": true
+    }
+  },
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_uploaded": false,
+  "root_package_review": "PENDING",
+  "seed02_assembled_overlay_member_union_reconstructs_complete_target": true,
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW"
+}

@@ -1,0 +1,24 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T13:50:58.815481+00:00",
+  "decision": "ACCEPTED_EXACT_EXPERIMENTAL_SEED01_AND_02_PACKAGES_FOR_LAB_FORK_PRESERVATION",
+  "package_index_sha256": "a9b6a3a4b22b9c7088b4bd4813a034f0bce779af6648064fd35197c51e511a36",
+  "zip_count": 13,
+  "total_zip_bytes": 448771163,
+  "all_members_independently_hashed_and_CRC_checked": 2518,
+  "all_sidecar_hashes_independently_verified": true,
+  "full_checkpoints_member_exact": true,
+  "seed2_asm_overlay_reconstructs_full_checkpoint_exactly": true,
+  "original_checkpoint_files_independently_rehashed": [
+    1051,
+    1050,
+    1051
+  ],
+  "exact_RBF_SOF_restoration_preserved": true,
+  "bit_identical_rebuild_demonstrated": false,
+  "safety": "No external runtime ROM/BIOS packs, device config or credentials. Exact inherited tracked source MIFs retained unchanged.",
+  "raw_DRAFT_labels_retained_as_pre_review_provenance": true,
+  "timing_acceptance": false,
+  "hardware_acceptance": false,
+  "remote_uploaded": false
+}

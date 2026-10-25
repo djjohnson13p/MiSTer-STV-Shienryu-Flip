@@ -1,0 +1,54 @@
+{
+  "base_sha256": "cc1a1e0333503f2f956d5022003b599707039809c875886246d639d39a0e7cb6",
+  "base_snapshot": "seed02-fit",
+  "changed_or_added": {
+    "db/STV_DS.asm.qmsg": {
+      "bytes": 2292,
+      "sha256": "d935f89b4318decc5148d5f6cfa53d1f4707366c25ae5728eca113fcb39f6a08"
+    },
+    "db/STV_DS.asm.rdb": {
+      "bytes": 1734,
+      "sha256": "a8692e09258a5f0b8d193518bcfc0311dc0900f9036772343c918fbdf8b6860f"
+    },
+    "db/STV_DS.cmp.hdb": {
+      "bytes": 2666352,
+      "sha256": "2fc1c45ccea5263ca2d0e853b1ddbbcfd1ef4b28530e8ed96df54dfc769746b1"
+    },
+    "db/STV_DS.cmp.rdb": {
+      "bytes": 396562,
+      "sha256": "095f03dc878fe9f84815a5704fd5817e6f894bef51f05f3ad4c7c2f756057356"
+    },
+    "db/STV_DS.smart_action.txt": {
+      "bytes": 8,
+      "sha256": "a625e5913be8178c983635f6926dff958cecadff86b75a988840caf3d1df1a32"
+    },
+    "output_files/STV_DS.asm.rpt": {
+      "bytes": 11236,
+      "sha256": "6c48c5f7024f4249702cb4ccd01ddbb445781d448e1ec574bb1f6b3313c32d4f"
+    },
+    "output_files/STV_DS.done": {
+      "bytes": 26,
+      "sha256": "e14eb6461a833ee434608003a38a29785370f448a7b9c91b3d160078cf21253b"
+    },
+    "output_files/STV_DS.flow.rpt": {
+      "bytes": 15319,
+      "sha256": "6df4507ff10310538451010b778429a8e70f20d57e4187beacb66b0646d11490"
+    },
+    "output_files/STV_DS.jditmp": {
+      "bytes": 111302,
+      "sha256": "8f8cbb4dd6d7e48cdf84e88ee83bbc8490ee249c8005dd5bc73ce2fb7639c671"
+    },
+    "output_files/STV_DS.rbf": {
+      "bytes": 4354548,
+      "sha256": "69bc89fe8e96f678ebcc1b698af3ab25661720a82bcebbaca6ddfff4c395895c"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705018,
+      "sha256": "68bab162e91ea5716d9752d6b864818403ea42f21f9534bd2946d61b5471f8da"
+    }
+  },
+  "deleted": [],
+  "restore": "Extract every fit checkpoint ZIP into one empty directory, then overwrite with this ASM overlay and remove only explicitly listed deleted relative paths. No original is modified.",
+  "target_sha256": "2b56b7430557651a404c4877233971bd1f2b511af3930ec2e4c41bbdeceaa8b9",
+  "target_snapshot": "seed02-assembled"
+}

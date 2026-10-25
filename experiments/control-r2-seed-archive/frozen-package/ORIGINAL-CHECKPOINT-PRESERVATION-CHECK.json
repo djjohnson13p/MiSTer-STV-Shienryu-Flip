@@ -1,0 +1,29 @@
+{
+  "all_original_checkpoint_bytes_and_memberships_unchanged": true,
+  "no_device_access": true,
+  "no_native_launch": true,
+  "recorded_by": "agent:shienryu_build_admission",
+  "trees": {
+    "seed01-fullfit": {
+      "after_sha256": "036480ba9aea6b445be39445f00ac51516c855ea17eeb01d3d29632459f3da21",
+      "before_sha256": "036480ba9aea6b445be39445f00ac51516c855ea17eeb01d3d29632459f3da21",
+      "bytes": 291198520,
+      "file_count": 1051,
+      "identical": true
+    },
+    "seed02-assembled": {
+      "after_sha256": "2b56b7430557651a404c4877233971bd1f2b511af3930ec2e4c41bbdeceaa8b9",
+      "before_sha256": "2b56b7430557651a404c4877233971bd1f2b511af3930ec2e4c41bbdeceaa8b9",
+      "bytes": 267481445,
+      "file_count": 1051,
+      "identical": true
+    },
+    "seed02-fit": {
+      "after_sha256": "cc1a1e0333503f2f956d5022003b599707039809c875886246d639d39a0e7cb6",
+      "before_sha256": "cc1a1e0333503f2f956d5022003b599707039809c875886246d639d39a0e7cb6",
+      "bytes": 267283924,
+      "file_count": 1050,
+      "identical": true
+    }
+  }
+}

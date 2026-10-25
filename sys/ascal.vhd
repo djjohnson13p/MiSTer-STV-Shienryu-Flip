@@ -448,7 +448,7 @@ ARCHITECTURE rtl OF ascal IS
 	SIGNAL o_run : std_logic;
 	SIGNAL o_freeze : std_logic;
 	SIGNAL o_bob_deint : std_logic;
-	SIGNAL o_flip_180 : std_logic;
+	SIGNAL o_flip_sync,o_flip_sync2,o_flip_180 : std_logic := '0';
 	SIGNAL o_iwfl : std_logic_vector(2 DOWNTO 0);
 	SIGNAL o_mode,o_hmode,o_vmode : unsigned(4 DOWNTO 0);
 	SIGNAL o_format : unsigned(5 DOWNTO 0);
@@ -1879,6 +1879,8 @@ BEGIN
 			o_copy<=sWAIT;
 			o_state<=sDISP;
 			o_read_pre<='0';
+			o_flip_sync<='0';
+			o_flip_sync2<='0';
 			o_flip_180<='0';
 			o_flip_adrs_pre<=0;
 			o_flip_fload2_adrs<=0;
@@ -1893,7 +1895,12 @@ BEGIN
 			o_format <="0001" & format; -- <ASYNC> ?
 
 			o_run    <=run; -- <ASYNC> ?
-			o_flip_180 <= flip_180; -- <ASYNC> ?
+			-- Synchronize the menu bit, then hold both axes for the output frame.
+			o_flip_sync<=flip_180;
+			o_flip_sync2<=o_flip_sync;
+			IF o_ce='1' AND o_vsv(1)='1' AND o_vsv(0)='0' THEN
+				o_flip_180<=o_flip_sync2;
+			END IF;
 
 			o_htotal <=htotal; -- <ASYNC> ?
 			o_hsstart<=hsstart; -- <ASYNC> ?

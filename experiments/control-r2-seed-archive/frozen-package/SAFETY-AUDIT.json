@@ -1,0 +1,33 @@
+{
+  "credential_marker_scan_pass": true,
+  "device_access": false,
+  "native_tool_launched": false,
+  "path_safety_pass": true,
+  "policy": "No externally sourced game/BIOS/runtime archives, device configuration files or credentials added. Exact inherited tracked source MIF/microcode members are retained; no content-level copyright clearance is asserted.",
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_upload": false,
+  "source_mif_members": [
+    "rtl/FX68K/microrom.mem",
+    "rtl/FX68K/nanorom.mem",
+    "rtl/Saturn/CD/sh7034.mif",
+    "rtl/cdb105.mif",
+    "rtl/cdb105m.mif",
+    "rtl/cdb106.mif",
+    "rtl/cdb106m.mif",
+    "rtl/pll/pll.mif",
+    "rtl/stv_eeprom.mif"
+  ],
+  "source_mra_members_are_metadata_only": [
+    "mra_unsupported/Critter Crusher (EA 951204 V1.000).mra",
+    "mra_unsupported/Magical Zunou Power (J 961031 V1.000).mra",
+    "mra_unsupported/Microman Battle Charge (J 990326 V1.000).mra",
+    "mra_unsupported/Name Club Disney (J 980614 V1.000).mra",
+    "mra_unsupported/Name Club Ver.3 (J 970723 V1.000).mra",
+    "mra_unsupported/Print Club 2 (U 970921 V1.000).mra",
+    "mra_unsupported/Print Club 2 Vol. 3 (U 990310 V1.000).mra",
+    "mra_unsupported/Print Club Pokemon B (U 991126 V1.000).mra",
+    "mra_unsupported/Stress Busters (J 981020 V1.000).mra",
+    "mra_unsupported/Technical Bowling (J 971212 V1.000).mra",
+    "mra_unsupported/Virtual Mahjong (J 961214 V1.000).mra"
+  ]
+}
