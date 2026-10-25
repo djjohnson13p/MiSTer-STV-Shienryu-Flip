@@ -1,0 +1,9 @@
+{
+  "actual_STA_reports": 100,
+  "all_original_bytes_and_membership_exact_before_after": true,
+  "archive_member_union_reconstructs_complete_fit_and_ASM": true,
+  "assembled_snapshot_sha256": "173d4e5f813aaffff2899e0bc34aa009b9cfca0a4086dbeb12a00a448aa020f2",
+  "fit_snapshot_sha256": "92fb1bcf87aafd63d060ed2d327670ea0a518b9d3022ab14b72e05631af54205",
+  "seal_sha256": "cc0735d743ed68af6d73d7e97d6af72e3e8d8e01cf8ec0bb75ffc3e91bc0c26b",
+  "sealed_member_count": 3288
+}

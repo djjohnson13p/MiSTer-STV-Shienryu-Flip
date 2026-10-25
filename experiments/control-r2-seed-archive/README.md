@@ -41,3 +41,5 @@ Additional preserved trial: [Seed 3](seed03/README.md), including its separate c
 - [Seed 7 full checkpoint, assembler overlay and all-temperature evidence](seed07/README.md)
 
 - [Closed row-predecessor scaler prototype and simulation evidence](row-predecessor-simulation-r1/README.md)
+
+- [Seed 8 full checkpoint, assembler overlay and all-temperature evidence](seed08/README.md)

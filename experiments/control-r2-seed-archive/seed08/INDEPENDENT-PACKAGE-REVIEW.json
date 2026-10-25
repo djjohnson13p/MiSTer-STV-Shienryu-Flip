@@ -1,0 +1,117 @@
+{
+  "actual_restore_performed_by_this_QC": false,
+  "archive_verification": {
+    "ZIP_bytes": 216600211,
+    "ZIP_count": 7,
+    "actual_members": 1212,
+    "all_ZIP_and_member_SHA256_bytes_CRC_verified": true,
+    "all_ZIPs_under100000000_bytes": true,
+    "all_fixed_1980_Unix0644_metadata_verified": true,
+    "all_sidecar_names_hashes_sizes_match": true,
+    "nested_adapter31_member_SHA_bytes_CRC_verified": true,
+    "nested_canonical203_source_CRC_verified": true,
+    "no_unsafe_duplicate_encrypted_or_symlink_members": true,
+    "packages": {
+      "control-r2-seed08-DRAFT-assembled-checkpoint-overlay-01.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 6722633,
+        "members": 11,
+        "sha256": "e6f7971a840a7871495cb5b1a14f761c7c1990520f74471e1dff390506e82ba9"
+      },
+      "control-r2-seed08-DRAFT-checkpoint-db-01.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 60848054,
+        "members": 688,
+        "sha256": "6470a47c7ef518db63b0083d3dbc19e04b0f10c44cad2126cb402ac152838b06"
+      },
+      "control-r2-seed08-DRAFT-checkpoint-db-02.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 51666136,
+        "members": 17,
+        "sha256": "e33ab7542395d0500f8edbf6f6199e3e0291253db289373c96fb6650c2d27869"
+      },
+      "control-r2-seed08-DRAFT-checkpoint-db-03.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 37843892,
+        "members": 92,
+        "sha256": "e3b902460ce49836389f661fff51c461091855b39585dc02278327cfa107eb09"
+      },
+      "control-r2-seed08-DRAFT-checkpoint-incremental-db-01.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 46427401,
+        "members": 31,
+        "sha256": "0dd64d4240c15f174822a811c434c859f915249fcac2435b86723d0d819ca956"
+      },
+      "control-r2-seed08-DRAFT-checkpoint-project-and-outputs-01.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 5557995,
+        "members": 222,
+        "sha256": "2863ec0d90c8d3dda3ffb13d920cae45ad378becd0a56ec2cad70d87d955257e"
+      },
+      "control-r2-seed08-DRAFT-source-programming-and-evidence-01.zip": {
+        "CRC_and_every_member_SHA_bytes": "PASS",
+        "bytes": 7534100,
+        "members": 151,
+        "sha256": "6f2639af92c0b3b5e1649e1d1c4600061b5ef66988f1c7d27791af67a6c49145"
+      }
+    },
+    "second_serialization_independently_retested": false
+  },
+  "bindings": {
+    "independent_semantic_review_sha256": "780562911efdf9e095b84177bee5517958680af0136d172dd4731c0b28b68b1d",
+    "member_hashes_sha256": "dcb9e07fed1d3bad125d76dab9e61f4945a13deb4b702e0ac79c08e6bf0f6997",
+    "package_index_sha256": "768d33e1acbcb9cdfe1b6c1424a5e020470973a573a99bb395fd92335adafdc0",
+    "root_timing_result_sha256": "8bf69678b00ed3b6858528ab72465dcf24e8a895f1d37761c43bb67715cccf92",
+    "sealed_preservation_index_sha256": "cc0735d743ed68af6d73d7e97d6af72e3e8d8e01cf8ec0bb75ffc3e91bc0c26b",
+    "writer_sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a"
+  },
+  "bit_identical_rebuild_demonstrated": false,
+  "checkpoint_coverage": {
+    "actual_STA_reports": 100,
+    "all_non_tree_reports_native_results_qualifications_Tcls_logs_match_seal": true,
+    "all_non_tree_stage_files": 121,
+    "all_source_and_map_files_preserved_in_complete_checkpoint": true,
+    "archived_tool_provenance_matches_archived_batch": true,
+    "assembled_bytes": 268132454,
+    "assembled_files": 1051,
+    "assembled_snapshot_sha256": "173d4e5f813aaffff2899e0bc34aa009b9cfca0a4086dbeb12a00a448aa020f2",
+    "assembler_overlay_changed_or_added": 11,
+    "exact_virtual_full_fit_and_ASM_reconstruction": true,
+    "fit_snapshot_sha256": "92fb1bcf87aafd63d060ed2d327670ea0a518b9d3022ab14b72e05631af54205",
+    "full_fit_bytes": 267931996,
+    "full_fit_files": 1050,
+    "generated_and_map_match_frozen_seed1": true,
+    "generated_build_date": "261025",
+    "overlay_deleted": 0
+  },
+  "decision": "INDEPENDENT_SEED08_PACKAGE_QC_PASS_FOR_ROOT_REVIEW",
+  "hardware_acceptance": false,
+  "historical_index_qualification": "Archived CONTROL-R2-SEED-INDEX.json is a point-in-time snapshot preceding the current seed8 local/restored entry. Its recorded member SHA/bytes pass; equality with mutable live index is neither required nor claimed.",
+  "manual_root_review": false,
+  "no_AUX_Git_index_device_compiler_or_active_seed_changes": true,
+  "observed_utc": "2026-10-25T19:48:25.227361+00:00",
+  "original_preservation": {
+    "all19_package_files_unchanged_after_QC": true,
+    "all_current_seeded_bytes_and_membership_match_unchanged_seal": true,
+    "sealed_members": 3288
+  },
+  "package_directory": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\control-r2-seed08-preservation",
+  "programming_outputs": {
+    "rbf": {
+      "bytes": 4356792,
+      "sha256": "adf4ddea8584f666c5fdd773c68772370741d2c82b57231c382139485c7c3ced"
+    },
+    "sof": {
+      "bytes": 6705018,
+      "sha256": "ecf7b9a6af20341aa4756b8dd772614f70e5bd70bed7bdab1883a27e8669e1b6"
+    }
+  },
+  "remote_uploaded": false,
+  "reviewer": "agent:shienryu_build_admission",
+  "root_package_acceptance": false,
+  "root_supplied_actual_restore_proof_sha256": "64dfb329e94a9bd019701d6c1e91b5405f09050ea953d96ba537392d3ab83dc7",
+  "scope_qualification": "Artifact SHA/bytes/CRC/sidecar/snapshot/native-report membership only. Prior semantic review780562... already complete; not rerun. No filesystem restore; root owns actual supplied-helper restoration and upload.",
+  "seed": 8,
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "timing_acceptance": false
+}

@@ -1,0 +1,124 @@
+{
+  "actual_STA_reports": 100,
+  "all_sealed_original_members_unchanged": true,
+  "archived_member_count": 1212,
+  "bit_identical_rebuild_demonstrated": false,
+  "largest_ZIP_bytes": 60848054,
+  "original_seal_sha256": "cc0735d743ed68af6d73d7e97d6af72e3e8d8e01cf8ec0bb75ffc3e91bc0c26b",
+  "package_count": 7,
+  "package_grants_timing_or_hardware_acceptance": false,
+  "packager_sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a",
+  "packages": {
+    "control-r2-seed08-DRAFT-assembled-checkpoint-overlay-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 6722633,
+      "deterministic_second_serialization_identical": true,
+      "group": "assembled-checkpoint-overlay",
+      "member_count": 11,
+      "sha256": "e6f7971a840a7871495cb5b1a14f761c7c1990520f74471e1dff390506e82ba9"
+    },
+    "control-r2-seed08-DRAFT-checkpoint-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 60848054,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-db",
+      "member_count": 688,
+      "sha256": "6470a47c7ef518db63b0083d3dbc19e04b0f10c44cad2126cb402ac152838b06"
+    },
+    "control-r2-seed08-DRAFT-checkpoint-db-02.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 51666136,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-db",
+      "member_count": 17,
+      "sha256": "e33ab7542395d0500f8edbf6f6199e3e0291253db289373c96fb6650c2d27869"
+    },
+    "control-r2-seed08-DRAFT-checkpoint-db-03.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 37843892,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-db",
+      "member_count": 92,
+      "sha256": "e3b902460ce49836389f661fff51c461091855b39585dc02278327cfa107eb09"
+    },
+    "control-r2-seed08-DRAFT-checkpoint-incremental-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 46427401,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-incremental-db",
+      "member_count": 31,
+      "sha256": "0dd64d4240c15f174822a811c434c859f915249fcac2435b86723d0d819ca956"
+    },
+    "control-r2-seed08-DRAFT-checkpoint-project-and-outputs-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 5557995,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-project-and-outputs",
+      "member_count": 222,
+      "sha256": "2863ec0d90c8d3dda3ffb13d920cae45ad378becd0a56ec2cad70d87d955257e"
+    },
+    "control-r2-seed08-DRAFT-source-programming-and-evidence-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 7534100,
+      "deterministic_second_serialization_identical": true,
+      "group": "source-programming-and-evidence",
+      "member_count": 151,
+      "sha256": "6f2639af92c0b3b5e1649e1d1c4600061b5ef66988f1c7d27791af67a6c49145"
+    }
+  },
+  "recorded_by": "package_shienryu_seed.py",
+  "remote_uploaded": false,
+  "root_package_review": "PENDING",
+  "root_timing_result_sha256": "8bf69678b00ed3b6858528ab72465dcf24e8a895f1d37761c43bb67715cccf92",
+  "seed": 8,
+  "sidecars": {
+    "ASM-OVERLAY.json": {
+      "bytes": 1938,
+      "sha256": "402bcdb67a6ee8e1f5d8b8b39aa32c52a07f274ae413bb59d4c3223794878e15"
+    },
+    "CHECKPOINT-MEMBER-HASHES.json": {
+      "bytes": 201705,
+      "sha256": "dddf1fe44702f6f1b6e97f84416b18721c4d38c0885070ff285db31ee6e9482c"
+    },
+    "MEMBER-HASHES.json": {
+      "bytes": 231863,
+      "sha256": "dcb9e07fed1d3bad125d76dab9e61f4945a13deb4b702e0ac79c08e6bf0f6997"
+    },
+    "ORIGINAL-PRESERVATION-CHECK.json": {
+      "bytes": 470,
+      "sha256": "c373964b233318226cda0418a5d04abd53d97ce3a539eb19239aa5a7584c99bc"
+    },
+    "README.md": {
+      "bytes": 2463,
+      "sha256": "9b0cb2f4cca5054de65fa26faab106c4b9b7ca223bb01555be20094d30e57635"
+    },
+    "SAFETY-AUDIT.json": {
+      "bytes": 497,
+      "sha256": "379ca41a64465e9f63d47f0a6e7b2bc22becc9c786108c9b75899544ccae5686"
+    },
+    "SEALED-PRESERVATION-INDEX.json": {
+      "bytes": 520987,
+      "sha256": "cc0735d743ed68af6d73d7e97d6af72e3e8d8e01cf8ec0bb75ffc3e91bc0c26b"
+    },
+    "SEED-PRESERVATION-MANIFEST.json": {
+      "bytes": 9069,
+      "sha256": "d979eb4f72ae3ecace4b32d49b541cdc382fd7345ff9864aaac426256906d9c8"
+    },
+    "SEED08-ASM-SNAPSHOT.json": {
+      "bytes": 152408,
+      "sha256": "21e62119eccb381ddeeab91203908666912b93f3db3bd2f6b71dc838a7c4c59b"
+    },
+    "SEED08-FIT-SNAPSHOT.json": {
+      "bytes": 152258,
+      "sha256": "eea8d1411295b2b4fed58f2432b32d34d2ed98c86e5b48b20b47f06d98a5ced8"
+    },
+    "SEED08-STA-SNAPSHOT.json": {
+      "bytes": 154868,
+      "sha256": "40729e1abeda31521f8d181e81accfa51f5ba41876372575d7adf88d158a547e"
+    }
+  },
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW",
+  "total_ZIP_bytes": 216600211,
+  "whole_batch_cleanup_implied": false
+}
