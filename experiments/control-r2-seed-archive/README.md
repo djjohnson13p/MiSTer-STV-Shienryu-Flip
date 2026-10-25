@@ -37,3 +37,5 @@ Additional preserved trial: [Seed 3](seed03/README.md), including its separate c
 - [Seed 6 full checkpoint, assembler overlay and all-temperature evidence](seed06/README.md)
 
 - [Closed seed4 autonomous control/gameplay and sampled-hour evidence](hardware-seed04-r1/README.md)
+
+- [Seed 7 full checkpoint, assembler overlay and all-temperature evidence](seed07/README.md)

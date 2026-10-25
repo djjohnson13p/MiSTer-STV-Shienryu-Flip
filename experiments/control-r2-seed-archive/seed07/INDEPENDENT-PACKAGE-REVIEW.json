@@ -1,0 +1,248 @@
+{
+  "reviewer": "agent:shienryu_constraints_review",
+  "observed_utc": "2026-10-25 19:11:02 UTC",
+  "decision": "INDEPENDENT_SEED07_LOCAL_PACKAGE_CONTENT_VERIFIED_FOR_ROOT_REVIEW",
+  "manual_root_review": false,
+  "package_directory": "core-lab/research/shienryu-timing-20261024/control-r2-seed07-preservation",
+  "seed": 7,
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "bindings": {
+    "package_index_sha256": "26f47fc7c01e0d9eafbcf35d7e38338ffa2c9ecbdcfe7f0b558bae07c7df33ef",
+    "member_manifest_sha256": "b7059bac355ca7f605eae98b60fc7186abd9d84533639707558f5b6b2d17fd55",
+    "original_seal_sha256": "530071ef6c707a9606896ad4c95a4be5d7e32422bc0d43b75d5ee466f8bbe488",
+    "root_measurement_review_sha256": "ee7df902afda0ab6027092637b2a9f3fcbf39194cf6448d71be3cf69bf35f7ef",
+    "peer_timing_review_sha256": "4a011105a8a446d418ff79fd6d523eb2c57f280bff72392e4dcbd4c6e8f21450",
+    "packager_source_sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a"
+  },
+  "archive_checks": {
+    "ZIPs": 7,
+    "total_bytes": 216283473,
+    "actual_members": 1212,
+    "all_whole_ZIP_hashes_sizes_member_sets_CRC_and_member_SHA256_pass": true,
+    "duplicate_unsafe_encrypted_symlink_members_found": false,
+    "all_ZIPs_under100000000_bytes": true,
+    "packages": {
+      "control-r2-seed07-DRAFT-assembled-checkpoint-overlay-01.zip": {
+        "bytes": 6716447,
+        "sha256": "956814d4ca53bec03d631a6ca34489f90b94b4714488ff255f814eb6f7f3bc80",
+        "members": 11,
+        "uncompressed_bytes": 14262798,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed07-DRAFT-checkpoint-db-01.zip": {
+        "bytes": 60798092,
+        "sha256": "d0ded8974e6e1bc9744aa6c138c4c671dd07924b4289001b73cf7f121ce2d2be",
+        "members": 688,
+        "uncompressed_bytes": 84250455,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed07-DRAFT-checkpoint-db-02.zip": {
+        "bytes": 51587138,
+        "sha256": "24ba3a6dd549f6cef4dc3e68b2c92cec7ec7aab6872c6900f04312361f5aa75e",
+        "members": 17,
+        "uncompressed_bytes": 58579556,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed07-DRAFT-checkpoint-db-03.zip": {
+        "bytes": 37783432,
+        "sha256": "74590e85882042c5a51ae6b1559bb3a78e04a522a1e6e568f305608ad2f384de",
+        "members": 92,
+        "uncompressed_bytes": 40181521,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed07-DRAFT-checkpoint-incremental-db-01.zip": {
+        "bytes": 46365419,
+        "sha256": "f8b433d05cf9dfa1dff273e8495b57b7ff83b4510ce9aeeb29b790d6c4e26907",
+        "members": 31,
+        "uncompressed_bytes": 49489938,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed07-DRAFT-checkpoint-project-and-outputs-01.zip": {
+        "bytes": 5558694,
+        "sha256": "6770c832ff628caca2ae0d6d0111ceed01af61842f3b9011694c8b7465474119",
+        "members": 222,
+        "uncompressed_bytes": 35231851,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed07-DRAFT-source-programming-and-evidence-01.zip": {
+        "bytes": 7474251,
+        "sha256": "3c6a7c798e68d20bb060adde72edfc0eb2f88f10577af2eeeaa9d8422bd64105",
+        "members": 151,
+        "uncompressed_bytes": 72915416,
+        "CRC_and_every_member_SHA256": "PASS"
+      }
+    }
+  },
+  "actual_coverage": {
+    "fit_files": 1050,
+    "fit_bytes": 267733321,
+    "fit_snapshot_sha256": "267ad5f5b498233807849548ab9aa42355ffd9325f921914bafeb8686c0ed87b",
+    "ASM_overlay_files": 11,
+    "overlay_deleted": 0,
+    "assembled_files": 1051,
+    "assembled_bytes": 267930916,
+    "assembled_snapshot_sha256": "64ac1e2b652314f88fdf1db90d780a70578f8bc584f8a099e69c21d33b7564b5",
+    "all_fit_and_effective_ASM_file_hashes_match_sealed_native_snapshots": true,
+    "sealed_non_tree_stage_evidence_members": 121,
+    "all121_metadata_logs_Tcls_results_qualifications_and_reports_present": true,
+    "actual_STA_report_files": 100,
+    "all100_match_sealed_index": true,
+    "all7_embedded_preservation_sidecars_byte_equal_external": true,
+    "required_missing_files": [],
+    "intentional_omission": "Redundant derived STA working DB caches omitted. Complete fit/map/incremental DB, exact assembled checkpoint, STA snapshot metadata and all100 actual raw STA files remain preserved.",
+    "snapshot_digest_encoding": "SHA256 of sorted-key compact JSON file/bytes/SHA256 mapping; native checkpoint JSON objects match."
+  },
+  "programming": {
+    "RBF": {
+      "bytes": 4353844,
+      "sha256": "b6c6ee0dc3a0b94460d0384d26dfdd7ec31f0367e60d5a7741c341bd77e8a4e8"
+    },
+    "SOF": {
+      "bytes": 6705018,
+      "sha256": "68fdc545d35a358a5048511942daf24bf48f721a1e8568b7b847fb2814b76fac"
+    },
+    "programming_ZIP_overlay_assembled_snapshot_and_root_review_agree": true,
+    "qualification": "Fresh seed7 assembler outputs are authoritative; copied fitter-inherited programming files are not labelled new seed7 outputs."
+  },
+  "source_settings_tools": {
+    "canonical_source_files": 203,
+    "all203_SHA256_Git_blob_SHA1_and_nested_CRC_verified": true,
+    "working_source_files_unchanged": 202,
+    "sole_working_source_delta": "STV_DS.qsf exact25.1std.0 Standard Edition->Lite Edition,LF->CRLF,SEED1->7.",
+    "working_QSF_sha256": "de479f8c4284ad6847a326b1bb0b24cd9ad31c968593c31f62b0b3a1ecc26865",
+    "build_date": "261025",
+    "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+    "generated_and_map_match_frozen_seed1": true,
+    "archived_tool_hash_records_match_frozen_batch": true,
+    "Quartus_recorded_version": "25.1std.0 Lite Edition Build 1129 10/21/2025 SC Lite Edition (version wording retained in native reports)",
+    "nested_frozen_adapter31_members_CRC_and_SHA256_pass": true,
+    "approved_packager082e16_blob_present": true,
+    "separate_GHDL_prototype_included": false
+  },
+  "native_stage_receipts": {
+    "fit": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 2665.922,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    },
+    "asm": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 48.203,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    },
+    "sta": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 351.609,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    }
+  },
+  "timing_evidence": {
+    "root_and_peer_review_exact_bytes_verified": true,
+    "archived_global_native_matrix_matches_reviews": true,
+    "voltage_mV": 1100,
+    "matrix": [
+      {
+        "model": "slow",
+        "temperature_C": -40,
+        "setup_ns": -0.164,
+        "setup_result": "FAIL",
+        "hold_ns": 0.181,
+        "hold_result": "PASS",
+        "recovery_ns": 3.383,
+        "removal_ns": 0.962,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 0,
+        "setup_ns": -0.123,
+        "setup_result": "FAIL",
+        "hold_ns": 0.184,
+        "hold_result": "PASS",
+        "recovery_ns": 3.38,
+        "removal_ns": 0.955,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 85,
+        "setup_ns": -0.121,
+        "setup_result": "FAIL",
+        "hold_ns": 0.208,
+        "hold_result": "PASS",
+        "recovery_ns": 3.218,
+        "removal_ns": 0.973,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 100,
+        "setup_ns": -0.085,
+        "setup_result": "FAIL",
+        "hold_ns": 0.196,
+        "hold_result": "PASS",
+        "recovery_ns": 3.161,
+        "removal_ns": 0.967,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": -40,
+        "setup_ns": 3.404,
+        "setup_result": "PASS",
+        "hold_ns": 0.043,
+        "hold_result": "PASS",
+        "recovery_ns": 4.901,
+        "removal_ns": 0.368,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 0,
+        "setup_ns": 3.311,
+        "setup_result": "PASS",
+        "hold_ns": 0.059,
+        "hold_result": "PASS",
+        "recovery_ns": 4.823,
+        "removal_ns": 0.387,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 85,
+        "setup_ns": 3.046,
+        "setup_result": "PASS",
+        "hold_ns": 0.095,
+        "hold_result": "PASS",
+        "recovery_ns": 4.568,
+        "removal_ns": 0.435,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 100,
+        "setup_ns": 2.956,
+        "setup_result": "PASS",
+        "hold_ns": 0.098,
+        "hold_result": "PASS",
+        "recovery_ns": 4.491,
+        "removal_ns": 0.451,
+        "min_pulse_width_ns": 1.091
+      }
+    ],
+    "qualification": "Four Slow setup failures; all hold/recovery/removal/MPW positive in the retained measurement. This package grants no promotion/hardware acceptance. Whole-batch cleanup is not implied."
+  },
+  "original_package_files_checked": 19,
+  "all_original_package_file_hashes_unchanged_after_review": true,
+  "filesystem_restore_or_DB_extraction_performed": false,
+  "restoration_qualification": "Archive-layer reconstruction verified against every1051 assembled file hash; root owns later actual filesystem restoration.",
+  "deterministic_archive_regeneration_independently_retested": false,
+  "native_Quartus_GHDL_device_Git_or_active_seed08_actions": false,
+  "bit_identical_rebuild_demonstrated": false,
+  "remote_uploaded": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false
+}

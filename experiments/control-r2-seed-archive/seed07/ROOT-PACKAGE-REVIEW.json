@@ -1,0 +1,20 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T19:14:44.480179+00:00",
+  "decision": "PRESERVE_EXACT_EXPERIMENTAL_SEED07_PACKAGES_ON_LAB_FORK",
+  "manual_root_review": true,
+  "package_index_sha256": "26f47fc7c01e0d9eafbcf35d7e38338ffa2c9ecbdcfe7f0b558bae07c7df33ef",
+  "member_hashes_sha256": "b7059bac355ca7f605eae98b60fc7186abd9d84533639707558f5b6b2d17fd55",
+  "independent_package_review_sha256": "4b39817cc963f80603052a9c7dcb02c95d767d3192c50a28e45584e997bfddaa",
+  "root_native_measurement_sha256": "ee7df902afda0ab6027092637b2a9f3fcbf39194cf6448d71be3cf69bf35f7ef",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "seed": 7,
+  "root_all19_copies_and7whole_ZIP_hashes_verified": true,
+  "independent_all1212members_CRC_SHA_and_all100STA_verified": true,
+  "root_restore_pending": false,
+  "hardware_acceptance": false,
+  "timing_acceptance": false,
+  "bit_identical_rebuild_demonstrated": false,
+  "root_actual_1051file_helper_restore_verified": true,
+  "root_restore_validation_sha256": "02ac3c06ec44a8939109eb50e8078e685595b524da72b35ad051dc49bf3046a2"
+}
