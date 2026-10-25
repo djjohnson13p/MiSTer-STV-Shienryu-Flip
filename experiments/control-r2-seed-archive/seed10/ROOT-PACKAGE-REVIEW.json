@@ -1,0 +1,25 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T21:28:33.711593+00:00",
+  "decision": "PRESERVE_EXACT_EXPERIMENTAL_SEED10_PACKAGES_ON_LAB_FORK",
+  "manual_root_review": true,
+  "seed": 10,
+  "package_index_sha256": "83b9d9b32c0df9051b6318838753c38153c366834399826b277dccdc9eaa1813",
+  "member_hashes_sha256": "1dfdf8fa12e69341d0fcb8a04f904eadb5123294dd20661572cf4dcc14bcbfe4",
+  "root_native_measurement_sha256": "2661dda9e00628e6f787292208e0b08b18e9ec6c5eb2a36395ef1d68507786c3",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "root_restore_pending": false,
+  "hardware_acceptance": false,
+  "timing_acceptance": false,
+  "bit_identical_rebuild_demonstrated": false,
+  "independent_package_review_sha256": "1700d0a394ab7e93ca7e3d585c9bc1f9ea71dfdb41b7f331c6920c6bd854a056",
+  "root_all19_copies_and7whole_ZIP_hashes_verified": true,
+  "independent_all1211members_CRC_SHA_and_all99STA_verified": true,
+  "root_actual_1051file_helper_restore_verified": true,
+  "root_restore_validation_sha256": "d529a0873b141a3f4da527a3874f85c046dbfbad822fad3086f488901a6ffeed",
+  "terminal_batch_and_cleanup_hashes": {
+    "BATCH-RESULT.json": "a872a1a1ed9d9d2e0d8544fb137a7193aa6ff7375a11d3d3797356f755868f39",
+    "BATCH-TASK-CLEANUP.json": "c80eaf859744b63a36cb156e4f5d58edeee9ecf6af3d75ea424c32cfb8c60ca6",
+    "BATCH-SCHEDULER-EXIT.json": "b032a0b00a5f12b3775562fadb9ca688ac5f88a140eb606194511f59b8a43dd0"
+  }
+}

@@ -1,0 +1,4089 @@
+{
+  "batch": "CoreLab-Shienryu-OldProfile-R2-Seeds03-10-Batch-Q251-R1",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "root_admission": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\ROOT-BATCH-ADMISSION.json",
+  "root_admission_sha256": "1ace5a9df39a60e021d93b75a15ba5ce5dd26a01a085b610b8ca408bb9cd54b2",
+  "frozen_review_sha256": "3b301d951613f9594b5957b3fc407893f58b0c1ea74763f9f7b0d2e82d6181e1",
+  "started_utc": "2026-10-25T14:09:36.432694+00:00",
+  "seeds": [
+    {
+      "seed": 3,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.441,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.145,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.697,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.96,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "7b01118770f99e2fafbdfbb83a89f492666a9f425c2403edc26eb9f7ecb4b6ab"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.388,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.15,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.737,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.953,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "563cb9001bdae1f57a747d0fe78693f941caf39f4fcd6e90bd02c88846ca5112"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.358,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.181,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.432,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 1.029,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "5097fc1e57505c85dac1fd032bc7a1016837ef20d3be81f775c06cec66542480"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.328,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.172,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.342,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 1.039,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "79b2a9fd908513b1ebd6674252038573f657b28b1c72a151a8f59dd508146425"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "PASS",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.347,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.054,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.228,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.406,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "ac07236313662f6dce75d8fd8dfefd11460439e0205b6538c6c2570506280403"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "PASS",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.255,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.066,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.173,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.416,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "522548b8ec1e2ec653e8b790e62d8a71b3ad6fd2c5f0370052627bec6e843128"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.983,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.091,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.985,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.49,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "8efd38696d5b5a81adea5692e4930c258a51021a8210e598254ce7119bf45920"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.896,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.102,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.923,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.501,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "51cfdf005f270206aeeb4e88972ef96ff240c9c4ffb2e832fe9166405c4cf2a1"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "c6e11880a8e43d66ed88a3d70682cfac4a4fc87acf9765849506977fff728850",
+          "corner-01-old-mode-default-hold.rpt": "e557cb6ee55eae8cfc9864defb431d1a11e4a848a53a31c0dacc823ea5854df4",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "80b2a0d103f42a1607fac56afcd98951cdef64fb450ba5f598ea33141c2916fc",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "9aa8d90028328a96a1d56d2630be7c38a5df0c38d022bef5d519ee48ea6e7926",
+          "corner-02-old-mode-default-setup.rpt": "c1165d0f3436a614dbf035fbcd9dc1d72f8d88c490931f9b464b24c12934a2cf",
+          "corner-02-old-mode-default-hold.rpt": "a98c8b1b52035032403e3ca728801d2e95f43f155cd2485b6c66a50756624b0c",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "169832da6bbe0bf1e214d9a0f6c5d3b2c5477196019c0c87a5c3658528aa7e65",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "e18ae5c34edb86d1bae8c064179c79193d32abc4d635298b5ae17f38d7d25624",
+          "corner-03-old-mode-default-setup.rpt": "bf6bcade0a0ccbd2e2da2aa13d1e2c13f8a883ff45971e68e0acc2b717604ce9",
+          "corner-03-old-mode-default-hold.rpt": "922db9c828c86fe415c91fa689b7eb534eaea9f6003d9430142ee2b926614ecd",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "e73a550c542ee1ff6abd21a1eccc7e30980f5d449f55bbd1f129704b54f40f41",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "933665041a807df37c1d7d69fcf3f28ce6e999644f8b1356332bf8916468bdbb",
+          "corner-04-old-mode-default-setup.rpt": "63cc7bf76420a29ec31fcfc6e81916e7fce8ec23704988ef4bfcf1838a09cd2e",
+          "corner-04-old-mode-default-hold.rpt": "12034dec14abd81ebd792c87f2163780fb0e3e5d2d099074c1810f630448a5e7",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "511cf9d271d9ccbeab70966f26fcef80836540d53e1f19ea72215d12a660f400",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "b93e9fdd17bb155e38ac8c200b88e63efd0d761605e48ecb3c4428c7346fe44f",
+          "corner-05-old-mode-default-setup.rpt": "6354a60c2b76aab41dd7c8ef8fba178579d19019247032180196c405f7fc76f5",
+          "corner-05-old-mode-default-hold.rpt": "a9d63f3bde2daebc468f5c697d200e140f5729a98491018458a4899487c97b8d",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "eaa1641fe0e34cb22013bfeb33c83b4c7a7d2511597ac7469905de8880f8d772",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "3d724b607dfe314f215115ce820f3161817b95587e5a97debecf61c9c196c77b",
+          "corner-06-old-mode-default-setup.rpt": "7aac5aba6d4dc110f2ec027a76389bc0a2f403a3b6deae3669aa49e2e3e271ab",
+          "corner-06-old-mode-default-hold.rpt": "9c90237b794a1b15d87d6c84f5339b5ceb67c8536d2474de1f78d5b734eab66e",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "1bdbecddfc8e4e7e74754e1847a1fa2c2ba427170f7fe7f707251bc875925141",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "6b5cbb885fdced24020456fb7be76ece4fdbb057f96c908b730dec484ce91249",
+          "corner-07-old-mode-default-setup.rpt": "254f09fc654ac1a9fcaad0ee7f3475b5de5622716a610fb4d3478af62544e531",
+          "corner-07-old-mode-default-hold.rpt": "af3898ebec6521fee520cfc2cb9f12a59122857184abe0f3d01685438354c295",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "0d0207bd803f737e755ca61cd605c4c15d4793015b941dda87b69ca548cf2400",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "199d7ff6804f46c6d490fb6a35f3858bff800ccd8d3b3c0796ec7e28353265d9",
+          "corner-08-old-mode-default-setup.rpt": "5bf993fcdec4f012ba00dc32febef4338796c2525c5b817c17130c092fdae221",
+          "corner-08-old-mode-default-hold.rpt": "7cf7d84b6dce9f4fbff560930880ed9b1b9f2a4506b0f2850203f88f69dd9d59",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "ca48ab866da1ea62fa5412c8283ac709abb75681c89aaa5d80c9a1ded03713b5",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "7f795dc34ac7f0d9eddb21de0026e85227f46fbda2efa302c88769634b5ff964"
+        },
+        "old_mode_coverage_sha256": "a48fca60975d22477c5935695c53b25d591f8520f454f202edb85decc542b4e8",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.328,
+          "path": "corner-01-setup-clock-007-negative.rpt",
+          "sha256": "de2adee528b1c395906af10d674fe2659b04df503e7a6032a31b6f39025f44bc"
+        },
+        {
+          "corner": 1,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.261,
+          "path": "corner-01-setup-clock-010-negative.rpt",
+          "sha256": "2b3c1b059a64c2dbce54f8bdfbec54f7b98dbe9906508bdb7a0f4db50ae07a8c"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.312,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "c0428f4725b50cb8f9d4ad1454826faf78ccd879ea67b88c5add452efe63530e"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.441,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "3e3fb90dc0034668b6384cac494a576e557dc567567f242349827f804f1b4e0d"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.358,
+          "path": "corner-03-setup-clock-007-negative.rpt",
+          "sha256": "e054564c2e305e1645a3090296d47ebc9d4f4b520aadac4016da2fb8843fb1bf"
+        },
+        {
+          "corner": 3,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.272,
+          "path": "corner-03-setup-clock-010-negative.rpt",
+          "sha256": "21d0e5265c75c4005e63f89f21897a1f87d56dcc44274b7ca0f1ad073140a4a5"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.271,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "0f7c3bb75d13923b4928a751b960d50f7f9bcb073d4ca7dd0cdf48e8241edfe9"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.388,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "b4925542f73e37dd59b9297eccbb8d95564701f30ffadf375302dbb79e7f5765"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-02": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-03": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-04": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-05": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-06": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-07": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4",
+        "corner-08": "161e1910a47f88d61294a80f965597f6f19f2bf3066ce0202fa795b3106c7df4"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792940182197285500,
+        "bytes": 4390248,
+        "sha256": "26424d1d5011076796be6cd10c356af8405654875e607dce847a68a03e0d7a83"
+      },
+      "SOF": {
+        "mtime_ns": 1792940180098278900,
+        "bytes": 6705018,
+        "sha256": "e2de339586016d36fd312019f5e56d47a4cd2da031fde8a6e4b566ccf3e08a54"
+      },
+      "preservation_index_sha256": "28e8676a2a4359183cf6a669a0107ae4b8d4a43b34898444299467c333d2c212",
+      "fit_checkpoint_sha256": "f8ae5f385818baeaa93b461eccf0bda72f852c712dde91a0b5a4e75af29d8076"
+    },
+    {
+      "seed": 4,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.101,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.174,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.437,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.932,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "e3c9bed2aca245ccefbb1e2d755559eaa6b629a8ceef6b07538b6afb8a6f0568"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.038,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.172,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.451,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.928,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "34938060059194576c54b9f3719930037512b08f54afa99535754256a4d941db"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": 0.07,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.242,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.334,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.999,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "d3bd7c9c987ff8e7bd57679d9f4009831f04312e20cbcc6180033f58cdc4f27a"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": 0.014,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.235,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.292,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 1.006,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "2851dfde0cb6f9fff50f6b000e701ffe4b99ed52d3da6394cafe0f699eafa433"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "PASS",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.441,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.052,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.034,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.411,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "263ccd2adf6bdc13ed37157c71a365125bfc0e666bbff62aaa85ea1cb1683b89"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "PASS",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.35,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.054,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.977,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.426,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "cbf45c11287e77402b0d118b94645d6c9b0b927390766b2cdf03fcf8c611e054"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.972,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.089,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.761,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.474,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "a2af6e09cbd513db2a64d11bb50f68b0d9e1dda2b5eb89ee83c756feb8801871"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.923,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.093,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.697,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.487,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "d2d0f477042ebc0f91ba72233b48ce550d0f6fba56357031b0a9d336cbc52034"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "32770e88c1a069df9da4bede4ffec448e898011082419d6f983aa31ef7deb767",
+          "corner-01-old-mode-default-hold.rpt": "068e505229b773cd808080d58029c296529f8fa5b8a4f037d0ce3ed14d82556d",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "874f1bdc86e0f496085eee03b947472e812fac28f4ca4ec47b132c1d5d7c83f8",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "682ea76d3add529c238fce552f73d6a38046edf6509b7047f4d92a5f05e163f4",
+          "corner-02-old-mode-default-setup.rpt": "d16057af7a93435cb699cb4397e55e1eaf7180d03baf38e21281bbb8cb9cf8a5",
+          "corner-02-old-mode-default-hold.rpt": "5a05434f6bbea97c8ed94cb728bdddef959b2a12750cf5d0827d83bd2b36b5b5",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "d58ee1c033489a7f1ba459f6a4863111d66af927754291d061fe90b7f4ca8f40",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "08956a3856860d7b5dd45bb963480264a0df031b30ba4986675de76ace482989",
+          "corner-03-old-mode-default-setup.rpt": "e5107bf3a42166f2fb5f14ad88746083c0a7afd57bd4998078b76398014d461e",
+          "corner-03-old-mode-default-hold.rpt": "bdc350c9cf056aae3508b080ace69ad0d91b0a23d2da29f9f078bdaadab1c532",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "209ed248d489b925c84a7bd32819591ecdbba1f225de5de5f4550bd8bec44850",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "cf42e7ddb63d121dbec47e9f115eee2d4ce99357420c1f577b6e934ddcd3b6d2",
+          "corner-04-old-mode-default-setup.rpt": "99e1105f8221246cfcf9e57c1572471764dfd4caebd776d12a1aef0c601e434a",
+          "corner-04-old-mode-default-hold.rpt": "bb45395943cf3470adb3469c09dd8c9a7aae140e6db1ba95cd8cd577b8ac5d73",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "5304ee273b8ea785afdd731e446b4a5e1682875ebbc1450bc0f952c249e30871",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "c2bc964fafb1588681c3ce5c0aae3f030d90dc2dc20ef3f2fcd4bc3d04f8cbf9",
+          "corner-05-old-mode-default-setup.rpt": "32efb40a17ed25ddd422b7bb60385a19ea011967ab70a171354d9b3da004d8a3",
+          "corner-05-old-mode-default-hold.rpt": "9abcf9a7a89cd48191131e29817b74f1a75cca479ef78f4cd4ccf3fef73d4a6c",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "131dccdb59dd02d8e602b0aabc4bdabba126712930eb100ab711e22021b29bb1",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "f1280551620b521e04b508019c6850760bd88d5cbd1f529e4f8fca350ec57d88",
+          "corner-06-old-mode-default-setup.rpt": "d64f089ea53632624d9d522fbd2ab6718e95c1c1a998bdc37377ce8dc86c79a7",
+          "corner-06-old-mode-default-hold.rpt": "c0320c47eea39afbdf3fc560872a5a72c161a1cdab6b32b82d424bb13feef734",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "e13f1c9c18c8213060a738e3132c49a22124f3bee23087b9737a7cba539ac19b",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "f1d8aff72dbf8c388735bdd6baa55f4488c52ea19ca0a3073bbecbd1d5227df0",
+          "corner-07-old-mode-default-setup.rpt": "8a68b6fc930361b5527f6ec01d65fabf5df316c8096692bb4650980a66092091",
+          "corner-07-old-mode-default-hold.rpt": "ed720fa69e2c898eeb130131511cb11235e492f2e76ec5fde3e6a376aaa676c4",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "f42c3c90df3df77b85343d7c660dc9eed3f3fdc41791dfc9203db8072f92d906",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "f38ba067d65f3c039d100eadff3080402b999b9e18e2540e8640a72abf83c93a",
+          "corner-08-old-mode-default-setup.rpt": "17a34f7761af450a2be52e62648b64e7bcceca9bdf58057e8188c9e1dff1855c",
+          "corner-08-old-mode-default-hold.rpt": "29d600d88c3472a1ff177997d6af01890ffbdceb02f0cc8b6b0533819bfe6469",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "d7146e714030157314a28e760bcf4137a65b7e84a3839406509788159ebe3dc6",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "ce32b36c0e264d965bf7760fcf6ad9fd4212dd83d3d55375ca2cc01281464d44"
+        },
+        "old_mode_coverage_sha256": "38b3cfd32af3cb2d12e3de0da6574ddc6f0f18c0e13b309918676fa002e73347",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.079,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "7cab52b01ff5057322719809bc8377766660dca52518b8ba99d4fc3ed06371d1"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.101,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "17e21e5977dbc0ea6dd0b769023560163a3db1a66627c41877b5c889691f1807"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.014,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "60b4f94810a2bf82ffa0e49d08a82d5f5e6e06d2d1071df2364049f7ce21158b"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.038,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "33a8d1c4aca500f6df89990b790d065469d79a8fdd88acad7e4bb93e3caaa7c4"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-02": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-03": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-04": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-05": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-06": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-07": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6",
+        "corner-08": "6c308b8dec70b0df5f01c703a055aad9b9b7dbc1c4fac92c1bc81110faa523c6"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792943351748671100,
+        "bytes": 4376812,
+        "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+      },
+      "SOF": {
+        "mtime_ns": 1792943349592121400,
+        "bytes": 6705018,
+        "sha256": "506acff43a34289b123b79b5d8e4ae50af1ab0bb6fc4eae495bc64f43d4ac18f"
+      },
+      "preservation_index_sha256": "9650fe29dbfdfb74bb5dd80bd5aa13629ae46f7d16ea558ed0a7f26d79b42b90",
+      "fit_checkpoint_sha256": "9f542bf5eeabd31ad8057e36e5a6f2816849830e8bb0417e490e34035f79ceca"
+    },
+    {
+      "seed": 5,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.413,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.115,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.773,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.87,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "a445d46047cb710fc2b8b80a80287d7a8b755091d691a9043af797c016cd181d"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.35,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.133,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.77,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.858,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "08080d60c77dfce782792f5e21987f1a95294c130c2d652ba1546cabef0e2bdc"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.216,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.134,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.661,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.862,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "9dd5ffb429660644e83a77f420307cafddf1b66c227ee5c5e211c9209683e134"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.204,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.117,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.618,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.858,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "2f6a6d000a0b6a407361fb82279c89404dabdd8990c7bd1daeff83816e363b08"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "PASS",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.365,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.0,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.186,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.359,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "ca603d13c9c48ddb85463461b0757926859aa0b00435008d35dc9aaa958f912d"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "PASS",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.266,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.01,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.141,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.379,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "c854c0e103ad4ed10daaab44b05d0a7f617bac997090b45526c87666cf50bba9"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.923,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.047,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.978,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.424,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "4be0bfa50ab70327e1df778d49a032eeb56922baf8cd377b58566a3d80f06fc4"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.819,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.058,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.928,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.434,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "923b221b88086518c00c91d9cb46ae80de0c0f83d8f3f76870cd92d2d54dcc60"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "577d80d65aa66241b1385bb428812ea6c98c2a8668ab485d8a11e149d76d4d50",
+          "corner-01-old-mode-default-hold.rpt": "6fb347e439294ff0c1754bcde49d1218cb6f3e87a5c5c521e4da8642494215db",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "5e8d61b8814523ba9977f724e3d0232194ec8be1a1bab415f7a1d242ed7dd041",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "51db9942841c9b819ab8444c6bacacbb79c03a7eb93943cdf3f3a24bd7581c9f",
+          "corner-02-old-mode-default-setup.rpt": "857419fe77934a3be7521f8fb4011e7e91ce840ee436e5a2b0b0aabaf4293d80",
+          "corner-02-old-mode-default-hold.rpt": "5e9eaf42b925f02d8abe01cff2e3213811bfd137205968702a538b2e0cc2af7d",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "de2e2c7c289d9b58f233f6a15dd7bb4d4b3ae19440ce33e91688bdb8812e76e4",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "1d20813188ec419e9c45005b25f5d8efca31ec8b4f7b5cdebe1fbc8eb96ce3ea",
+          "corner-03-old-mode-default-setup.rpt": "5d0b768061b248b6045bc598dae3d6eb2d2bd27c16fa336a2984a8e59b6c16d8",
+          "corner-03-old-mode-default-hold.rpt": "353cd1120660203765698fe789878d708d2f8ddb6ac79972a850d46803740d15",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "2ff5da1f3a759e26bbb8bd3a47e2e559ecc7a64d1202f2e55555eee1fde03a27",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "1433c6051c85013265fa85eebff05cd286bad3c5f4ccc2a4224e7f99eab6c53d",
+          "corner-04-old-mode-default-setup.rpt": "dd11deeab7fbc250d246adabb8940772b010df56a6fef1efba32da8a3e7389ab",
+          "corner-04-old-mode-default-hold.rpt": "f6bfe4f0ab0dbc95d5ae6532727360d693312f8ec1612a5d2deb95a45d678d8e",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "e8205236fcbf9105ad6fbc1a00c604db78053c2a9f0d53bb597ed891090bd396",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "b898d843a2f0f75bce25425080263524f18a652336a0c030d57cbbb276f5bdf8",
+          "corner-05-old-mode-default-setup.rpt": "a79a76101894f90f52a3c39e346fe6a09bf9e430fcf80cb07c677b94ad2b8637",
+          "corner-05-old-mode-default-hold.rpt": "8ce6b73e4b063618c7529382af7f9f6c6fba0e07a9902186751cb1b1181f2e4c",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "69c508c45a4bc1530ef49ded36d0d0b992506206850a42142bd7dd9abfeac29c",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "8c9d13828ce5923a44e115e405575e453a7465927d681489a18abee714c2dcf5",
+          "corner-06-old-mode-default-setup.rpt": "de2e88104a8de5a0ef6d1be89ef547d0f46df8e9b0020979987c456a1f9f9cd2",
+          "corner-06-old-mode-default-hold.rpt": "5ff41223bb04ae67be60421d88817b07ceeee0f5c11c1f122f5d4d2f14063e7f",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "d2a9f18b6b35583e8dd2f5925f768dd183b851fdb536c2a201379730676112bc",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "03bf39d5743f6b2c28b6443bed43b4db80ce4973260efabdec489376fecaa76a",
+          "corner-07-old-mode-default-setup.rpt": "cd0ac372bfd25aa16f9726d5c756321775ca2472677dc3db7a4fd7ec0a6e3ef0",
+          "corner-07-old-mode-default-hold.rpt": "8f7f3479cfcc0511c4cd9bdf2384b9f45a0b1b448e019ba18ec7b5064dcec06d",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "29599b9b1b00ea2b5d46910870197f67dd2d13ad9cf6b336ac3916fd2f5b1fa0",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "784e2cdbbda07ffb891f5b032bd50659aedce075d0e0172a627225a5dafe06dd",
+          "corner-08-old-mode-default-setup.rpt": "decfea997a66313d67e9196f22fd7c1f9aa0dce3f6f5ebcb7536ae59f8055d20",
+          "corner-08-old-mode-default-hold.rpt": "0918534d805793ec537188fbb6d68d4d3bdd5e78ca7bb1759bf8840b4023eef9",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "d6135a5370508778afb7b5d190d520083ce3aebd6b84bbd31d4f53c09930a5a0",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "e3f274909a4eccb7b9a9f57b28c2f30a1911f198caa3249998304232481a6f0e"
+        },
+        "old_mode_coverage_sha256": "2fe018b52a40617cffac5187cda5905e7be4bd68f2961c410396bc7f94329227",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.204,
+          "path": "corner-01-setup-clock-010-negative.rpt",
+          "sha256": "996a848216ddd1b713798362d3e79e4630b66bd8626c7f5067855d5d7b431d08"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.413,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "4433783a56de65c2f20c4fc15d7c818a7f6da08322d1f3ecfa036c19dbc38691"
+        },
+        {
+          "corner": 3,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.216,
+          "path": "corner-03-setup-clock-010-negative.rpt",
+          "sha256": "801306852945228a68dda917df65aae1c104080cb3e9bcccaa491ca034f2210d"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.35,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "53c1316ab38a00a56fc5b22fe59b481c8939e7c9ac06a47fa452d166afb458be"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-02": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-03": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-04": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-05": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-06": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-07": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002",
+        "corner-08": "f1ff6aa0b664d06476d2534e347115da4a6b41aed66fdfa5865e4676adf4d002"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792946525926446100,
+        "bytes": 4348472,
+        "sha256": "e65748acbb3a33e520bad90620c96c5d030ac9a6e9a3420f2fe3af51606a2cff"
+      },
+      "SOF": {
+        "mtime_ns": 1792946523822312100,
+        "bytes": 6705018,
+        "sha256": "23798fdfa332d11ac07a5a02709395889e70b58fde0a20a1c2b94d6178b45bba"
+      },
+      "preservation_index_sha256": "9a2b535d248ce88961c302aaf5995d213a71fb23aef0709c05f78a8021a4bbe8",
+      "fit_checkpoint_sha256": "d506d3b18b6e51ef7bf636df7cdf0b888b05b78e1fb9f36ac27fdff5a64e79f0"
+    },
+    {
+      "seed": 6,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.31,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.517,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 4.255,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.857,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "b2f383c2aa399807c5e288c6270d6676ea9710e54150cac332d1175dd943ddd4"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.261,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.548,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 4.241,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.847,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "b605d6f9b5eda95ebcd19ddf2c2bb1f78977ff12292fc51883ec438c29fdf806"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.347,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.586,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 4.094,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.919,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "3b2d80192f222679b27a94256feaad218eeeea5d1cc92834adf922d23bf0fa95"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.317,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.608,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 4.059,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.926,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "1449fc19b28700904642b9a2f45908fe2725b16ff45674ac32b12779b01a9932"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.482,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.347,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.381,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.231,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "e352d662c80d2f5841fe50138d794c5f75d714acce87746f1f9bbf04b359b81f"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.405,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.346,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.329,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.242,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "5538844006260deb48f2dded6b2f6a217a4c43d77d715c3c5759bf20953756ba"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.186,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.344,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.153,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.304,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "2895dc98cbcbd8d9d9cd23e15f167f70e0ef2d04cb5c3c9a65bee201cb6462e8"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.097,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.341,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.095,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.309,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "66e9257742bcca09255fc547eaf238a509fe1319acfbc51fcfd690e0aa711173"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "2c6151829950f42355673132c4c368df67e25e1fdf4c79b792e8b33988784c54",
+          "corner-01-old-mode-default-hold.rpt": "2e105e4d5b7c6b834a308a0e371bfebebb3e968cff77ccd72f93905823c15f3d",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "6d57a4bb273969d6945d6513ef02d521ddf9ea84412ad4f29872db145c3dfba5",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "498f9c0ec25ec56242886c83a8b33d91d24f8aefbff8831c03bf37b3ef793999",
+          "corner-02-old-mode-default-setup.rpt": "24114a816ea24b56344eca536643c11d3d0de3ef169656df6c9984c6bc8db719",
+          "corner-02-old-mode-default-hold.rpt": "4264d47f30e379e1b653cb8ed9fd4c53264ce6843176018de57de07c1b54211d",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "cfc733a6b9f408e16e15ecb45a3dc52103da7425cf301360e7916648f71bc136",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "abf90a7e1256867707efd831eb52162a686c49b29377e337570267319e37a50f",
+          "corner-03-old-mode-default-setup.rpt": "9d208a1102268b718a7cf239c4378a3f71f80c49370331a8b61810bd0dfe9add",
+          "corner-03-old-mode-default-hold.rpt": "1c705920db9af2c306fcbf8795ff2d3360a69408cd3600d73cbe2394af5a51e3",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "6f14b5f455c540ce52c481cc78a03f9baba468e856d42903c6edce6a6c6f7be2",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "bc5d193fef3847239a183baf8050ab6ddd5b215a8fe9175ca8a7fabf9e501c45",
+          "corner-04-old-mode-default-setup.rpt": "8d282c28738cde31dd59d270139a99a637d58ca15eb77bb9bda77af47fc2a00d",
+          "corner-04-old-mode-default-hold.rpt": "33108cd7177316ebf54b0665a3a242a00563f12391989dafe6d1873aed2fc740",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "0c87db70034eb33c7740dd7f45d9cc50528130da239daff2cdb343f2211023bb",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "51c9085a175420d73f92d7441e1f60d0116c37fdd337e65ba5610ad9906f0144",
+          "corner-05-old-mode-default-setup.rpt": "4836f6333282d0dc80f1d99eed33a7473f800dd46c14f53cae431cc2b73fa7d2",
+          "corner-05-old-mode-default-hold.rpt": "9a7df4e5f0e0e64f12efc8babf975b6a2b1082bf2f11d61112a6ddde74cc37f7",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "74d0d2f68a204e86fe865eb2ba94dfe4b4c912edd96675a15220ddb4f7c1a89d",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "bf160e61cc374fbd2296bed754511d49fdd600d09960db49f38afdd5d318ae67",
+          "corner-06-old-mode-default-setup.rpt": "041a55188606fef6087e3fa3cf053f137aa9119bbb8cfd520da3a010d636675f",
+          "corner-06-old-mode-default-hold.rpt": "56ed8e89609fdd705820de10b63cb83172af2aecfba6f5ce502a15394ec66d5a",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "ec9854705c042472438205de02cc3544244a158a8e4ef164b09d8a22ecd7237c",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "f1827e04d409dc26dca3b76bf5362e9a68cf305d4015f6d4de62256478f3e450",
+          "corner-07-old-mode-default-setup.rpt": "a8de66ba913fa56ee6f392772dce35e54059c40611f691765e001732b563b876",
+          "corner-07-old-mode-default-hold.rpt": "8b2d7c4b6da670447ac2734c76d223e8a26695d79a190577fcaa48474b51e9d8",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "d80cde220223fcbaa13e499ae9cd459557dc244d9a07e9f9d4a977d2aef9acc4",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "440804b2bbd3f395948588a9f8e10f9e0aa75760aff846cf536c56e5f6499be6",
+          "corner-08-old-mode-default-setup.rpt": "ed879d392a6e4405832f1d80ca01813beb394186d209812e61dcff5688f5d0a5",
+          "corner-08-old-mode-default-hold.rpt": "eb70f8530829d3abb03d4f29a651278ce42a2ace17c189c19918f2e8f1dd26ba",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "664997af423b06c703d7a9893701d54cbda2feae7771b90190678ac466350f0d",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "39dcb9936320b9ca302770f310a18a1cf3ccc37172d4864f55ce1d6017713e0f"
+        },
+        "old_mode_coverage_sha256": "12c0354af527c4557a8dc4d877406b698fff2d15e1a2405746644ac780a30d7d",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.317,
+          "path": "corner-01-setup-clock-007-negative.rpt",
+          "sha256": "3574d0b654411bec8bcca9f02215ac6d3534ebb41849ca1d439d985ad6d09a88"
+        },
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.608,
+          "path": "corner-01-hold-clock-007-negative.rpt",
+          "sha256": "0f542f41d404cd5716362570368cad62de46a0d8c6590f522d42ed7ab9eea72e"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.31,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "fb6f40c9500a910f17bbf6b198ab206c7a80682c83af0528c00337348dfc5c5f"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.128,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "3abe11c3aef04fdd96c1cebb8f41bbd8c0f16c80a22dce237fe8c1e52e5d07cf"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.517,
+          "path": "corner-02-hold-clock-007-negative.rpt",
+          "sha256": "b8671a74691d1ee5bb00050dbde45379731e58ed38ccf8ae62a51c3a082929f7"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.347,
+          "path": "corner-03-setup-clock-007-negative.rpt",
+          "sha256": "0946a4bf8c07ef33aac9e6d9811ccef316d515d909851d730e83518254a08cd0"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.586,
+          "path": "corner-03-hold-clock-007-negative.rpt",
+          "sha256": "f7f940143f93d290e3263cf15a402bcc4552113159e5d696a9a98d1dc141edc3"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.261,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "804f0c08b20ebe11341b8ee5c064ad98609fbf653c72fc5bce825b628a6b5be6"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.051,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "0ff66c4474f9bd09f5c7830fa0ba682dd602e738669df755deee74c29703ab19"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.548,
+          "path": "corner-04-hold-clock-007-negative.rpt",
+          "sha256": "f729995f5a0fe4211a8e743c716e906c2d03050dc5e51aec123daa6d9877dbb2"
+        },
+        {
+          "corner": 5,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.347,
+          "path": "corner-05-hold-clock-007-negative.rpt",
+          "sha256": "fd6f5d8a36313740d56861c8cb5266a0040edb886f7463f71dcd1c9ebcb77564"
+        },
+        {
+          "corner": 6,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.346,
+          "path": "corner-06-hold-clock-007-negative.rpt",
+          "sha256": "27d02379ad9c50f33e16a83b64c10c35c1c3502a74979c53398b3359dbab2fae"
+        },
+        {
+          "corner": 7,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.344,
+          "path": "corner-07-hold-clock-007-negative.rpt",
+          "sha256": "9b75f017157a6c89919422535ff7f357ea94888611a78a795188d83ba18d18ac"
+        },
+        {
+          "corner": 8,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.341,
+          "path": "corner-08-hold-clock-007-negative.rpt",
+          "sha256": "2031e1151d358ed7532a32c1ffba9c646e5ecd7c788b7041b440db8724f05230"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-02": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-03": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-04": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-05": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-06": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-07": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332",
+        "corner-08": "92f44b26ac52b74949bc10162e70ca337b680152c765d496118619d7ed6dd332"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792949669618866700,
+        "bytes": 4353728,
+        "sha256": "f1415ad5d52066bc381a2f9e132e14a6cd35fdb10177777dee68062fae891134"
+      },
+      "SOF": {
+        "mtime_ns": 1792949667435658700,
+        "bytes": 6705018,
+        "sha256": "63b0a4b16a238656da24657bcf06da2ae2a6daa8e0f08fd52ad12826b471a7bc"
+      },
+      "preservation_index_sha256": "e9c317a9565598621225f70b9cf6c51f63c2c123154c7967056e267b207863c6",
+      "fit_checkpoint_sha256": "02cdc63cff76342420d299d4222b173804c1a2fb09877a0f6cb9e6a561110066"
+    },
+    {
+      "seed": 7,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.164,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.181,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.383,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.962,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "b343007e6bc34e74a0797ecd6bf87eab3a538655fea5b4395fb3dded9a363d77"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.123,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.184,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.38,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.955,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "71acaa1a865ceac5a1f073952b47af1e32e1225a001e52a497c9bbdce55557fa"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.121,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.208,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.218,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.973,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "df2d551d10286efc83de7529a9a760819fff26348a9ba228a586a9b6b03c0a7a"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.085,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.196,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.161,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.967,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "2ecfd559b5cb31ee1dc8c89f5daeaa0b70e532b9b4fec0bc34572295f7d57f20"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "PASS",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.404,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.043,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.901,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.368,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "30cd650887cd9c004da8e4c88b30938bfbbed590388d8387c7c65b891dd02a4c"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "PASS",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.311,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.059,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.823,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.387,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "64c966ce27553db201eeca246dc2b219d47f89e846914c55426e307f5c14892e"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.046,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.095,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.568,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.435,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "be17bef0aff3882f4b1d7a2776ce02189a65aac78da198cee0b3077cdacadcb1"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.956,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.098,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.491,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.451,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "5e32e414557bf55a05cd18990185d34d54c4f6865819204a2f360f23f705a435"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "7099a9820157642b2c962a6190bac144d9ee7f97057c8f748090195326f862bd",
+          "corner-01-old-mode-default-hold.rpt": "c3ca03bffc861d1ceb84e1fab31c2b386a8bb3053739db77fe02937aaeb44ec0",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "b8e6add3dbb6545cf9cdeca81929c7e34a86d6d133aa68b527caa98a2f6fde8a",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "5921aa0a83cc609423c7cc5dbeccc2a4aff35c52e570c6b3cb049f9f7abe08d7",
+          "corner-02-old-mode-default-setup.rpt": "fb403534ad5f6448fd07a0102887e7b21d191a850a6e56514d539f19a29f4f0f",
+          "corner-02-old-mode-default-hold.rpt": "592923b0addc114aa292ca7b928ae3ed233139a9d0c4abd48cef955021dce048",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "b1a858a8046cb6663d795281e5ffbcb71bf794c179d9c9cc69c371dacb5d557c",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "ffcb6ac99abc81b6a5f79dab963c54cccf510732a3e482fb9c8777a96d398610",
+          "corner-03-old-mode-default-setup.rpt": "91c419c1024e17374849f843d66632cd3950a9c9f4ea5beffdd621bac9efa454",
+          "corner-03-old-mode-default-hold.rpt": "d92417a3891f82479f0f4a6a335a7f9be3799e3a6fc6560c4cc7864e5e2df9a7",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "02cecf32952bbddb427cdfcfd9a245bed615c71ff4de9ae4cb9125d991f828d6",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "f1a880e195aee89dec063310be5accb38399888de7cdd887b095920c7d9b9945",
+          "corner-04-old-mode-default-setup.rpt": "6ecf29226e0f3d66132e25d9617919cfe0eec7c98db1271b900c297b7ce715b6",
+          "corner-04-old-mode-default-hold.rpt": "37f07512330dcee646c25bfa08aff75033a9f03bdc920cb1f41ae1fc8c64d6cc",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "d9c4ff1e04746e6774285796f003b12c7d81b18fc89c0b41e8bd10a17776fb45",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "bd9ef020e335bb1fde1a8d33900c8c6e2098cb24e0d3f87e702ba1a1b2b124b9",
+          "corner-05-old-mode-default-setup.rpt": "c4955531baf534eb8dd20a800147c99640c15afb041e2dd92993a0b30d7774fc",
+          "corner-05-old-mode-default-hold.rpt": "faed05e8949e8bbc0cf03f0ce645de21444dad79560aa059d1f4bc0301058192",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "f4c8320fe4d7d60008c628dda26d2d4fe1dcea18a84324aea7c476d48459e732",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "446e898dae5870f37d5f3be15a35a6ce95614d58ae1fcb16b102c87aa5a9f473",
+          "corner-06-old-mode-default-setup.rpt": "72ad37aed1ae25551f160aefb3b9f653f03ed5f6d85befa02f73e10dc5fd9368",
+          "corner-06-old-mode-default-hold.rpt": "0fc34817f8963f35c85797853cebb4840a6beef55eb0e705fb65d3b3ac2d08cf",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "d3c9831453771a01e0c4f16e54ec2872317868b391c569804ad05d11f6244958",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "fbc6eb74f5244004a780c67c8756c4bb302a873646078073d7e42fd0d2fa12c3",
+          "corner-07-old-mode-default-setup.rpt": "05e26effea9edbd534b2969079116f35b4a341c19e2a728a69c4fa24aea15c55",
+          "corner-07-old-mode-default-hold.rpt": "882407443b9d46ea788621169d98eb7a264156a56def17b57f685ad01b5059d6",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "b9ef3c57e7d24d0bd9eab220db491ab379368c4835dfd4d5144ebf84688ebd04",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "9307eb5aa4a5227a1cc53fa721e1696d95493e170c1b0258647b3f81908e989c",
+          "corner-08-old-mode-default-setup.rpt": "8c7f897027e2823bf5e09d5f81e48e3ab7d7f4b2e7afea7e473ec03fa5da544f",
+          "corner-08-old-mode-default-hold.rpt": "b423ba300c962e9e067c31ff5722e7f2246e2447192d013f5843523480c0bf99",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "559b9294d2f2278a4512498954e59f959ee8a668864f7def1df3930920cf8cc8",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "594d2ee93ac07023012a30f68dcd79afbb1ec50734b54b5f887ce3427f4962b6"
+        },
+        "old_mode_coverage_sha256": "dc02747f9b07887ddda37c1edfb88f366cf27b278dc711c191151454a2a892d6",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.085,
+          "path": "corner-01-setup-clock-007-negative.rpt",
+          "sha256": "c9a00141d9023e8c2b2704be174b86d5359d7e9e6f7228d22ca077065fe51fd8"
+        },
+        {
+          "corner": 1,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.066,
+          "path": "corner-01-setup-clock-010-negative.rpt",
+          "sha256": "2bfc333bb336bad6079007a426c2ad510aca474593444018506305b286c2e895"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.111,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "a38be52d49d2ffeef416d62a516e99007c4334c64434152da43b984f9ef490cc"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.164,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "d027c37e2dc102e0a0c74becb27bf4687c02375f246cdcb35da2799a616fdabe"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.121,
+          "path": "corner-03-setup-clock-007-negative.rpt",
+          "sha256": "c1e0d7b805ac43c4a1acd127e316be79fad0619a668ca6bae39a231de5613b7f"
+        },
+        {
+          "corner": 3,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.057,
+          "path": "corner-03-setup-clock-010-negative.rpt",
+          "sha256": "bf7a7a8d5213331029d10ef521945a666e07b2688f4b5e9b1ff488693b9093be"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.064,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "80364c4064850c8e59d96caff5c56603676211569c942bbf4504dde322cbe469"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.123,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "aafdd56f4bdafe57db700748ccde484416cfbd5895f00ef096023bfc27cca6a7"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-02": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-03": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-04": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-05": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-06": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-07": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7",
+        "corner-08": "ea15251f4517be94e98698df7df7e58363212c7bbb9d92bc85602c897db661a7"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792952810957788200,
+        "bytes": 4353844,
+        "sha256": "b6c6ee0dc3a0b94460d0384d26dfdd7ec31f0367e60d5a7741c341bd77e8a4e8"
+      },
+      "SOF": {
+        "mtime_ns": 1792952808777223300,
+        "bytes": 6705018,
+        "sha256": "68fdc545d35a358a5048511942daf24bf48f721a1e8568b7b847fb2814b76fac"
+      },
+      "preservation_index_sha256": "530071ef6c707a9606896ad4c95a4be5d7e32422bc0d43b75d5ee466f8bbe488",
+      "fit_checkpoint_sha256": "fb642ee9f40f5237932bb30ac266245b3a15c4dd9bca475541ec100ae659d46d"
+    },
+    {
+      "seed": 8,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.512,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.136,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.635,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.786,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "339a9c44022489765eea12e14ccd04b7f6545bc5bbc5f8117b45c448d994fb68"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.471,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.142,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.642,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.791,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "2a1e831f653fd42754df998df6770b99c62ccfd0782557827454b046a6625761"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.558,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.157,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.521,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.84,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "1dd964e50c1b371c77bfbd4900659e07c9069de6be832ee933af68a4a3a8f939"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.553,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.135,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.475,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.845,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "f3a068881563f8c3ad5d0a9e697860ee6735ed407378d552728c88a38f627bda"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "PASS",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.429,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.042,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.12,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.376,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "809edf633c9a8ba912af7edbb9e56b57117588314dc140413cf21ba80476ad91"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "PASS",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.338,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.058,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 5.062,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.39,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "320d084f214d3e1cfed89a82dc1cb871258213ebbe5ec389a3719b7325aa86ed"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.065,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.088,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.851,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.444,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "8db581bd7dc8dad51b1eb34533dc105ca115a13ff147752b687bb5f31604de94"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.958,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.092,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.781,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.455,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "1800073c93abf5d87f30026c5b4d797353a89f20d35758df190baedd44180de7"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "6822f8404f7f0d36bf84898dff41ef77a3837ed0ef809d0b7dc67b6dd58964b0",
+          "corner-01-old-mode-default-hold.rpt": "17ca2b1d01a63d4c6063ec82a30d4602ae85610f1f8e073b1727a82838a3eb3e",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "0e377624fb3a7e6774793615ee9755f28141c07f8640efeb1feec8625e3f2255",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "fab9465364f3234d2662499d8d81af954e5fa613a595d2d2cfee152d56d69b07",
+          "corner-02-old-mode-default-setup.rpt": "99e2ac4afc4196d3d856fd9da5a2e516716e83324ffd92adef6d4f1deedc8e75",
+          "corner-02-old-mode-default-hold.rpt": "d9fc645ac0a604854f6245fa0517c49ed66b2d4145da310a92a819a8fd235dd0",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "bf8b16206492b3af8474329e4418830c6462375b025ff2a183413dd4f4881f62",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "63f2eba1d92a690eed39de03fe002dce2ac1facc27e0906a1d38ef82bc2dcfb3",
+          "corner-03-old-mode-default-setup.rpt": "a5197169be139f8389a2fa9af1b69205fb82dc71c6712760f41356d2ab44caad",
+          "corner-03-old-mode-default-hold.rpt": "a098d573e89ec4a7013fb5894f17bd3ef0405da086b7f6b58a3bb95103978698",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "61f246b1658a69337421fd870c2a704071149eec580ce6782f671be1c7dd335d",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "6ca34123348655117a03b62ae2a6f3c24db25d0b0841f6626efcdf0202d5471a",
+          "corner-04-old-mode-default-setup.rpt": "ab474b50be2e6a7fe9818126fa24a9f494c0de2c6929826ede25e3c82e421713",
+          "corner-04-old-mode-default-hold.rpt": "1f5434f9c77a828ecb21bd6bc18bd2e1264877d5d2ebccb2d89d51def7349631",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "5d1c7231d823243a63462515955c25b7ac5d596347437b548314bfe55a853cdd",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "10e6e3e5cc95069d5068ef4005ca772be35de2c5adca79987f86eba7480ebcbf",
+          "corner-05-old-mode-default-setup.rpt": "56c8e42275e34e6e56589b875f6740c945aad7e462f21252ce9920635441733c",
+          "corner-05-old-mode-default-hold.rpt": "2f54a4879486b7404ce82b88bb90d13d157809c98540fe9944b1e6592c7ddf5f",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "b6d8ca3e27d22aac0e4c5b2aee43c4ab50dc6e75c3188f1d95ec4397f0dbf50d",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "ba70e1945e870858d3c753dc80bd440ad4d7000da19ea17e7d2c73eba93deaa8",
+          "corner-06-old-mode-default-setup.rpt": "922f3e5a3f10ca24c0fa8116d3fe970a9e260a6c999e296f8d0b8820c87623a9",
+          "corner-06-old-mode-default-hold.rpt": "eec1869aebff24bc0b106fb043263ee1f0b5bbae8f2046a453f2282e63047bd9",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "a6640c7dddbb352be173336694f78fcdeb6499bfa63823836303c80107931038",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "3a65cce9b0af8621c13c58dc60325394c21cf3930e008e2145e995eb7751ad6b",
+          "corner-07-old-mode-default-setup.rpt": "c5e7094364aedfe25cc84407be546ce2c5d2b05e2f90378461a943de1eec3936",
+          "corner-07-old-mode-default-hold.rpt": "ed56e14d40c869ef0f16dc9c75a0815a83d10200f63877fa108de18d30f58dfa",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "4a4e871b07d797952dbb6c725a0651ea2860f20b383e6e2030d5a17dfa596a46",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "1cdceaad8de3edc0400c4e8da492daecfc07a47969aa529087631ea5c6e6372f",
+          "corner-08-old-mode-default-setup.rpt": "e95525731df28f7012e20540917ed6c54c797cc81703baf37e64eb83d95b6093",
+          "corner-08-old-mode-default-hold.rpt": "495609ee33339bd3e855ea911981c4886e57ca246211b84c6662563c11f65dae",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "88c1b3946bf6addb4423fded0a082653be3d23da9598f47e38e6c26d5d2719d5",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "33f6da46326c9f6c568b1e1ab88958e5f4f8716ac9cfa4cd821fe43663771638"
+        },
+        "old_mode_coverage_sha256": "12346a8199ff0be54ed069fb7fb015d0fabb7bc6e04bd8c74da57af172820113",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.553,
+          "path": "corner-01-setup-clock-007-negative.rpt",
+          "sha256": "d3b9c0c701c62302f4204b8e24061bc897996d471934171f4e8e380d4f653003"
+        },
+        {
+          "corner": 1,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.108,
+          "path": "corner-01-setup-clock-010-negative.rpt",
+          "sha256": "3c24218ef5c0fb2e057da5e6e2cd050580b1ee4a4b9b3145acefab85a2e42945"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.512,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "19d28ab5d966dc24881489c107815ee2945abb07ddfa9e64804b74e601645803"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.259,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "65f86c37b315f46259f215bd86955969c9f24aaf7b4f61c1fc9a01b88e1ac13a"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.558,
+          "path": "corner-03-setup-clock-007-negative.rpt",
+          "sha256": "3961631298e92baf7139320510458229cfc548b6d9e25349bfd2770ff099d6db"
+        },
+        {
+          "corner": 3,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.099,
+          "path": "corner-03-setup-clock-010-negative.rpt",
+          "sha256": "615268ce77dc9eb82e94bcfbbc86bb7eb83ea6c6993266f4867f8b02c44b21d8"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.471,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "dc9fe0f5618769c9b47c9c675ab94bf116bb53f9cbcac827053be3b2b2b0533b"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.212,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "9974880f4f39a483c00b894efec7ca5c5777b21c18cc29db413da8e2b4d366ac"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-02": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-03": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-04": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-05": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-06": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-07": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17",
+        "corner-08": "83e08a207863100a4f66c4e8d5477dbd219c8de7b06e383b5236b0f6276fae17"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792956124218536600,
+        "bytes": 4356792,
+        "sha256": "adf4ddea8584f666c5fdd773c68772370741d2c82b57231c382139485c7c3ced"
+      },
+      "SOF": {
+        "mtime_ns": 1792956122101611400,
+        "bytes": 6705018,
+        "sha256": "ecf7b9a6af20341aa4756b8dd772614f70e5bd70bed7bdab1883a27e8669e1b6"
+      },
+      "preservation_index_sha256": "cc0735d743ed68af6d73d7e97d6af72e3e8d8e01cf8ec0bb75ffc3e91bc0c26b",
+      "fit_checkpoint_sha256": "db1c8a911add600b9b141b94f504f2c381d38e4557f85f5c4815d1e04a261c43"
+    },
+    {
+      "seed": 9,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.305,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.53,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 3.785,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.648,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "e9d2f115858fd26a3442fd2fa533467dd7bb24a17e3ab4af22ff4f7ca19423bb"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.261,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.55,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 3.8,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.637,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "497d46b5b10b8b8c300155dece67d0d8c7ad4cb50ff61904de7534d226efcdb2"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.341,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.568,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 3.674,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.689,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "ab9ef27d6edcdf92331d31832722a79b7983d236f12ea5784b62b06feae057e0"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.317,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": -0.586,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 3.63,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.698,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "cce65f7ca54411fa8942ea6cdc05aa11f0ab54fbf90f9a69ac9d975115d00947"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.491,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.308,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.208,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.26,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "10b8a5b2635fdd641dbb0e0f50772d4b150b978563a33de46e60fb779dbfacf4"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.394,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.31,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.156,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.267,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "d07738d51dcc3a633b46d005cc5bfcc5b1db312079311db898b052cc2f495da3"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 2.998,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.307,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 4.967,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.296,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "ad5f7f003f325d520f0c5ef72f1c8759db5f649abfe3b413a23629e1843a8045"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.035,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.307,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 4.905,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.302,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "8dd295519477d3ff93a562d232fbcafaf5ab2f553873842adbbaa9133615efe3"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "f8d75d49519786e122c0923d5816d8bd9aa78dacd9487c9455320467261c3ba8",
+          "corner-01-old-mode-default-hold.rpt": "10c842c0ab27a408ae0b396e18bacc3a2fd8ab858a0b30b3d8e654d85cbcc0a1",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "654b1a4d584c637a866e9cf053fc085a7368d7f84a45568d60dee5e96a139c4e",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "99d85b5ff87f9e4818c59069f61168a9abaa3b3df0e82ec3b19d7161310cb1ae",
+          "corner-02-old-mode-default-setup.rpt": "1bd7936c64d4fcb23fe9c0c51804f3f9dd193f474e625c8822ad360d7b3d34f0",
+          "corner-02-old-mode-default-hold.rpt": "f6df651adbcf52962b9ebdc726dd4d7899934b7bd1126289815c2b18e31f3cab",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "70f66598b3c805dbc7b02f1e1d78d96d688e15ec9d5ad2faf438cb71f35f587c",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "7c5ee111c2232d847fe6f9d591211aaf1d0166c04b15ac399b0f9b7008669a06",
+          "corner-03-old-mode-default-setup.rpt": "a0fe44eeaff9f79cdbaa8cad27f2545c41fc429354157874f32995db9e1b3fe2",
+          "corner-03-old-mode-default-hold.rpt": "889b0b6b82562f51176d73291ac6ecc89bcb95cc272df41b6257dda72a88c6aa",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "47ed84481447b0f9fafe5948119108a1ced42db11fa2f9c09311eaac8fe2cde3",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "215a6b44ad0b20610b2d3b1996c35eabc823b7d6bd145a1f5287c4592c3f46e3",
+          "corner-04-old-mode-default-setup.rpt": "7ff92b9c22dcd17c1e0f7de6d3ed581a82d5406b7e1e86f0c2e1f15af9a55649",
+          "corner-04-old-mode-default-hold.rpt": "2bd7ff46cf0ecd9364c0a9158605d9f3fbac0e202cb793e2914a56ac0c6936e7",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "ef7d131dc78021b85cc2804f6a0d1febdfba2b8c7a472f63f69446ecd495c927",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "10ad8aadbb489a839f8cb05f5eec39142480d772b0fa38524a0aeb3e6601078f",
+          "corner-05-old-mode-default-setup.rpt": "847c698134156150f6ee7a0a04b0c3a1bddd1f6dbfe3dda8c939a979c73143c1",
+          "corner-05-old-mode-default-hold.rpt": "549fc04c393f2decc7269b472874651acf970e042b2f0bf945af36095691a766",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "76d61b42e75a24e231e08f2a19b70141ae9e8a693a7472326da4b08730cc7213",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "38e6973f5ef524a7f6901de86a677ebc07ca00f8e33ecef6d7729c4b28cbcbce",
+          "corner-06-old-mode-default-setup.rpt": "47065ddf6de589049d275b9389b13e8c5e8b17bfc57dcd97c040624dc7f77494",
+          "corner-06-old-mode-default-hold.rpt": "cf641f6a6ddd020c433432e175b7608d8f7be48e9219e463779039879ca38bce",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "9ebb215c3b702368bb00356245efcf9bd434abe9f092875f648c46dc5a23cef7",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "f7dec7d85b7df6c2a2980726aa7c5cd2b49f6ca08f5d04da79c309910ace548f",
+          "corner-07-old-mode-default-setup.rpt": "f2e4ee7fa836bfb43f094325996024682b09338e8549bfd7a830612902fe43d9",
+          "corner-07-old-mode-default-hold.rpt": "9a830edc9584e1b80fe20b40855caacf33e8ce2f69fc464016c5a00fffd9ee0a",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "f4b2c518b30f8f159298927b34787723b7ae1b6c7e8e20991ea4c4a651943c7a",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "cf680345a101e7c868ebefb976e8efa43a934f9ea343f729294b4c7166af41f9",
+          "corner-08-old-mode-default-setup.rpt": "774ef320768a862163bd717ba97b3b3d0c5a00c84092fc325e3eff327650bdd5",
+          "corner-08-old-mode-default-hold.rpt": "e73f8a93790ec1149a31f286f1b8b6a41beb40502fc1d883a0df910b4c8aef70",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "b734b96e6b2b2b449f9d5ae6acabc34c40817dce74207b7df494c4bb1acb5b41",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "d1008a1d159645b67816b3dd8efedb1b77d05b7ff7f9802b50b7bf0ee3f4f865"
+        },
+        "old_mode_coverage_sha256": "c76820d5cc5471161fe49a24c92ddb117183ca7b9891bcad1e0641dcd9982adb",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.317,
+          "path": "corner-01-setup-clock-007-negative.rpt",
+          "sha256": "343ac82210a17616bc36acbb318c1c2a4bb6acc10b575d464e3890fd0218c997"
+        },
+        {
+          "corner": 1,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.149,
+          "path": "corner-01-setup-clock-010-negative.rpt",
+          "sha256": "1317abfcb1dafee9c51b21998426087f79302b1271ee0bd3e1fe014652ee5423"
+        },
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.586,
+          "path": "corner-01-hold-clock-007-negative.rpt",
+          "sha256": "ad7b6ea6ba13486c7bb38c02d8f5483fef3ccb545765fb38ffeb260fe28b22ef"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.305,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "4297307e30b82b7d82f5f3f09a8a9d41779f3261f9101105ae2a390a53ebe911"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.251,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "a8c52f53e82c17d5a9d9f7b3d8ff0ee7a75d930f8a91a0df0a7e6480bceec898"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.53,
+          "path": "corner-02-hold-clock-007-negative.rpt",
+          "sha256": "b86ffe2e8c097f28e0d655d3236ce5f9b031711508c6e3dae31cc1ca14c10e5b"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.058,
+          "path": "corner-02-hold-clock-008-negative.rpt",
+          "sha256": "d12bdca3f5dcfa8944eb00df67d226c6423a3bae8277558e2600615bde8faccc"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.058,
+          "path": "corner-02-hold-clock-010-negative.rpt",
+          "sha256": "ed7096c1cf6cad4e5809abae5b0011dffb36bf02d7ecbce1fcaebeb7cb00312c"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.341,
+          "path": "corner-03-setup-clock-007-negative.rpt",
+          "sha256": "45fe3ca54ddf940f33497578c8cc70fc2dbcf4bae3b88ee8a1926a4c11faf765"
+        },
+        {
+          "corner": 3,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.168,
+          "path": "corner-03-setup-clock-010-negative.rpt",
+          "sha256": "427db3eb9a9a37ce0640fd6d6bd02bc43863736a3f219a148f6b2d4289f69fed"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.568,
+          "path": "corner-03-hold-clock-007-negative.rpt",
+          "sha256": "89387f9471eb329cfc65ec8b1e9a6ca590e394846e9f57c043384192d618595f"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.261,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "81bd2d33268b11a7d5a2c5763c8f579519e851d4dfc9b5378250e870c6f7ff9e"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.2,
+          "path": "corner-04-setup-clock-010-negative.rpt",
+          "sha256": "2ec7cd5a3cbcfa2bb9e8b2b265adbac1d35682188f415b4da4fb9e01ce3242c3"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.55,
+          "path": "corner-04-hold-clock-007-negative.rpt",
+          "sha256": "0cede486d9b9416d52ca2cf249f14d8e672e2bda23dfe697bedd8f034e4ee3ae"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.059,
+          "path": "corner-04-hold-clock-008-negative.rpt",
+          "sha256": "f360289b04436fd43a976dbab7129dd85fdb3d314ab19ea22a5bcdf56f860e67"
+        },
+        {
+          "corner": 4,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.059,
+          "path": "corner-04-hold-clock-010-negative.rpt",
+          "sha256": "d0dbd9e469ca30c24ba48906d8a5568d6759a80291a928add824f8e94c982f8d"
+        },
+        {
+          "corner": 5,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.308,
+          "path": "corner-05-hold-clock-007-negative.rpt",
+          "sha256": "89c61f76f042f61b80d71f3520695145433ca9abe69d8807dc591d7a9d769a4b"
+        },
+        {
+          "corner": 5,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.054,
+          "path": "corner-05-hold-clock-008-negative.rpt",
+          "sha256": "0021ffaee32f03590e53955f8bcc7a18e836bbd251352fa1d091c75cb654392c"
+        },
+        {
+          "corner": 5,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.054,
+          "path": "corner-05-hold-clock-010-negative.rpt",
+          "sha256": "619a5be055c1977294773f75f240eb3bde1386b957b15c0f596e14d49ab405b9"
+        },
+        {
+          "corner": 6,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.31,
+          "path": "corner-06-hold-clock-007-negative.rpt",
+          "sha256": "429809def7bb72643d55edf422eaf37b1308ffa6f06db8d68bba1f9720e6231c"
+        },
+        {
+          "corner": 6,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.043,
+          "path": "corner-06-hold-clock-008-negative.rpt",
+          "sha256": "b5660904ecbbcb3e3356bd76cc199697975cf78ed77697c70d2fc8843b72d032"
+        },
+        {
+          "corner": 6,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.043,
+          "path": "corner-06-hold-clock-010-negative.rpt",
+          "sha256": "ddf792e76747ff4e47c613d0d2abb5ed508516ce9692a6b1371adc7053d095fa"
+        },
+        {
+          "corner": 7,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.307,
+          "path": "corner-07-hold-clock-007-negative.rpt",
+          "sha256": "2d8ee3908c13ddae9bfcba0e07560f5f17b0277d0605d89b2fe95c5105424924"
+        },
+        {
+          "corner": 8,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.307,
+          "path": "corner-08-hold-clock-007-negative.rpt",
+          "sha256": "a09a69d2faa1ace657be537a8ea36dc89dc7f6c1d3908a2a42050aefb4867ccf"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-02": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-03": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-04": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-05": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-06": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-07": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec",
+        "corner-08": "a8cf2e14ad5bde955c9cf2c591e1186a359d416b527bd08a0026fddb8dab53ec"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792959301725839700,
+        "bytes": 4368808,
+        "sha256": "2d5c96d5c306b38ea2ab599c38c984ef9309ec5878e10d96f0e7557b44543347"
+      },
+      "SOF": {
+        "mtime_ns": 1792959299535756500,
+        "bytes": 6705018,
+        "sha256": "4ccad456814336ad3aaf8bfdff7305f0a10bd3d7325f0b71b247d584d321cf98"
+      },
+      "preservation_index_sha256": "ce4320bb8bed0fb775c4675a32560dfc34fc1062cd7d0a5c434551bd9de40ca6",
+      "fit_checkpoint_sha256": "5f2cf92c504ee402d2a98bdb2c7d1565e840f5472b2092ab5a12d2761308f6f5"
+    },
+    {
+      "seed": 10,
+      "fit_qualified": true,
+      "asm_qualified": true,
+      "qualified_clean_candidate": false,
+      "timing_condition_matrix": [
+        {
+          "model": "slow",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 2,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.374,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.14,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.676,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.98,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "d7f63412722f0ca18b68bd16f87a85384a74f461b360d9d38473cf2f8c7e6b67"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 4,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.335,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.14,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.676,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.983,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "0e662c7e12616f016e1e9097c4fac232f440c18f6e3867413bbe95ad8c03ed42"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 85,
+          "status": "FAIL",
+          "native_corner": 3,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.432,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.15,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.531,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 1.036,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "9de2274762c7a615f504c2fdb60daac7ff749ef486d098f5e85b6dcf092ff71b"
+          }
+        },
+        {
+          "model": "slow",
+          "temperature_C": 100,
+          "status": "FAIL",
+          "native_corner": 1,
+          "checks": {
+            "setup": {
+              "slack_ns": -0.403,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "hold": {
+              "slack_ns": 0.149,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 3.482,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 1.045,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "949e51b47479a25c423e2e60635d2463b0ff685679beeb1f5e17c95e19c476ac"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": -40,
+          "status": "FAIL",
+          "native_corner": 5,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.599,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.017,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.125,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.367,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "8cbf5886009f05849c6276a4196b3d9cce9da825302858e7c90b34e09f616791"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 0,
+          "status": "FAIL",
+          "native_corner": 6,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.535,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": -0.011,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": false
+            },
+            "recovery": {
+              "slack_ns": 5.07,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.38,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "9bf736876ef7bddd525e72399e20df460c077f277d96443171cf47653a0b59ca"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 85,
+          "status": "PASS",
+          "native_corner": 7,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.288,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.012,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.864,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.457,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "388e10acec47db8c88b56fb5e6f56eb4a97cac4b78cbc13ee0881e09663a2374"
+          }
+        },
+        {
+          "model": "fast",
+          "temperature_C": 100,
+          "status": "PASS",
+          "native_corner": 8,
+          "checks": {
+            "setup": {
+              "slack_ns": 3.202,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "hold": {
+              "slack_ns": 0.02,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "recovery": {
+              "slack_ns": 4.799,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            },
+            "removal": {
+              "slack_ns": 0.464,
+              "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+              "pass": true
+            }
+          },
+          "minimum_pulse_width": {
+            "slack_ns": 1.091,
+            "violated": 0,
+            "reported_paths": 50,
+            "sha256": "0af8c750dd9f0a4c08d53498a3f2c30e4cf2d9d5e646f3d9f8e1bd2d3c2d76d6"
+          }
+        }
+      ],
+      "coverage": {
+        "corners": 8,
+        "clock_counts": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "per_clock_rows": 416,
+        "global_rows": 32,
+        "zero_path_rows": 192,
+        "required_eight_conditions_complete": true,
+        "complete_dynamic_row_counts": true,
+        "constraints_and_mpw_reports_present": true,
+        "old_mode_rows": 32,
+        "old_mode_complete_dynamic_rows": true,
+        "old_mode_collection_counts": {
+          "1:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "1:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "2:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "3:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "4:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "5:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "6:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "7:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:default": {
+            "keepers": 1,
+            "registers": 1
+          },
+          "8:no_duplicates": {
+            "keepers": 1,
+            "registers": 1
+          }
+        },
+        "old_mode_no_matching_rows": 0,
+        "old_mode_no_timed_path_rows": 0,
+        "old_mode_report_sha256": {
+          "corner-01-old-mode-default-setup.rpt": "b42d63cc071b7f6c0e44f3abcc7f19216dea70921d0e6598f5648cefce756bdc",
+          "corner-01-old-mode-default-hold.rpt": "1120cb4eb8822dc0950c6d9e9406751a6f8df968a155e4bb7c9fe30c3e3a5185",
+          "corner-01-old-mode-no_duplicates-setup.rpt": "6faf5d47834a96d063ee4c287b45a963ed69a84af7c38a78e75be85b9cf93009",
+          "corner-01-old-mode-no_duplicates-hold.rpt": "34a30a5d8b99c247c7bfa3f4d786e1c55d024cf29a90f925860dfbaee147361c",
+          "corner-02-old-mode-default-setup.rpt": "222600ebfbc811f4d48a7c987c218ca17f95993f694f072e2a1b11e5ffb45678",
+          "corner-02-old-mode-default-hold.rpt": "e5de0a36bdcfaecd46453bc17e51c9e331163afb74749efeb23efa7e774c2f1a",
+          "corner-02-old-mode-no_duplicates-setup.rpt": "d7a9a02b059a62e6f54f105d49a0e86e58a06e5051bd5021b3388522a0185831",
+          "corner-02-old-mode-no_duplicates-hold.rpt": "2f7f602f16c256c61d0b51d450499ec9610f37af840936ee34c62ca884f39ae9",
+          "corner-03-old-mode-default-setup.rpt": "a4c139fa50f6af3a5c55076b7d4833dae523a2b7df5c4df864ab481796d091ef",
+          "corner-03-old-mode-default-hold.rpt": "082bf8f1da665e0024bc542c8bcb70a007cefa7eaa4cc5af7e2f1a329da542e7",
+          "corner-03-old-mode-no_duplicates-setup.rpt": "650f8e55f83d5cad621363a83d13758770d3157fee3fa909f5a120fd27f1c00e",
+          "corner-03-old-mode-no_duplicates-hold.rpt": "4b2489f1f62058baa48103e66cc189b98e187d5e5cdfc8d262905eb1d022b8ba",
+          "corner-04-old-mode-default-setup.rpt": "c5bdf2415b82438bbea91c102725cc3a04eea78ae4a2f07413407e5f249a0504",
+          "corner-04-old-mode-default-hold.rpt": "c0b9e6ba2a03e2f6af9684f1eec0e12f9b0799b7578d8c6f633aac8ade7850b2",
+          "corner-04-old-mode-no_duplicates-setup.rpt": "4511ce00d58197a5752c906df6b812b47374d3b349a52de7de9815196176b6af",
+          "corner-04-old-mode-no_duplicates-hold.rpt": "afc303ecb0123b6a92ef8093474796ed583696171cd6cfb3116ba722426852a1",
+          "corner-05-old-mode-default-setup.rpt": "fd8a0976d52edc9d8097fb47ffe88912c862aadd8b300a436b76543b0184efdc",
+          "corner-05-old-mode-default-hold.rpt": "bbb450724a79dd898084255ca5191ecc2cb4c08c8a57807e34de08d9da96be90",
+          "corner-05-old-mode-no_duplicates-setup.rpt": "6d00b39636218900a1736c87c6ce2e633cfc6456c15f939f9b40432f03cdd14f",
+          "corner-05-old-mode-no_duplicates-hold.rpt": "4429893a1718733d23699a4244f828cadcc493e792b5c14dcc9d796350fce83b",
+          "corner-06-old-mode-default-setup.rpt": "d59c3e458375a615402e42b4478f2ad4984d8cb39b631c86ab7a85b765623bfc",
+          "corner-06-old-mode-default-hold.rpt": "4942f77ab029cd27ac9ad714e05af07d065ff298d5c2756d5a576c896c3d3cf5",
+          "corner-06-old-mode-no_duplicates-setup.rpt": "a559d77698f90ddd30915d39d277b09c67403ed432c630d41ea01710592a9772",
+          "corner-06-old-mode-no_duplicates-hold.rpt": "1e89dde1b0a4d5946164c815c7e56dee76adf85ea0a26f8f931144c36e7b3aed",
+          "corner-07-old-mode-default-setup.rpt": "7510be528a94c48e75b13094983d7952f1860fd06b81d2ca1584853143092016",
+          "corner-07-old-mode-default-hold.rpt": "01b77a8e8b723411cdf4d1e1ff555a7b675864e6f8457a7fda70b5218c1837ca",
+          "corner-07-old-mode-no_duplicates-setup.rpt": "73e3c86d958dce2f7a47424e931aad6f8a4bf3c5d6a6a2e484a1255e0217f854",
+          "corner-07-old-mode-no_duplicates-hold.rpt": "ff8c44d6f8fa6715b52a8a18f7f11781b2edde34b79d1c1dcd15593d603ad0ba",
+          "corner-08-old-mode-default-setup.rpt": "ad1611eeaf2755b5f6c3de212c7e880d64c6925b0b1441377ae43bda8540d8e1",
+          "corner-08-old-mode-default-hold.rpt": "5bc5c82eab52b3530ed08cb2fc0397d6e72160045198a4c9c4ee9d93a1649f7d",
+          "corner-08-old-mode-no_duplicates-setup.rpt": "a8c0d7d6d12a967bdf176f052bc768d2d8dd06cc4e1f47b39611cda4c72462e6",
+          "corner-08-old-mode-no_duplicates-hold.rpt": "05e83f8078b7592132bcf9327ffddbd9daf22043d799aa01d7392c264c24ae45"
+        },
+        "old_mode_coverage_sha256": "07c456252cfb2cfe659df1005ef57bfc43056dac873279e8bc96b0c0a951f4cd",
+        "old_mode_diagnostic_reports_complete": true,
+        "fixed_profile_mode_paths_present": true
+      },
+      "negative_clock_rows": [
+        {
+          "corner": 1,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.403,
+          "path": "corner-01-setup-clock-007-negative.rpt",
+          "sha256": "d9d2f1ffd79c79719da14c3936857841438723b8b41ab042e9c3a91899b6c329"
+        },
+        {
+          "corner": 2,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.374,
+          "path": "corner-02-setup-clock-007-negative.rpt",
+          "sha256": "c307891ee9d657ffe8030be9c4480caa19aa2f80c78b18b10dbb6d32108de611"
+        },
+        {
+          "corner": 2,
+          "clock": "pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.037,
+          "path": "corner-02-setup-clock-010-negative.rpt",
+          "sha256": "7ab5c22246c03acefd66bb18b8bab5e32da322c943c83804ceee058f534499e0"
+        },
+        {
+          "corner": 3,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.432,
+          "path": "corner-03-setup-clock-007-negative.rpt",
+          "sha256": "da4c8e10e6e53e8deef6d522481590c7d6640c5da954c57f6c1066ce513cb3b1"
+        },
+        {
+          "corner": 4,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[1].output_counter|divclk",
+          "check": "setup",
+          "slack_ns": -0.335,
+          "path": "corner-04-setup-clock-007-negative.rpt",
+          "sha256": "40135f3b16de72c950dbb802d1816580afe4a2fd2a58dec0b88dd897c02f7289"
+        },
+        {
+          "corner": 5,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.017,
+          "path": "corner-05-hold-clock-008-negative.rpt",
+          "sha256": "e8c49d43ecfe82bee56fe9ac177d5ac72911dde5d1078396be0cc65f552d78ea"
+        },
+        {
+          "corner": 6,
+          "clock": "emu|pll|pll_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk",
+          "check": "hold",
+          "slack_ns": -0.011,
+          "path": "corner-06-hold-clock-008-negative.rpt",
+          "sha256": "a0b4b546b5056df4df4fdd87ca8b47cb2037e5c55ac3495c76c0294016c4aab2"
+        }
+      ],
+      "constraint_report_sha256": {
+        "corner-01": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-02": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-03": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-04": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-05": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-06": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-07": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a",
+        "corner-08": "c3efe3206c63b5f1621d851331a309947f9386dc9db01035dcfaaafd740f050a"
+      },
+      "inherited_empty_rows_qualified_not_passed": true,
+      "full_board_signoff": false,
+      "RBF": {
+        "mtime_ns": 1792962571950955400,
+        "bytes": 4350644,
+        "sha256": "640e40fb2a675e77581d564a9cfac721a8a0313129f35e6bee7812846dbd5cca"
+      },
+      "SOF": {
+        "mtime_ns": 1792962569686366400,
+        "bytes": 6705018,
+        "sha256": "1937c54b3966619f1ca79c71d1f9c1e41a36dd35d93138dfc01ea7236589dc53"
+      },
+      "preservation_index_sha256": "d202c009f744448bb4430e2f72bb37f5194510e8dd54b2816c22c8f4b7f42811",
+      "fit_checkpoint_sha256": "99e669b6d2f945bfba15393f814f51ed77f30ef530cb581a52ee58c28dc93b71"
+    }
+  ],
+  "state": "EXHAUSTED_SEEDS03_10_NO_CLEAN_CANDIDATE",
+  "hardware_acceptance": false,
+  "timing_acceptance": false,
+  "generated_by": "batch-controller-not-manual-root-review",
+  "task_cleanup_pending": true,
+  "ended_utc": "2026-10-25T21:19:44.399535+00:00",
+  "exit_code": 0
+}

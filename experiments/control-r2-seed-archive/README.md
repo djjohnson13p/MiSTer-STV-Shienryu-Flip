@@ -45,3 +45,7 @@ Additional preserved trial: [Seed 3](seed03/README.md), including its separate c
 - [Seed 8 full checkpoint, assembler overlay and all-temperature evidence](seed08/README.md)
 
 - [Seed 9 full checkpoint, assembler overlay and all-temperature evidence](seed09/README.md)
+
+- [Seed 10 full checkpoint and final batch cleanup evidence](seed10/README.md)
+
+- [Frozen row-predecessor full-synthesis adapter and source](row-predecessor-native-r1/README.md)

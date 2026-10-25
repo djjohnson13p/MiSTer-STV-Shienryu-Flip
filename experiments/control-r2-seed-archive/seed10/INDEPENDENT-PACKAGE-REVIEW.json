@@ -1,0 +1,71 @@
+{
+  "reviewer": "agent:shienryu_build_admission",
+  "manual_root_review": false,
+  "observed_utc": "2026-10-25T21:27:10.557836+00:00",
+  "decision": "INDEPENDENT_SEED10_PACKAGE_ARTIFACT_QC_PASS_FOR_ROOT_REVIEW",
+  "seed": 10,
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "bindings": {
+    "package_index_sha256": "83b9d9b32c0df9051b6318838753c38153c366834399826b277dccdc9eaa1813",
+    "member_hashes_sha256": "1dfdf8fa12e69341d0fcb8a04f904eadb5123294dd20661572cf4dcc14bcbfe4",
+    "root_measurement_sha256": "2661dda9e00628e6f787292208e0b08b18e9ec6c5eb2a36395ef1d68507786c3",
+    "independent_semantic_review_sha256": "34565a7caeffa9c04d065a7ef80424c9cf988a9fa15677cd2890c5d47c8bade0",
+    "sealed_index_sha256": "d202c009f744448bb4430e2f72bb37f5194510e8dd54b2816c22c8f4b7f42811"
+  },
+  "archive_QC": {
+    "ZIPs": 7,
+    "ZIP_bytes": 216149698,
+    "largest_ZIP_bytes": 60779965,
+    "members": 1211,
+    "all_ZIP_and_member_SHA256_bytes_CRC_pass": true,
+    "all_sidecars_names_sizes_SHA256_pass": true,
+    "no_unsafe_duplicate_encrypted_or_symlink_members": true,
+    "fixed1980_Unix0644_headers_pass": true,
+    "all_ZIPs_under100000000_bytes": true,
+    "detailed_ZIP_digests": "Bound in PACKAGE-INDEX.json/MEMBER-HASHES.json; not duplicated.",
+    "independent_second_serialization_repeated": false,
+    "nested_source203_CRC_pass": true,
+    "nested_adapter31_members_SHA_bytes_CRC_pass": true,
+    "selected_text_secret_marker_scan_pass": true
+  },
+  "snapshot_membership": {
+    "full_fit_files": 1050,
+    "assembler_overlay_files": 11,
+    "overlay_deleted": 0,
+    "assembled_files": 1051,
+    "fit_snapshot_sha256": "2578fbb3da00e1e09cadb196354fb1f695f67ed3c8f774bcd1b2b3a02a52c3c8",
+    "assembled_snapshot_sha256": "1dac3fcbba4e8b7cdc00fafb5ac2bce1875d39b827176aef4203591138a7fae5",
+    "exact_virtual_checkpoint_reconstruction": true,
+    "actual_STA_reports": 99,
+    "all_non_tree_stage_files": 120,
+    "all_stage_reports_Tcls_logs_results_qualifications_match_sealed_records": true,
+    "all203_compiled_source_each_stage_match_canonical_except_exact_QSFmetadata_seed10": true,
+    "generated_map_match_frozen_seed1": true,
+    "build_date": "261025",
+    "archived_tools_match_batch_provenance": true
+  },
+  "programming_outputs": {
+    "rbf": {
+      "bytes": 4350644,
+      "sha256": "640e40fb2a675e77581d564a9cfac721a8a0313129f35e6bee7812846dbd5cca"
+    },
+    "sof": {
+      "bytes": 6705018,
+      "sha256": "1937c54b3966619f1ca79c71d1f9c1e41a36dd35d93138dfc01ea7236589dc53"
+    }
+  },
+  "preservation": {
+    "all19_package_files_unchanged_after_QC": true,
+    "sealed_index_bytes_unchanged": true,
+    "seeded_tree_files_written": false,
+    "full_DB_seal_hash_repeated": false
+  },
+  "historical_index_qualification": "Archived CONTROL index is a point-in-time snapshot. Recorded member SHA/bytes pass; mutable live index was neither opened nor compared.",
+  "scope": "Artifact/member/sidecar/snapshot/native-report membership only. Semantic10review/fullDB hashing and filesystem restore not repeated. Root owns actual supplied-helper restore/upload.",
+  "no_AUX_Git_index_device_compiler_source_or_adapter_actions": true,
+  "root_package_acceptance": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false,
+  "remote_uploaded": false,
+  "bit_identical_rebuild_demonstrated": false
+}

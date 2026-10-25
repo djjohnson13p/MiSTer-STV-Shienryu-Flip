@@ -1,0 +1,14 @@
+{
+  "task_name": "CoreLab-Shienryu-OldProfile-R2-Seeds03-10-Batch-Q251-R1",
+  "exact_registered_action_verified": true,
+  "exact_task_unregistered": true,
+  "last_task_result": 0,
+  "all_job_processes_terminal": true,
+  "all_handles_closed": true,
+  "remaining_owned_or_quartus_processes": [],
+  "errors": [],
+  "utc": "2026-10-25T21:20:20.3292717Z",
+  "batch_result_sha256": "a872a1a1ed9d9d2e0d8544fb137a7193aa6ff7375a11d3d3797356f755868f39",
+  "root_admission_sha256": "1ace5a9df39a60e021d93b75a15ba5ce5dd26a01a085b610b8ca408bb9cd54b2",
+  "generated_by": "batch-cleanup-audit-not-manual-root-review"
+}

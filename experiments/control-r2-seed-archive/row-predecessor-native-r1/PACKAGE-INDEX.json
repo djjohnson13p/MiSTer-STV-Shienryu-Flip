@@ -1,0 +1,18 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T21:31:27.318018+00:00",
+  "decision": "FROZEN_PRELAUNCH_RECOVERY_BYTES_VERIFIED",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "frozen_pins_sha256": "2c65a083ccc72f86ff62e285ad1c9c217529ac2fa9bf70f96dae97b551eab6d2",
+  "root_launch_review_sha256": "1f48dc306399fcafe1b02a511dfb23feac325c6e10e8ee1f7a9b9a286201401a",
+  "file": "row-predecessor-native-frozen-adapter-r1.zip",
+  "bytes": 2516275,
+  "sha256": "6e28a11c2e1a90d2b4f26cbcef0525f6ee6f3a66052148d9381fd7b43137e7ff",
+  "members": 256,
+  "member_index_sha256": "1cb0dd4b10379141fb4b5fea9c40fcddd7b1ad7ee45cb60731bc35439314a1ee",
+  "all_members_CRC_SHA_and_sources_unchanged": true,
+  "second_serialization_byte_identical": true,
+  "native_executed": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false
+}
