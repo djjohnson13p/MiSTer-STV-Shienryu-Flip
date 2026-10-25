@@ -1,0 +1,17 @@
+{
+  "content_level_copyright_clearance_asserted": false,
+  "inherited_tracked_MIF_microcode": [
+    "rtl/FX68K/microrom.mem",
+    "rtl/FX68K/nanorom.mem",
+    "rtl/Saturn/CD/sh7034.mif",
+    "rtl/cdb105.mif",
+    "rtl/cdb105m.mif",
+    "rtl/cdb106.mif",
+    "rtl/cdb106m.mif",
+    "rtl/pll/pll.mif",
+    "rtl/stv_eeprom.mif"
+  ],
+  "no_Git_device_native_or_remote_actions": true,
+  "no_externally_sourced_game_BIOS_runtime_archives_or_credentials_added": true,
+  "no_other_seed_tree_read": true
+}

@@ -1,0 +1,252 @@
+{
+  "reviewer": "agent:shienryu_constraints_review",
+  "observed_utc": "2026-10-25 17:59:03 UTC",
+  "decision": "INDEPENDENT_SEED06_LOCAL_PACKAGE_CONTENT_VERIFIED_FOR_ROOT_REVIEW",
+  "manual_root_review": false,
+  "package_directory": "core-lab/research/shienryu-timing-20261024/control-r2-seed06-preservation",
+  "seed": 6,
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "bindings": {
+    "package_index_sha256": "b9d014426da2be0834aceb4a7b9364e55723b52c78fe871a4fc9bcb80d466c4b",
+    "member_manifest_sha256": "98734888e244676233498f33bd63855fd2683a5457e1227543c044ffbdf10a6f",
+    "original_seal_sha256": "e9c317a9565598621225f70b9cf6c51f63c2c123154c7967056e267b207863c6",
+    "root_measurement_review_sha256": "47f2795b75a82a033af90fe3930bd084fcad8b74aeee731682b1aa08b0c51c87",
+    "peer_timing_review_sha256": "405d86a42719846b71e1f835ebb897f1b4718a1cb4a5f534f056cb461ee9f314",
+    "packager_source_sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a"
+  },
+  "archives": {
+    "ZIP_count": 7,
+    "total_ZIP_bytes": 216168271,
+    "actual_members": 1218,
+    "all7_whole_ZIP_hashes_sizes_member_sets_CRC_and_member_SHA256_pass": true,
+    "duplicate_unsafe_encrypted_symlink_members_found": false,
+    "all_ZIPs_under100000000_bytes": true,
+    "packages": {
+      "control-r2-seed06-DRAFT-assembled-checkpoint-overlay-01.zip": {
+        "bytes": 6716223,
+        "sha256": "f9592977b16c4d640b08e60de05638265f0c4f7220371257f87a48a03b800e90",
+        "members": 11,
+        "uncompressed_bytes": 14262304,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed06-DRAFT-checkpoint-db-01.zip": {
+        "bytes": 60776517,
+        "sha256": "50b7418a5a9b5489daf66365fde7df077f5256307316b0ff8028eb6a000cdbcc",
+        "members": 688,
+        "uncompressed_bytes": 84225524,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed06-DRAFT-checkpoint-db-02.zip": {
+        "bytes": 51528803,
+        "sha256": "9651b2eff290df024a2cd121421f1e9a5e23bf0d19864abb205d45de3ecee7aa",
+        "members": 17,
+        "uncompressed_bytes": 58522218,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed06-DRAFT-checkpoint-db-03.zip": {
+        "bytes": 37723823,
+        "sha256": "5087305a4374aab9a5bcbe653a3c678a123bc8565d7f7f67ab7703142d3cdc2e",
+        "members": 92,
+        "uncompressed_bytes": 40120027,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed06-DRAFT-checkpoint-incremental-db-01.zip": {
+        "bytes": 46366864,
+        "sha256": "bf1b59f4dea46bcc17861611029e7d23705cc9250371043ced32ed46058509e0",
+        "members": 31,
+        "uncompressed_bytes": 49486202,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed06-DRAFT-checkpoint-project-and-outputs-01.zip": {
+        "bytes": 5558152,
+        "sha256": "e511d96ef1b1b453ac4e4dd91b2b14103d6b342596c9ad43d4a29f373250700b",
+        "members": 222,
+        "uncompressed_bytes": 35194047,
+        "CRC_and_every_member_SHA256": "PASS"
+      },
+      "control-r2-seed06-DRAFT-source-programming-and-evidence-01.zip": {
+        "bytes": 7497889,
+        "sha256": "d52b40295d9e4324881f5e3493af39780edd20e032bb8888d6187ae349aba4be",
+        "members": 157,
+        "uncompressed_bytes": 71972516,
+        "CRC_and_every_member_SHA256": "PASS"
+      }
+    }
+  },
+  "actual_coverage": {
+    "fit_files": 1050,
+    "fit_bytes": 267548018,
+    "fit_snapshot_sha256": "91c9ba9c34a30ba136ec53157eb621684e52f1dffdc14e0fb1852e3a74f776c4",
+    "ASM_overlay_files": 11,
+    "overlay_deleted": 0,
+    "assembled_files": 1051,
+    "assembled_bytes": 267746401,
+    "assembled_snapshot_sha256": "7d17706744f09f34f0ff74abbff289f6bea6ca3676fd443542aa8d8a4cdbfd8e",
+    "snapshot_hash_encoding": "SHA256 of sorted-key compact JSON file/bytes/SHA256 mapping; native checkpoint JSON objects match exactly.",
+    "full_fit_and_effective_ASM_member_sets_match_sealed_native_snapshots": true,
+    "all_sealed_non_tree_stage_evidence_members": 127,
+    "every_sealed_stage_metadata_log_Tcl_qualification_result_and_report_archived": true,
+    "actual_STA_report_files": 106,
+    "all106_match_sealed_index": true,
+    "all7_embedded_preservation_sidecars_equal_external_bytes": true,
+    "required_missing_files": [],
+    "intentional_omission": "Redundant derived STA working DB caches are omitted. Complete fit/map/incremental DB and exact assembled checkpoint plus STA snapshot metadata and all actual raw STA evidence remain preserved."
+  },
+  "programming": {
+    "RBF": {
+      "bytes": 4353728,
+      "sha256": "f1415ad5d52066bc381a2f9e132e14a6cd35fdb10177777dee68062fae891134"
+    },
+    "SOF": {
+      "bytes": 6705018,
+      "sha256": "63b0a4b16a238656da24657bcf06da2ae2a6daa8e0f08fd52ad12826b471a7bc"
+    },
+    "all_programming_ZIP_ASM_overlay_assembled_snapshot_root_receipt_bindings_agree": true,
+    "qualification": "These are native seed6 assembler outputs. Fitter-inherited programming files are not treated as new seed6 results."
+  },
+  "source_settings_tools": {
+    "canonical_source_files": 203,
+    "all203_canonical_source_SHA256_Git_blob_SHA1_and_nested_CRC_verified": true,
+    "working_unchanged_canonical_files": 202,
+    "sole_working_delta": "STV_DS.qsf exact25.1std.0 Standard Edition->Lite Edition,LF->CRLF andSEED1->6; no other source/SDC/PLL change.",
+    "working_QSF_sha256": "69720425670ff0c1aa809db2a80ca82a7143c2717decb0204251b94ede8783b5",
+    "build_date": "261025",
+    "build_id_sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1",
+    "generated_and_map_members_match_frozen_seed1": true,
+    "archived_tool_hash_records_match_frozen_batch": true,
+    "quartus_recorded_version": "25.1std.0 Lite Edition Build 1129 10/21/2025 SC Lite Edition (version wording retained in native reports)",
+    "frozen_batch_adapter_nested_members": 31,
+    "nested_adapter_CRC_and_all31_member_SHA256_verified": true,
+    "packager_source_blob_present_and_matches_package_index": true
+  },
+  "native_stage_receipts": {
+    "fit": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 2649.735,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    },
+    "asm": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 49.172,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    },
+    "sta": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 334.687,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true
+    }
+  },
+  "timing_evidence": {
+    "exact_root_and_peer_review_bytes_verified": true,
+    "all8_archived_matrix_values_match_native_global_tables": true,
+    "voltage_mV": 1100,
+    "matrix": [
+      {
+        "model": "slow",
+        "temperature_C": -40,
+        "setup_ns": -0.31,
+        "setup_result": "FAIL",
+        "hold_ns": -0.517,
+        "hold_result": "FAIL",
+        "recovery_ns": 4.255,
+        "removal_ns": 0.857,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 0,
+        "setup_ns": -0.261,
+        "setup_result": "FAIL",
+        "hold_ns": -0.548,
+        "hold_result": "FAIL",
+        "recovery_ns": 4.241,
+        "removal_ns": 0.847,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 85,
+        "setup_ns": -0.347,
+        "setup_result": "FAIL",
+        "hold_ns": -0.586,
+        "hold_result": "FAIL",
+        "recovery_ns": 4.094,
+        "removal_ns": 0.919,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 100,
+        "setup_ns": -0.317,
+        "setup_result": "FAIL",
+        "hold_ns": -0.608,
+        "hold_result": "FAIL",
+        "recovery_ns": 4.059,
+        "removal_ns": 0.926,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": -40,
+        "setup_ns": 3.482,
+        "setup_result": "PASS",
+        "hold_ns": -0.347,
+        "hold_result": "FAIL",
+        "recovery_ns": 5.381,
+        "removal_ns": 0.231,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 0,
+        "setup_ns": 3.405,
+        "setup_result": "PASS",
+        "hold_ns": -0.346,
+        "hold_result": "FAIL",
+        "recovery_ns": 5.329,
+        "removal_ns": 0.242,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 85,
+        "setup_ns": 3.186,
+        "setup_result": "PASS",
+        "hold_ns": -0.344,
+        "hold_result": "FAIL",
+        "recovery_ns": 5.153,
+        "removal_ns": 0.304,
+        "min_pulse_width_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 100,
+        "setup_ns": 3.097,
+        "setup_result": "PASS",
+        "hold_ns": -0.341,
+        "hold_result": "FAIL",
+        "recovery_ns": 5.095,
+        "removal_ns": 0.309,
+        "min_pulse_width_ns": 1.091
+      }
+    ],
+    "qualification": "Preservation of a failed timing trial; no promotion or hardware acceptance. Per-stage Jobs are closed; whole-batch cleanup is not implied."
+  },
+  "read_only_integrity": {
+    "original_package_files_checked": 19,
+    "all_original_package_file_hashes_unchanged_after_review": true,
+    "no_original_package_or_sealed_file_changes": true,
+    "active_seed07_or_other_active_DB_access": false,
+    "Git_device_native_Quartus_actions": false
+  },
+  "filesystem_restoration_performed": false,
+  "restoration_qualification": "Verified archive-layer reconstruction against all1051 assembled file hashes without extracting or opening a native DB. Root owns the later supplied-helper actual restore.",
+  "deterministic_archive_regeneration_independently_retested": false,
+  "bit_identical_rebuild_demonstrated": false,
+  "remote_uploaded": false,
+  "timing_acceptance": false,
+  "hardware_acceptance": false
+}

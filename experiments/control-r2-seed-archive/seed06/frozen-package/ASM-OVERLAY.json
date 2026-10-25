@@ -1,0 +1,53 @@
+{
+  "base_prefix": "seed06/fit-checkpoint/tree/",
+  "base_snapshot_sha256": "91c9ba9c34a30ba136ec53157eb621684e52f1dffdc14e0fb1852e3a74f776c4",
+  "changed_or_added": {
+    "db/STV_DS.asm.qmsg": {
+      "bytes": 2292,
+      "sha256": "48e11ae82f7819d99fd48380281025ca683ac6166e689a912813d54661b1be08"
+    },
+    "db/STV_DS.asm.rdb": {
+      "bytes": 1749,
+      "sha256": "bada558d4e7c25ca8557d4075e70b224831e88d5e202a852aff8fed835cb500f"
+    },
+    "db/STV_DS.cmp.hdb": {
+      "bytes": 2665150,
+      "sha256": "a827a715ea54cdfa8c64aedeab819653b5097189dea6208ccc5b4a14033b7abd"
+    },
+    "db/STV_DS.cmp.rdb": {
+      "bytes": 395852,
+      "sha256": "59bd2c6a4ef124e4b9343f9d95b780c96f7d100f09acfebcd62d65069d2ff619"
+    },
+    "db/STV_DS.smart_action.txt": {
+      "bytes": 8,
+      "sha256": "a625e5913be8178c983635f6926dff958cecadff86b75a988840caf3d1df1a32"
+    },
+    "output_files/STV_DS.asm.rpt": {
+      "bytes": 11860,
+      "sha256": "935d45f20f00e5bb313c0e34cd1b3f47f9d3c049d8a6b14198051a1641392519"
+    },
+    "output_files/STV_DS.done": {
+      "bytes": 26,
+      "sha256": "9d2e41611f7dacd8a283bf8ee597feb8c56db6cbdf57a1b8bc7d4a7fc1346f38"
+    },
+    "output_files/STV_DS.flow.rpt": {
+      "bytes": 15319,
+      "sha256": "bc2555cdd90f48acba15de6bf991b934fc91ab771365581de8200c47eb81da9b"
+    },
+    "output_files/STV_DS.jditmp": {
+      "bytes": 111302,
+      "sha256": "8f8cbb4dd6d7e48cdf84e88ee83bbc8490ee249c8005dd5bc73ce2fb7639c671"
+    },
+    "output_files/STV_DS.rbf": {
+      "bytes": 4353728,
+      "sha256": "f1415ad5d52066bc381a2f9e132e14a6cd35fdb10177777dee68062fae891134"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705018,
+      "sha256": "63b0a4b16a238656da24657bcf06da2ae2a6daa8e0f08fd52ad12826b471a7bc"
+    }
+  },
+  "deleted": [],
+  "overlay_prefix": "seed06/assembled-checkpoint-overlay/tree/",
+  "target_snapshot_sha256": "7d17706744f09f34f0ff74abbff289f6bea6ca3676fd443542aa8d8a4cdbfd8e"
+}
