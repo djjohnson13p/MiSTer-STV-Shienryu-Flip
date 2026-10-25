@@ -1,0 +1,12 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T14:20:48.972168+00:00",
+  "decision": "ACCEPTED_STATIC_FROZEN_BATCH_PROVENANCE_FOR_LAB_FORK_BACKUP",
+  "zip_sha256": "9d0776d5bbad8cfdc2546a47653f234893540897579b21fb541936804b4c4b5e",
+  "members_independently_hashed_and_CRC_checked": 31,
+  "immutable_originals_independently_rehashed": 29,
+  "active_compiler_files_or_databases_accessed": false,
+  "frozen_pins_sha256": "7467aeda38a61890456fc8894d4d7d7a7febe9f4d63a3bee661cb7b3e640e0e4",
+  "portable_rerun_claim": false,
+  "timing_result_claim": false
+}

@@ -1,0 +1,318 @@
+{
+  "active_trees_logs_results_indices_read": false,
+  "all29_originals_unchanged_before_after": true,
+  "all_member_sha256_and_CRC_verified": true,
+  "deterministic_second_serialization_identical": true,
+  "member_count": 31,
+  "members": {
+    "PRESERVATION-MANIFEST.json": {
+      "bytes": 15889,
+      "sha256": "463df478a94fd21558adbd76ec4b8f59e838fbba6a06cfb1c8d629f50643fdb0"
+    },
+    "README.md": {
+      "bytes": 1581,
+      "sha256": "995ec7803b6a20b5a8578676dc0afc18c89a36a9983bb041df21879f29be07bf"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seed02-fit-r1/run_fit.py": {
+      "bytes": 12762,
+      "sha256": "9ceb3da63710d26261a94d6d704c7598b6e6a06d09cab09e847bdf14238df02b"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seed02-sta-all-corners-r1/run_sta.py": {
+      "bytes": 14950,
+      "sha256": "c49906d1614415d0d37995fa564406f45e0973e713f8e1388cbdc7014eccb8ac"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/PLAN.md": {
+      "bytes": 5818,
+      "sha256": "bb8a05982355e1c2fa72d98b1964221ff5a78d5494dfc416287648aeed7351bb"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/ROOT-BATCH-ADMISSION.json": {
+      "bytes": 19002,
+      "sha256": "1ace5a9df39a60e021d93b75a15ba5ce5dd26a01a085b610b8ca408bb9cd54b2"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/ROOT-FROZEN-ADAPTER-REVIEW.json": {
+      "bytes": 1588,
+      "sha256": "3b301d951613f9594b5957b3fc407893f58b0c1ea74763f9f7b0d2e82d6181e1"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/asm_only.tcl": {
+      "bytes": 676,
+      "sha256": "999c8889bf0f413a8aa41b606a35497a9f067509867d2901ed522839e4c6ed7e"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/batch-manifest.json": {
+      "bytes": 9030,
+      "sha256": "068129fb5fa19ca65c6b03c6f0b4b84ab5acb5b80de3f9f25b466dbd7ad0ceff"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/batch.py": {
+      "bytes": 19986,
+      "sha256": "3985fe03f59cf7a3b945cb40d3d8f20e30fc5fce0ea4279f2c7d689e3bed48c1"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/checks.py": {
+      "bytes": 13979,
+      "sha256": "6690d9c6e0c2639a625a94e462406cb07683095a0d6d25479504d12a391a813e"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/coverage-reference.json": {
+      "bytes": 53919,
+      "sha256": "a7f9fd4f3caea998f7c2a66536998c9ee11cc6d2447578bfd0f8040680611c8f"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/fit_only.tcl": {
+      "bytes": 667,
+      "sha256": "05771575336b62eed107bd97c0144b43c3a144fe775478cb6bbd82926db3910c"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/frozen-pins.json": {
+      "bytes": 1380,
+      "sha256": "7467aeda38a61890456fc8894d4d7d7a7febe9f4d63a3bee661cb7b3e640e0e4"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/launch-admission.json": {
+      "bytes": 277,
+      "sha256": "a4aba7467d77e4c8aa1bc7a4926a9f4d2c90bf206c95a74933fa3ab76253cc20"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/launch_task.py": {
+      "bytes": 5406,
+      "sha256": "179ca49686e92050592ccc9e2a0dd14cc01421bc19e12c6f770971e73fad6bba"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/local-validation.json": {
+      "bytes": 3601,
+      "sha256": "89f82b1e364be4097091ea1d9451dc0f23f8652a568110ce00c8d7a8788205c1"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/quartus_job_guard.py": {
+      "bytes": 26138,
+      "sha256": "5d287472358720e99822c57a5b576508af60ef5c41db5131ffe2ea5b78ec04c9"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/register-start-inline.ps1": {
+      "bytes": 4337,
+      "sha256": "b75c3efaa147fda5aa4a6148f2a520a2bce355db2156337b59430b19c0f2a29f"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/registered-task.xml": {
+      "bytes": 4155,
+      "sha256": "aafe738f25d5166c7c86fa1f5b89532c5a1fae365f01ffc7c1108fd49938e970"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/registration-receipt.json": {
+      "bytes": 382,
+      "sha256": "b57c2b2048500026250eb0df4b0afa9a3b43c11dda420ee934037386f6e32e01"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/reuse-adapter.diff": {
+      "bytes": 6298,
+      "sha256": "cc12b5848fa6cf4005e19ac57e211301b91f42a6d5629d97293aae84ac86a8b1"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/reuse-provenance.json": {
+      "bytes": 1341,
+      "sha256": "55ea9abad6ba06beeb15d8174509cce2e3d7da584d7c0072d92d2f5e67024d4c"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/scheduler-action-inline.ps1": {
+      "bytes": 1014,
+      "sha256": "562ce298ab8a9e311a8f17c5f9f946c786ed660b9f2d6211a7c5d3e79637adcb"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/scheduler-action-start.json": {
+      "bytes": 135,
+      "sha256": "e9b96d2f2669c8c9f77144cf615b844bf0e45d00d0080e4afc0bb3eaab121c66"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/seed1-files.json": {
+      "bytes": 147896,
+      "sha256": "7bd644fb86eca6ee83f995e94b9d014a369d89a1e173fb5f755e2d353c57c901"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/sta_all_corners.tcl": {
+      "bytes": 8955,
+      "sha256": "83cbe8f26ee214464867a912c64a3b5b9ff7512cbd73d72558d08e69d4c2c32d"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/start-receipt.json": {
+      "bytes": 169,
+      "sha256": "fcdd22aac5220fcb3ab83372a753d22d2430ef614ffb2a68dd1f3ef6cbafee7c"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/task-registration-attempt.json": {
+      "bytes": 269,
+      "sha256": "0f2c982e8f78872ffa46d81c18ca0079930072f50914424f3b50a8616f30822b"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/template-pins.json": {
+      "bytes": 1097,
+      "sha256": "720f3154fb410593e5a26347a0a065d24d47ab9b249b6408bd8368df7b863468"
+    },
+    "original-paths/core-lab/research/shienryu-timing-20261024/ROOT-OLDPROFILE-CONTROL-R2-SOURCE-REVIEW.json": {
+      "bytes": 4019,
+      "sha256": "735286ac878d801091284690091dbd6cbd12ad92d2ebe4c473234129048d06f3"
+    }
+  },
+  "original_files": {
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seed02-fit-r1/run_fit.py": {
+      "bytes": 12762,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-fit-r1\\run_fit.py",
+      "sha256": "9ceb3da63710d26261a94d6d704c7598b6e6a06d09cab09e847bdf14238df02b",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seed02-fit-r1/run_fit.py"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seed02-sta-all-corners-r1/run_sta.py": {
+      "bytes": 14950,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seed02-sta-all-corners-r1\\run_sta.py",
+      "sha256": "c49906d1614415d0d37995fa564406f45e0973e713f8e1388cbdc7014eccb8ac",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seed02-sta-all-corners-r1/run_sta.py"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/PLAN.md": {
+      "bytes": 5818,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\PLAN.md",
+      "sha256": "bb8a05982355e1c2fa72d98b1964221ff5a78d5494dfc416287648aeed7351bb",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/PLAN.md"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/ROOT-BATCH-ADMISSION.json": {
+      "bytes": 19002,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\ROOT-BATCH-ADMISSION.json",
+      "sha256": "1ace5a9df39a60e021d93b75a15ba5ce5dd26a01a085b610b8ca408bb9cd54b2",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/ROOT-BATCH-ADMISSION.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/ROOT-FROZEN-ADAPTER-REVIEW.json": {
+      "bytes": 1588,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\ROOT-FROZEN-ADAPTER-REVIEW.json",
+      "sha256": "3b301d951613f9594b5957b3fc407893f58b0c1ea74763f9f7b0d2e82d6181e1",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/ROOT-FROZEN-ADAPTER-REVIEW.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/asm_only.tcl": {
+      "bytes": 676,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\asm_only.tcl",
+      "sha256": "999c8889bf0f413a8aa41b606a35497a9f067509867d2901ed522839e4c6ed7e",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/asm_only.tcl"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/batch-manifest.json": {
+      "bytes": 9030,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\batch-manifest.json",
+      "sha256": "068129fb5fa19ca65c6b03c6f0b4b84ab5acb5b80de3f9f25b466dbd7ad0ceff",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/batch-manifest.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/batch.py": {
+      "bytes": 19986,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\batch.py",
+      "sha256": "3985fe03f59cf7a3b945cb40d3d8f20e30fc5fce0ea4279f2c7d689e3bed48c1",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/batch.py"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/checks.py": {
+      "bytes": 13979,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\checks.py",
+      "sha256": "6690d9c6e0c2639a625a94e462406cb07683095a0d6d25479504d12a391a813e",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/checks.py"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/coverage-reference.json": {
+      "bytes": 53919,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\coverage-reference.json",
+      "sha256": "a7f9fd4f3caea998f7c2a66536998c9ee11cc6d2447578bfd0f8040680611c8f",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/coverage-reference.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/fit_only.tcl": {
+      "bytes": 667,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\fit_only.tcl",
+      "sha256": "05771575336b62eed107bd97c0144b43c3a144fe775478cb6bbd82926db3910c",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/fit_only.tcl"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/frozen-pins.json": {
+      "bytes": 1380,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\frozen-pins.json",
+      "sha256": "7467aeda38a61890456fc8894d4d7d7a7febe9f4d63a3bee661cb7b3e640e0e4",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/frozen-pins.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/launch-admission.json": {
+      "bytes": 277,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\launch-admission.json",
+      "sha256": "a4aba7467d77e4c8aa1bc7a4926a9f4d2c90bf206c95a74933fa3ab76253cc20",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/launch-admission.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/launch_task.py": {
+      "bytes": 5406,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\launch_task.py",
+      "sha256": "179ca49686e92050592ccc9e2a0dd14cc01421bc19e12c6f770971e73fad6bba",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/launch_task.py"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/local-validation.json": {
+      "bytes": 3601,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\local-validation.json",
+      "sha256": "89f82b1e364be4097091ea1d9451dc0f23f8652a568110ce00c8d7a8788205c1",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/local-validation.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/quartus_job_guard.py": {
+      "bytes": 26138,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\quartus_job_guard.py",
+      "sha256": "5d287472358720e99822c57a5b576508af60ef5c41db5131ffe2ea5b78ec04c9",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/quartus_job_guard.py"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/register-start-inline.ps1": {
+      "bytes": 4337,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\register-start-inline.ps1",
+      "sha256": "b75c3efaa147fda5aa4a6148f2a520a2bce355db2156337b59430b19c0f2a29f",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/register-start-inline.ps1"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/registered-task.xml": {
+      "bytes": 4155,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\registered-task.xml",
+      "sha256": "aafe738f25d5166c7c86fa1f5b89532c5a1fae365f01ffc7c1108fd49938e970",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/registered-task.xml"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/registration-receipt.json": {
+      "bytes": 382,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\registration-receipt.json",
+      "sha256": "b57c2b2048500026250eb0df4b0afa9a3b43c11dda420ee934037386f6e32e01",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/registration-receipt.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/reuse-adapter.diff": {
+      "bytes": 6298,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\reuse-adapter.diff",
+      "sha256": "cc12b5848fa6cf4005e19ac57e211301b91f42a6d5629d97293aae84ac86a8b1",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/reuse-adapter.diff"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/reuse-provenance.json": {
+      "bytes": 1341,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\reuse-provenance.json",
+      "sha256": "55ea9abad6ba06beeb15d8174509cce2e3d7da584d7c0072d92d2f5e67024d4c",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/reuse-provenance.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/scheduler-action-inline.ps1": {
+      "bytes": 1014,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\scheduler-action-inline.ps1",
+      "sha256": "562ce298ab8a9e311a8f17c5f9f946c786ed660b9f2d6211a7c5d3e79637adcb",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/scheduler-action-inline.ps1"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/scheduler-action-start.json": {
+      "bytes": 135,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\scheduler-action-start.json",
+      "sha256": "e9b96d2f2669c8c9f77144cf615b844bf0e45d00d0080e4afc0bb3eaab121c66",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/scheduler-action-start.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/seed1-files.json": {
+      "bytes": 147896,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\seed1-files.json",
+      "sha256": "7bd644fb86eca6ee83f995e94b9d014a369d89a1e173fb5f755e2d353c57c901",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/seed1-files.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/sta_all_corners.tcl": {
+      "bytes": 8955,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\sta_all_corners.tcl",
+      "sha256": "83cbe8f26ee214464867a912c64a3b5b9ff7512cbd73d72558d08e69d4c2c32d",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/sta_all_corners.tcl"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/start-receipt.json": {
+      "bytes": 169,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\start-receipt.json",
+      "sha256": "fcdd22aac5220fcb3ab83372a753d22d2430ef614ffb2a68dd1f3ef6cbafee7c",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/start-receipt.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/task-registration-attempt.json": {
+      "bytes": 269,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\task-registration-attempt.json",
+      "sha256": "0f2c982e8f78872ffa46d81c18ca0079930072f50914424f3b50a8616f30822b",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/task-registration-attempt.json"
+    },
+    "original-paths/core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/template-pins.json": {
+      "bytes": 1097,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\builds\\shienryu-oldprofile-r2-seeds03-10-batch-r1\\template-pins.json",
+      "sha256": "720f3154fb410593e5a26347a0a065d24d47ab9b249b6408bd8368df7b863468",
+      "workspace_relative_path": "core-lab/builds/shienryu-oldprofile-r2-seeds03-10-batch-r1/template-pins.json"
+    },
+    "original-paths/core-lab/research/shienryu-timing-20261024/ROOT-OLDPROFILE-CONTROL-R2-SOURCE-REVIEW.json": {
+      "bytes": 4019,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-OLDPROFILE-CONTROL-R2-SOURCE-REVIEW.json",
+      "sha256": "735286ac878d801091284690091dbd6cbd12ad92d2ebe4c473234129048d06f3",
+      "workspace_relative_path": "core-lab/research/shienryu-timing-20261024/ROOT-OLDPROFILE-CONTROL-R2-SOURCE-REVIEW.json"
+    }
+  },
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_uploaded": false,
+  "root_package_review": "PENDING",
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW",
+  "zip": {
+    "bytes": 125786,
+    "filename": "shienryu-control-r2-seeds03-10-frozen-adapter-DRAFT.zip",
+    "sha256": "9d0776d5bbad8cfdc2546a47653f234893540897579b21fb541936804b4c4b5e"
+  }
+}
