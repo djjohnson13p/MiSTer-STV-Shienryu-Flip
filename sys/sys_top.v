@@ -290,9 +290,16 @@ reg        cfg_set      = 0;
 
 `ifdef MISTER_DEBUG_NOHDMI
 	wire    vga_fb       = 0;
-	wire    direct_video = 1;
 `else
 	wire    vga_fb       = cfg[12] | vga_force_scaler;
+`endif
+
+// The dedicated Shienryu profile uses the scaler for its HDMI flip.
+`ifdef SHIENRYU_ONLY
+	wire    direct_video = 0;
+`elsif MISTER_DEBUG_NOHDMI
+	wire    direct_video = 1;
+`else
 	wire    direct_video = cfg[10];
 `endif
 
@@ -707,6 +714,7 @@ wire  [23:0] hdmi_data;
 wire         hdmi_vs, hdmi_hs, hdmi_de, hdmi_vbl, hdmi_brd;
 wire         freeze;
 wire         bob_deint;
+wire         video_flip_180;
 
 `ifndef MISTER_DEBUG_NOHDMI
 	wire clk_hdmi  = hdmi_clk_out;
@@ -745,6 +753,7 @@ wire         bob_deint;
 		.run        (1),
 		.freeze     (freeze),
 		.bob_deint  (bob_deint),
+		.flip_180   (video_flip_180),
 
 		.i_clk    (clk_ihdmi),
 		.i_ce     (ce_hpix),
@@ -1786,6 +1795,7 @@ emu emu
 	.VGA_SL(scanlines),
 	.VIDEO_ARX(ARX),
 	.VIDEO_ARY(ARY),
+	.VIDEO_FLIP_180(video_flip_180),
 
 `ifdef MISTER_FB
 	.FB_EN(fb_en),

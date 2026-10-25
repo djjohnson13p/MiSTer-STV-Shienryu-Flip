@@ -16,6 +16,7 @@
 
 module emu
 (
+	output        VIDEO_FLIP_180,
 	`include "sys/emu_ports.vh"
 );
 
@@ -40,6 +41,11 @@ module emu
 	assign VGA_SCALER= 0;
 	assign HDMI_BLACKOUT = 1;
 	assign HDMI_BOB_DEINT = status[29];
+`ifdef STV_BUILD
+	assign VIDEO_FLIP_180 = status[82];
+`else
+	assign VIDEO_FLIP_180 = 1'b0;
+`endif
 	
 	wire [1:0] ar = status[63:62];
 	wire [7:0] arx,ary;
@@ -173,6 +179,7 @@ module emu
 		"D8P1o[54:51],Crop Offset,0,2,4,8,10,12,-12,-10,-8,-6,-4,-2;",
 		"P1o[56:55],Scale,Normal,V-Integer,Narrower HV-Integer,Wider HV-Integer;",
 `ifdef STV_BUILD
+		"P1o[82],Shienryu 180 Flip,Off,On;",
 		"P1-;",
 		"P1o[75],CRT H/V offset,Off,On;",
 		"D5P1o[69:65],CRT H offset,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,-15,-14,-13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1;",
@@ -346,11 +353,17 @@ module emu
 	
 	//[3:0] - chip/mapping (1: 315-5881, 2: 315-5838, 3: Acclaim RAX (batmanfr), 4: sanjeon, ...)
 	//[7:4] - game (1:astrass, 2:elandore, 3:ffreveng, 4:rsgun, 5:sss, 6:twcup98/twsoc98, ...)
+`ifdef SHIENRYU_ONLY
+	localparam [7:0] STV_MODE = 8'h00;
+`else
 	reg  [7:0] STV_MODE = 8'h00;
+`endif
 	reg        STV_ALTBIOS = 0;
 	always @(posedge clk_sys) begin
 		if (stv_download && ioctl_wr) begin
+`ifndef SHIENRYU_ONLY
 			STV_MODE <= ioctl_data[7:0];
+`endif
 			STV_ALTBIOS <= ioctl_data[8];
 		end
 	end
@@ -1394,10 +1407,17 @@ module emu
 		.eeprom_busy(eeprom_busy),
 		
 		//STV RAX ROM (0x36000000)
+`ifdef SHIENRYU_ONLY
+		.rax_addr(24'd0),
+		.rax_din (16'd0),
+		.rax_wr  (2'b00),
+		.rax_rd  (1'b0),
+`else
 		.rax_addr(CART_RAX_MEM_A[24:1]),
 		.rax_din (CART_RAX_MEM_DO),
 		.rax_wr  ({2{CART_RAX_MEM_WR&CART_RAX_MEM_A[24]}}),
 		.rax_rd  (CART_RAX_MEM_RD),
+`endif
 		.rax_dout(rax_do),
 		.rax_busy(rax_busy),
 `endif
