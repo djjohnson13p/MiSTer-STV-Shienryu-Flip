@@ -1,0 +1,44 @@
+{
+  "all_ZIPs_under100000000bytes": true,
+  "archived_member_count": 144,
+  "excluded_active_work_and_external_credentials": true,
+  "external_dependency_paths_hashes_retained_as_data_only": true,
+  "no_Git_device_native_or_remote_actions": true,
+  "package_count": 1,
+  "packages": {
+    "seed04-closed-hardware-evidence-DRAFT-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 5925111,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 144,
+      "sha256": "090911611bc12338524c361a493b6b2ee1997eea81e295e67ea15521a5879a2c"
+    }
+  },
+  "physical_HDMI_audio_or_full_retention_acceptance": false,
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_uploaded": false,
+  "reviewed_writer_sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a",
+  "root_package_acceptance": false,
+  "root_package_review": "PENDING",
+  "scope": "Closed seed4 hardware evidence only",
+  "secret_marker_and_literal_credential_scan_pass": true,
+  "sidecars": {
+    "MEMBER-HASHES.json": {
+      "bytes": 42933,
+      "sha256": "b26fa405f000738b87c4d5e8842a2f631ba498370e44c3d8ce1d06478b1e3252"
+    },
+    "README.md": {
+      "bytes": 3515,
+      "sha256": "1b8cd0d495cda794d987fe7725a251ae4a95e954094525a45e7d5608e9425588"
+    },
+    "SOURCE-INVENTORY.json": {
+      "bytes": 68176,
+      "sha256": "81df72ea0b6d841f0ae347152080dff7c939253ad7d51ac05ccf00b346fa31b3"
+    }
+  },
+  "source_file_count": 142,
+  "source_hashes_and_all5_closed_folder_memberships_unchanged_after_packaging": true,
+  "standalone_portable_or_historical_epoch_replay_claim": false,
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW",
+  "total_ZIP_bytes": 5925111
+}

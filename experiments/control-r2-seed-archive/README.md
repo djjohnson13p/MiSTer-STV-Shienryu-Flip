@@ -35,3 +35,5 @@ Additional preserved trial: [Seed 3](seed03/README.md), including its separate c
 [Seed 5](seed05/README.md) preserves the separate failed timing trial, exact checkpoint/binary, agent-attributed restore validation and full eight-condition matrix; it is not selected for hardware.
 
 - [Seed 6 full checkpoint, assembler overlay and all-temperature evidence](seed06/README.md)
+
+- [Closed seed4 autonomous control/gameplay and sampled-hour evidence](hardware-seed04-r1/README.md)

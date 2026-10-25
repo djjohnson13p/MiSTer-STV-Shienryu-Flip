@@ -1,0 +1,15 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T18:52:20.627997+00:00",
+  "decision": "ACCEPT_CLOSED_SEED04_HARDWARE_EVIDENCE_BYTES_NOT_HARDWARE_ACCEPTANCE",
+  "package_index_sha256": "f8e03212384eb42bc51a56754e29fcf7da8263f566debe0b57b46b21027fe57f",
+  "all144_members_SHA_CRC_verified": true,
+  "all142_original_source_bytes_matched_at_review": true,
+  "root_reviewed_README_evidence_limits": true,
+  "RBF_sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11",
+  "passive_soak_root_review_sha256": "64169cfc6a361ad9e1b8043de97fc4ce59c6a0bec110045201622e9404385326",
+  "timing_acceptance": false,
+  "physical_HDMI_audio_or_full_retention_acceptance": false,
+  "whole_issue_acceptance": false,
+  "historical_action_replay_or_portable_automation": false
+}

@@ -1,0 +1,748 @@
+{
+  "candidate_RBF": {
+    "bytes": 4376812,
+    "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+  },
+  "candidate_alias": "SHYF0004",
+  "closed_source_scope_counts": {
+    "candidate-hardware-oldprofile-seed04": 40,
+    "candidate-hardware-oldprofile-seed04-gameplay-r1": 49,
+    "candidate-hardware-oldprofile-seed04-menu-on-r2": 10,
+    "candidate-hardware-oldprofile-seed04-menu-r1": 14,
+    "passive-soak-seed04-on-r1": 8
+  },
+  "excluded_scopes": [
+    "ACTIVE row-predecessor-simulation-r1",
+    "currentGoal/projectstate/live build trees",
+    "external transport helpers/private config/credentials",
+    "ROM/BIOS runtime archives",
+    "original files except included candidate RBF",
+    "official Main binary and C++ source files"
+  ],
+  "external_dependencies": "Original pinned paths/hashes remain as data in helpers/ready/plans/provenance; external transport code and credentials are not copied. Historical epochs/requestIDs must not be replayed.",
+  "hardware_acceptance": false,
+  "no_source_silently_omitted": true,
+  "passive_soak_root_review_sha256": "64169cfc6a361ad9e1b8043de97fc4ce59c6a0bec110045201622e9404385326",
+  "recorded_by": "agent:shienryu_build_admission",
+  "remote_uploaded": false,
+  "reviewed_writer_sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a",
+  "root_package_acceptance": false,
+  "scope": "Closed seed4 autonomous hardware evidence and explicitly requested static provenance only",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "source_file_count": 142,
+  "source_files": {
+    "core-lab/research/shienryu-timing-20261024/AUTONOMOUS-OSD-METHOD-PROPOSAL-SEED04.json": {
+      "bytes": 9972,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\AUTONOMOUS-OSD-METHOD-PROPOSAL-SEED04.json",
+      "sha256": "7e89863bcb90b931c35b0811485b3160858b24f425f2e5b5b73273dc7ddc0e40"
+    },
+    "core-lab/research/shienryu-timing-20261024/CONTROL-R2-SEED-INDEX.json": {
+      "bytes": 15150,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\CONTROL-R2-SEED-INDEX.json",
+      "sha256": "ee2df9718f29339aa32c802757a309da29b11e220fca6f4e2e06997f5f7ea306"
+    },
+    "core-lab/research/shienryu-timing-20261024/GITHUB-CONTROL-R2-SEED-PRESERVATION.json": {
+      "bytes": 1885,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\GITHUB-CONTROL-R2-SEED-PRESERVATION.json",
+      "sha256": "3c1a539248275b8122f3209aa40a4a32809c820fb12e23552c27f9ca3a5254a4"
+    },
+    "core-lab/research/shienryu-timing-20261024/GITHUB-CONTROL-R2-SEED03-PRESERVATION.json": {
+      "bytes": 1002,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\GITHUB-CONTROL-R2-SEED03-PRESERVATION.json",
+      "sha256": "64c619eb5307d96d266c9a79c91c3d364fbb1a30e49a38dfc7c49ed91ae4abc9"
+    },
+    "core-lab/research/shienryu-timing-20261024/GITHUB-CONTROL-R2-SEED04-PRESERVATION.json": {
+      "bytes": 6678,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\GITHUB-CONTROL-R2-SEED04-PRESERVATION.json",
+      "sha256": "4afdb88464cb1e540aba09aae9f38e4511f33452629647bf000297ae98408f64"
+    },
+    "core-lab/research/shienryu-timing-20261024/GITHUB-CONTROL-R2-SEED05-PRESERVATION.json": {
+      "bytes": 7517,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\GITHUB-CONTROL-R2-SEED05-PRESERVATION.json",
+      "sha256": "91237722f9d52507b73d220e063d44e79cdb4bde3514f13ba69f432e93c98166"
+    },
+    "core-lab/research/shienryu-timing-20261024/GITHUB-CONTROL-R2-SEED06-PRESERVATION.json": {
+      "bytes": 1356,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\GITHUB-CONTROL-R2-SEED06-PRESERVATION.json",
+      "sha256": "d89fcbe742bfbc2031efa1fb509c12ab5c1c695386c57d2bce12ac83fb43bb8a"
+    },
+    "core-lab/research/shienryu-timing-20261024/MAIN-RUNTIME-PROVENANCE-READONLY-SEED04.json": {
+      "bytes": 635,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\MAIN-RUNTIME-PROVENANCE-READONLY-SEED04.json",
+      "sha256": "57714962f34ee9ff894bf5f307b926a502ffe5e483e91388202bf101f88fbe94"
+    },
+    "core-lab/research/shienryu-timing-20261024/ROOT-SEALED-SEED-PACKAGER-ADMISSION.json": {
+      "bytes": 980,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-SEALED-SEED-PACKAGER-ADMISSION.json",
+      "sha256": "7063dda38f1b4abf55b3297a662dc6a87005944365c7db5e504408cddf540e85"
+    },
+    "core-lab/research/shienryu-timing-20261024/ROOT-SEED04-PASSIVE-INTERIM-REVIEW.json": {
+      "bytes": 1416,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-SEED04-PASSIVE-INTERIM-REVIEW.json",
+      "sha256": "9551868e8eb9f5319c7c1d7cc82e10feaee956543e2b46506177d1f428b070b7"
+    },
+    "core-lab/research/shienryu-timing-20261024/ROOT-SEED04-PASSIVE-SOAK-REVIEW.json": {
+      "bytes": 3783,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-SEED04-PASSIVE-SOAK-REVIEW.json",
+      "sha256": "64169cfc6a361ad9e1b8043de97fc4ce59c6a0bec110045201622e9404385326"
+    },
+    "core-lab/research/shienryu-timing-20261024/SCALER-ROW-PREDECESSOR-OPTIMIZATION-PROPOSAL.json": {
+      "bytes": 10204,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\SCALER-ROW-PREDECESSOR-OPTIMIZATION-PROPOSAL.json",
+      "sha256": "eb81c6c43c3761174df2a09cdc2e0588d6e85eb3a5c7789c3bf257a725ae69f7"
+    },
+    "core-lab/research/shienryu-timing-20261024/SEALED-SEED-PACKAGER-VALIDATION.json": {
+      "bytes": 1620,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\SEALED-SEED-PACKAGER-VALIDATION.json",
+      "sha256": "22808b4317806f062c72b5ed73a321f917764f888b98630bfc8db7ba80ef4ea7"
+    },
+    "core-lab/research/shienryu-timing-20261024/SEED04-PERSISTENCE-TEST-FEASIBILITY.json": {
+      "bytes": 13080,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\SEED04-PERSISTENCE-TEST-FEASIBILITY.json",
+      "sha256": "137a879904d8b06c4deaa7f63f72b082eb175c8bd003dadd4f33944e197708fc"
+    },
+    "core-lab/research/shienryu-timing-20261024/SHIENRYU-ACTUAL-VIDEO-CONFIG-CONTEXT.json": {
+      "bytes": 5028,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\SHIENRYU-ACTUAL-VIDEO-CONFIG-CONTEXT.json",
+      "sha256": "90973f110fb008d841e585cbcbdee6f1933806f3091beceeaa4ff3c91a2a6204"
+    },
+    "core-lab/research/shienryu-timing-20261024/autonomous-osd-reference-738cb7ac/release-provenance.json": {
+      "bytes": 1012,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\autonomous-osd-reference-738cb7ac\\release-provenance.json",
+      "sha256": "bbc6dc01d6cb7f626d9bad4c7dc675e6a73236a48176a8d970ccd2aa35566c0b"
+    },
+    "core-lab/research/shienryu-timing-20261024/baseline-hardware-r1/hardware_once.py": {
+      "bytes": 17426,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\baseline-hardware-r1\\hardware_once.py",
+      "sha256": "47a73ac18e5b8303d56cba43c7b9a9fc9f1850e4b13bfb447167e2267dc04db7"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/README.md": {
+      "bytes": 2098,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\README.md",
+      "sha256": "054d5eedfeba32992fea56700ccad3b7b21b9662a33eadf782803faf177853d3"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-COIN-START-ACTION.json": {
+      "bytes": 1518,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-COIN-START-ACTION.json",
+      "sha256": "59d207ad686cf398745246188f08014300c24e5f071581a74bc0371b54bc9f7e"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-COIN-START-ADMISSION.json": {
+      "bytes": 870,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-COIN-START-ADMISSION.json",
+      "sha256": "ba6cc0b1bb6938198a46deac30e570574a3000b96920ca24f1fd1424f07b14d2"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-CONTINUOUS-ACTION.json": {
+      "bytes": 3187,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-CONTINUOUS-ACTION.json",
+      "sha256": "0c16d1d681f5960d6fb46608dafc3068a5344de444052d4c50eab5bb1defb557"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-CONTINUOUS-ADMISSION.json": {
+      "bytes": 1272,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-CONTINUOUS-ADMISSION.json",
+      "sha256": "29b148d7efd1f83a2748116a3c0c180afaf3168a85249e37781671cd089b9d59"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-DOWN-UP-ACTION.json": {
+      "bytes": 2627,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-DOWN-UP-ACTION.json",
+      "sha256": "733c5280c1c2475438ff4153fa09f5e7b19e27ea27dfde504a13ea6831b75e30"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-DOWN-UP-ADMISSION.json": {
+      "bytes": 1317,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-DOWN-UP-ADMISSION.json",
+      "sha256": "c9a959c490991fe485a7af8dcd466d15d50b09f0a7e12143dfa74c2a1fd78e77"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-GAMEPLAY-REVIEW.json": {
+      "bytes": 26604,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-GAMEPLAY-REVIEW.json",
+      "sha256": "7b8f50fa1e247aa5ebc278748de6a2507d1e00534eb670ed8e5541b2d32d14dc"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-WEAPONS-ACTION.json": {
+      "bytes": 2602,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-WEAPONS-ACTION.json",
+      "sha256": "cf9d5c22d24820c20518316b6f854ec1d591cae06362f9ab3db0a80c9d9b073e"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/ROOT-WEAPONS-ADMISSION.json": {
+      "bytes": 865,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\ROOT-WEAPONS-ADMISSION.json",
+      "sha256": "6925fc04e1a425a19f75a0eced45577e9c0fa8e3d84d9be207889594527a7502"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/gameplay-action.PROPOSED.json": {
+      "bytes": 1728,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\gameplay-action.PROPOSED.json",
+      "sha256": "dc61117764406aa9552ebe42f3bbba05312231ce999c7746a8eb37bc051ed58a"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/gameplay_once.py": {
+      "bytes": 14188,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\gameplay_once.py",
+      "sha256": "9dc46aeb5a2b3a86ea2705299b2c014f0f8c7bb037cbe3b15cd15a6ed73de906"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/local-validation.json": {
+      "bytes": 1671,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\local-validation.json",
+      "sha256": "5f835e52608a0b982cd67d17e8b1d7895279db41bb860c479e213ecb796d6420"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-coin-start-01/captures/after-coin.png": {
+      "bytes": 28652,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-coin-start-01\\captures\\after-coin.png",
+      "sha256": "3bc0b48c744bcff2c91a3b872fe3b086631b479b138ba2d9f64dc7df3d6b8a71"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-coin-start-01/captures/after-start-15s.png": {
+      "bytes": 98189,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-coin-start-01\\captures\\after-start-15s.png",
+      "sha256": "ad13f618e9f368191668ae0b37112734ba4c5ecd59190f6c81d86e8ef05791ea"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-coin-start-01/captures/before-coin.png": {
+      "bytes": 89924,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-coin-start-01\\captures\\before-coin.png",
+      "sha256": "8d40e90638713e8ac64731d82b2523f5835a908a90ec2ff1a37fc233762c2c4a"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-coin-start-01/journal.json": {
+      "bytes": 43446,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-coin-start-01\\journal.json",
+      "sha256": "e014dfd399c7a7cd8e696b21ef38135bbbcba372df7c3a8f92968594cf01c152"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/after-coin.png": {
+      "bytes": 28652,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\after-coin.png",
+      "sha256": "3bc0b48c744bcff2c91a3b872fe3b086631b479b138ba2d9f64dc7df3d6b8a71"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/before-coin.png": {
+      "bytes": 82841,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\before-coin.png",
+      "sha256": "d9d6f47ee8ce7ab38f569246a79ff2b893b694941d35d5839475855561734131"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/bomb-immediate.png": {
+      "bytes": 90945,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\bomb-immediate.png",
+      "sha256": "2accfc7524ac09c78192e56ae805d06d0436173214cfabf0cf69bce4009ad452"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/down-fire.png": {
+      "bytes": 121276,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\down-fire.png",
+      "sha256": "070f7ed9042b48048461483e3e4a4fdf3ceab732a567e95f0601ed95db667c8e"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/fire.png": {
+      "bytes": 104867,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\fire.png",
+      "sha256": "cc5e1a4d92fecf26c871b35928bfab8a15689069438f5dd8433133ee79093cad"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/game-progress-5s.png": {
+      "bytes": 107692,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\game-progress-5s.png",
+      "sha256": "941cbb27cc2a72780d0d0a0c6dbb0ae80700d770035a1b4d06ea5571ba462245"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/left-fire.png": {
+      "bytes": 104384,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\left-fire.png",
+      "sha256": "7bc1393668ea59e47db5b8cacf6788e98d6b33d5bad3d94df46670f1c92b4574"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/right-fire.png": {
+      "bytes": 111900,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\right-fire.png",
+      "sha256": "a6757f499c7b82d2ecfc352aa4ebc5b5f339d2996f39965aef351708db76ab75"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/stage1-before-weapons.png": {
+      "bytes": 98664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\stage1-before-weapons.png",
+      "sha256": "21500ea0497fc551e19e11fb714270ed8ea794c83662ceaabe877710717019fe"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/sustained-fire.png": {
+      "bytes": 99142,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\sustained-fire.png",
+      "sha256": "c19447d0c5afe62ed15cd547870e56722514cde199b8a0c4f10d56421d38e3e2"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/captures/up-fire.png": {
+      "bytes": 117380,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\captures\\up-fire.png",
+      "sha256": "f083f352adc4ca7a1b0c5ba494b4f83f2d5bcabd092f244bd8a2d56bd4988e5d"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-continuous-03/journal.json": {
+      "bytes": 56344,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-continuous-03\\journal.json",
+      "sha256": "66c58717172089734eb4c1ece54a46eceb90198cfb48c3ef4e86d7606fa8fe78"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/after-coin.png": {
+      "bytes": 27940,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\after-coin.png",
+      "sha256": "35e946cd54aab2ffea7693e0afa908a80b19871e54a01c2060952d09286b7796"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/before-coin.png": {
+      "bytes": 98594,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\before-coin.png",
+      "sha256": "03dfe7c08cf782c1ef1fe9004b12000741d818e2def198a75c1cc7fd4aaf15af"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/bomb-immediate.png": {
+      "bytes": 115807,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\bomb-immediate.png",
+      "sha256": "10efa8cf1c18af1256ae801f69b5f8a9a326c4befdb9df0244febaae6653ea1a"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/down-return.png": {
+      "bytes": 105486,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\down-return.png",
+      "sha256": "cd836d37aa6c0528cc2144a5866c5b889a4db7091bdcea2fd6e39aa93451328f"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/down-short.png": {
+      "bytes": 97779,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\down-short.png",
+      "sha256": "3998f5dc35d6306c0da8eb625332a3fed5b213a219c519931af2f711418bd6ed"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/fire.png": {
+      "bytes": 110288,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\fire.png",
+      "sha256": "5107285cb62e5a186ff460b3c25e17837245930e5d4cb95673e66835a3164b9f"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/progress.png": {
+      "bytes": 121195,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\progress.png",
+      "sha256": "9cdde9d978a332f4577e50e29a7138cbaeff0f43b623c1abf22ab661e66bb2bb"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/stage1-initial.png": {
+      "bytes": 98421,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\stage1-initial.png",
+      "sha256": "a1b0702329955aecb311c0ebc9b0d2f6dcf8903af9298d0b77af92189fa4efaf"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/captures/up-short.png": {
+      "bytes": 103065,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\captures\\up-short.png",
+      "sha256": "336400929c7d9d52ef0ee00da03664e42c4d1ddc74a6a9dafeb51e66824f70af"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-down-up-04/journal.json": {
+      "bytes": 52564,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-down-up-04\\journal.json",
+      "sha256": "f05d71961a15ce3662d861eb8ba61ba0eeb33a48f1c1487afc72d255213b9af7"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/before-weapons.png": {
+      "bytes": 110094,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\before-weapons.png",
+      "sha256": "c54802cc95fbecf693023467a352774ccde581149ff53b11b6a3759ffc673880"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/bomb-after-1s.png": {
+      "bytes": 93508,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\bomb-after-1s.png",
+      "sha256": "cc3543e094c751e55fa172ea2d8ca904e79e9a1b4d1365e4d4e4249f0448f70b"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/bomb-immediate.png": {
+      "bytes": 85235,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\bomb-immediate.png",
+      "sha256": "3e7eae6237a85ba67f373da7fc2bdaad8db2652c010a1eb365630ffb241988bb"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/down-fire.png": {
+      "bytes": 96058,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\down-fire.png",
+      "sha256": "45cb06e0dcb6a93e072174f649ae0e8a1ac81f6608d5cd468fbce9bd1bf4b6fe"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/fire.png": {
+      "bytes": 110094,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\fire.png",
+      "sha256": "c54802cc95fbecf693023467a352774ccde581149ff53b11b6a3759ffc673880"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/game-progress-5s.png": {
+      "bytes": 109784,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\game-progress-5s.png",
+      "sha256": "18d24093bc560b303b7379742de7f90c3e35914adcf20aea4a08d477a91cb33a"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/left-fire.png": {
+      "bytes": 92374,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\left-fire.png",
+      "sha256": "9ac0aae444c4ad8d98894f4e347e17d5000b54986af07ac8f6a219703a08f386"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/right-fire.png": {
+      "bytes": 93383,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\right-fire.png",
+      "sha256": "47c5792e28d94b857db2920f0e3f2735ba81c2beed6535f5d0470e45ccb4d582"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/captures/up-fire.png": {
+      "bytes": 94402,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\captures\\up-fire.png",
+      "sha256": "50812672b662d1dce4e5c6ec085bbe7802f8c1c1224b0047c7e3c3d357822665"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-gameplay-r1/phases/seed04-gameplay-weapons-02/journal.json": {
+      "bytes": 52285,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-gameplay-r1\\phases\\seed04-gameplay-weapons-02\\journal.json",
+      "sha256": "831d73a0a1ecca3340f5a1baba5c8650e5473822fe1ece18ed0b4c9a44825f01"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/ROOT-MENU-ACTION.json": {
+      "bytes": 770,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\ROOT-MENU-ACTION.json",
+      "sha256": "f4611933c958e730a545c216a1ae77262b800e97113a30ace89444d091622390"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/ROOT-MENU-ADMISSION.json": {
+      "bytes": 991,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\ROOT-MENU-ADMISSION.json",
+      "sha256": "175fc34396eb6336b16a9b3f461bd57c41370dfa8e7c0f68667ba3a68281b2a7"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/ROOT-MENU-RESULT.json": {
+      "bytes": 1308,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\ROOT-MENU-RESULT.json",
+      "sha256": "4de3e44a090e97e5cca8e93be2fec9a61961ed8498404281d7f2d548a7067d9b"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/menu_once.diff": {
+      "bytes": 6340,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\menu_once.diff",
+      "sha256": "0a7fed711094e530ebbdaa79049d1bc5173a2e6d98f2f9c334deae9a6234cca4"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/menu_once.py": {
+      "bytes": 15896,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\menu_once.py",
+      "sha256": "98e464c571e41f9a526a689f7edfa596250d0386966ecf9b0c5bffd85ab275f7"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/phases/seed04-menu-on-02/On-CFG.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\phases\\seed04-menu-on-02\\On-CFG.bin",
+      "sha256": "0007ce742536ed2e7cf949bae045978ca974afd6f000cdd69084ec7d3e620ba9"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/phases/seed04-menu-on-02/On-NVM.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\phases\\seed04-menu-on-02\\On-NVM.bin",
+      "sha256": "d7254eb4dadc876f3d0d75e692d4d2dc4376609d388970180511b41d2a6c90fc"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/phases/seed04-menu-on-02/before-CFG.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\phases\\seed04-menu-on-02\\before-CFG.bin",
+      "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/phases/seed04-menu-on-02/before-NVM.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\phases\\seed04-menu-on-02\\before-NVM.bin",
+      "sha256": "e20469b5d6e2c79454fb525495faa0d84fa86b6dce45bf048fed03c30b75d79d"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-on-r2/phases/seed04-menu-on-02/journal.json": {
+      "bytes": 55403,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-on-r2\\phases\\seed04-menu-on-02\\journal.json",
+      "sha256": "5e92845fb9a9c63355ba659b334e505010a052e37c051a53effea3ee6f23718d"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/ROOT-MENU-ACTION.json": {
+      "bytes": 788,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\ROOT-MENU-ACTION.json",
+      "sha256": "f21f4bc1a7e9b12f3f5999709f464ef2fc53c55562939830ac4c728923d99558"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/ROOT-MENU-ADMISSION.json": {
+      "bytes": 995,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\ROOT-MENU-ADMISSION.json",
+      "sha256": "8ac4c6937d768935756890c237134147ec73cbcf0079592b6f1719a75d552f54"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/ROOT-MENU-RESULT.json": {
+      "bytes": 1334,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\ROOT-MENU-RESULT.json",
+      "sha256": "c4f44f95cfee1197924e0ccb2ed1359cf178a71fd1174a6a442641fff53b1e83"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/ROUTE.md": {
+      "bytes": 4426,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\ROUTE.md",
+      "sha256": "815427ddbd9e2d0ad9416ccf7009454fca3d85734b6af4d7ecb21c9e25c58cd4"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/local-validation.json": {
+      "bytes": 2944,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\local-validation.json",
+      "sha256": "ea7e5038a211d222d9647d38d7612a43e67b183d9dc91d052fc07bd37295a7ad"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/menu-action.PROPOSED.json": {
+      "bytes": 794,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\menu-action.PROPOSED.json",
+      "sha256": "9ce0123a3b3c81e3192679356612bd03e18da513519657b3c49ba7e494fb43cc"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/menu_once.py": {
+      "bytes": 15190,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\menu_once.py",
+      "sha256": "ddb5270400ab6b554fa2d6ff35ddd32a5cc1ea483d983cbd0fd662815826fd29"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/On-CFG.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\On-CFG.bin",
+      "sha256": "0007ce742536ed2e7cf949bae045978ca974afd6f000cdd69084ec7d3e620ba9"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/On-NVM.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\On-NVM.bin",
+      "sha256": "601a4d7a4a0fea11267c93d8a4b81df27d681047fb8018daebfc6a4172bc8425"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/baseline-Off-CFG.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\baseline-Off-CFG.bin",
+      "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/baseline-Off-NVM.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\baseline-Off-NVM.bin",
+      "sha256": "dd1e2d92735d5cef19e04027590c3f5b63fa848753f9245dbe2d564320dcf5bf"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/final-Off-CFG.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\final-Off-CFG.bin",
+      "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/final-Off-NVM.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\final-Off-NVM.bin",
+      "sha256": "e20469b5d6e2c79454fb525495faa0d84fa86b6dce45bf048fed03c30b75d79d"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04-menu-r1/phases/seed04-menu-off-on-off-01/journal.json": {
+      "bytes": 67529,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04-menu-r1\\phases\\seed04-menu-off-on-off-01\\journal.json",
+      "sha256": "f563594cbb6d42a74f2831253c90551227dd9cc8b9a1a19bfaf45c9f91929243"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/HARDWARE-ACCEPTANCE-PLAN.json": {
+      "bytes": 11907,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\HARDWARE-ACCEPTANCE-PLAN.json",
+      "sha256": "a632886330c130f48e57b20ee3498a39e595ecaa3caa59d805d5c3d6d36e0322"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/OLD-STVC-TO-MENU-ACTION.json": {
+      "bytes": 210,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\OLD-STVC-TO-MENU-ACTION.json",
+      "sha256": "c6cb2a1a212d528f3728a9cad80b75402686923facf2a2afa0ccd201b07de2a2"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/PREPARATION-REVIEW.json": {
+      "bytes": 5431,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\PREPARATION-REVIEW.json",
+      "sha256": "35c9e1b542053294016a6164358528fed05854d99591fc10545dea0a880effab"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/READONLY-PREFLIGHT.json": {
+      "bytes": 1694,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\READONLY-PREFLIGHT.json",
+      "sha256": "81d6283a4ddad3e3b7e3c8b07b29617bb40001561d5a677488d695513b41abc1"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-ARTIFACT-QUALIFICATION.json": {
+      "bytes": 6338,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-ARTIFACT-QUALIFICATION.json",
+      "sha256": "f07c9c8329ce8bfbc01953a2fd4f58e38cb24d9d102130a9c8c60a56b91a5396"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-ARTIFACT-QUALIFICATION.proposed.json": {
+      "bytes": 5706,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-ARTIFACT-QUALIFICATION.proposed.json",
+      "sha256": "9be82e5c7bd3b10651d1b57e8b166000b5fb318504f70564eac561ef5a60b838"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-BOOT-ACTION.json": {
+      "bytes": 416,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-BOOT-ACTION.json",
+      "sha256": "d77b7cc66f95e4296b434443e6e1e7f8cad50aa6dbf47e7bec4d1a4bf329e467"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-BOOT-CAPTURE-REVIEW.json": {
+      "bytes": 2097,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-BOOT-CAPTURE-REVIEW.json",
+      "sha256": "bc9d7e90aa1663598a0b6cce3a43615c5c9719545d8dc2a8f5f4c6e9417f4603"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-RELOAD-ON-03-ACTION.json": {
+      "bytes": 669,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-RELOAD-ON-03-ACTION.json",
+      "sha256": "f289b06b8f5b7da68e5910d510b35ded128341afb6280b78ccbef0cea6e68196"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-RELOAD-ON-ACTION.json": {
+      "bytes": 669,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-RELOAD-ON-ACTION.json",
+      "sha256": "d33f92654825f6de47f524169a46e5d238102dd0c319bc1d2beb4577fa13da46"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ROOT-REVIEW-NEXT-STEPS.txt": {
+      "bytes": 594,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ROOT-REVIEW-NEXT-STEPS.txt",
+      "sha256": "d022fa7478b315f0be1a8b135c632606b95363228028bb5fc8f8a4729504f14f"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/SHYF0001-PRESERVATION.json": {
+      "bytes": 3566,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\SHYF0001-PRESERVATION.json",
+      "sha256": "0f4b92e6b1cabdae7801efc1380bfef2dae9ca7b47fd22a727b0f4c48244a349"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/SHYF0004.mra": {
+      "bytes": 1428,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\SHYF0004.mra",
+      "sha256": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/SHYF0004.rbf": {
+      "bytes": 4376812,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\SHYF0004.rbf",
+      "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/SHYF0004_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\SHYF0004_input_4711_0815_v3.map",
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/cached-protection.json": {
+      "bytes": 7648,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\cached-protection.json",
+      "sha256": "1e5d3ce0446863e139d4c6837229d09c2c9435eb0ed681994dc03a1e88a5e1de"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/candidate_hardware.py": {
+      "bytes": 19298,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\candidate_hardware.py",
+      "sha256": "ae9daa6516c2fd3be0bde3126c54d29b4b7c7424c34a3bf916a01ca292ef1a0b"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/candidate_hardware.py.diff": {
+      "bytes": 11893,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\candidate_hardware.py.diff",
+      "sha256": "ef59781f36b387fe900751d5aa691c22ecf13d2adb5e10a201ff3972826b6fa9"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/local-staging.json": {
+      "bytes": 2529,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\local-staging.json",
+      "sha256": "54fce7c0770198bdba41438245e66fc622f1e44878a7f02ce527b84efb58e863"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-bootstrap-capture-01.json": {
+      "bytes": 21020,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-bootstrap-capture-01.json",
+      "sha256": "1bdc563dc0f0fe8cd22f9bfcc2553047eb62343001f52436a545ced225c3e510"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-bootstrap-capture-01/attract-after-30s.png": {
+      "bytes": 87238,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-bootstrap-capture-01\\attract-after-30s.png",
+      "sha256": "726d5b23e85a778924c84830042e0c8b7db1578b9f98a1fe8b2f2d80fb58829c"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-bootstrap-capture-01/boot-after-15s.png": {
+      "bytes": 12033,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-bootstrap-capture-01\\boot-after-15s.png",
+      "sha256": "cb26a5b3b2d66202897aa6e21b2c19c7a92a77e91049f9ad21413ce3fa01d550"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-bootstrap-capture-01/candidate-setting-000.bin": {
+      "bytes": 128,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-bootstrap-capture-01\\candidate-setting-000.bin",
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02.json": {
+      "bytes": 41173,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02.json",
+      "sha256": "a757c133371a8a999ba2008bd3f7dc80729fb4f6b7cf72de7ace3c37c715a63a"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02/candidate-setting-000.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02\\candidate-setting-000.bin",
+      "sha256": "d7254eb4dadc876f3d0d75e692d4d2dc4376609d388970180511b41d2a6c90fc"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02/candidate-setting-001.bin": {
+      "bytes": 128,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02\\candidate-setting-001.bin",
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02/candidate-setting-002.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02\\candidate-setting-002.bin",
+      "sha256": "0007ce742536ed2e7cf949bae045978ca974afd6f000cdd69084ec7d3e620ba9"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02/reload-after-15s.png": {
+      "bytes": 3196,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02\\reload-after-15s.png",
+      "sha256": "68e340d2cee6fd4156a578e185074157594968426e3ccce89731d17ea796ea22"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02/reload-after-30s.png": {
+      "bytes": 68680,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02\\reload-after-30s.png",
+      "sha256": "4a924e06c945276a75d546abe89a093908cfeda6db2b5db56c85e8066f095d8c"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-02/reload-after-45s.png": {
+      "bytes": 10022,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-02\\reload-after-45s.png",
+      "sha256": "460091d7b080a63f8529b0a2b140253568b5087b4c8a4a1db66f321303029665"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03.json": {
+      "bytes": 41217,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03.json",
+      "sha256": "f8b9b1290d7f4ed89aa4e4c3e026fe692350421abd63ae6205c3eab6b1016a44"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03/candidate-setting-000.bin": {
+      "bytes": 65664,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03\\candidate-setting-000.bin",
+      "sha256": "d7254eb4dadc876f3d0d75e692d4d2dc4376609d388970180511b41d2a6c90fc"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03/candidate-setting-001.bin": {
+      "bytes": 128,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03\\candidate-setting-001.bin",
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03/candidate-setting-002.bin": {
+      "bytes": 16,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03\\candidate-setting-002.bin",
+      "sha256": "0007ce742536ed2e7cf949bae045978ca974afd6f000cdd69084ec7d3e620ba9"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03/reload-after-15s.png": {
+      "bytes": 3024,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03\\reload-after-15s.png",
+      "sha256": "d3cff8e8f929e8bef27274ff1bf702e23cd2ba48f7ace8d8753df319d729a6c9"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03/reload-after-30s.png": {
+      "bytes": 68680,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03\\reload-after-30s.png",
+      "sha256": "4a924e06c945276a75d546abe89a093908cfeda6db2b5db56c85e8066f095d8c"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/phases/seed04-reload-on-03/reload-after-45s.png": {
+      "bytes": 4456,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\phases\\seed04-reload-on-03\\reload-after-45s.png",
+      "sha256": "7a60af1862b2eff3e5bc05ec9b51b2cd4107d60354dbc1a4a4a99659018b7a2e"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ready.PROPOSED.json": {
+      "bytes": 2452,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ready.PROPOSED.json",
+      "sha256": "0f2134e79b118961415e9be70b9e5be2e567f82be3258b4364ffb7a32b352e26"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/ready.json": {
+      "bytes": 2214,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\ready.json",
+      "sha256": "0088198c749f2ec7ce635bf9cabdba9ce06d1a1e18412bc8be28a9705b1fc3d8"
+    },
+    "core-lab/research/shienryu-timing-20261024/candidate-hardware-oldprofile-seed04/staged.json": {
+      "bytes": 1356,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\candidate-hardware-oldprofile-seed04\\staged.json",
+      "sha256": "9f1466e108b11d5e865826bb211252e845337d917916043da43faa2af263c211"
+    },
+    "core-lab/research/shienryu-timing-20261024/capture-observability-review.json": {
+      "bytes": 6369,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\capture-observability-review.json",
+      "sha256": "1dd6ff21d6783aefe8daa7f516bd35b840f733cd7db9b9bb8942c62e83f2b231"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/ROOT-ADMISSION.json": {
+      "bytes": 477,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\ROOT-ADMISSION.json",
+      "sha256": "1bf92c22c1eb48a6192fb21821bc244be0e83bcb147b3d94f25496708ea705f1"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/passive_soak.py": {
+      "bytes": 4122,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\passive_soak.py",
+      "sha256": "3df9745460a80c8df19ef7980cdb63777f4e325fe40d91d562310d814ce0eb3b"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/result.json": {
+      "bytes": 3011,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\result.json",
+      "sha256": "3fe04014aefbb4f433b74ce639016e2152c9426c97c6a2851ad12861f1d3455b"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/sample-0000.png": {
+      "bytes": 62496,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\sample-0000.png",
+      "sha256": "946eca382fe355024c3891e506e42bd02a48c94d31bc0bebc8f86669668d801d"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/sample-0300.png": {
+      "bytes": 75716,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\sample-0300.png",
+      "sha256": "b84b09430447b8d9ae90f6f9e57b1b8cd1d8c2ca657294114fc7827aa0c773a1"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/sample-0900.png": {
+      "bytes": 68680,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\sample-0900.png",
+      "sha256": "4a924e06c945276a75d546abe89a093908cfeda6db2b5db56c85e8066f095d8c"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/sample-1800.png": {
+      "bytes": 63326,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\sample-1800.png",
+      "sha256": "2a696843c81ca25cfd9d54d904866b5caa14b6aa76fbac84891a2d7b23781b06"
+    },
+    "core-lab/research/shienryu-timing-20261024/passive-soak-seed04-on-r1/sample-3600.png": {
+      "bytes": 88468,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\passive-soak-seed04-on-r1\\sample-3600.png",
+      "sha256": "52cb4071cda3edc7a36be947f771b89228de91e6e6717d68a91e07e871d2fa99"
+    },
+    "core-lab/research/shienryu-timing-20261024/review_sealed_seed.py": {
+      "bytes": 7067,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\review_sealed_seed.py",
+      "sha256": "9235306ac36def13b203673c3458ab7ab61495fce7780584c1f2cc7df5dcad25"
+    },
+    "core-lab/research/shienryu-timing-20261024/verify_seed_archive.py": {
+      "bytes": 6958,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\verify_seed_archive.py",
+      "sha256": "d9b28acfb73be7e84fbf691898429d50f5c1283de1b35831f6118f4f9dda6f14"
+    },
+    "core-lab/scripts/package_shienryu_seed.py": {
+      "bytes": 29738,
+      "original_absolute_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\scripts\\package_shienryu_seed.py",
+      "sha256": "082e16da36a0f819d4d84f51638566a9e29d2482f34f8ee508e6013fbcd8171a"
+    }
+  },
+  "source_observability_qualification": "Actual keyboard/menu CFG Off-On-Off then savedOn and pre-ascal gameplay/5passive frames only. No physical finalHDMI/OSD/audio/fullretention acceptance.",
+  "standalone_source_file_count": 21,
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW"
+}
