@@ -1874,6 +1874,7 @@ BEGIN
 		VARIABLE hcarry_v,vcarry_v : boolean;
 		VARIABLE dif_v : natural RANGE 0 TO 8*OHRESH-1;
 		VARIABLE off_v : natural RANGE 0 TO 15;
+		VARIABLE flip_adrs_v : unsigned(24 DOWNTO 0);
 	BEGIN
 		IF o_reset_na='0' THEN
 			o_copy<=sWAIT;
@@ -2201,8 +2202,11 @@ BEGIN
 				o_adrs_pre<=to_integer(o_vacpt) * to_integer(o_stride);
 			END IF;
 
-			IF o_adrs_pre<=o_flip_fload2_adrs THEN
-				o_flip_adrs_pre<=o_flip_fload2_adrs-o_adrs_pre;
+			-- The extended subtract supplies both the result and its borrow bit.
+			-- This avoids a separate full-width compare before the row clamp.
+			flip_adrs_v:=to_unsigned(o_flip_fload2_adrs,25)-to_unsigned(o_adrs_pre,25);
+			IF flip_adrs_v(24)='0' THEN
+				o_flip_adrs_pre<=to_integer(flip_adrs_v(23 DOWNTO 0));
 			ELSE
 				o_flip_adrs_pre<=0;
 			END IF;
