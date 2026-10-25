@@ -1,0 +1,54 @@
+{
+  "base_prefix": "seed04/fit-checkpoint/tree/",
+  "base_snapshot_sha256": "77f44e7def78ac5aaff91725f6c2d60eb2be8ee9c3922540ff7607b89250e20d",
+  "changed_or_added": {
+    "db/STV_DS.asm.qmsg": {
+      "bytes": 2292,
+      "sha256": "daf53f8bf724e12792ab4592d8917031189722cac023b0b32cff7cfaee9c65c9"
+    },
+    "db/STV_DS.asm.rdb": {
+      "bytes": 1751,
+      "sha256": "7e9c12b324f32ccffe376eea2a4a66d8fd7b32a2906410e957482f3a23a87cd2"
+    },
+    "db/STV_DS.cmp.hdb": {
+      "bytes": 2664762,
+      "sha256": "39a63b84fb14f558f1fe0b4b3ea0f3bf244391e629acdb34ff599a5649fa8116"
+    },
+    "db/STV_DS.cmp.rdb": {
+      "bytes": 396201,
+      "sha256": "6ce6cd01a772b19f7ddb9cbac21f9b2d8386258fb51922d4dd412a84c99ae64b"
+    },
+    "db/STV_DS.smart_action.txt": {
+      "bytes": 8,
+      "sha256": "a625e5913be8178c983635f6926dff958cecadff86b75a988840caf3d1df1a32"
+    },
+    "output_files/STV_DS.asm.rpt": {
+      "bytes": 11860,
+      "sha256": "86006bfc21988cbf489c31f6e958b62c5186f11b2c696bd883d6074a4892a859"
+    },
+    "output_files/STV_DS.done": {
+      "bytes": 26,
+      "sha256": "7e70387a8f097273ba8bbfb0dab819d17a0ec764770d90f7dac28ed3d28071ec"
+    },
+    "output_files/STV_DS.flow.rpt": {
+      "bytes": 15319,
+      "sha256": "8125402206f4f3d8c3fdd729c7ba152d30e08789704da742056b10ec60525850"
+    },
+    "output_files/STV_DS.jditmp": {
+      "bytes": 111302,
+      "sha256": "8f8cbb4dd6d7e48cdf84e88ee83bbc8490ee249c8005dd5bc73ce2fb7639c671"
+    },
+    "output_files/STV_DS.rbf": {
+      "bytes": 4376812,
+      "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705018,
+      "sha256": "506acff43a34289b123b79b5d8e4ae50af1ab0bb6fc4eae495bc64f43d4ac18f"
+    }
+  },
+  "deleted": [],
+  "overlay_prefix": "seed04/assembled-checkpoint-overlay/tree/",
+  "restore": "Extract all fit-checkpoint ZIP parts into a new empty directory, then apply the exact assembler overlay; remove only explicitly deleted relative paths. Never overwrite original seed folders.",
+  "target_snapshot_sha256": "5e401ea740fabf62939fc021dfdebcea2e38d694aa306f67b4c3632a5d70d205"
+}

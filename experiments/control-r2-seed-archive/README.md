@@ -1,4 +1,4 @@
-# Preserved Shienryu control R2 seeds 1 and 2
+# Preserved Shienryu control R2 seed experiments
 
 These are separate experimental Quartus 25.1 Lite results from source `7e987bb9ef0361356be22be13551e4626902f3a7`, fixed build date `261025`. Neither passes complete timing or has final hardware acceptance. The original published/installed experimental core is unchanged.
 
@@ -29,3 +29,5 @@ The full temperature comparison and inherited timing qualifications are in `froz
 | Fast | 100 | +3.103 | +0.053 | Pass | +3.241 | -0.392 | Fail hold |
 
 Additional preserved trial: [Seed 3](seed03/README.md), including its separate complete checkpoint, exact programming files, restore validation and full temperature matrix.
+
+[Seed 4](seed04/README.md) is the leading provisional indoor-use candidate, with its separate complete checkpoint, exact binary, restore validation and all-temperature results. Later-trial pages provide their own restore helpers; the root helper covers seeds1and2.

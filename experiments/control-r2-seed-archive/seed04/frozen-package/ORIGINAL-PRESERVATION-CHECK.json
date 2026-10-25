@@ -1,0 +1,15 @@
+{
+  "all3284_original_members_and_membership_exact_before_and_after": true,
+  "all_actual96_STA_reports_archived": true,
+  "assembled_checkpoint_sha256": "5e401ea740fabf62939fc021dfdebcea2e38d694aa306f67b4c3632a5d70d205",
+  "current_sealed_member_count": 3284,
+  "evidence_and_programming_files_rehashed_after_packaging": 146,
+  "fit_checkpoint_sha256": "77f44e7def78ac5aaff91725f6c2d60eb2be8ee9c3922540ff7607b89250e20d",
+  "full_fit_and_exact_ASM_overlay_archive_member_union_verified": true,
+  "per_stage_jobs_terminal_and_handles_closed": true,
+  "recorded_by": "agent:shienryu_build_admission",
+  "seal_sha256": "9650fe29dbfdfb74bb5dd80bd5aa13629ae46f7d16ea558ed0a7f26d79b42b90",
+  "snapshot_sha256": "60a174e6ea7c3450e933a6f65003814f635eec9d9203421538e1f84ab27f25c1",
+  "whole_batch_cleanup_complete": false,
+  "whole_batch_task_still_active": true
+}
