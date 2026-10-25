@@ -1,0 +1,59 @@
+{
+  "preparer": "agent:shienryu_constraints_review",
+  "state": "LOCAL_DRAFT_CLOSED_SIMULATION_EVIDENCE_PENDING_ROOT_ARCHIVE_QC",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "reference_exact_sha256": "c958d7499eefe7bf2cc4f094aec951b4dbadf4a88b00820ddd0de2291a8a9134",
+  "variant_exact_sha256": "73ca65c64ef89e037e3995ca1faa56e3f7b8a1480b1a2f20190fb3d17b41ef57",
+  "source_inventory": {
+    "folders": {
+      "row-predecessor-simulation-r1": 137,
+      "row-predecessor-simulation-r2-focused": 68
+    },
+    "external_review_files": 5,
+    "total_original_files": 210,
+    "canonical_sha256": "0e5e23c266d1f6f5de3d2ecfc62c0c1dcf9fd9b02366f1c5c208c8f3e86be19e"
+  },
+  "review_hashes": {
+    "ROOT-ROW-PREDECESSOR-MATH-RESULT.json": "b1b73edcf0686e50471a88d14d5e515b9131be427f767f2009c85ee74e3d2cb6",
+    "SCALER-ROW-PREDECESSOR-OPTIMIZATION-PROPOSAL.json": "eb81c6c43c3761174df2a09cdc2e0588d6e85eb3a5c7789c3bf257a725ae69f7",
+    "ROOT-ROW-PREDECESSOR-SIMULATION-R1-REVIEW.json": "100ae3d1a3c7a9333c72dcc0fb1ae5b53ced4edfe26f175950efdc5fa8cc4a63",
+    "ROOT-ROW-PREDECESSOR-SIMULATION-R2-REVIEW.json": "15de24bc2b365af926b2a5b378c515071f5116f209105b25c461fe5f6909204a",
+    "INDEPENDENT-ROW-PREDECESSOR-SEMANTIC-REVIEW.json": "015baf964b63e0a74999a68955de7a58b818b0bcae4d634a0ff27ec26758dbfd"
+  },
+  "scope": "Both completed simulation folders in full, plus finite math/proposal/root R1+R2/independent semantic receipts. No current worktree, native batch/database, private runtime data, ROM, BIOS, credentials or tool distribution is included.",
+  "closed_attempts": {
+    "R1": "terminal1/481.110s:8 progressive pairs completed, then inherited reference midrun-reset underflow; failed attempt retained in full.",
+    "R2": "terminal0/298.734s:focused bob+CE gaps and weave golden equivalence PASS; all owned processes terminal, handles closed, no errors."
+  },
+  "semantic_evidence": "8 progressive pairs/19264 independently checked oracle pixels per flavor; focused2 pairs/90000 HDMI edges each; actual decrement Off/On consumption and both known fields covered; exact minimal4+/1- source variant.",
+  "qualifications": [
+    "Arbitrary midrun ascal reset remains UNVERIFIED: the R1 reference underflows o_readlev at480.385us. R2 disables RESET_MID only; no RTL repair or reset workaround.",
+    "Both runtime flavors share inherited SIM-only zero-offset shift-wrap. Exact FPGA source was analyzed/elaborated, not unrestricted runtime tested.",
+    "Focused cases establish golden-reference equivalence, not an independent bob/weave picture oracle.",
+    "Bob even_field_products38706 includes4299 startup unknown-field products; known field1=34407/field0=36288. Genuine decrement18188/consumed Off42-On39 remain.",
+    "Finite retained-state mathematical proof does not prove arbitrary power-up consumption or whole-RTL reset behavior.",
+    "No FPGA timing, area, hardware, feature-complete or bit-identical future compilation claim.",
+    "Local draft only; root archive QC/publication and any remote-byte acceptance remain pending."
+  ],
+  "deterministic_zip": {
+    "format": "ZIP_DEFLATED",
+    "level": 9,
+    "member_order": "lexicographic UTF-8 archive path",
+    "fixed_member_timestamp": [
+      1980,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "create_system": 3,
+    "regular_file_mode_octal": "100644",
+    "directory_entries": false,
+    "comments_and_extra_fields": "empty",
+    "python": "3.12.14",
+    "zlib_compile": "1.3.2",
+    "zlib_runtime": "1.3.2",
+    "scope": "Identical recorded inputs/ZIP implementation produce identical archive bytes; no claim across arbitrary compressor implementations."
+  }
+}

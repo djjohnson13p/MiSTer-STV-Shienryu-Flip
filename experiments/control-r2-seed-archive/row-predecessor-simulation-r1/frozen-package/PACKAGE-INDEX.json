@@ -1,0 +1,42 @@
+{
+  "preparer": "agent:shienryu_constraints_review",
+  "state": "LOCAL_DRAFT_CONTENT_VERIFIED_PENDING_INDEPENDENT_ROOT_QC",
+  "reviewer_is_root": false,
+  "member_index_file": "MEMBER-HASHES.json",
+  "member_index_sha256": "860823a0a4c0305616363a09b6e5e731c2605b19f90ca59bf66081959233988a",
+  "original_source_files": 210,
+  "archive_members": 212,
+  "uncompressed_member_bytes": 197610781,
+  "parts": [
+    {
+      "file": "row-predecessor-closed-simulation-evidence-part01.zip",
+      "bytes": 19372582,
+      "sha256": "5ceaf79080a32c6293b3b0f4906659c94d140d712e43a0d94455207027a8498f",
+      "members": 212
+    }
+  ],
+  "root_R2_review_sha256": "15de24bc2b365af926b2a5b378c515071f5116f209105b25c461fe5f6909204a",
+  "independent_semantic_review_sha256": "015baf964b63e0a74999a68955de7a58b818b0bcae4d634a0ff27ec26758dbfd",
+  "context_sha256": "22ea5457264a3159e1d59b8b149bef22a4ee8f536f9bce48831fea7f1f50802e",
+  "verification": {
+    "all_archive_crc_passed": true,
+    "all_member_sha256_and_bytes_passed": true,
+    "exact_original_membership_137_plus68_plus5": true,
+    "all210_original_hashes_and_memberships_unchanged": true,
+    "second_in_memory_archive_identical": true,
+    "all_parts_strictly_below_95000000_bytes": true,
+    "no_actual_filesystem_restore": true,
+    "no_git_device_compiler_active_native_DB_or_source_actions": true
+  },
+  "qualifications": [
+    "Arbitrary midrun ascal reset remains UNVERIFIED: the R1 reference underflows o_readlev at480.385us. R2 disables RESET_MID only; no RTL repair or reset workaround.",
+    "Both runtime flavors share inherited SIM-only zero-offset shift-wrap. Exact FPGA source was analyzed/elaborated, not unrestricted runtime tested.",
+    "Focused cases establish golden-reference equivalence, not an independent bob/weave picture oracle.",
+    "Bob even_field_products38706 includes4299 startup unknown-field products; known field1=34407/field0=36288. Genuine decrement18188/consumed Off42-On39 remain.",
+    "Finite retained-state mathematical proof does not prove arbitrary power-up consumption or whole-RTL reset behavior.",
+    "No FPGA timing, area, hardware, feature-complete or bit-identical future compilation claim.",
+    "Local draft only; root archive QC/publication and any remote-byte acceptance remain pending."
+  ],
+  "remote_publication": false,
+  "hardware_timing_acceptance": false
+}

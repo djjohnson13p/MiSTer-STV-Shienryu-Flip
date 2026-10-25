@@ -1,0 +1,26 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T19:30:06.533312+00:00",
+  "decision": "CLOSED_SIMULATION_ARCHIVE_BYTES_VERIFIED_FOR_RECOVERY_BRANCH",
+  "package_index_sha256": "bd43092849c0dcfb42fef200e21928b919099b3526497c4e78dc97207c806651",
+  "member_index_sha256": "860823a0a4c0305616363a09b6e5e731c2605b19f90ca59bf66081959233988a",
+  "all_original_source_files_current_bytes_verified": 210,
+  "all_archive_members_independently_CRC_SHA_bytes_verified": 212,
+  "exact_R1_R2_memberships_137_68": true,
+  "exact_variant_sha256": "73ca65c64ef89e037e3995ca1faa56e3f7b8a1480b1a2f20190fb3d17b41ef57",
+  "root_R2_review_sha256": "15de24bc2b365af926b2a5b378c515071f5116f209105b25c461fe5f6909204a",
+  "parts": [
+    {
+      "file": "row-predecessor-closed-simulation-evidence-part01.zip",
+      "bytes": 19372582,
+      "sha256": "5ceaf79080a32c6293b3b0f4906659c94d140d712e43a0d94455207027a8498f",
+      "members": 212
+    }
+  ],
+  "arbitrary_midrun_reset_unverified": true,
+  "shared_SIM_shift_wrap_qualification_retained": true,
+  "physical_restore_performed": false,
+  "remote_verified": false,
+  "timing_improvement_demonstrated": false,
+  "hardware_acceptance": false
+}
