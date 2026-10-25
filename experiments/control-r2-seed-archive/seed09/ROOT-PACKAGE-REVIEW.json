@@ -1,0 +1,24 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T20:33:58.578630+00:00",
+  "decision": "PRESERVE_EXACT_EXPERIMENTAL_SEED09_PACKAGES_ON_LAB_FORK",
+  "manual_root_review": true,
+  "seed": 9,
+  "package_index_sha256": "8baceebb297a38a3891fe3d9dc9e40de2848d7e7c1a224b5b5608bf462a7ca8d",
+  "member_hashes_sha256": "6a981cb0a6054740396d373f631fe77b1cb662b1a65204150c1feeb7ea6eff7b",
+  "root_native_measurement_sha256": "ec8f17acc6ee0d13f923b5b826cfa132b1ce911d84bc2b6af45b721bcb79d319",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "root_restore_pending": false,
+  "hardware_acceptance": false,
+  "timing_acceptance": false,
+  "bit_identical_rebuild_demonstrated": false,
+  "independent_package_review_sha256": "e24c88f4fd29a984a719fedfe3d331b464f80b9fd6e1f3d345247ad27f310791",
+  "root_all19_copies_and7whole_ZIP_hashes_verified": true,
+  "independent_all1228members_CRC_SHA_and_all116STA_verified": true,
+  "root_actual_1051file_helper_restore_verified": true,
+  "root_restore_validation_sha256": "c063e6771d1f2e0a9cfaca7c7e14512752fcba00ccfa06f01eddefd236dc2c37",
+  "supporting_completed_clock_study_hashes": {
+    "SUPPORTING-CLOCK-COMPARISON.json": "b3a1246245836ebe78baaad87023773a3668a79bde64e8dc3923f1bdf0d4833b",
+    "ROOT-SUPPORTING-CLOCK-REVIEW.json": "f90def5147e9f49cee9d7ebabeb455c656302a8d7796a3bd06acf9be1c552a80"
+  }
+}

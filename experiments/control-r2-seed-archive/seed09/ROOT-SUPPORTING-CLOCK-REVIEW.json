@@ -1,0 +1,15 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-25T19:57:22.419751+00:00",
+  "decision": "COMPLETED_CLOCK_COMPARISON_REVIEWED_SUPPORTS_SINGLE_SCALER_TRIAL",
+  "comparison_sha256": "b3a1246245836ebe78baaad87023773a3668a79bde64e8dc3923f1bdf0d4833b",
+  "all16_source_tables_and2_negative_path_report_hashes_verified": true,
+  "all128_actual_setup_hold_values_independently_reparsed": true,
+  "all8_temperatures_models_per_seed_preserved": true,
+  "seed5_all8_nonnegative_at_displayed_precision": true,
+  "seed5_fast_minus40_hold_has_zero_visible_margin": true,
+  "strictly_positive_all8_clock_margin_demonstrated": false,
+  "combined_seed_or_variant_closure_demonstrated": false,
+  "source_or_constraints_changed": false,
+  "native_tools_or_active9_access": false
+}
