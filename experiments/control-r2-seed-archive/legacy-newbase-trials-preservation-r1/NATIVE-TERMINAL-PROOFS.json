@@ -1,0 +1,46 @@
+{
+  "shienryu-flip-q251-candidate-r1": {
+    "all_handles_closed": true,
+    "all_job_processes_terminal": true,
+    "cleanup_sha256": "5b8472bb931a734344ded8c89ae60570019d5735375db9bc669f8ad11b73828e",
+    "errors": [],
+    "final_job_active_processes": 0,
+    "flow_exit_code": 0,
+    "raw_scheduler_exit": 1,
+    "result_sha256": "cdf3219f2403959c721ff693f44053ca884bc970b7c77a6d1e3416f7d1202eaa",
+    "state": "terminal"
+  },
+  "shienryu-flip-sta-all-corners-r1": {
+    "all_handles_closed": true,
+    "all_job_processes_terminal": true,
+    "cleanup_sha256": "1c9324fc914b9a93b9dcf227d466a2332b5deba4af84e45edd4167c4c43f43fa",
+    "errors": [],
+    "final_job_active_processes": 0,
+    "flow_exit_code": 0,
+    "raw_scheduler_exit": 0,
+    "result_sha256": "29696f237e9ac0bdfaf0cdfff8acac59907cf88bd6372e3cd2e7442e3b1edd45",
+    "state": "terminal"
+  },
+  "shienryu-upstream-q251-baseline-r1": {
+    "all_handles_closed": true,
+    "all_job_processes_terminal": true,
+    "cleanup_sha256": "d6c6e6d3e51201d8d4e7e0193b8f0cb57bda683f0070b9801b6d635ede03d415",
+    "errors": [],
+    "final_job_active_processes": 0,
+    "flow_exit_code": 0,
+    "raw_scheduler_exit": 1,
+    "result_sha256": "2f26358b2fe5c3b5cab80bbdf0db508aed9d80534f44ba1243b426d8c9864c63",
+    "state": "terminal"
+  },
+  "shienryu-upstream-sta-all-corners-r1": {
+    "all_handles_closed": true,
+    "all_job_processes_terminal": true,
+    "cleanup_sha256": "3e51d871283e93c4537536255bb16d258919a3c1cb238a0707492b8813ff7aa4",
+    "errors": [],
+    "final_job_active_processes": 0,
+    "flow_exit_code": 0,
+    "raw_scheduler_exit": 0,
+    "result_sha256": "3e4a3792b14bfe86b4d930a62a0bf4f85045c8d84ca7fb84de1541d5f4e810c3",
+    "state": "terminal"
+  }
+}

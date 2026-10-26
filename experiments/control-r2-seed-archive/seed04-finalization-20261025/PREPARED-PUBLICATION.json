@@ -1,0 +1,1316 @@
+{
+  "state": "LOCAL_COMMIT_READY_FOR_EXPLICIT_PUBLICATION",
+  "worktree": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\cores\\Shienryu_Seed04_Publish",
+  "old_default": "41da931c75b8d1f2d5159cc1ca3770f613c19007",
+  "source_base": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "new_commit": "dddf174b48b0e6e36d8ba5797a4cb276cdf836f3",
+  "default_branch": "stv-flip-v1.1",
+  "files": {
+    ".gitattributes": {
+      "git_blob": "fa1385d99a319b43c06f5309d1aae9fdd3adea46",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    ".gitignore": {
+      "git_blob": "9f6925a4c2f455c9425139dbe5a509ecb96f7c03",
+      "bytes": 323,
+      "sha256": "007c59ff009f673b355dcaafadabb9c8d926307be32d79f4f9d13adb4719ebce"
+    },
+    "LICENSES/GPL-2.0.txt": {
+      "git_blob": "9efa6fbc962836e243e20f7f23db062e2c077d28",
+      "bytes": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    "NOTICE.md": {
+      "git_blob": "8b75044c590679882e2d4b1e21d32af555f3683e",
+      "bytes": 1402,
+      "sha256": "bf3c456be00102e6636f882df840cd736b7ed50eab89c242a276ae3b3cf09645"
+    },
+    "README.md": {
+      "git_blob": "d3b24854045d8ef72d767a81349fc7c0cccb465d",
+      "bytes": 4241,
+      "sha256": "1831de95d1cf5b093afd969bd54118e16a067cf7df3ff0b98f0fc805175d0978"
+    },
+    "SHA256SUMS": {
+      "git_blob": "9979acfc80d7f352757ff2447c6f7df5ea3dd8ae",
+      "bytes": 1248,
+      "sha256": "15e2cd46612c1c5e7fa585676ef4c1d63bfface4118bf1a97ffb61f834d217f5"
+    },
+    "STV.qpf": {
+      "git_blob": "d485b11793119a584c752ad2df69b3b3450b8737",
+      "bytes": 50,
+      "sha256": "dca378160b6ddeca489209af4ff70dbb60d6781b845abebe4f90a950786e9f4a"
+    },
+    "STV.qsf": {
+      "git_blob": "1458ac530a80e518faef650e8574a2ec8aba83ce",
+      "bytes": 3073,
+      "sha256": "ccd74092260e2fa8a912bb193dac86e59127360bb3136a3c186566c57532cd1a"
+    },
+    "STV.srf": {
+      "git_blob": "8d5694bb5a1cead52fdbcae11c892b173a4c23c9",
+      "bytes": 5145,
+      "sha256": "8f54d272db990c1a442258dddf5b0beefe1742cb8cd1d2f4c991ce9aa2e181fc"
+    },
+    "STV_DS.qpf": {
+      "git_blob": "5ac76b262402d7b13246cfce686e0b04a738da70",
+      "bytes": 53,
+      "sha256": "7add2a826bf8c0ea7d780a9b6bba819f3d201ad7c7bb65605cf235c33c2c6639"
+    },
+    "STV_DS.qsf": {
+      "git_blob": "5bec3043634635476169db67daf0d8e404221a31",
+      "bytes": 3393,
+      "sha256": "29cd056b1113fdab5f30de9b378932f2ced2736f25713fea057befdf3fe9543e"
+    },
+    "STV_DS.srf": {
+      "git_blob": "8d5694bb5a1cead52fdbcae11c892b173a4c23c9",
+      "bytes": 5145,
+      "sha256": "8f54d272db990c1a442258dddf5b0beefe1742cb8cd1d2f4c991ce9aa2e181fc"
+    },
+    "Saturn.qpf": {
+      "git_blob": "bf54fcf3fb15f2e5b7c5a38d80822fd934e48284",
+      "bytes": 53,
+      "sha256": "3adeacdb0fc45cf932a1a21a59e7076bfb7d42bf6a6245223e43b05f25a8def3"
+    },
+    "Saturn.qsf": {
+      "git_blob": "b0d62927eb2a341bc0559f32c8f89e31ec9344d0",
+      "bytes": 3163,
+      "sha256": "bcd3c000ea1b22eba5a8772af1184e01dd351cbabfdf90074e5396897bcad039"
+    },
+    "Saturn.sdc": {
+      "git_blob": "2283d97b878a449c32db66122c11ac9bce869843",
+      "bytes": 341,
+      "sha256": "2921b3b08bfae6ad12c29b2cee9d9f67fb846aab703a472ac9bfb4de8b3c71be"
+    },
+    "Saturn.srf": {
+      "git_blob": "8d5694bb5a1cead52fdbcae11c892b173a4c23c9",
+      "bytes": 5145,
+      "sha256": "8f54d272db990c1a442258dddf5b0beefe1742cb8cd1d2f4c991ce9aa2e181fc"
+    },
+    "Saturn.sv": {
+      "git_blob": "7a5e18aaa8428495ed62f12cf9329f8fffb59742",
+      "bytes": 59549,
+      "sha256": "6094b717e3f6a8dfa9a61f90d3f802c877afdc7aca5ea4a961cd5cdb5fce239b"
+    },
+    "Saturn_DS.qpf": {
+      "git_blob": "f07e1fd2b38d7c321b8c02b2d90e567f01aae5b4",
+      "bytes": 56,
+      "sha256": "045c3e29a7151887cf22aa7eeb0308a36ca36ac4cb28aadf93af5639b1c1e9c7"
+    },
+    "Saturn_DS.qsf": {
+      "git_blob": "b6ef6f371e8d8ffc67dfa999439b739596fc54a3",
+      "bytes": 3020,
+      "sha256": "3507083017e918c88c931e1f77363cb1a6e19040951bad65a9d0c65fe50945da"
+    },
+    "Saturn_DS.srf": {
+      "git_blob": "8d5694bb5a1cead52fdbcae11c892b173a4c23c9",
+      "bytes": 5145,
+      "sha256": "8f54d272db990c1a442258dddf5b0beefe1742cb8cd1d2f4c991ce9aa2e181fc"
+    },
+    "Saturn_Q13.qpf": {
+      "git_blob": "6465324b23bcc32d992f50e92f42497e3a12d353",
+      "bytes": 57,
+      "sha256": "d095ac987460cdb10f9bfdb030bfeb3c218d166c298df3fb7721ac5fd8dd53c6"
+    },
+    "Saturn_Q13.qsf": {
+      "git_blob": "0277c8c5962fb7e0e56e8530db299707b4a1031a",
+      "bytes": 2276,
+      "sha256": "5dcc1f2cd7878f4ec5409812a33ff2d433f82f800a57cdf86cbe5f4e384c4700"
+    },
+    "Saturn_Q13.srf": {
+      "git_blob": "a0aafe80909d6bc817359650577518f7ff270e23",
+      "bytes": 4331,
+      "sha256": "e325ff98e60d8521e7dbde28aba774f453640cabf7b1b1a49e0397021a574c2e"
+    },
+    "build_id.v": {
+      "git_blob": "d5fcb1ed25faee22b180105847c6e4f7c7fc88c3",
+      "bytes": 27,
+      "sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1"
+    },
+    "clean.bat": {
+      "git_blob": "1e6a801a798af6c4e3a6ed33244a195e85f91237",
+      "bytes": 672,
+      "sha256": "be21373a64d379d1d723bcdb5f1694b48eea74b773fca579bbaf61e17d048229"
+    },
+    "docs/ORIGINAL-RELEASE-NOTES.md": {
+      "git_blob": "43eecc37aa6b0e7eb55fb5c4732cb378f6a2c158",
+      "bytes": 2001,
+      "sha256": "e3456564fa22533d1d5005cff618a284c13c39bb0370ea5e63f483a4b252ee26"
+    },
+    "docs/SEED04-BUILD-AND-TEST.md": {
+      "git_blob": "d62653a3912ca31cb5c901844fcab93c7e267bea",
+      "bytes": 2745,
+      "sha256": "1c5ca68540b1b947b608acd301ab3c3e14678c2551bd5f2d22f750f7d7c3ed6a"
+    },
+    "docs/SEED04-STATUS.json": {
+      "git_blob": "fcdf55ff6884b769a5c0f8146fd510eee759bc2e",
+      "bytes": 8293,
+      "sha256": "eeabdaab290b26798751e805e48f3cd0d247cae7bac8107c77c7b5a26fef3117"
+    },
+    "docs/SOURCE-AND-TEST-STATUS.md": {
+      "git_blob": "77d513e6b017dbea9fa84ac44279ab40e1eab61d",
+      "bytes": 2347,
+      "sha256": "7e4de0716a214f0187e3fe2be113d7cd5d47efe4e763ee18f0409ff62b10b0ba"
+    },
+    "files.qip": {
+      "git_blob": "69e145ca6ad372f24d4ff89f98bd170770bb2702",
+      "bytes": 1500,
+      "sha256": "87955b2506bf84bed7e3db11d1239129746725cd6fecca8ee455034f63a5a5cc"
+    },
+    "install/_Arcade/SHYF0004.mra": {
+      "git_blob": "827a7656fbf6ad98c961c49c7539781488c18ce7",
+      "bytes": 1428,
+      "sha256": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3"
+    },
+    "install/_Arcade/cores/SHYF0004.rbf": {
+      "git_blob": "8da0801cc4f3277a2eea05e29c0ae88eb46c290d",
+      "bytes": 4376812,
+      "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+    },
+    "mra_unsupported/Critter Crusher (EA 951204 V1.000).mra": {
+      "git_blob": "1ba7d830494a4222812a9ec13e56575ffcb4cb3f",
+      "bytes": 1282,
+      "sha256": "61381d997e5429926da7124456ea17358e1d92c59d27db9c244e6c354d598fbd"
+    },
+    "mra_unsupported/Magical Zunou Power (J 961031 V1.000).mra": {
+      "git_blob": "03ae5ece7d15362ae80046c6f18cb684aa2a6bb2",
+      "bytes": 1619,
+      "sha256": "3b5afc8cdbc75f641f3e3660e1ba7929786d9c31bf9134941fcfcf143fd90c4c"
+    },
+    "mra_unsupported/Microman Battle Charge (J 990326 V1.000).mra": {
+      "git_blob": "cd89e2feb8529bb4f40b9f9f08072615ce731560",
+      "bytes": 1712,
+      "sha256": "b5fc5b7af96a09dec00168aea0f1f417063c3af13bd60d5fd6507df5c8a86aca"
+    },
+    "mra_unsupported/Name Club Disney (J 980614 V1.000).mra": {
+      "git_blob": "9498f068a0ee6c5a355b479227557d630b33c98d",
+      "bytes": 1859,
+      "sha256": "8d5a0321f94a002778447d97e3e58ce853eaa53214d02219c20750b06b0862ec"
+    },
+    "mra_unsupported/Name Club Ver.3 (J 970723 V1.000).mra": {
+      "git_blob": "1e3dc088374fd346070831202995233706b38a99",
+      "bytes": 1854,
+      "sha256": "517649d528cf5781fe2b2c2bc29500e0874ca71e0e858019a6a06f53a8c57d45"
+    },
+    "mra_unsupported/Print Club 2 (U 970921 V1.000).mra": {
+      "git_blob": "b74de7eb75eb351d639c9db2ee73b943ecda1f6b",
+      "bytes": 1364,
+      "sha256": "eb937d45337a83af2927e0a7a9d9d4cb7bee80291d9fcb4bfd6fd94a8716f443"
+    },
+    "mra_unsupported/Print Club 2 Vol. 3 (U 990310 V1.000).mra": {
+      "git_blob": "376e2f5b34f038a7852181479d5d7d315298db7b",
+      "bytes": 1401,
+      "sha256": "ec65f68fc8effe1aa890f35d16da55e59441f5ca42a90a5b563d7579aaf7a293"
+    },
+    "mra_unsupported/Print Club Pokemon B (U 991126 V1.000).mra": {
+      "git_blob": "96adb7203cf89858ea98f3d68ab69077d1b5d5cf",
+      "bytes": 1380,
+      "sha256": "c3283887f9a5b0b85e92b217fa2379c7e09be387dc3e786302b0846852f387a6"
+    },
+    "mra_unsupported/Stress Busters (J 981020 V1.000).mra": {
+      "git_blob": "7f00527f8a725ddc9e634201d254b37ff127673d",
+      "bytes": 1975,
+      "sha256": "415df6991207e6f160ac6e4d492ade9d36a9460afc641d8131337b76843d5ce6"
+    },
+    "mra_unsupported/Technical Bowling (J 971212 V1.000).mra": {
+      "git_blob": "793a28d82fed7bf5f493eab8b0398fcaf9feb64c",
+      "bytes": 1380,
+      "sha256": "017c159b6eb2e18709ee2b32eeadf89d2cfd4f67916a1e63bbd46ce4aaabd302"
+    },
+    "mra_unsupported/Virtual Mahjong (J 961214 V1.000).mra": {
+      "git_blob": "4744a1ccff1d8a838dcbaf9a61ae5f4e0ee39daf",
+      "bytes": 1730,
+      "sha256": "526eb044d968229298426d7ae3cdd38b23fa8cd7074b1a4fdc4e9a67e72b98d0"
+    },
+    "packages/MiSTer-STV-Shienryu-Flip-seed04-20261025.zip": {
+      "git_blob": "09cd4e1216841ac026fa5b5c6117796c8cdf3b93",
+      "bytes": 3075013,
+      "sha256": "7ad0342491ed77d86584be2bcb9e12caba3d07b177cc0c25493c1b05ab1ff186"
+    },
+    "packages/MiSTer-STV-Shienryu-Flip-seed04-20261025.zip.sha256": {
+      "git_blob": "97ded4c01a61c86cf2eef5677ea4759f6faebf99",
+      "bytes": 111,
+      "sha256": "c54384ddaa2db46e391f92db8fbe82c0261fc30d0553888555584601d514b3be"
+    },
+    "pll.qip": {
+      "git_blob": "243c5ae20a97c163df2c6920d65d7e96fd0efd30",
+      "bytes": 51326,
+      "sha256": "ce6a713569b3718cd56c0563f7934b97c371a2fcc2e9e8eedac8931594c95179"
+    },
+    "pll.v": {
+      "git_blob": "d527d71db90dba34932ee02f9384cd2b96aeb4ac",
+      "bytes": 17149,
+      "sha256": "3f12cbe8ff5c893ff2774538443e7bbc330793f8e6cbc93950bbe908b5cdc61f"
+    },
+    "releases/Arcade-ST-V_20250612.rbf": {
+      "git_blob": "6451b0558c199ac3e469f1b4b19ee91f88099c5d",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Arcade-ST-V_20251003.rbf": {
+      "git_blob": "d763f5694b5529cadf96d4d624b51e8bc660188f",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20231010.rbf": {
+      "git_blob": "5db313a4cfe017edcc81a999cde9c3aa71dbc096",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20231018.rbf": {
+      "git_blob": "8dc94d7c26e004205941e15bf74becae3a2cbfea",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20240323.rbf": {
+      "git_blob": "cca090de4f7fb2373d457fbfa726f211da5b2167",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20240628.rbf": {
+      "git_blob": "6edd1806addeb0d5baa5991e69541189c41f0b1b",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20250113.rbf": {
+      "git_blob": "9696a709c3115e55ec0cc40acc4f679c54774848",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20250613.rbf": {
+      "git_blob": "e12f11fd85acc6f44b65845951630f4dcda8c079",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/Saturn_20251003.rbf": {
+      "git_blob": "faa1a6fcbfbd7e26cb4c50cea31c215fec8e5c55",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Astra SuperStars (J 980514 V1.002).mra": {
+      "git_blob": "14d942b8e81ab1bcef53d0844b9cc9602202fdf2",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Baku Baku Animal (J 950407 V1.000).mra": {
+      "git_blob": "08aa0087de500f229ea45ee8560a489526fb9ee4",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Batman Forever (JUE 960507 V1.000).mra": {
+      "git_blob": "f920f1d446cd57cda8ca47d0791d5f398701c453",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Columns '97 (JET 961209 V1.000).mra": {
+      "git_blob": "d58db1d45b16644b6f41c7f43204e5b54996d7ba",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Cotton 2 (JUET 970902 V1.000).mra": {
+      "git_blob": "bcc307a267639a2fc7b4e33bf0ad041fcfb0870f",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Cotton Boomerang (JUET 980709 V1.000).mra": {
+      "git_blob": "4c91ccf32e10f08e01966fcdcc98b0057881fb25",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Danchi de Hanafuda (J 990607 V1.400).mra": {
+      "git_blob": "b15f82b77c3d8e4df4afc420c576cce00207039a",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Danchi de Quiz Okusan Yontaku Desuyo! (J 001128 V1.200).mra": {
+      "git_blob": "d54545212d1d5dcb539ea72a5a1e8ecef99edecd",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Decathlete (JUET 960709 V1.001).mra": {
+      "git_blob": "19302d4226c0134d68fff4847eb6e2c6a28b6a2b",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Die Hard Arcade (UET 960515 V1.000).mra": {
+      "git_blob": "41f53bc9ee02a9be87db3251cf6a04c626d31a28",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Ejihon Tantei Jimusyo (J 950613 V1.000).mra": {
+      "git_blob": "2b7b12209aed65c72923f1c4b872ae0127ce49b1",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Final Fight Revenge - Final Revenge (JUET 990930 V1.100).mra": {
+      "git_blob": "55ebe0bfc6548295f30f39843ab679d6a21f11fa",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Find Love (J 971212 V1.000).mra": {
+      "git_blob": "11624380f1fa9730ffb956a75656f61d78938ebc",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Funky Head Boxers (JUETBKAL 951218 V1.000).mra": {
+      "git_blob": "81e558cf6ef836bdf12e91954c00c9d99ffafab0",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Golden Axe - The Duel (JUETL 950117 V1.000).mra": {
+      "git_blob": "56f83ed6588ca428280407de72561e0d8605d156",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Groove on Fight - Gouketsuji Ichizoku 3 (J 970416 V1.001).mra": {
+      "git_blob": "1a994b16aec907a7f640ba31bf9e6ca44503b6b2",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Guardian Force (JUET 980318 V0.105).mra": {
+      "git_blob": "3fb2576e81b541bc440f86c59084bee0f59c65a3",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Hanagumi Taisen Columns - Sakura Wars (J 971007 V1.010).mra": {
+      "git_blob": "78fa86396d016779cdce2347648fe390ec0864ed",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Karaoke Quiz Intro Don Don! (J 960213 V1.000).mra": {
+      "git_blob": "bb1f80134a567cd1c9e59ee2a9bd5b1adb2b23dc",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Maru-Chan de Goo! (J 971216 V1.000).mra": {
+      "git_blob": "ff6f04c88639da35a881efbc04730a207fdab392",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Mausuke no Ojama the World (J 960314 V1.000).mra": {
+      "git_blob": "aedf4e5f9de48a86727d3ee25ed37e7ece1831a5",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Othello Shiyouyo (J 980423 V1.002).mra": {
+      "git_blob": "6093eea7bb7d7ee1761ee2a80410011968b22764",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Pebble Beach - The Great Shot (JUE 950913 V0.990).mra": {
+      "git_blob": "397fcc180d9e78530c547db0d073e221fca62edf",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Princess Clara Daisakusen (J 960910 V1.000).mra": {
+      "git_blob": "2b1f92ae6cfa24499e9f21f60eb83b5739af13c3",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Pro Mahjong Kiwame S (J 951020 V1.208).mra": {
+      "git_blob": "b2a528d7c46931210984cd75f4cb6b5ebcaa47b2",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Puyo Puyo Sun (J 961115 V0.001).mra": {
+      "git_blob": "b05593ac0299f3bae3e69e8bee6b0b952ddaa838",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Puzzle & Action- Sando-R (J 951114 V1.000).mra": {
+      "git_blob": "6cb01c1cea123327763a94282e1133c56f017c89",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Radiant Silvergun (JUET 980523 V1.000).mra": {
+      "git_blob": "f97dd1a502653bb198ff551ee1f85042a211c405",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Sea Bass Fishing (JUET 971110 V0.001).mra": {
+      "git_blob": "8be3bbdbbf53ee463729a3c5b3da529247a4092c",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Shanghai - The Great Wall - Shanghai Triple Threat (JUE 950623 V1.005).mra": {
+      "git_blob": "70e77b03202f18a65abba49b51a76d210cd41947",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Shienryu (JUET 961226 V1.000).mra": {
+      "git_blob": "1026ea59704f44b91893c60b3cf5d6bc2c28e1f5",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Soukyugurentai - Terra Diver (JUET 960821 V1.000).mra": {
+      "git_blob": "2673c58b0c0c6931e929617e1c9d8c3e88f1426e",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Steep Slope Sliders (JUET 981110 V1.000).mra": {
+      "git_blob": "892a7723e394cec15fd75cca87b6aa02eaabd70d",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Suikoenbu - Outlaws of the Lost Dynasty (JUETL 950314 V2.001).mra": {
+      "git_blob": "98d178e16034ea4b197254c89a789c8fbefc6263",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Super Major League (U 960108 V1.000).mra": {
+      "git_blob": "0c92d560f45be766813d1d8bad82439b86b727ed",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Taisen Tanto-R Sashissu!! (J 980216 V1.000).mra": {
+      "git_blob": "247618d51ea06ab833230ee0d586f57f0a34261a",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Tecmo World Cup '98 (JUET 980410 V1.000).mra": {
+      "git_blob": "1fcd705f4d0d543bc7497259507a221132165b3a",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Touryuu Densetsu Elan-Doree - Elan Doree - Legend of Dragoon (JUET 980922 V1.006).mra": {
+      "git_blob": "cafa752475476207bb02ba6bc98e73728d785184",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Virtua Fighter Kids (JUET 960319 V0.000).mra": {
+      "git_blob": "002dcd7ae84e6e0e081b492fe070d3a6119df1fe",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Virtua Fighter Remix (JUETBKAL 950428 V1.000).mra": {
+      "git_blob": "8f419054c0c608d37e699ab7d89f84be7d45f7b5",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Virtual Mahjong 2 - My Fair Lady (J 980608 V1.000).mra": {
+      "git_blob": "ef984ca30a80ea5dc1ddcb2dc08bebdd9efcdf22",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Winter Heat (JUET 971012 V1.000).mra": {
+      "git_blob": "2c419d725844901694d213e7343dba0c0a969af1",
+      "unchanged_sparse_source_asset": true
+    },
+    "releases/mra/Zen Nippon Pro-Wrestling Featuring Virtua (J 971123 V1.000).mra": {
+      "git_blob": "7dd5b66ea4759537ff11c56bba85fc4f660664ea",
+      "unchanged_sparse_source_asset": true
+    },
+    "rtl/ADSP_21XX_mem.sv": {
+      "git_blob": "7635c62a27a099edd73f5d39e43047d33f04a4b8",
+      "bytes": 5450,
+      "sha256": "94f34e31793b00dfe63cf95fdecb1b887073c88bd0503ad7690401d86e3b6c83"
+    },
+    "rtl/ADSP_21xx/ADSP_2181.qip": {
+      "git_blob": "3aa2f213dcc9f96ef27781857039a9f047946619",
+      "bytes": 291,
+      "sha256": "8dc9561c699d41aa8c30e3d6d58067e062bf3c9554d384b55f9d4f228492e8d0"
+    },
+    "rtl/ADSP_21xx/ADSP_2181.sv": {
+      "git_blob": "c590663deeb144c4d40f6b380d98b1cc7429509b",
+      "bytes": 15602,
+      "sha256": "5b9d247c73c13dd2a6360cde053ef292eb53d7bfdd584304b72f89402e576972"
+    },
+    "rtl/ADSP_21xx/ADSP_21XX_core.sv": {
+      "git_blob": "8c099537988beeb3b4c830f5819f63ef5e418e1d",
+      "bytes": 29769,
+      "sha256": "5724f0641702875c0f4df8e038d19578537527fe553d62b9b855d2eaca5daf6c"
+    },
+    "rtl/ADSP_21xx/ADSP_21XX_pkg.sv": {
+      "git_blob": "f6cac94c53b73909f047f086fd1d16759da6879e",
+      "bytes": 13342,
+      "sha256": "50246fa29b775d05c6a53ba04bb4e7982f810a6a5b302e644a7274c870073432"
+    },
+    "rtl/CEGen.vhd": {
+      "git_blob": "37d74c4194547d1f575094969f975e13936457c0",
+      "bytes": 573,
+      "sha256": "4044cc0704742c8a1c9bc79bcf474cc547475ffe33f99974bce0130ae4e8a1f7"
+    },
+    "rtl/FX68K/fx68k.qip": {
+      "git_blob": "756c1c9af289ebbceccd816101bde76beb46de72",
+      "bytes": 367,
+      "sha256": "0ea4e42ad8a4fec528ce18acaa32e7040e90f08f5fa2b8b734588a1169d75a3d"
+    },
+    "rtl/FX68K/fx68k.sdc": {
+      "git_blob": "839d8fded27aa2a457bb56a2c9c4fce6a51b649a",
+      "bytes": 846,
+      "sha256": "dcf172ec10f6be386a3ac83c911ae510db6e66bf615fbd41a7be22318502b14e"
+    },
+    "rtl/FX68K/fx68k.sv": {
+      "git_blob": "52affee6b60fdb21553492baaf3f83fde7bee6de",
+      "bytes": 77116,
+      "sha256": "47e2d528845a83519ffafa6a59ae1c6e551fc16d3b8b8b49e9541873bcfa76bb"
+    },
+    "rtl/FX68K/fx68k.txt": {
+      "git_blob": "384be912d161569bdae59dc89f55e19ee924c308",
+      "bytes": 5082,
+      "sha256": "90cd930609faf69c36126d25ebe9fd1acb38d6910225125392f65c92b8500334"
+    },
+    "rtl/FX68K/fx68kAlu.sv": {
+      "git_blob": "f31045282cd4000f794273a525f12d9a8bff98d7",
+      "bytes": 20373,
+      "sha256": "be58a45901445c96a892b4c91de78d68c18ff591fbab57c8279dd9c0ed567181"
+    },
+    "rtl/FX68K/microrom.mem": {
+      "git_blob": "9fc7cb1e2115bf4519d2130da50cba430de7042a",
+      "bytes": 18432,
+      "sha256": "06b3325e369b5bbf9ed2ec76737fe19aea12573775858a4ca62b8e5bcc173d0a"
+    },
+    "rtl/FX68K/nanorom.mem": {
+      "git_blob": "be8689646a3ebe75fe46d5a385a5b13cec2d57b2",
+      "bytes": 23184,
+      "sha256": "46ef9dea89372021949a78674aa67cf46a485d9524e3df9655dabc5126170457"
+    },
+    "rtl/FX68K/uaddrPla.sv": {
+      "git_blob": "c3b4a1bf5842d7d58a86a4bb70ae441090a002f8",
+      "bytes": 128909,
+      "sha256": "ccc1ce600e38eaa4ae13332a46725eb86214d57a21093e58e7a772480734e918"
+    },
+    "rtl/SH/SH opcodes.xlsx": {
+      "git_blob": "fbe8c15a0ba43da64f6df1711372a8bd8c469ed3",
+      "bytes": 44026,
+      "sha256": "ec13c7d9194b85066a6dbd40ecd60b724de58d6f12588fb0b3eaee55faef9b82"
+    },
+    "rtl/SH/SH7034/BSC.sv": {
+      "git_blob": "5cc7cf79736388f06f3f236277db38d00338e585",
+      "bytes": 11663,
+      "sha256": "577fefd82dfab76fb95583d5f7d62f940cbfecd07bbfce32316fbd7f62cfff99"
+    },
+    "rtl/SH/SH7034/DMAC.sv": {
+      "git_blob": "86255445905c0beaacf51114e2c87c60407dadd6",
+      "bytes": 18164,
+      "sha256": "c2819f93a16c0fc477000dbfb6d8c6ae64533ae7e119073f1b567ce0f3aca8a5"
+    },
+    "rtl/SH/SH7034/INTC.sv": {
+      "git_blob": "3ace985cdffb64b44cfe155f63d7ce28ee5e4243",
+      "bytes": 14347,
+      "sha256": "1d719c529349084cafcaa1dbf8408134fd1bb130cf27a101228f2b55b969fb56"
+    },
+    "rtl/SH/SH7034/ITU.sv": {
+      "git_blob": "7ff5f9d507b178005d6ebb7aee94dcaf805b58f1",
+      "bytes": 15068,
+      "sha256": "a5cff7d1d03d4ad9e15aa5088b9f51d6a64567b5d2861312e4f8488f3da32ceb"
+    },
+    "rtl/SH/SH7034/MULT.sv": {
+      "git_blob": "1b4d17163350b97a6e08dc4943dcdea8295907ff",
+      "bytes": 2179,
+      "sha256": "6e6b8a02b9a9643e0be3144f95535a0100499a7123080cc874e15c42edcbafd7"
+    },
+    "rtl/SH/SH7034/PFC.sv": {
+      "git_blob": "dfa2fd057aa245a505fa2d217ede83b7e8e0fa53",
+      "bytes": 19613,
+      "sha256": "4ea1010ba7712218ea451ac055106adf492fb5159ce1c45922690ca31b59cd29"
+    },
+    "rtl/SH/SH7034/RAM.sv": {
+      "git_blob": "8ede2337359c03d507acaa4c50d4aaf20ed61245",
+      "bytes": 1978,
+      "sha256": "d9b927435ef0fc2b747eab4f5d1eab24e7b503ab1e7c4d712385ff6db14b2ff9"
+    },
+    "rtl/SH/SH7034/ROM.sv": {
+      "git_blob": "6f9bcfb97103537885d128be1c9f991e91616069",
+      "bytes": 623,
+      "sha256": "781774881b1ee4bcacac1744f41cbe27b0ea1e9fc89acad9b7785faa5f529862"
+    },
+    "rtl/SH/SH7034/SCI.sv": {
+      "git_blob": "abb01bb4c13d2bf5e22c4e3af3a299f6aad272dc",
+      "bytes": 9368,
+      "sha256": "796533d0f1695e7a7c4ee3efff6e87ee590cd6926f4d3ca1dd03983af4c41f66"
+    },
+    "rtl/SH/SH7034/SH7034.qip": {
+      "git_blob": "d8fdb5d26b3a6d7019d7020a0903390d51114d03",
+      "bytes": 1458,
+      "sha256": "8193beeb8543ec7eca9a3e95e92c6cefd33ab90924467a7453efd352e1e1ceaf"
+    },
+    "rtl/SH/SH7034/SH7034.sv": {
+      "git_blob": "dcef8ba8518abac578043c3cdb1a5beab48cae92",
+      "bytes": 17882,
+      "sha256": "f2c82ead16645493fa5edce8e9c3d6968023d655447fdea4a1708b90ff0c2ea8"
+    },
+    "rtl/SH/SH7034/SH7034_pkg.sv": {
+      "git_blob": "2c0fdfdde2486b5d312b5b5e10a5d1cc17ba95c1",
+      "bytes": 16496,
+      "sha256": "84c384f326423ab8d9332d861d654bcf285593cc5868df79305809ba9a9f22ce"
+    },
+    "rtl/SH/SH7034/UBC.sv": {
+      "git_blob": "a870f29cd29d5aae4aa5ca3b21ec3740655737d1",
+      "bytes": 2655,
+      "sha256": "fd274219996aa5b71c6f486af9678993a7ff77333992a6c78bfd0a1e9d9a3df2"
+    },
+    "rtl/SH/SH7034/WDT.sv": {
+      "git_blob": "5272e33e47eb0ce34dd13440549fed019c96a86e",
+      "bytes": 4079,
+      "sha256": "5884dfc4b46c46887e6683baacc72f5460eda23aaa0f951575a11560bcff3cbc"
+    },
+    "rtl/SH/SH7604/BSC.sv": {
+      "git_blob": "24494e58b5fa47014b40f9eb707207a1bdb56267",
+      "bytes": 29593,
+      "sha256": "cef7b987f21c9627257ec70737b680dad15d7ee03829261d51ecc3e071faed94"
+    },
+    "rtl/SH/SH7604/CACHE.sv": {
+      "git_blob": "9b3fa734fbf32291b1260b1d7406e157c945ba5f",
+      "bytes": 13480,
+      "sha256": "80ba0199a20cda7898ec2aed5695f834599fc15afc22d773466b2d6c150147e9"
+    },
+    "rtl/SH/SH7604/DIVU.sv": {
+      "git_blob": "09b259b5f91888dc0363884fd3b2c5d81644c118",
+      "bytes": 6264,
+      "sha256": "1e27a9ba88fdee96a50c5321dbdfaeb9dd2dc0846a3f36f7788aebbd651f75f2"
+    },
+    "rtl/SH/SH7604/DMAC.sv": {
+      "git_blob": "94dbebc90f68f342a6d3f31cd63bad7ffe8e3cf7",
+      "bytes": 12651,
+      "sha256": "6cbb1b00b22b7dc69ba080cc33e7ec46f3d0fcf891a02548e06a96a4c6f9af2e"
+    },
+    "rtl/SH/SH7604/FRT.sv": {
+      "git_blob": "5998fa70b8146b2791b6c26f983de0b173420393",
+      "bytes": 6011,
+      "sha256": "68272cb3cc94afe69d35a95b243968f243b42aba19e567065b50649914a64fcc"
+    },
+    "rtl/SH/SH7604/INTC.sv": {
+      "git_blob": "3018e750e3ff0c10b1bad5e7ca3f12ba67461301",
+      "bytes": 10393,
+      "sha256": "cf122ba89ec444143ab854108441b1492da1dcf040969ec0956b45ac12309859"
+    },
+    "rtl/SH/SH7604/MSBY.sv": {
+      "git_blob": "706ffd2c60b392c1b87df129cf6af09137e2e3e4",
+      "bytes": 1539,
+      "sha256": "6065bcf468706675417f4c25ec9ad1732bd81648bb9ba2e287cef46dd468a983"
+    },
+    "rtl/SH/SH7604/MULT.sv": {
+      "git_blob": "0878330c35a02e693de309f49daaf6a1b3056f1a",
+      "bytes": 3971,
+      "sha256": "198591f32d2ff8f3d5b5aa83f7c0cc89b0f817ca8ab450609668a80f70d74788"
+    },
+    "rtl/SH/SH7604/SCI.sv": {
+      "git_blob": "14012b0605b00431137629d1cdd3f3ed63bfbe61",
+      "bytes": 9242,
+      "sha256": "7667ca7581c2af60349169b58d8bcc293460a95c78cfdc163f25043b86f5d477"
+    },
+    "rtl/SH/SH7604/SH7604.qip": {
+      "git_blob": "0943e05f99e58772c5220f6f21d192e293814db6",
+      "bytes": 1463,
+      "sha256": "b5f2282f17115f83e8712751d9061b94ad62248e1642ecc1670b77ea0aa289f9"
+    },
+    "rtl/SH/SH7604/SH7604.sv": {
+      "git_blob": "07713ee3168a7419e992514f413126739c546ed3",
+      "bytes": 15123,
+      "sha256": "0479b89992f7d276e99c3dd330c666a0a0677ce32d98a2907f4956134467a7f0"
+    },
+    "rtl/SH/SH7604/SH7604_mem.sv": {
+      "git_blob": "6e07c0a8034c1e4aebdd2dd6c6478b143e5319be",
+      "bytes": 6974,
+      "sha256": "115a3fa68a10f50d7e9781d84a0ccb6601e0cbdd39e78743e3603d912efd4787"
+    },
+    "rtl/SH/SH7604/SH7604_pkg.sv": {
+      "git_blob": "3c2220d46fb623925b15a5e23d96a73378de6042",
+      "bytes": 14200,
+      "sha256": "a0ca007d30b473ac768881a3818ec381ad11cee13eca31f819ba55afb69b0b1a"
+    },
+    "rtl/SH/SH7604/UBC.sv": {
+      "git_blob": "be8529693d49be52f6f07fee503023ca477a182b",
+      "bytes": 4347,
+      "sha256": "0880d68612a3fdd7fe3707fcd7d3aa120bc462749aeaaa915a0bd38e1577d4ae"
+    },
+    "rtl/SH/SH7604/WDT.sv": {
+      "git_blob": "fc0d4d397dd42e2a37313e7a91919006cca0f4da",
+      "bytes": 5673,
+      "sha256": "69add05da928abd24c5d306844fdaa7582c159ba461c7718fb1aef21fd6c7a36"
+    },
+    "rtl/SH/core/SH_core.sv": {
+      "git_blob": "d6d5d63a0b60b04eb5a09bc9839b2cc7626ee501",
+      "bytes": 24871,
+      "sha256": "783c6bcf011dd09f328208a4a8188c5fdc060ab783f180bc9fd523542eefc1a7"
+    },
+    "rtl/SH/core/SH_mem.sv": {
+      "git_blob": "115ec28f09a14ca562b214e6e29603ca2bfe2340",
+      "bytes": 3258,
+      "sha256": "6f316e4a73a6b591d8c9fe6deec8706f37f5e9bc4cc78d0e6d7164ee3cdcce05"
+    },
+    "rtl/SH/core/SH_pkg.sv": {
+      "git_blob": "d9d74c12e64d75f855319d7630fe6662052427fb",
+      "bytes": 38704,
+      "sha256": "f0e3ac31a928da0c737b08bc0b17064e683f556e50ae34f6548400cab7cc92ee"
+    },
+    "rtl/SH/core/SH_regfile.sv": {
+      "git_blob": "3ef3e469117d5187c14a20b9887f2e3f87f4c404",
+      "bytes": 4240,
+      "sha256": "c8a30e9d9e18b03321689388ab1efbf448b815049a7a4ee2c8ed047bf1beb84c"
+    },
+    "rtl/SH7604_mem.sv": {
+      "git_blob": "61f16501e7d76610fc9a085dbd289fc450ae8894",
+      "bytes": 6989,
+      "sha256": "f47e051e43a56dc27d2f18af8e9cd4be91b3f228a2666af43f6263a3bd3c2e6e"
+    },
+    "rtl/SH_mem.sv": {
+      "git_blob": "57b377551a7e23077161093f574d6c9f6fa72a12",
+      "bytes": 1709,
+      "sha256": "7036a8b12962ea33d336eff944801cc0ca1a4db6dad1a9e7bfccc2893a308a0a"
+    },
+    "rtl/Saturn/B-Bus.xlsx": {
+      "git_blob": "44d28dfb4787c06cf36d1a4f30bff3cbfa663968",
+      "bytes": 10553,
+      "sha256": "9e5fd701966d73cdb24eedbf7d0147bb3425b4ec1b596418c765a65b0bae4d39"
+    },
+    "rtl/Saturn/CART.sv": {
+      "git_blob": "9c8a642df6ac8cecec9ce1653e0a7e43ef82026f",
+      "bytes": 3104,
+      "sha256": "7bb0ca39ca46ac555e3e309c0ac8c9e739c68421dcda2d8bc3a1062b0279db90"
+    },
+    "rtl/Saturn/CD/CD.sv": {
+      "git_blob": "d10238ceb032319ac1727fa83b347abef458d92c",
+      "bytes": 2936,
+      "sha256": "6cd55521743da40cd5e0d6fd46054f2f3c8e474822b9e4df582916b33639daae"
+    },
+    "rtl/Saturn/CD/SH1.sv": {
+      "git_blob": "19154641b5e6654d6df121d217c2079e48e2575e",
+      "bytes": 5240,
+      "sha256": "d125f984a890b6a9bcce0c51db49e9560aa020826b188748c7acca05d8610885"
+    },
+    "rtl/Saturn/CD/YGR019.sv": {
+      "git_blob": "8e564ee059c2294e616d6753ea38a5baa798f932",
+      "bytes": 12323,
+      "sha256": "54a0794b9148726dba02d957b4006d5bf1a6ca70c8847d821b231b62a38824c0"
+    },
+    "rtl/Saturn/CD/YGR019_PKG.sv": {
+      "git_blob": "bf1282a6259b2368dcc219c17f9c0f77eab78951",
+      "bytes": 3276,
+      "sha256": "d5a277badbee73e447a7aaba4ac686f4968fee49bab987bada339b6c582abd57"
+    },
+    "rtl/Saturn/CD/sh7034.mif": {
+      "git_blob": "7ee3a8510cb59cc0ec6654854c4e4ffe0a1ae51d",
+      "bytes": 344144,
+      "sha256": "6f2dd17705bd36f4a31c0a6302f080bb5ebaa5af102bc69a46e6400a60038a07"
+    },
+    "rtl/Saturn/DCC.sv": {
+      "git_blob": "7f34978f45c3166d561ab668b10eba1dfedd6a65",
+      "bytes": 4335,
+      "sha256": "3618cbc6ce539602edd572d6bd8724c0acc378bea329f0084d88b1d8ce8f802b"
+    },
+    "rtl/Saturn/SCSP/SCSP.sv": {
+      "git_blob": "402dcb6eedca98547c34a799fea3dc56eddbca5a",
+      "bytes": 89709,
+      "sha256": "4960749474db6bc1c60f4faa54cd24c8935f81bcf4744c8466638bf2eb3f15d3"
+    },
+    "rtl/Saturn/SCSP/SCSP_pkg.sv": {
+      "git_blob": "3c628055579a72c0e43df8041b6ebb764da48efa",
+      "bytes": 15877,
+      "sha256": "4855508eec82a0fd242685eb92e90458c6426a505bb147dc3d8556cf5deca889"
+    },
+    "rtl/Saturn/SCU/DSP.sv": {
+      "git_blob": "3aa3859355005d4a57de850c813fe064e2cdb8d5",
+      "bytes": 16162,
+      "sha256": "aa767cabdc12dbddabb02ae586974904d82b518374a9424d906d0177f03e5c6a"
+    },
+    "rtl/Saturn/SCU/DSP_PKG.sv": {
+      "git_blob": "07ef08cc8d8562848644050a28a59fb6d525199e",
+      "bytes": 7686,
+      "sha256": "413d017f9ab4c42f372cbc3358f96686fd61ceb3a64a55b44e635b6c491c7087"
+    },
+    "rtl/Saturn/SCU/RAM.sv": {
+      "git_blob": "4b15e50f1e7a1c655c1b7ae436d1bd359f3abfd6",
+      "bytes": 5838,
+      "sha256": "6f2801850bafe5a1cacdc1ae0ed85989377ef35e85a2a820845886beed92dbef"
+    },
+    "rtl/Saturn/SCU/SCU DSP.xlsx": {
+      "git_blob": "b75d2d3af995e9049c217854a57ca5880644f25a",
+      "bytes": 22130,
+      "sha256": "dd16e96d322e015e1da7db5fb8656ef9163e70ec7ee43629cb765547774f1966"
+    },
+    "rtl/Saturn/SCU/SCU.sv": {
+      "git_blob": "999825f64aa200673f4bdd590e81426ed3212ae4",
+      "bytes": 88919,
+      "sha256": "fb0989a610944fe0b6cc94eea3e268e36ec28aac2f6ea2fda00367af658e26b9"
+    },
+    "rtl/Saturn/SCU/SCU_PKG.sv": {
+      "git_blob": "75a2b3b24f9e1431ca68fdbf9c4971bfcb498a72",
+      "bytes": 7644,
+      "sha256": "96139cfd81b7ceba50a93dc93655ddbb2a04fefaff05c2d884e13128e5aa1717"
+    },
+    "rtl/Saturn/SMPC.sv": {
+      "git_blob": "99acb82517e1f158ae73a0fb9d297f064b90949c",
+      "bytes": 37733,
+      "sha256": "e1ab1f1f70cf072623bb5dc6903ef373e33d78d803edf4256f5c882e4a803cae"
+    },
+    "rtl/Saturn/STV/5838.sv": {
+      "git_blob": "3c479eea3f350215a9937a9bd4002a903cc68559",
+      "bytes": 5698,
+      "sha256": "f85ad4a0deecef0012d8b9bb57ca6e2f6444654b5f772a590a7d73422efbdb4a"
+    },
+    "rtl/Saturn/STV/5881.sv": {
+      "git_blob": "a07a084248b7f88201660ff08b51026c815b4857",
+      "bytes": 29904,
+      "sha256": "de0257e76922fe4a752a2c0838a6e5174592d1ece1d82a318dcdc441e3b8f20c"
+    },
+    "rtl/Saturn/STV/93C45.sv": {
+      "git_blob": "bdad426fbdc22ce8ad884bf0f0adb92e44f433a1",
+      "bytes": 3346,
+      "sha256": "cd32015a319feeb6e2f2bda8edda7906282e96b139997469cf055bdd02c2627c"
+    },
+    "rtl/Saturn/STV/RAX.sv": {
+      "git_blob": "b6db96060c0ed334f6cdfd9d95c2ced6d7b36f45",
+      "bytes": 4283,
+      "sha256": "65eef1f743680c0c6af70b691db91b76a992c726bec4c885a4b03455525fc0cc"
+    },
+    "rtl/Saturn/STV/STVIO.sv": {
+      "git_blob": "872323ad634f98d1d92b75b94305b9f91f0a5cdd",
+      "bytes": 3861,
+      "sha256": "0a2c07ab4ae49a83861d689681ab1b9d6800d9e727655b3c6d14f6e44662b926"
+    },
+    "rtl/Saturn/STV/STV_CART.sv": {
+      "git_blob": "bddf77a2378494ec03d163c452575b544acabd9f",
+      "bytes": 7866,
+      "sha256": "c3a54b5674f556fab5eab64d8d4b80822435decbfce4f505f6f834114c226605"
+    },
+    "rtl/Saturn/Saturn.qip": {
+      "git_blob": "e33306a02601b1211924a64fefd96d883f4b1a7c",
+      "bytes": 2344,
+      "sha256": "6072f583d3e7fcbda7044f3ebb467b07a4442b5ab8c103fdf2f68201f49a8695"
+    },
+    "rtl/Saturn/Saturn.sv": {
+      "git_blob": "1deeab60963db3d5c08185e96ea3c13670b2c8f0",
+      "bytes": 22227,
+      "sha256": "9d10a5152dccaba1f177d2410e93525f130fd9167ca938a402d50152cd296b33"
+    },
+    "rtl/Saturn/VDP1/VDP1.sv": {
+      "git_blob": "f2928b05b580b84fc6f3bc54c3d7f15e9477775f",
+      "bytes": 87756,
+      "sha256": "9331d510f368bf14f2d1f8231948fc3a9f686236370d0943281680e6ea4e68f8"
+    },
+    "rtl/Saturn/VDP1/VDP1_pkg.sv": {
+      "git_blob": "7a2ac90bd3e44cd44cd259df66dc3650f75668bc",
+      "bytes": 9753,
+      "sha256": "858dfa6868db26102f6d3bef60d5ed23d8a4508866055136a582845289d5ad48"
+    },
+    "rtl/Saturn/VDP2/VDP2.sv": {
+      "git_blob": "f33ae624c51fed464f0b8c23d9a0ae815dd4bb89",
+      "bytes": 169550,
+      "sha256": "90f0386b62093b07e3f68949abba8fd93b6f1bd1b62d8d9f490597af34aef836"
+    },
+    "rtl/Saturn/VDP2/VDP2.xlsx": {
+      "git_blob": "e9b156a063e04fa315584e18d6b91add743299b3",
+      "bytes": 69986,
+      "sha256": "1feaa7cdeb86d0a832ef0feb4833b8fe073fc22483fc7a245e956a694d82a726"
+    },
+    "rtl/Saturn/VDP2/VDP2_mem.sv": {
+      "git_blob": "c9ead40324a21cbe7c23a35ccea869973aebb920",
+      "bytes": 4450,
+      "sha256": "aae502244d2955b2db3a1b1b0d2c7baaa797d30a44c46b7d9a0dfbe99a7d51bf"
+    },
+    "rtl/Saturn/VDP2/VDP2_pkg.sv": {
+      "git_blob": "6986eafdad6f7c9dc0a65a967a933ac2434149fa",
+      "bytes": 65656,
+      "sha256": "23a80108a4ef7bcfe262b681383af1afe2dd0d3e5b4dfd52cd248d48237730a7"
+    },
+    "rtl/bram.vhd": {
+      "git_blob": "b862f1d4d5108e5d3fff282feb28bc7364029909",
+      "bytes": 9257,
+      "sha256": "6a968b7e543296d10745885d7b202ca5384fc684427e841208ea99295487eea1"
+    },
+    "rtl/cdb105.mif": {
+      "git_blob": "8e23519b252193e6bc99fcaf3647a2ef16b8fc4a",
+      "bytes": 344143,
+      "sha256": "1e2a6d51dec7e1ffaa5dd6edaf5034b08de1c663d8dcefd84521348fb8c64439"
+    },
+    "rtl/cdb105m.mif": {
+      "git_blob": "bbb3201822f13fd2ac391ae64aeab396ac2a5aaa",
+      "bytes": 344144,
+      "sha256": "88d931f551efb7cb57aa09ae8500766dc92683b2ce2368fc52d70f0a586d8694"
+    },
+    "rtl/cdb106.mif": {
+      "git_blob": "a07b837e9aff8c783fa7bc6a843b3310d0a74ef0",
+      "bytes": 344143,
+      "sha256": "8e2442c2e471a9df8f5fbfbefdea8fdf79a5ecbaa696a023de89b230e3eca38b"
+    },
+    "rtl/cdb106m.mif": {
+      "git_blob": "f5e61eb377b8c1113b29f656822f48c4a5d50351",
+      "bytes": 344143,
+      "sha256": "c283ae4f72615c2b42bfbc05f141405e69c8d6c78ce06fd4a6c72f5542834177"
+    },
+    "rtl/cofi.sv": {
+      "git_blob": "14c1b88b4c7f5807332e24abaaf5b60f2ea16461",
+      "bytes": 1192,
+      "sha256": "6c34807e7dc2ceb68575b7a5131aa06fe0d6abb7360f93f2b29eeaf4f27d265d"
+    },
+    "rtl/ddram.sv": {
+      "git_blob": "bfac913bf681dbadafd682cd99630f85b45c62d1",
+      "bytes": 41534,
+      "sha256": "67135f827bf347493adfeefe9d21f54cb1047d483d70c4c7d7b86f778c3e9f3f"
+    },
+    "rtl/hps2cdd.sv": {
+      "git_blob": "1f5da2f596781c1ef7daff51e3909c3b6c22cddf",
+      "bytes": 7114,
+      "sha256": "3704ea2b31743316d62321e039f1a61deb5d5f1ee5a000e929e3e5b7344f8b6d"
+    },
+    "rtl/hps2pad.sv": {
+      "git_blob": "c76cc6887d1b23a4ec3e841f47d0bc3cd52dcb92",
+      "bytes": 18036,
+      "sha256": "d5f68f8a08d423dcce30e12f0a35689244d092d3f741bf6b09ebeed9173555db"
+    },
+    "rtl/hps_ext.v": {
+      "git_blob": "99e32361f72669089325bcd7d12b27a0134d746e",
+      "bytes": 2572,
+      "sha256": "f7f10abd622fd28280d23b399c6d07e668c87b2ce0428f60b4404223b0d554e4"
+    },
+    "rtl/jtframe_resync.v": {
+      "git_blob": "c72370a035ca045e8df8e6f0a740e3a80ffa7be7",
+      "bytes": 3551,
+      "sha256": "0f4ad0edc228ffda96e9a1e05badb22cb6901e2da8e352008a5c2b0c30ab4145"
+    },
+    "rtl/lightgun.sv": {
+      "git_blob": "3f76c604aa45d30eafae06c0e9238e86c5b3c8f1",
+      "bytes": 5055,
+      "sha256": "6d5d15b13d104179ebb30d0cd8c768fbe81d06a036b2eb961f00f78d9cb6e7d1"
+    },
+    "rtl/mlab.vhd": {
+      "git_blob": "a5770200f4259ea4ad2b7534a347b8d5d13a8d79",
+      "bytes": 1518,
+      "sha256": "2b2cde827f4447821e38ef1f3f5299c6c8b195f14c622662a28f6d5c12ae38bd"
+    },
+    "rtl/pll.qip": {
+      "git_blob": "84873203f4d4a1a6fc2d487301927cb8eb6ac477",
+      "bytes": 72314,
+      "sha256": "e61f4a7d03dd1395b57c7c78f8380c9b33a04dd3f309f90bcef31ef262b711b3"
+    },
+    "rtl/pll.v": {
+      "git_blob": "4bcd05bed4500649a29d4a63f84f0167b51faf16",
+      "bytes": 17726,
+      "sha256": "a2c95f31f102d32ab54326cb9b5b071bc68f4acd11b473932ccf4f68c0c56f6c"
+    },
+    "rtl/pll/pll.mif": {
+      "git_blob": "499679d358051909f9c5b58a8f860c84a0a9b6c9",
+      "bytes": 21010,
+      "sha256": "3cbbffea408bd8df09860e07e2d42bb0b505c43f37747e88088ebe0f3bbaa86a"
+    },
+    "rtl/pll/pll_0002.qip": {
+      "git_blob": "fc13da8cb971426028cdcfb0ea33db5039bbd135",
+      "bytes": 213,
+      "sha256": "5e5966ee0b31f99e2825a5c1d30117eb6245df681edaea433c9d6641e85da3c4"
+    },
+    "rtl/pll/pll_0002.v": {
+      "git_blob": "10b323bd355270f7d255c0879165e62881683e17",
+      "bytes": 6303,
+      "sha256": "d4a86a04fd25c9435ee1f87c8cb7881915088d099d2dd0c33c518213aedf05a4"
+    },
+    "rtl/pll/pll_0002_q13.qip": {
+      "git_blob": "9f8ded1ff64443c344932befaaffa2162591714d",
+      "bytes": 399,
+      "sha256": "58d1281c86501f8926b2b156edeada9bc7c27c4156f456eb3568a5ba40baea0f"
+    },
+    "rtl/ps2keyboard.sv": {
+      "git_blob": "c68d507d32ba0de91dd4f656edaa9f55e7da5bc0",
+      "bytes": 8061,
+      "sha256": "16693581a6cc197d786821bdeb954fa4595ab9326f18e92da60fd8f0f4c6d27d"
+    },
+    "rtl/ps2mouse.sv": {
+      "git_blob": "ed4d540739ec102abca7f588e3e8487cece4b7af",
+      "bytes": 2173,
+      "sha256": "45ec91ca52240a9d9c6bc6ad0769f46e11b5b8a5a80372275f1e7ca167b519e4"
+    },
+    "rtl/sdr.xlsx": {
+      "git_blob": "1bff6af9c4d8a26e52bdaa5fc5c2ed9e318fd4ce",
+      "bytes": 28978,
+      "sha256": "d10ab3957659412ff7d0318ecf0e26ef6cf6732371285750433035b879756a4f"
+    },
+    "rtl/sdram1.sv": {
+      "git_blob": "4a5a1dce5a2c3ddbf274faead2a22ee7807bf782",
+      "bytes": 16761,
+      "sha256": "45027605be229eadaa4d6fbee7ee223cc0edc72f66db71cda339e72792b2a6e5"
+    },
+    "rtl/sdram2.sv": {
+      "git_blob": "cc60cb96b7e0b7b954618a1222e782d7e397e040",
+      "bytes": 11585,
+      "sha256": "760c767f9ec3521421aca70ba778249e750490dddeece85e148d9b1b09c3ee89"
+    },
+    "rtl/stv_eeprom.mif": {
+      "git_blob": "a016bcb873a54e67aea5e12fb5c3826da4e2d11c",
+      "bytes": 1165,
+      "sha256": "a7db847321fb026f93cdad8b6f05f829d420015eecc72dd25250b84c83808615"
+    },
+    "rtl/vdp1_fb.sv": {
+      "git_blob": "444e2243783f8d9f42946f9f0a347e3a2d0e6ca5",
+      "bytes": 1446,
+      "sha256": "ad54d540b7365a0107615c77d5e376b5ad6068dde90fdaa8962d831af989797f"
+    },
+    "source/COMPILED-SOURCE-MANIFEST.json": {
+      "git_blob": "bb1f0bc164a1653470493d718e5995ab69323f7a",
+      "bytes": 29967,
+      "sha256": "0977fa12a0d6ebf6a0793f52f14801e76af4aec356c3707526ab2d8e42b8bfa8"
+    },
+    "source/STV_DS.qsf": {
+      "git_blob": "5bec3043634635476169db67daf0d8e404221a31",
+      "bytes": 3393,
+      "sha256": "29cd056b1113fdab5f30de9b378932f2ced2736f25713fea057befdf3fe9543e"
+    },
+    "source/Shienryu-seed04-compiled-source.zip": {
+      "git_blob": "8cba14cd8dce087707a0360d8798116e20bcf6eb",
+      "bytes": 1102197,
+      "sha256": "00d07b6956f7daea6568a90e065310c98cb727206453d9a74e1da73a7288c131"
+    },
+    "source/build_id.v": {
+      "git_blob": "d5fcb1ed25faee22b180105847c6e4f7c7fc88c3",
+      "bytes": 27,
+      "sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1"
+    },
+    "sys/alsa.sv": {
+      "git_blob": "90343893eac82574438c6dbdc0881d2a3d9048fa",
+      "bytes": 3798,
+      "sha256": "74943b658cd3f4adc5b74c72f225fb42b95122a1c5e453df860a4c6a9bf72fc9"
+    },
+    "sys/arcade_video.v": {
+      "git_blob": "f41d0422958ad1ebf97f10934a05129c1bca9bb8",
+      "bytes": 8597,
+      "sha256": "ce64cdd7f900ded7b9cd9aa728dab7383b7561cdc75dfe82ab23fe27a3d217d3"
+    },
+    "sys/ascal.vhd": {
+      "git_blob": "98009db58985143e219c6c7fe4cca7a30bc6aeb5",
+      "bytes": 100022,
+      "sha256": "c958d7499eefe7bf2cc4f094aec951b4dbadf4a88b00820ddd0de2291a8a9134"
+    },
+    "sys/audio_out.v": {
+      "git_blob": "0f748e008f3873695be5c7323591bdd0891b20ea",
+      "bytes": 4504,
+      "sha256": "565dd9badb00052dbd324e70f7ab66e8c6ecd0c5c2791aebffe477a2c0669363"
+    },
+    "sys/build_id.tcl": {
+      "git_blob": "b43b9d926855ff6b33ad8bab1880f243672c972e",
+      "bytes": 2202,
+      "sha256": "148dc6a8124d36ac2898a45d085960cc05178a76d7297fde8877925fc0a74e88"
+    },
+    "sys/ddr_svc.sv": {
+      "git_blob": "ed24d4e8e8b2c7c747df3ed124ff187c5c340e7d",
+      "bytes": 2662,
+      "sha256": "8dfa874b9a93b4dbbe3b2fcf4f9035a895262cc090d398f4099941a626f41c08"
+    },
+    "sys/f2sdram_safe_terminator.sv": {
+      "git_blob": "3586365dda0828507bf8a51a9ad688ab53700024",
+      "bytes": 8185,
+      "sha256": "400bcbcfc0b4aae324fe813866a5443d577bf4de9b4ab1454cb068733d170261"
+    },
+    "sys/gamma_corr.sv": {
+      "git_blob": "321b83f7e1a7e52d6997e59a67eeac8ae4c5d849",
+      "bytes": 3186,
+      "sha256": "2754944c6fe05d921374d1fecc26621782520b3bc6fbf600ca561e9f37c7af88"
+    },
+    "sys/hps_io.sv": {
+      "git_blob": "92cdf77cd136edbea23ac2036be83698a0f7a6a7",
+      "bytes": 26664,
+      "sha256": "1182da0710483a1030687c12e6601025a5293ab90f2eb15cdf5fdea38ea4c275"
+    },
+    "sys/hq2x.sv": {
+      "git_blob": "f5fcc712bea537a137f6152bc73afce1f423acb5",
+      "bytes": 10537,
+      "sha256": "2146b69cf63c26a4b41407e9ac1b4462db4d7e3ea6d8a99f31ba12712d68f975"
+    },
+    "sys/i2c.v": {
+      "git_blob": "6da6a144dcf8ac509cd892fc24c1392f6d9ceebc",
+      "bytes": 2269,
+      "sha256": "09bd7ebd5d84fb57f6a9d569e5214f3154c49e55826c15bd78884f3c781fec5b"
+    },
+    "sys/i2s.v": {
+      "git_blob": "7d4517bac6625a9fa104a862e7327122ebf8c9b4",
+      "bytes": 839,
+      "sha256": "927d2aea6797fb837f383e5e8a3259609e132ed24883127240ab21601f467efa"
+    },
+    "sys/iir_filter.v": {
+      "git_blob": "b8bcf4f008e39a02d77bc9d37436405aa87dd9ea",
+      "bytes": 5659,
+      "sha256": "570a8095c15af84a60015b5eab105cee6e2d7edde77e20f0ce40c075ab2db8b7"
+    },
+    "sys/ltc2308.sv": {
+      "git_blob": "4d3ccc1590057222ba6c461bf89443a31672952e",
+      "bytes": 3568,
+      "sha256": "825fa1197c8e9f31c19c2fef1b01693133fb7df3cfb2dd831f2848a98fc6899c"
+    },
+    "sys/math.sv": {
+      "git_blob": "e7c0144b09463d42333530947b2607143ab8d8b9",
+      "bytes": 2065,
+      "sha256": "d384fa9fcf73100cb28a2affc5db1e4aacc87620287971c3882507fc3af056cc"
+    },
+    "sys/mcp23009.sv": {
+      "git_blob": "82eaf37f140d4fc60c227d3913d0ff5fac5ea43e",
+      "bytes": 1825,
+      "sha256": "f168485e0b64c0545060f25b858c9f1c12b57024ce441754bb6a0cb0e9072e3f"
+    },
+    "sys/mt32pi.sv": {
+      "git_blob": "67048074f68e84fcb7d1a1946494cc3f609fa52a",
+      "bytes": 6243,
+      "sha256": "4ad39571d16a4b25347030d75ffdf601803ddec71e2e3fcabe962103cc45a1a2"
+    },
+    "sys/osd.v": {
+      "git_blob": "c354f6f6823e4fba227633f6d7b3e45d51107e4c",
+      "bytes": 7645,
+      "sha256": "68ec08401a6ddaf68c95a2e976b9085b77f0002d5b64ffed7454055dbcc48062"
+    },
+    "sys/pll.13.qip": {
+      "git_blob": "a6a1dcaac8744322564374b6f03f92a7c521d394",
+      "bytes": 1185,
+      "sha256": "f25f58e7c0290583f33ee0fdd729a4470cc69312686f0f1ecb95c61115d61cec"
+    },
+    "sys/pll_audio.13.qip": {
+      "git_blob": "e9879310f3d6ba7cf34eccb4c49ab061cbfbf1ee",
+      "bytes": 1384,
+      "sha256": "60edce734c54e4b9f9d56f078bc797841e52c6817f4d27e0cfe77db5d77b2596"
+    },
+    "sys/pll_audio.qip": {
+      "git_blob": "abb013b6b477818cc81bead119edaa3a2b77e310",
+      "bytes": 55038,
+      "sha256": "278496eefe70d18f6b3ccf624c3a4595ccca74a9a6740eb4520200f1e929a236"
+    },
+    "sys/pll_audio.v": {
+      "git_blob": "185a94c28ecbb3d054334c3e6ffab0fb69308352",
+      "bytes": 17313,
+      "sha256": "1662fff7650cd443db81db7f0707f5583d223372b3e3c41af2d41ea4f3ac38f3"
+    },
+    "sys/pll_audio/pll_audio_0002.qip": {
+      "git_blob": "dadd4b80566d3caaeae55becbd990dc3ce65f8d7",
+      "bytes": 423,
+      "sha256": "4cedd5394006286e0be61acdcbb6455f35cdf5c1488f4eb4a76b60e20eb43fb8"
+    },
+    "sys/pll_audio/pll_audio_0002.v": {
+      "git_blob": "789891438b29868b5bd7aca3d4ed6a662ff6c7f4",
+      "bytes": 2161,
+      "sha256": "2b24d2a561d81cc8b20f725884ee9c243e619058e42ebcdcf6f491d33008696c"
+    },
+    "sys/pll_cfg.qip": {
+      "git_blob": "0b560f9ddf57c738df6feecabb12d15c53a991c7",
+      "bytes": 540,
+      "sha256": "7c1573f321012132479272242434d02058b1bcfe8d89843130ef11173a901eae"
+    },
+    "sys/pll_cfg/altera_pll_reconfig_core.v": {
+      "git_blob": "a9e2b8c01788133d1588c5c1b160bf509b6c63b8",
+      "bytes": 85094,
+      "sha256": "9058d2c68e9cb0b1b6b3ab5487daad8aeaf04461e162aba317857dd133329189"
+    },
+    "sys/pll_cfg/altera_pll_reconfig_top.v": {
+      "git_blob": "843c9705bede6a3fb6fbe2ef9326a5241dd648d5",
+      "bytes": 14825,
+      "sha256": "34c11c19e6bf3797d2db2e41314ce802f5a01041265ce943b54e7f20eb2027c9"
+    },
+    "sys/pll_cfg/pll_cfg.v": {
+      "git_blob": "2a2f07857dcb80dcbaeb8e38cab46cff53605fbf",
+      "bytes": 4541,
+      "sha256": "89750669762947128e105736d82384587f1cf8ac2f9965090e483c20f7624d59"
+    },
+    "sys/pll_cfg/pll_cfg_hdmi.v": {
+      "git_blob": "1912c2af7e44aa3fb813acabc0fd7dc00a2bb8e7",
+      "bytes": 51491,
+      "sha256": "d3874dda124af03656054fa1ae1ee70f1a4d3cea6d4670795a5168325bb6760a"
+    },
+    "sys/pll_hdmi.13.qip": {
+      "git_blob": "76def897abe8746151c912b68adee3174f1d04fc",
+      "bytes": 1361,
+      "sha256": "625df824716313233400454bc1142615fb3a234a494225691c8a554753b1731b"
+    },
+    "sys/pll_hdmi.qip": {
+      "git_blob": "be34aeb27eeab50edfa0f60d96941d6001d48bd2",
+      "bytes": 76832,
+      "sha256": "5571604010bf98858a0797a2286d2389e105d32a97b42508865b02ba4237dd0d"
+    },
+    "sys/pll_hdmi.v": {
+      "git_blob": "0cefd2546624c2ae252348963be192c39f7342ee",
+      "bytes": 17805,
+      "sha256": "499561547c1045a46f1137558e2bab83d8e026e5d32669b5c5779a264b7ed676"
+    },
+    "sys/pll_hdmi/pll_hdmi_0002.qip": {
+      "git_blob": "3cb7073d8d9c972ae7f002d9017c0029efc202cd",
+      "bytes": 223,
+      "sha256": "de648286a832ee72839dd6abb444231a4238d32b2c26f29426399d2221d7bf5b"
+    },
+    "sys/pll_hdmi/pll_hdmi_0002.v": {
+      "git_blob": "9347c76021f035efafef82e1ca3381451dd0d4a6",
+      "bytes": 6483,
+      "sha256": "27c77f35c89e97994477801f83edf3c7e9c5b9e57df49864434d300c40e9f1f7"
+    },
+    "sys/pll_hdmi_adj.vhd": {
+      "git_blob": "67287cb3f521e7ab8f3945eb0be4978166146413",
+      "bytes": 11988,
+      "sha256": "ae18c82eef2f6b9c7783c68ac272d03f570eb1bdaddce14a1908c351da51a71b"
+    },
+    "sys/pll_q13.qip": {
+      "git_blob": "78e7e402c9e980735d4505b76de8e89549b86129",
+      "bytes": 380,
+      "sha256": "c2b9c95a49d9b1100b0640bbdeea1acff845b0a8cbc11a7259c0913d2c61cfa8"
+    },
+    "sys/pll_q17.qip": {
+      "git_blob": "85cc84b0f4df4735f234c52dd3e799cde1bf3874",
+      "bytes": 341,
+      "sha256": "7139faf33ae28066e805f290b15401eddb092d4b7d31b529a3ce1f0213fbc90a"
+    },
+    "sys/pll_q25.qip": {
+      "git_blob": "85cc84b0f4df4735f234c52dd3e799cde1bf3874",
+      "bytes": 341,
+      "sha256": "7139faf33ae28066e805f290b15401eddb092d4b7d31b529a3ce1f0213fbc90a"
+    },
+    "sys/scandoubler.v": {
+      "git_blob": "81e7c3f4e62d7214186ccffa48856494e6a7005d",
+      "bytes": 4697,
+      "sha256": "d36181c5fde9df0a504c547e23f60bcf201420052ada2682f081b00fd9485e6b"
+    },
+    "sys/scanlines.v": {
+      "git_blob": "43f890f148d3a642f403f611792efe8f253b022d",
+      "bytes": 1441,
+      "sha256": "1fc7ac5359fd224a3fc06388f7671e07bf57cf6a39f35803a265661c56c564d4"
+    },
+    "sys/sd_card.sv": {
+      "git_blob": "417d8d400d324452bae6e77c6852f2d1c6102c82",
+      "bytes": 12938,
+      "sha256": "25114f9a0e9ab4dd702633ae927fc825dc79a4d9f7746c1bb75dbd10d61eb6d6"
+    },
+    "sys/shadowmask.sv": {
+      "git_blob": "572679c2fcc4bd8193c760751f82fa9b872f2b9b",
+      "bytes": 3617,
+      "sha256": "88429d137b4ce9f6538a052f03d874604f46decf6d69b3fc824cc795efcf3193"
+    },
+    "sys/sigma_delta_dac.v": {
+      "git_blob": "d0d6be0877b42623605939845c343f9a4ee97fa9",
+      "bytes": 934,
+      "sha256": "352d31dd185bce14d9d1e8a4999fbb5f2b5b2e42b048bdc9f4b828119cc5127a"
+    },
+    "sys/spdif.v": {
+      "git_blob": "eee2b0817641c83bd46c5919150be54f98a4dd8c",
+      "bytes": 9218,
+      "sha256": "a617bba332c4611caf81ba585b8f6828c7899aec5f81664a870f10419cb9b451"
+    },
+    "sys/sys.qip": {
+      "git_blob": "ced8e8bd6c86db26131924457c12ccf88ed1627f",
+      "bytes": 3211,
+      "sha256": "3854d7f172097e01a40037e0a82dfd1a4178391ea0964767492979216279f31d"
+    },
+    "sys/sys.tcl": {
+      "git_blob": "93b624757c3cc4a525a2bad16d234090a29ed0f6",
+      "bytes": 11160,
+      "sha256": "49ecdef370caf939db8f102ce161c1a5d8083c125c21589a93143833cadd43e8"
+    },
+    "sys/sys_analog.tcl": {
+      "git_blob": "692043f8c9de847c7b68c2277579c207bded9d9a",
+      "bytes": 3085,
+      "sha256": "e4cbfd22985fa046b546c0cfc626fccf773d9098b7c6a595f8bea66d67d25203"
+    },
+    "sys/sys_dual_sdram.tcl": {
+      "git_blob": "cf90eab8b045ed4deaa26a059cb51e19a5be0026",
+      "bytes": 2559,
+      "sha256": "4f41376069b2070079d8ba4ae4a722c8ecfe3ca4b99798d0bdd8cda986b5ad5b"
+    },
+    "sys/sys_top.sdc": {
+      "git_blob": "4fa6a785727abbf6b8fe2cc204e8b92b3008ec2c",
+      "bytes": 3664,
+      "sha256": "ca42b002f0b2bd7e201a1363c2a16078945a5ebe63112425fedd750e89af3a62"
+    },
+    "sys/sys_top.v": {
+      "git_blob": "eaf7dd80b657f2c488d324f5ad4101116f14bcae",
+      "bytes": 44538,
+      "sha256": "0e14864792963584aeab55e8439c6fd1a8002f0f45c00e30de29d66d17d9dc1a"
+    },
+    "sys/sysmem.sv": {
+      "git_blob": "8c17e868502c1768cff70f48aebe427ba88e0527",
+      "bytes": 16222,
+      "sha256": "9f8cf78563cc31beb7dfc6d7048c51ba536ff4f1f9f640b4ff9f8d574456c94e"
+    },
+    "sys/vga_out.sv": {
+      "git_blob": "41606354e37c98111138446aa13c7870244db89d",
+      "bytes": 2042,
+      "sha256": "02a533c3dfd547afddea2946019ecc79bbe9c27bb6128c0999fa5fc9e78f8108"
+    },
+    "sys/video_cleaner.sv": {
+      "git_blob": "4c057a834197df0bbf6dfda4ecf94efbaea9eb64",
+      "bytes": 1900,
+      "sha256": "44b986d9bf8412e56bf8e4eae3dc87e04b4c378e58ec6119de5a8aed320e3572"
+    },
+    "sys/video_freak.sv": {
+      "git_blob": "65375cd278940c6d6560f6d777d3c0352ab106be",
+      "bytes": 8301,
+      "sha256": "6a9b8565f66894a8f2ec10c916593e980d260f29f1886bfe70bf6f3b0cf6edc0"
+    },
+    "sys/video_freezer.sv": {
+      "git_blob": "24d2c65139b72d13c3172eb9722f2a63f0f200d9",
+      "bytes": 2971,
+      "sha256": "0f3f4710b072b7e90b0b6bfe7607dec18dbd6bed78d1994f32d6fa72a6b7aef3"
+    },
+    "sys/video_mixer.sv": {
+      "git_blob": "e53e1c06e53e3ff953b02398486b50202e8b8129",
+      "bytes": 4715,
+      "sha256": "31ed2c917bd6680b4d60328e71a4f28015bd5fcec21e15b290eacec88971167d"
+    },
+    "sys/yc_out.sv": {
+      "git_blob": "984fc379afed7c038061be50ae95302e250fab18",
+      "bytes": 10111,
+      "sha256": "c52d7bfcc8dbc5a0cda2b3117172cbba790fb97b7de61722ddac205f6ec8bc20"
+    }
+  },
+  "removed_superseded_current_paths": [
+    "install/_Arcade/Shienryu stv_flip_v1.1_rc1.mra",
+    "install/_Arcade/cores/stv_flip_v1.1_rc1.rbf",
+    "packages/MiSTer-STV-Shienryu-Flip-v1.1.zip",
+    "packages/MiSTer-STV-Shienryu-Flip-v1.1.zip.sha256",
+    "releases/stv_flip_v1.1_final.rbf",
+    "releases/stv_flip_v1.1_final.rbf.sha256",
+    "releases/stv_flip_v1.1_final_README.md"
+  ],
+  "payload_manifest_sha256": "fd526737c876a02bba05da9e3c5b15df4653b2e0eff6238d4bf616e6c7dd0f50",
+  "original_tag_ref": {
+    "ref": "refs/tags/v1.1-share-20261022",
+    "node_id": "REF_kwDOVT6O671yZWZzL3RhZ3MvdjEuMS1zaGFyZS0yMDI2MTAyMg",
+    "url": "https://api.github.com/repos/djjohnson13p/MiSTer-STV-Shienryu-Flip/git/refs/tags/v1.1-share-20261022",
+    "object": {
+      "sha": "41da931c75b8d1f2d5159cc1ca3770f613c19007",
+      "type": "commit",
+      "url": "https://api.github.com/repos/djjohnson13p/MiSTer-STV-Shienryu-Flip/git/commits/41da931c75b8d1f2d5159cc1ca3770f613c19007"
+    }
+  },
+  "experimental": true,
+  "full_timing_closure": false,
+  "no_remote_mutation": true
+}

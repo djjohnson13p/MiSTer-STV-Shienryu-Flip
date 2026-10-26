@@ -1,0 +1,100 @@
+{
+  "prepared_by": "agent:shienryu_source_review",
+  "recorded_utc": "2026-10-26T03:35:54.021325+00:00",
+  "state": "LOCAL_REVIEWABLE_PROMOTION_PAYLOAD_NO_PUBLICATION_OR_REF_CHANGE",
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "RBF_sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11",
+  "MRA_sha256": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3",
+  "compiled_source_members": 204,
+  "no_row_predecessor_6eb_payload": true,
+  "files": {
+    "NOTICE.md": {
+      "bytes": 1402,
+      "sha256": "bf3c456be00102e6636f882df840cd736b7ed50eab89c242a276ae3b3cf09645"
+    },
+    "README.md": {
+      "bytes": 4241,
+      "sha256": "1831de95d1cf5b093afd969bd54118e16a067cf7df3ff0b98f0fc805175d0978"
+    },
+    "docs/SEED04-BUILD-AND-TEST.md": {
+      "bytes": 2745,
+      "sha256": "1c5ca68540b1b947b608acd301ab3c3e14678c2551bd5f2d22f750f7d7c3ed6a"
+    },
+    "docs/SEED04-STATUS.json": {
+      "bytes": 8293,
+      "sha256": "eeabdaab290b26798751e805e48f3cd0d247cae7bac8107c77c7b5a26fef3117"
+    },
+    "LICENSES/GPL-2.0.txt": {
+      "bytes": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    "packages/MiSTer-STV-Shienryu-Flip-seed04-20261025.zip": {
+      "bytes": 3075013,
+      "sha256": "7ad0342491ed77d86584be2bcb9e12caba3d07b177cc0c25493c1b05ab1ff186"
+    },
+    "packages/MiSTer-STV-Shienryu-Flip-seed04-20261025.zip.sha256": {
+      "bytes": 111,
+      "sha256": "c54384ddaa2db46e391f92db8fbe82c0261fc30d0553888555584601d514b3be"
+    },
+    "source/build_id.v": {
+      "bytes": 27,
+      "sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1"
+    },
+    "source/COMPILED-SOURCE-MANIFEST.json": {
+      "bytes": 29967,
+      "sha256": "0977fa12a0d6ebf6a0793f52f14801e76af4aec356c3707526ab2d8e42b8bfa8"
+    },
+    "source/Shienryu-seed04-compiled-source.zip": {
+      "bytes": 1102197,
+      "sha256": "00d07b6956f7daea6568a90e065310c98cb727206453d9a74e1da73a7288c131"
+    },
+    "source/STV_DS.qsf": {
+      "bytes": 3393,
+      "sha256": "29cd056b1113fdab5f30de9b378932f2ced2736f25713fea057befdf3fe9543e"
+    },
+    "install/_Arcade/SHYF0004.mra": {
+      "bytes": 1428,
+      "sha256": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3"
+    },
+    "install/_Arcade/cores/SHYF0004.rbf": {
+      "bytes": 4376812,
+      "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+    },
+    "SHA256SUMS": {
+      "bytes": 1248,
+      "sha256": "15e2cd46612c1c5e7fa585676ef4c1d63bfface4118bf1a97ffb61f834d217f5"
+    }
+  },
+  "current_GitHub_default": {
+    "branch": "stv-flip-v1.1",
+    "commit": "41da931c75b8d1f2d5159cc1ca3770f613c19007",
+    "read_only_API_confirmed": true
+  },
+  "old_install_entries": [
+    "install/_Arcade/Shienryu stv_flip_v1.1_rc1.mra",
+    "install/_Arcade/cores/stv_flip_v1.1_rc1.rbf"
+  ],
+  "old_current_package_entries": [
+    "packages/MiSTer-STV-Shienryu-Flip-v1.1.zip",
+    "packages/MiSTer-STV-Shienryu-Flip-v1.1.zip.sha256"
+  ],
+  "old_Shienryu_release_entries": [
+    "releases/stv_flip_v1.1_final.rbf",
+    "releases/stv_flip_v1.1_final.rbf.sha256",
+    "releases/stv_flip_v1.1_final_README.md"
+  ],
+  "proposed_clean_public_install": [
+    "install/_Arcade/SHYF0004.mra",
+    "install/_Arcade/cores/SHYF0004.rbf"
+  ],
+  "preserve_old_tag_and_release": "v1.1-share-20261022@41da931c75b8d1f2d5159cc1ca3770f613c19007",
+  "full_recovery_package": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\control-r2-seed04-preservation",
+  "verified_remote_recovery_commit": "9a6527f159567c6cd3ffa55f971e147f4b6396b9",
+  "root_remaining_actions": [
+    "Review and publish chosen source7e9/default-branch payload, preserving historical tag/release.",
+    "Use source Git history7e9 plus provided exact compiled QSF/date recipe; do not publish6eb as preferred.",
+    "Resolve/remove superseded current install/package/release pointers in the default tree while historical tag/archive remain recoverable.",
+    "Verify remote source/package/RBF/MRA bytes before any local cleanup."
+  ],
+  "no_Git_mutation_native_device_or_cleanup_actions": true
+}

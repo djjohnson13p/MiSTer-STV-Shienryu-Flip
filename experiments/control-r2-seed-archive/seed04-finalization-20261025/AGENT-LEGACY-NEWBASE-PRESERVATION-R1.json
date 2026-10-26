@@ -1,0 +1,93 @@
+{
+  "STA": {
+    "shienryu-flip-sta-all-corners-r1": {
+      "actual_reports_archived": 78,
+      "all_non_tree_files_archived": true,
+      "copied_tree_excluded_files": 1150,
+      "full_original_files": 1281
+    },
+    "shienryu-upstream-sta-all-corners-r1": {
+      "actual_reports_archived": 59,
+      "all_non_tree_files_archived": true,
+      "copied_tree_excluded_files": 1166,
+      "full_original_files": 1303
+    }
+  },
+  "ZIP_members": 2720,
+  "all_ZIP_and_sidecar_hashes_rechecked": true,
+  "bit_identical_rebuild_demonstrated": false,
+  "every_ZIP_member_SHA_CRC_verified": true,
+  "excluded_files": 2348,
+  "exclusions_sha256": "b0fa2d606bf284b894bf1abc7370a19afe04d7101575bb00947d30c751f9138e",
+  "git_metadata_excluded": {
+    "builds/shienryu-flip-q251-candidate-r1": [],
+    "builds/shienryu-flip-sta-all-corners-r1": [],
+    "builds/shienryu-upstream-q251-baseline-r1": [],
+    "builds/shienryu-upstream-sta-all-corners-r1": [],
+    "research/shienryu-timing-20261024/baseline-hardware-r1": [],
+    "research/shienryu-timing-20261024/candidate-hardware-r1": []
+  },
+  "hardware": {
+    "baseline-hardware-r1": {
+      "archived_metadata_PNG_files": 20,
+      "excluded_helper_or_runtime_files": 24,
+      "original_files": 44
+    },
+    "candidate-hardware-r1": {
+      "archived_metadata_PNG_files": 45,
+      "excluded_helper_or_runtime_files": 8,
+      "original_files": 53
+    }
+  },
+  "hardware_acceptance": false,
+  "largest_ZIP_bytes": 71946408,
+  "native_restores": {
+    "shienryu-flip-q251-candidate-r1": {
+      "bytes": 295284784,
+      "every_restored_member_exact": true,
+      "file_count": 1136,
+      "programming": {
+        "output_files/STV_DS.rbf": {
+          "bytes": 4350396,
+          "sha256": "827e17bfb88a2e4120442472cbdd78ec2ee61a8aafd61fff284949759fc7b185"
+        },
+        "output_files/STV_DS.sof": {
+          "bytes": 6705014,
+          "sha256": "701424ba234a33dc48de5c39e17caf2ced92c5605cae600a764d36e13689248e"
+        }
+      },
+      "snapshot_map_sha256": "76fbdea7b9ef4e3b9b38ebb5fedf303f6111a3e1a3e551732b738089945f6282",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-restore-shienryu-flip-q251-candidate-r1-r1"
+    },
+    "shienryu-upstream-q251-baseline-r1": {
+      "bytes": 316795290,
+      "every_restored_member_exact": true,
+      "file_count": 1152,
+      "programming": {
+        "output_files/STV_DS.rbf": {
+          "bytes": 4591232,
+          "sha256": "2bad41a6e2bd52078f5a8fffff85640a416332364c4c1721ff7496735d2660d4"
+        },
+        "output_files/STV_DS.sof": {
+          "bytes": 6705014,
+          "sha256": "2c449f0d597b3844768f9c0b3ce71338270ab7253024e3279941d121aa7d7fda"
+        }
+      },
+      "snapshot_map_sha256": "ddaaa82edd1731ca0cd428b6ce9bb1d7f669a472dc5c21b600223d41834025da",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-restore-shienryu-upstream-q251-baseline-r1-r1"
+    }
+  },
+  "no_Git_delete_Quartus_device_actions": true,
+  "original_full_membership_sha256": "2950472fab72ca2e4d60ffd5049ee6931080e0ec9e400c152163ab683179aefa",
+  "original_membership_before_after_exact": true,
+  "package_bytes": 482194257,
+  "package_count": 12,
+  "package_directory": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-trials-preservation-r1",
+  "package_index_sha256": "a4539c0b2c91c7fe1f71c8eec81932e932e7ccbf3f80bfa6a6a1bc59728f5370",
+  "remote_uploaded": false,
+  "restoration_proof_sha256": "b2f9ee470f486cd4766ba3c4c8026b3d777ec61884cefb6c32a3f26d1f899e09",
+  "reviewer": "agent:/root/shienryu_build_admission",
+  "state": "LOCAL_LEGACY_ARCHIVE_AND_TWO_ACTUAL_NATIVE_RESTORES_VERIFIED_PENDING_ROOT_QC",
+  "timing_acceptance": false,
+  "utc": "2026-10-26T03:57:17.484445+00:00"
+}

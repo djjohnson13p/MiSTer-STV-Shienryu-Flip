@@ -1,0 +1,295 @@
+{
+  "agent": "/root/shienryu_constraints_review",
+  "created_utc": "2026-10-26T03:29:23.478912+00:00",
+  "decision": "NO_MEASURED_IMPROVEMENT_STOP_SELECTED_APPROACH_KEEP_PREFERRED_BASELINE4",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 5,
+  "BUILD_DATE": "261025",
+  "voltage_mV": 1100,
+  "native_stage_results": {
+    "fit": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 2704.703,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true,
+      "errors": []
+    },
+    "asm": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 61.25,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true,
+      "errors": []
+    },
+    "sta": {
+      "flow_exit_code": 0,
+      "elapsed_seconds": 349.75,
+      "all_job_processes_terminal": true,
+      "all_handles_closed": true,
+      "errors": []
+    }
+  },
+  "timing_acceptance": false,
+  "hardware_acceptance": false,
+  "trial_effect": "The added aggressive-hold ON input has no measured effect on all8 global setup/hold/rec/rem/MPW or failing path summaries versus original6ebseed5. It does not establish internal backend usage or universal ineffectiveness of the option.",
+  "matrix": [
+    {
+      "model": "slow",
+      "temperature_C": -40,
+      "trial_setup_ns": -0.017,
+      "trial_setup_violated": 1,
+      "trial_hold_ns": -0.647,
+      "trial_hold_violated": 5,
+      "recovery_ns": 3.399,
+      "removal_ns": 1.184,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": -0.101,
+      "preferred_baseline4_hold_ns": 0.174,
+      "preferred_baseline4_result": "FAIL"
+    },
+    {
+      "model": "slow",
+      "temperature_C": 0,
+      "trial_setup_ns": 0.048,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.673,
+      "trial_hold_violated": 5,
+      "recovery_ns": 3.397,
+      "removal_ns": 1.173,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": -0.038,
+      "preferred_baseline4_hold_ns": 0.172,
+      "preferred_baseline4_result": "FAIL"
+    },
+    {
+      "model": "slow",
+      "temperature_C": 85,
+      "trial_setup_ns": 0.158,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.704,
+      "trial_hold_violated": 5,
+      "recovery_ns": 3.224,
+      "removal_ns": 1.263,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": 0.07,
+      "preferred_baseline4_hold_ns": 0.242,
+      "preferred_baseline4_result": "PASS"
+    },
+    {
+      "model": "slow",
+      "temperature_C": 100,
+      "trial_setup_ns": 0.108,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.723,
+      "trial_hold_violated": 5,
+      "recovery_ns": 3.171,
+      "removal_ns": 1.284,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": 0.014,
+      "preferred_baseline4_hold_ns": 0.235,
+      "preferred_baseline4_result": "PASS"
+    },
+    {
+      "model": "fast",
+      "temperature_C": -40,
+      "trial_setup_ns": 3.636,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.377,
+      "trial_hold_violated": 5,
+      "recovery_ns": 4.89,
+      "removal_ns": 0.447,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": 3.441,
+      "preferred_baseline4_hold_ns": 0.052,
+      "preferred_baseline4_result": "PASS"
+    },
+    {
+      "model": "fast",
+      "temperature_C": 0,
+      "trial_setup_ns": 3.55,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.38,
+      "trial_hold_violated": 5,
+      "recovery_ns": 4.809,
+      "removal_ns": 0.471,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": 3.35,
+      "preferred_baseline4_hold_ns": 0.054,
+      "preferred_baseline4_result": "PASS"
+    },
+    {
+      "model": "fast",
+      "temperature_C": 85,
+      "trial_setup_ns": 3.231,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.38,
+      "trial_hold_violated": 5,
+      "recovery_ns": 4.555,
+      "removal_ns": 0.524,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": 2.972,
+      "preferred_baseline4_hold_ns": 0.089,
+      "preferred_baseline4_result": "PASS"
+    },
+    {
+      "model": "fast",
+      "temperature_C": 100,
+      "trial_setup_ns": 3.132,
+      "trial_setup_violated": 0,
+      "trial_hold_ns": -0.379,
+      "trial_hold_violated": 5,
+      "recovery_ns": 4.473,
+      "removal_ns": 0.548,
+      "mpw_ns": 1.091,
+      "trial_result": "FAIL",
+      "preferred_baseline4_setup_ns": 2.923,
+      "preferred_baseline4_hold_ns": 0.093,
+      "preferred_baseline4_result": "PASS"
+    }
+  ],
+  "counts": {
+    "global_conditions_passed": 0,
+    "setup_conditions_passed": 7,
+    "hold_conditions_passed": 0,
+    "recovery_removal_mpw_conditions_passed": 8,
+    "clocks_per_condition": 13,
+    "per_clock_rows": 416,
+    "global_rows": 32,
+    "qualified_empty_rows": 192,
+    "empty_rows_are_not_passes": true,
+    "applied_ignored_constraint_signature_rows": 159,
+    "mode_rows_all_positive": 32,
+    "predecessor_rows_all_positive": 16
+  },
+  "independent_comparison": {
+    "all5_inventory_global_clock_mode_predecessor_TSVs_exactly_equal_original5": true,
+    "all8_SDC_row_multisets_and_check_timing_diagnostics_equal_original5": true,
+    "all32_native_global_worst_slacks_and_violation_counts_equal_original5": true,
+    "all32_first_paths_and_all_negative_path_summary_rows_equal_original5": true,
+    "all8_native_MPW_bodies_equal_original5": true,
+    "native_primary_reports_checked": 96,
+    "raw96_manifest_format": "sorted filename TAB SHA256 LF",
+    "raw96_manifest_sha256": "24c3aaa9415b7c770c2e3f3bb0269e4090329585b3e5cc9fcbb3751da988c81b",
+    "positive_top50_tie_qualification": "Some equal-slack paths reorder. Fast0 setup chooses one alternate+3.728ns ascal replica OTERM393 vs391, with offsetting data/skew. First/worst and all violating rows remain identical; do not claim every report/path is byte-identical.",
+    "signature_diagnostics": {
+      "no_clock": 2480,
+      "multiple_clock": 57,
+      "pos_neg_clock_domain": 0,
+      "generated_clock": 0,
+      "virtual_clock": 1,
+      "no_input_delay": 40,
+      "no_output_delay": 134,
+      "partial_input_delay": 0,
+      "partial_output_delay": 0,
+      "io_min_max_delay_consistency": 0,
+      "reference_pin": 0,
+      "generated_io_delay": 0,
+      "latency_override": 0,
+      "partial_multicycle": 0,
+      "multicycle_consistency": 0,
+      "loops": 0,
+      "latches": 0,
+      "pll_cross_check": 0,
+      "uncertainty": 0,
+      "partial_min_max_delay": 0,
+      "clock_assignments_on_output_ports": 0,
+      "input_delay_assigned_to_clock": 0
+    }
+  },
+  "unchanged_residual_cones": {
+    "Slow100_five_hold_paths": [
+      {
+        "from": "emu:emu|Saturn:saturn|VDP2:VDP2|VRAMB1_A[15]_OTERM1391",
+        "to": "emu:emu|sdram1:sdram1|raddr23[1][15]",
+        "slack_ns": -0.723,
+        "relationship_ns": -0.001,
+        "clock_skew_ns": 0.917,
+        "data_delay_ns": 0.373
+      },
+      {
+        "from": "emu:emu|Saturn:saturn|VDP2:VDP2|VRAMB1_A[14]_OTERM1417",
+        "to": "emu:emu|sdram1:sdram1|raddr23[1][14]",
+        "slack_ns": -0.586,
+        "relationship_ns": -0.001,
+        "clock_skew_ns": 0.916,
+        "data_delay_ns": 0.509
+      },
+      {
+        "from": "emu:emu|Saturn:saturn|STV_CART:cart|MEM_A[24]",
+        "to": "emu:emu|ddram:ddram|cart_rcache_addr[24]",
+        "slack_ns": -0.534,
+        "relationship_ns": -0.001,
+        "clock_skew_ns": 0.944,
+        "data_delay_ns": 0.589
+      },
+      {
+        "from": "emu:emu|Saturn:saturn|VDP2:VDP2|VRAMB1_A[8]_OTERM1383",
+        "to": "emu:emu|sdram1:sdram1|raddr23[1][8]",
+        "slack_ns": -0.359,
+        "relationship_ns": -0.001,
+        "clock_skew_ns": 0.917,
+        "data_delay_ns": 0.737
+      },
+      {
+        "from": "emu:emu|Saturn:saturn|VDP2:VDP2|VRAMB1_A[14]_OTERM1419",
+        "to": "emu:emu|sdram1:sdram1|raddr23[1][14]",
+        "slack_ns": -0.336,
+        "relationship_ns": -0.001,
+        "clock_skew_ns": 0.92,
+        "data_delay_ns": 0.763
+      }
+    ],
+    "hold_clocks": "All five are core PLL counter0 launches to counter1 latches; genuine related-clock internal memory-address transfers, not predecessor companion or HDMI reflection.",
+    "cold_setup": {
+      "from": "ascal:ascal|o_vcpt_pre3[1]",
+      "to": "ascal:ascal|o_vcpt_pre3[1]",
+      "slack_ns": -0.017,
+      "clock_skew_ns": -0.101,
+      "data_delay_ns": 6.448,
+      "cone": "Existing ascal vertical counter self-feedback add/compare; separate from hold deficit."
+    }
+  },
+  "setting_qualification": {
+    "native_readback": [
+      "ON"
+    ],
+    "input_accepted_without_explicit_rejection": true,
+    "inherited_ignored_assignment_rows": 4,
+    "new_ignored_rows": 0,
+    "10929_or_disabled_hold_transfers": false,
+    "backend_effort": "Not separately observable. Exact ON readback and no rejection are input acceptance, not evidence of effective backend effort or improvement."
+  },
+  "programming_output": {
+    "actual_RBF_bound_by_native_result": {
+      "mtime_ns": 1792984665675500800,
+      "bytes": 4370160,
+      "sha256": "cbb1a1ad08d4b9bb9edf3d79d307047ba3db84f428221213a627cdf46cbe614d"
+    },
+    "root_reported_actual_byte_identity_to_original5": true,
+    "qualification": "Root owns actual programming/member preservation audit; this review did not duplicate DB/member hashing."
+  },
+  "disposition": [
+    "Preferred7e9seed4 retains all8 hold passes and6/8 complete condition passes; this6ebtrial has0/8 complete passes. Setup comparison alone does not justify replacing baseline4.",
+    "The human-selected stop rule is met: no worthwhile hold improvement. Preserve this outcome and originalsource/binaries; no further timing work, setting, seed or RTL trial selected.",
+    "Cold failures remain explicitly disclosed. Neither experimental candidate is clean intended-clock timing across all8; no unmeasured room-temperature static result is inferred."
+  ],
+  "evidence_sha256": {
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\experiment-result.json": "0a22af58bdfd68e620e4c8cb147ab0506bf43c21c728be21c7f1b7ff4e76290d",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\fit\\qualification.json": "0220c24e37d25ff74fbf986f2006e5960d9e3dd2490c9e07e40c5cc1bc34307f",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\sta\\qualification.json": "2105a30731680f186ca5c249a5713ae1f2598eef420a9b8a4bf0e02a53f412cb",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\sta\\reports\\global-check-coverage.tsv": "d5948e95798d67b01d55cb0afbca83661e7658f13430489de580efc23901faad",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\sta\\reports\\clock-check-coverage.tsv": "a22a183eb9c4f758fda64876b3733848c5725c0c2319f60a4f24876454268ddf",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\sta\\reports\\corner-inventory.tsv": "89c948fc459ec1b140793284fa70095181b13b79a02e2d82ffbac54edf293c0d",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\sta\\reports\\old-mode-check-coverage.tsv": "d2b7bc20ada72f3387f8ceaa66076d8d8427b6e90f106c611d2c8aefae1fed55",
+    "row-predecessor-seed05-aggressive-hold-fit-sta-r1\\stages\\sta\\reports\\row-predecessor-check-coverage.tsv": "7993068edc5a78c1f253329a09314c857406587332624f27eefd638997bb0030",
+    "OLDPROFILE-R2-SEED04-ALL-CORNER-REPORT-REVIEW.json": "6b78ee134bf049c32517b0521ca49fc50e3da77678d6a0a7a4ec27495911b03b"
+  },
+  "scope": "Read-only completed reports and qualifications only; sole write is this external JSON. No native utilities, DB/member audit, source/constraint/Git/device action or additional path research."
+}

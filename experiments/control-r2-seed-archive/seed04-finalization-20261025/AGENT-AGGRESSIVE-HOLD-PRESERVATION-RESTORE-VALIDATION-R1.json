@@ -1,0 +1,121 @@
+{
+  "ZIP_member_count": 1263,
+  "actual_STA_reports": 118,
+  "all_ZIP_SHA_CRC_members_and_sidecars_verified": true,
+  "all_native_stage_files_remote_restorable": false,
+  "bit_identical_fresh_rebuild_demonstrated": false,
+  "derived_STA_cache_versions_excluded": true,
+  "experimental_QSF_assignment": "TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT ON",
+  "full_fit_ASM_source_map_QSF_date_and_actual_reports_recoverable": true,
+  "genuine_ASM_outputs": {
+    "output_files/STV_DS.rbf": {
+      "bytes": 4370160,
+      "sha256": "cbb1a1ad08d4b9bb9edf3d79d307047ba3db84f428221213a627cdf46cbe614d"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705017,
+      "sha256": "8dc4452b561e619d20b3ac978fd58f7ccb74c928ef6dd45bc2049fa548502fb6"
+    }
+  },
+  "hardware_acceptance": false,
+  "no_Git_Quartus_device_or_delete_actions": true,
+  "original_preservation_check": {
+    "actual_reports_archived": 118,
+    "all_actual_local_stage_members_unchanged": true,
+    "all_native_stage_files_remote_restorable": false,
+    "exact_assembled_mapping": true,
+    "exact_fit_mapping": true,
+    "local_stage_members": 3306
+  },
+  "original_preservation_check_sha256": "4a60a9047bf8a9403437765f36741a64cd37c41bd1137daac65eb71837587fa9",
+  "package_bytes": 215441587,
+  "package_count": 7,
+  "package_directory": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-seed05-aggressive-hold-r1",
+  "package_index_sha256": "3a279cf2e937e5edf1d2c71b84966840a1a32672f54635718879795f053b5ab7",
+  "package_unchanged_after_creation": true,
+  "packager_sha256": "5bf3303618ed4817baed0bfd2288420eeffbcfc35b147af95fa0a434718bf4a3",
+  "packages": {
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-assembled-checkpoint-overlay-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 6698657,
+      "deterministic_second_serialization_identical": true,
+      "group": "assembled-checkpoint-overlay",
+      "member_count": 11,
+      "sha256": "cdb44266f230f6777f76c257f6328aee741afcaf19a79aaba2ffc9d50bc9812a"
+    },
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-checkpoint-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 60757245,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-db",
+      "member_count": 688,
+      "sha256": "40fa47bcfd70cf4b44fda716a842a882887b4356bfe0e7b898da91c991180d64"
+    },
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-checkpoint-db-02.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 51467514,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-db",
+      "member_count": 17,
+      "sha256": "bd0be7a4f34598d3e7a34bdbfd39c26fd33402b8bdab3584de454425601cdfef"
+    },
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-checkpoint-db-03.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 37680032,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-db",
+      "member_count": 92,
+      "sha256": "e6cade6ffd0d4d5be44f56d7c4ce6e37bf23ccee82773e780944d888de48d9f8"
+    },
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-checkpoint-incremental-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 46307732,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-incremental-db",
+      "member_count": 31,
+      "sha256": "4072a10975ad7119dacb4c247e5bb44ad263519d869f0559be864af4fcf2ec85"
+    },
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-checkpoint-project-and-outputs-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 5576952,
+      "deterministic_second_serialization_identical": true,
+      "group": "checkpoint-project-and-outputs",
+      "member_count": 222,
+      "sha256": "558c4b3592d22314a48f565fd2d82da6001b97200ac63f9ca4f92e5c448c4549"
+    },
+    "row-predecessor-seed05-aggressive-hold-r1-DRAFT-source-programming-and-evidence-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 6953455,
+      "deterministic_second_serialization_identical": true,
+      "group": "source-programming-and-evidence",
+      "member_count": 202,
+      "sha256": "8df04bdb4da3ccffd1ea9ffb4d235157619cc7a6e9965649885b8dd1cca3f3b8"
+    }
+  },
+  "remote_uploaded": false,
+  "restored": {
+    "asm": {
+      "bytes": 267462419,
+      "complete_membership_and_each_SHA256_exact": true,
+      "files": 1051,
+      "package_snapshot_file_sha256": "b675530780a705c54eb3b6cdd7fa11694c54f929a2192fe94cc828442be86f87",
+      "snapshot_map_sha256": "d63b36edbcd67c2b940c0edd96d4cb15ef76cd9a607a38485304482d650f6f7c",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-seed05-aggressive-hold-restore-agent-asm-r1"
+    },
+    "fit": {
+      "bytes": 267242615,
+      "complete_membership_and_each_SHA256_exact": true,
+      "files": 1050,
+      "package_snapshot_file_sha256": "dbeb483e525a3a729168f83c84cd4ebb25fcf452904580749f9c89222bb75c87",
+      "snapshot_map_sha256": "ae1670eca65a0b2fcd27822a7fe2b6733b92f3d7f5cec793096cb9a61d9fbdb1",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-seed05-aggressive-hold-restore-agent-fit-r1"
+    }
+  },
+  "reviewer": "agent:/root/shienryu_build_admission",
+  "root_create_admission_sha256": "cdd4b57fdd16a4322ea6a7dec49bdb09959ec42c63ddea979c060ec3821ef83a",
+  "seed": 5,
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "state": "LOCAL_DRAFT_PACKAGE_AND_ACTUAL_FIT_ASM_RESTORATION_VERIFIED",
+  "timing_acceptance": false,
+  "utc": "2026-10-26T03:45:06.997634+00:00"
+}

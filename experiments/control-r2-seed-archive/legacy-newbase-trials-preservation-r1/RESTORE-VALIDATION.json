@@ -1,0 +1,42 @@
+{
+  "bit_identical_fresh_rebuild_demonstrated": false,
+  "no_native_action": true,
+  "original_full_membership_before_after_exact": true,
+  "restores": {
+    "shienryu-flip-q251-candidate-r1": {
+      "bytes": 295284784,
+      "every_restored_member_exact": true,
+      "file_count": 1136,
+      "programming": {
+        "output_files/STV_DS.rbf": {
+          "bytes": 4350396,
+          "sha256": "827e17bfb88a2e4120442472cbdd78ec2ee61a8aafd61fff284949759fc7b185"
+        },
+        "output_files/STV_DS.sof": {
+          "bytes": 6705014,
+          "sha256": "701424ba234a33dc48de5c39e17caf2ced92c5605cae600a764d36e13689248e"
+        }
+      },
+      "snapshot_map_sha256": "76fbdea7b9ef4e3b9b38ebb5fedf303f6111a3e1a3e551732b738089945f6282",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-restore-shienryu-flip-q251-candidate-r1-r1"
+    },
+    "shienryu-upstream-q251-baseline-r1": {
+      "bytes": 316795290,
+      "every_restored_member_exact": true,
+      "file_count": 1152,
+      "programming": {
+        "output_files/STV_DS.rbf": {
+          "bytes": 4591232,
+          "sha256": "2bad41a6e2bd52078f5a8fffff85640a416332364c4c1721ff7496735d2660d4"
+        },
+        "output_files/STV_DS.sof": {
+          "bytes": 6705014,
+          "sha256": "2c449f0d597b3844768f9c0b3ce71338270ab7253024e3279941d121aa7d7fda"
+        }
+      },
+      "snapshot_map_sha256": "ddaaa82edd1731ca0cd428b6ce9bb1d7f669a472dc5c21b600223d41834025da",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-restore-shienryu-upstream-q251-baseline-r1-r1"
+    }
+  },
+  "reviewer": "agent:/root/shienryu_build_admission"
+}

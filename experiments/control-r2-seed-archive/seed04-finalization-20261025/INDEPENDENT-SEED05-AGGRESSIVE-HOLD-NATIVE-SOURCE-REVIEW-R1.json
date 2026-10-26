@@ -1,0 +1,145 @@
+{
+  "reviewer": "agent:shienryu_source_review",
+  "recorded_utc": "2026-10-26T03:28:14.211866+00:00",
+  "decision": "VALID_COMPLETED_SAME_SOURCE_TRIAL_NO_OBSERVED_EFFICACY_NOT_TIMING_ACCEPTED",
+  "trial_directory": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-seed05-aggressive-hold-fit-sta-r1",
+  "scope": "Qualification/native logs/report/source-control bindings and programming files; no duplicate DB/member rehash. Root owns full-member/parent verification. No native, Git, device or task actions.",
+  "bindings": {
+    "frozen-pins.json": "c65715eef7596fec4c18cb96adec33d0108dac917bc9deffba5a530fb569d881",
+    "trial-manifest.json": "c7bd46b123fbf80f885b2c8882eec2dbe5b156514f6ba7ade3b62dc20cf6901c",
+    "experiment-result.json": "0a22af58bdfd68e620e4c8cb147ab0506bf43c21c728be21c7f1b7ff4e76290d",
+    "preservation-index.json": "65882512ca9d97fd1ffa376207d3b6e24781fac61ffd9b188a5330ee0cf18db3",
+    "terminal-task-cleanup.json": "6ee9b9b936ccdfff6443f8f4569c869e2ca65ba6da0009ef36117359307300eb"
+  },
+  "verified_frozen_members": 15,
+  "verified_external_bound_files": 27,
+  "source": {
+    "commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+    "ascal_sha256": "73ca65c64ef89e037e3995ca1faa56e3f7b8a1480b1a2f20190fb3d17b41ef57",
+    "seed": 5,
+    "BUILD_DATE": "261025",
+    "QSF_sha256": "ff61eae923d26ed3097ae2f61d8c1e527c1fa30243aca3ff0b43d42b1335fd19",
+    "sole_delta_from_original5": "append TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT ON CRLF line",
+    "same_start_members": 1051,
+    "protected_source_generated_map_roles": [
+      203,
+      2,
+      4
+    ],
+    "protected_role_snapshots_and_primary_CMP_coherent": true,
+    "guard_recorded_tool_hashes_before_after_match_manifest": 5,
+    "actual_tool_executables_not_rehashed_here": true
+  },
+  "native_stages": {
+    "fit": {
+      "native_exit": 0,
+      "closed_handles_processes": true,
+      "elapsed_seconds": 2704.703,
+      "result_sha256": "7fabf23a9ae95a25b44203823ac34e226f1196f9c1f6658b161f8bee889a1a4e",
+      "qualification_sha256": "0220c24e37d25ff74fbf986f2006e5960d9e3dd2490c9e07e40c5cc1bc34307f",
+      "changed_bound_inputs": []
+    },
+    "asm": {
+      "native_exit": 0,
+      "closed_handles_processes": true,
+      "elapsed_seconds": 61.25,
+      "result_sha256": "58a2a2108d348076f39684c0649dd32b2f6a2aa18d011abb7ca7978c1960da04",
+      "qualification_sha256": "bfb6886b8a59b9108c369b7ac1458338ef9b10a30fdacc91f3dce558c11604fc",
+      "changed_bound_inputs": []
+    },
+    "sta": {
+      "native_exit": 0,
+      "closed_handles_processes": true,
+      "elapsed_seconds": 349.75,
+      "result_sha256": "fb7fb72fc2dcfc194415b0e5504813a3a0c13ca59c7ef6ab4d734e1a3ab21202",
+      "qualification_sha256": "2105a30731680f186ca5c249a5713ae1f2598eef420a9b8a4bf0e02a53f412cb",
+      "changed_bound_inputs": [
+        "db/STV_DS.tiscmp.fastest_slow_1100mv_85c.ddb"
+      ]
+    }
+  },
+  "fitter": {
+    "actual_seed": 5,
+    "netlist_types": [
+      "Source File",
+      "Post-Synthesis",
+      "Source File"
+    ],
+    "noPostFit": true,
+    "requested_achieved_placement_routing_reuse_zero": true,
+    "stored_seed_and_ON_seen_in_native_log": true,
+    "stored_settings_read_without_export": true,
+    "raw_fit_report_hash_verified": true,
+    "ignored_rows_same_four_as_original5": true,
+    "explicit_setting_rejections": [],
+    "disabled_hold_transfer_10929_evidence": [],
+    "support_classification": "Accepted stored input with no explicit rejection observed. Backend effort use NOT separately established."
+  },
+  "assembly": {
+    "fresh_native_assembly_qualified": true,
+    "fresh_report_hash_verified": true,
+    "RBF": {
+      "bytes": 4370160,
+      "sha256": "cbb1a1ad08d4b9bb9edf3d79d307047ba3db84f428221213a627cdf46cbe614d",
+      "byte_equal_original6eb_seed5": true
+    },
+    "SOF": {
+      "bytes": 6705017,
+      "sha256": "8dc4452b561e619d20b3ac978fd58f7ccb74c928ef6dd45bc2049fa548502fb6",
+      "different_from_original5": true,
+      "difference_cause": "NOT_CLASSIFIED; no metadata-only claim"
+    }
+  },
+  "actual_dynamic_inventory": {
+    "sealed_stage_members": 3306,
+    "tree_counts": {
+      "fit": 1050,
+      "asm": 1051,
+      "sta": 1066
+    },
+    "STA_reports": 118
+  },
+  "timing_comparison": {
+    "all8_global_numeric_checks_native_counts_MPW_and_status_equal_original5": true,
+    "condition_order": [
+      "Slow-40",
+      "Slow0",
+      "Slow85",
+      "Slow100",
+      "Fast-40",
+      "Fast0",
+      "Fast85",
+      "Fast100"
+    ],
+    "setup_ns": [
+      -0.017,
+      0.048,
+      0.158,
+      0.108,
+      3.636,
+      3.55,
+      3.231,
+      3.132
+    ],
+    "hold_ns": [
+      -0.647,
+      -0.673,
+      -0.704,
+      -0.723,
+      -0.377,
+      -0.38,
+      -0.38,
+      -0.379
+    ],
+    "all8_status": "FAIL",
+    "recovery_removal_MPW": "All8 nonnegative/zero native violations; unchanged.",
+    "qualified_clean_candidate": false
+  },
+  "cleanup": {
+    "exact_action_verified_and_task_unregistered": true,
+    "native0_all_owned_terminal_handles_closed": true,
+    "completed_utc": "2026-10-26T03:25:13.9501811Z",
+    "separate_cleanup_supersedes_result_task_cleanup_pending": true
+  },
+  "conclusion": "No deployable configuration or recorded timing improvement. Preserve this completed trial; retain preferred7e9 seed4. No further experiment selected; no efficacy/hardware/closure claim."
+}

@@ -1,0 +1,7 @@
+# Legacy new-base STVB/STVC recovery backup — local draft
+
+Preserves both original native build trees in full, including exact source ZIPs, source/QSF/SDC/PLL/generated date, map/fitted databases, programming RBF/SOF, reports and native controls. All non-tree evidence and every report from the two separate all-corner STA runs are retained. Their redundant copied working trees are excluded only with complete path/byte/SHA inventories. Hardware journals contain JSON/PNG/metadata; private transport helpers, runtime binaries and credential material are excluded and inventoried.
+
+All ZIPs and sidecars are required. Every selected member is hashed and CRC/readback verified. Both original native trees are restored into new exclusive local directories and rehashed before the final index is written. Original memberships and hashes must remain unchanged. Git metadata is excluded. Exact inherited source MIF members remain intact; no external game/BIOS/runtime archive or credential is added, and no source-content legal-clearance claim is made.
+
+This preserves experimental historical measurements, raw compiler/scheduler/integrity outcomes and hardware observations without timing/hardware acceptance. It does not prove bit-identical fresh compilation, relocated Quartus database usability or physical HDMI/audio behavior. No native tool, Git, device, deletion or upload action occurs. This local draft still requires independent Root QC and remote-byte verification before local cleanup.

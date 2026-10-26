@@ -1,0 +1,49 @@
+{
+  "agent": "/root/shienryu_constraints_review",
+  "scope": "Local exact-byte recovery package only; off-PC publication/verification remains Root-owned and pending.",
+  "zip": {
+    "path": "mister-obsolete-shienryu-runtime-sixfiles.zip",
+    "bytes": 4098079,
+    "sha256": "b2f38fd9c3467f83ad995f22b5296e5ce4526140544d71b75b1e229829ad6163",
+    "CRC_verified": true,
+    "members": 8
+  },
+  "payload_members": 6,
+  "source_inventory_sha256": "86449ad2bc9382d82f0a505c84dd1fd93e29d70efeb64496721ca4b10954be87",
+  "member_hashes_sha256": "895f703bf72de35358924a5eec3fde9415b2f1b1aaf324469fa42b7bb0cf9733",
+  "all_members": {
+    "MEMBER-HASHES.json": {
+      "bytes": 1481,
+      "sha256": "895f703bf72de35358924a5eec3fde9415b2f1b1aaf324469fa42b7bb0cf9733"
+    },
+    "SOURCE-INVENTORY.json": {
+      "bytes": 3029,
+      "sha256": "86449ad2bc9382d82f0a505c84dd1fd93e29d70efeb64496721ca4b10954be87"
+    },
+    "media/fat/_Arcade/_CoreLab/STVB0001.mra": {
+      "bytes": 1434,
+      "sha256": "3b9fbe54cc7c4d2a8129153aada66cf8633e0f154a65a1ddc26af9713aa6ab6d"
+    },
+    "media/fat/_Arcade/_CoreLab/STVC0001.mra": {
+      "bytes": 1428,
+      "sha256": "963dea0b0aff1b825bd4072d131843b4f17c212414e75f37f29e404d604e03cb"
+    },
+    "media/fat/_Arcade/cores/STVB0001.rbf": {
+      "bytes": 4591232,
+      "sha256": "2bad41a6e2bd52078f5a8fffff85640a416332364c4c1721ff7496735d2660d4"
+    },
+    "media/fat/_Arcade/cores/STVC0001.rbf": {
+      "bytes": 4350396,
+      "sha256": "827e17bfb88a2e4120442472cbdd78ec2ee61a8aafd61fff284949759fc7b185"
+    },
+    "media/fat/config/inputs/STVB0001_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    },
+    "media/fat/config/inputs/STVC0001_input_4711_0815_v3.map": {
+      "bytes": 128,
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    }
+  },
+  "device_mutations": false
+}

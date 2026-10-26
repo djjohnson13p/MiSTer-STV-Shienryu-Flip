@@ -1,0 +1,72 @@
+{
+  "state": "PUBLISHED_CURRENT_SEED4_AND_VERIFIED",
+  "commit": "dddf174b48b0e6e36d8ba5797a4cb276cdf836f3",
+  "default_branch": "stv-flip-v1.1",
+  "release_url": "https://github.com/djjohnson13p/MiSTer-STV-Shienryu-Flip/releases/tag/v1.2-seed04-20261025",
+  "tag": "v1.2-seed04-20261025",
+  "old_tag_preserved": "41da931c75b8d1f2d5159cc1ca3770f613c19007",
+  "fresh_raw_GitHub_readbacks": {
+    "README.md": {
+      "git_blob": "d3b24854045d8ef72d767a81349fc7c0cccb465d",
+      "bytes": 4241,
+      "sha256": "1831de95d1cf5b093afd969bd54118e16a067cf7df3ff0b98f0fc805175d0978"
+    },
+    "STV_DS.qsf": {
+      "git_blob": "5bec3043634635476169db67daf0d8e404221a31",
+      "bytes": 3393,
+      "sha256": "29cd056b1113fdab5f30de9b378932f2ced2736f25713fea057befdf3fe9543e"
+    },
+    "build_id.v": {
+      "git_blob": "d5fcb1ed25faee22b180105847c6e4f7c7fc88c3",
+      "bytes": 27,
+      "sha256": "5b35f414663a939035468cad510c62429d250fa24e1114e19f171e449bd5e5c1"
+    },
+    "install/_Arcade/SHYF0004.mra": {
+      "git_blob": "827a7656fbf6ad98c961c49c7539781488c18ce7",
+      "bytes": 1428,
+      "sha256": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3"
+    },
+    "install/_Arcade/cores/SHYF0004.rbf": {
+      "git_blob": "8da0801cc4f3277a2eea05e29c0ae88eb46c290d",
+      "bytes": 4376812,
+      "sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11"
+    },
+    "packages/MiSTer-STV-Shienryu-Flip-seed04-20261025.zip": {
+      "git_blob": "09cd4e1216841ac026fa5b5c6117796c8cdf3b93",
+      "bytes": 3075013,
+      "sha256": "7ad0342491ed77d86584be2bcb9e12caba3d07b177cc0c25493c1b05ab1ff186"
+    },
+    "source/Shienryu-seed04-compiled-source.zip": {
+      "git_blob": "8cba14cd8dce087707a0360d8798116e20bcf6eb",
+      "bytes": 1102197,
+      "sha256": "00d07b6956f7daea6568a90e065310c98cb727206453d9a74e1da73a7288c131"
+    },
+    "source/COMPILED-SOURCE-MANIFEST.json": {
+      "git_blob": "bb1f0bc164a1653470493d718e5995ab69323f7a",
+      "bytes": 29967,
+      "sha256": "0977fa12a0d6ebf6a0793f52f14801e76af4aec356c3707526ab2d8e42b8bfa8"
+    }
+  },
+  "all267_tree_blob_identities_verified": true,
+  "server_asset_SHA256_digests_verified": {
+    "MiSTer-STV-Shienryu-Flip-seed04-20261025.zip": "sha256:7ad0342491ed77d86584be2bcb9e12caba3d07b177cc0c25493c1b05ab1ff186",
+    "MiSTer-STV-Shienryu-Flip-seed04-20261025.zip.sha256": "sha256:c54384ddaa2db46e391f92db8fbe82c0261fc30d0553888555584601d514b3be",
+    "Shienryu-seed04-compiled-source.zip": "sha256:00d07b6956f7daea6568a90e065310c98cb727206453d9a74e1da73a7288c131",
+    "COMPILED-SOURCE-MANIFEST.json": "sha256:0977fa12a0d6ebf6a0793f52f14801e76af4aec356c3707526ab2d8e42b8bfa8",
+    "SHYF0004.rbf": "sha256:99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11",
+    "SHYF0004.mra": "sha256:2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3",
+    "SHA256SUMS": "sha256:15e2cd46612c1c5e7fa585676ef4c1d63bfface4118bf1a97ffb61f834d217f5"
+  },
+  "prior_current_install_paths_removed": [
+    "install/_Arcade/Shienryu stv_flip_v1.1_rc1.mra",
+    "install/_Arcade/cores/stv_flip_v1.1_rc1.rbf",
+    "packages/MiSTer-STV-Shienryu-Flip-v1.1.zip",
+    "packages/MiSTer-STV-Shienryu-Flip-v1.1.zip.sha256",
+    "releases/stv_flip_v1.1_final.rbf",
+    "releases/stv_flip_v1.1_final.rbf.sha256",
+    "releases/stv_flip_v1.1_final_README.md"
+  ],
+  "experimental": true,
+  "full_timing_closure": false,
+  "user_authorization": "Push seed4 to our GitHub replacing existing; preserve history and then cleanup local files."
+}

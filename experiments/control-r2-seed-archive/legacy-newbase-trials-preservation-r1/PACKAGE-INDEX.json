@@ -1,0 +1,175 @@
+{
+  "STA_copied_working_trees_archived": false,
+  "ZIP_members": 2720,
+  "all_original_inputs_unchanged": true,
+  "hardware_acceptance": false,
+  "native_tree_counts": {
+    "shienryu-flip-q251-candidate-r1": 1136,
+    "shienryu-upstream-q251-baseline-r1": 1152
+  },
+  "package_bytes": 482194257,
+  "package_count": 12,
+  "packages": {
+    "legacy-newbase-evidence-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 7039066,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 432,
+      "sha256": "6bdc46f8d81a00f70c7850821e3b571f72d182f1e87a43799949b1036bba4959"
+    },
+    "legacy-newbase-shienryu-flip-q251-candidate-r1-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 61705169,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 754,
+      "sha256": "0d7d69bc5a84fd07e152e63a6ec267e19cf57a2cad2b0211b4b6c679a185690b"
+    },
+    "legacy-newbase-shienryu-flip-q251-candidate-r1-db-02.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 71946408,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 21,
+      "sha256": "c7126eaa83e14c9ed30e0500d51a346f5b41ed888e0393ec354883870039a144"
+    },
+    "legacy-newbase-shienryu-flip-q251-candidate-r1-db-03.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 41480274,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 105,
+      "sha256": "2f182465aa66ff6f4ba641af1c748ccc9f21c31f810f7f899c1cff5e1f3d9554"
+    },
+    "legacy-newbase-shienryu-flip-q251-candidate-r1-incremental-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 46549983,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 31,
+      "sha256": "4d264b8ddd3a3d33a278a460d29c2a3f56f1014fd2e8525e6a4840ab9d33f6a0"
+    },
+    "legacy-newbase-shienryu-flip-q251-candidate-r1-project-and-output-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 5591958,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 225,
+      "sha256": "db7e08b51f3d9aa1de59f734ffe4e2884f054d7658eb07151755b5eacc8d0296"
+    },
+    "legacy-newbase-shienryu-upstream-q251-baseline-r1-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 57394373,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 763,
+      "sha256": "4dccf81fa518e362c0ec1f93dcd3e340f09af5cf6654c03344171a2e9d06c8d6"
+    },
+    "legacy-newbase-shienryu-upstream-q251-baseline-r1-db-02.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 46706247,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 23,
+      "sha256": "a9e5f44592be414158ec6abe3edcca56c37321c49344ba2c4b4de6e660a0b8ee"
+    },
+    "legacy-newbase-shienryu-upstream-q251-baseline-r1-db-03.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 44840186,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 2,
+      "sha256": "23b15f9d12ba8b4c92d969ba9908f096760cfaec0998dd5dc60097f4b0118f0c"
+    },
+    "legacy-newbase-shienryu-upstream-q251-baseline-r1-db-04.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 42130275,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 108,
+      "sha256": "efe66c7133727d9eced06a7dd574fc9d1e62a4526b8415772d54497b6fb43898"
+    },
+    "legacy-newbase-shienryu-upstream-q251-baseline-r1-incremental-db-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 50964259,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 31,
+      "sha256": "6527c6967f7c1505d029b12d9c85eeb22339c413c1ddc02f6fd415090c9532c3"
+    },
+    "legacy-newbase-shienryu-upstream-q251-baseline-r1-project-and-output-01.zip": {
+      "all_member_sha_and_crc_verified": true,
+      "bytes": 5846059,
+      "deterministic_second_serialization_identical": true,
+      "member_count": 225,
+      "sha256": "f5ee765737e3e1bc318eb79bc7318a58c4e3c5012f4059c4b82078dcca044946"
+    }
+  },
+  "remote_uploaded": false,
+  "restores": {
+    "shienryu-flip-q251-candidate-r1": {
+      "bytes": 295284784,
+      "every_restored_member_exact": true,
+      "file_count": 1136,
+      "programming": {
+        "output_files/STV_DS.rbf": {
+          "bytes": 4350396,
+          "sha256": "827e17bfb88a2e4120442472cbdd78ec2ee61a8aafd61fff284949759fc7b185"
+        },
+        "output_files/STV_DS.sof": {
+          "bytes": 6705014,
+          "sha256": "701424ba234a33dc48de5c39e17caf2ced92c5605cae600a764d36e13689248e"
+        }
+      },
+      "snapshot_map_sha256": "76fbdea7b9ef4e3b9b38ebb5fedf303f6111a3e1a3e551732b738089945f6282",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-restore-shienryu-flip-q251-candidate-r1-r1"
+    },
+    "shienryu-upstream-q251-baseline-r1": {
+      "bytes": 316795290,
+      "every_restored_member_exact": true,
+      "file_count": 1152,
+      "programming": {
+        "output_files/STV_DS.rbf": {
+          "bytes": 4591232,
+          "sha256": "2bad41a6e2bd52078f5a8fffff85640a416332364c4c1721ff7496735d2660d4"
+        },
+        "output_files/STV_DS.sof": {
+          "bytes": 6705014,
+          "sha256": "2c449f0d597b3844768f9c0b3ce71338270ab7253024e3279941d121aa7d7fda"
+        }
+      },
+      "snapshot_map_sha256": "ddaaa82edd1731ca0cd428b6ce9bb1d7f669a472dc5c21b600223d41834025da",
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\legacy-newbase-restore-shienryu-upstream-q251-baseline-r1-r1"
+    }
+  },
+  "sidecars": {
+    "EXCLUSIONS.json": {
+      "bytes": 657747,
+      "sha256": "b0fa2d606bf284b894bf1abc7370a19afe04d7101575bb00947d30c751f9138e"
+    },
+    "MEMBER-HASHES.json": {
+      "bytes": 635555,
+      "sha256": "e2879ecde4960072af29af3e67bfff82ac803e971fd78c623b563308f8f65daf"
+    },
+    "NATIVE-TERMINAL-PROOFS.json": {
+      "bytes": 1724,
+      "sha256": "f5d3e71c36c662ba8d2a1526d8009960e61cd17702c150732752a3bc5cdc424f"
+    },
+    "NATIVE-TREE-SNAPSHOTS.json": {
+      "bytes": 331066,
+      "sha256": "a7194786d0d4895e53dc762a03fc3bd15e7bd0e5db6c5a80c252bff190a76b63"
+    },
+    "ORIGINAL-FULL-MEMBERSHIP.json": {
+      "bytes": 799848,
+      "sha256": "2950472fab72ca2e4d60ffd5049ee6931080e0ec9e400c152163ab683179aefa"
+    },
+    "README.md": {
+      "bytes": 1495,
+      "sha256": "d0fa96ad777381a644104a34072231770f9e3edc0a9e917a6a268c7b1b08c873"
+    },
+    "RESTORE-VALIDATION.json": {
+      "bytes": 1795,
+      "sha256": "b2f9ee470f486cd4766ba3c4c8026b3d777ec61884cefb6c32a3f26d1f899e09"
+    },
+    "archive_primitives.py": {
+      "bytes": 4900,
+      "sha256": "1f4def931bdef7ccf1ed7c52de6418582b2e2e1b1bcdd729867da077816d52b3"
+    },
+    "create_preservation.py": {
+      "bytes": 10665,
+      "sha256": "99d9d90bd4dde9baa9c08082ff8d6c7e5bcc12293f60da4ce31a6db4fcd78f67"
+    }
+  },
+  "state": "LOCAL_DRAFT_PENDING_ROOT_QC_AND_REMOTE_VERIFICATION",
+  "timing_acceptance": false
+}

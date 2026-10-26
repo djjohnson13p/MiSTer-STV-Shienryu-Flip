@@ -1,0 +1,50 @@
+{
+  "reviewer": "root",
+  "decision": "ACCEPTED_6EB_SEED05_AGGRESSIVE_HOLD_PRESERVATION_PACKAGER",
+  "script_sha256": "5bf3303618ed4817baed0bfd2288420eeffbcfc35b147af95fa0a434718bf4a3",
+  "provider_sha256": "1f4def931bdef7ccf1ed7c52de6418582b2e2e1b1bcdd729867da077816d52b3",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 5,
+  "experimental_QSF_assignment": "TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT ON",
+  "seed_start_QSF_sha256": "ff61eae923d26ed3097ae2f61d8c1e527c1fa30243aca3ff0b43d42b1335fd19",
+  "derived_STA_caches_excluded": true,
+  "all_native_stage_files_remote_restorable": false,
+  "allow_closed_partial_failure_backup": false,
+  "closed_trial_evidence": {
+    "experiment-result.json": "0a22af58bdfd68e620e4c8cb147ab0506bf43c21c728be21c7f1b7ff4e76290d",
+    "preservation-index.json": "65882512ca9d97fd1ffa376207d3b6e24781fac61ffd9b188a5330ee0cf18db3",
+    "trial-manifest.json": "c7bd46b123fbf80f885b2c8882eec2dbe5b156514f6ba7ade3b62dc20cf6901c",
+    "frozen-pins.json": "c65715eef7596fec4c18cb96adec33d0108dac917bc9deffba5a530fb569d881",
+    "terminal-task-cleanup.json": "6ee9b9b936ccdfff6443f8f4569c869e2ca65ba6da0009ef36117359307300eb",
+    "scheduler-action-exit.json": "daebf3d14bdac9a84562bf5b80d01957883e1ee43719f08ddc769827b0dd2dcc"
+  },
+  "actual_review_files": [
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-SEED05-AGGRESSIVE-HOLD-NATIVE-REVIEW-R1.json",
+      "sha256": "2ab23b25578400e60e0a1195fe3d3163dc83541c3e84841836af48e84be42ea7"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\INDEPENDENT-SEED05-AGGRESSIVE-HOLD-NATIVE-SOURCE-REVIEW-R1.json",
+      "sha256": "27f8eb7d283527d50fedf9996ae274b52566cd0ff8e462624126e798f6172667"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\INDEPENDENT-SEED05-AGGRESSIVE-HOLD-NATIVE-TIMING-REVIEW-R1.json",
+      "sha256": "83b17858b9671a4de2b9d5e36b462b9f82c1f65da594aac9df822e580d1f4e46"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-AGGRESSIVE-HOLD-PRESERVATION-CODE-REVIEW-R1.json",
+      "sha256": "f972e6872a17d2a9d7b7a702d3e0a935647bda5d362b3a51930cfe2e311efbd6"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\INDEPENDENT-SEED05-AGGRESSIVE-HOLD-PRESERVATION-ADAPTER-REVIEW-R1.json",
+      "sha256": "275a84740f2aff6820d0bb91bbca7013f9c2ae96b6c11d7cf46d2eb17902f626"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\SHIENRYU-AGGRESSIVE-HOLD-TRIAL-RESULT.md",
+      "sha256": "bdf64e3dd44676390d8c34337be2c2ded308a9da13a0b60c4933486f1b5890cd"
+    }
+  ],
+  "native_member_review_complete": true,
+  "no_timing_improvement": true,
+  "user_requested_offPC_backup_then_local_cleanup": true
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer": "root",
+  "utc": "2026-10-26T04:04:20.724436+00:00",
+  "aggressive_archive_verified": true,
+  "aggressive_fit_restore_files": 1050,
+  "aggressive_ASM_restore_files": 1051,
+  "legacy12ZIP_actual_hashes_verified": true,
+  "legacy_both_native_restores_rehashed": true,
+  "device6files_CRC_SHA_verified": true,
+  "no_delete_or_remote_action": true
+}

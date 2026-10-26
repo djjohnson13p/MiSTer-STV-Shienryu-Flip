@@ -1,0 +1,65 @@
+{
+  "agent": "/root/shienryu_constraints_review",
+  "created_utc": "2026-10-26T03:47:22.669564+00:00",
+  "purpose": "Exact six obsolete STVB/STVC runtime files, read-only preservation before root-authorized cleanup. Not an approved core release.",
+  "inventory_sha256": "20c3a90b90866ad8bb29d2afec05d5d7f8a54513139ed69968abe79c6e0ff00e",
+  "transport_loader_sha256": "47a73ac18e5b8303d56cba43c7b9a9fc9f1850e4b13bfb447167e2267dc04db7",
+  "read_only_remote": true,
+  "copied_payload_whitelist": [
+    "/media/fat/_Arcade/_CoreLab/STVB0001.mra",
+    "/media/fat/_Arcade/_CoreLab/STVC0001.mra",
+    "/media/fat/_Arcade/cores/STVB0001.rbf",
+    "/media/fat/_Arcade/cores/STVC0001.rbf",
+    "/media/fat/config/inputs/STVB0001_input_4711_0815_v3.map",
+    "/media/fat/config/inputs/STVC0001_input_4711_0815_v3.map"
+  ],
+  "ROM_BIOS_NVM_screenshots_credentials_copied": false,
+  "remote_pre_post_hashes_exact": true,
+  "active_seed4_identity_and_control_epoch_unchanged": true,
+  "active_core_path": "/media/fat/_Arcade/cores/SHYF0004.rbf",
+  "active_game_path": "/media/fat/_Arcade/_CoreLab/SHYF0004.mra",
+  "files": [
+    {
+      "remote_path": "/media/fat/_Arcade/_CoreLab/STVB0001.mra",
+      "member": "media/fat/_Arcade/_CoreLab/STVB0001.mra",
+      "local": "files/media/fat/_Arcade/_CoreLab/STVB0001.mra",
+      "bytes": 1434,
+      "sha256": "3b9fbe54cc7c4d2a8129153aada66cf8633e0f154a65a1ddc26af9713aa6ab6d"
+    },
+    {
+      "remote_path": "/media/fat/_Arcade/_CoreLab/STVC0001.mra",
+      "member": "media/fat/_Arcade/_CoreLab/STVC0001.mra",
+      "local": "files/media/fat/_Arcade/_CoreLab/STVC0001.mra",
+      "bytes": 1428,
+      "sha256": "963dea0b0aff1b825bd4072d131843b4f17c212414e75f37f29e404d604e03cb"
+    },
+    {
+      "remote_path": "/media/fat/_Arcade/cores/STVB0001.rbf",
+      "member": "media/fat/_Arcade/cores/STVB0001.rbf",
+      "local": "files/media/fat/_Arcade/cores/STVB0001.rbf",
+      "bytes": 4591232,
+      "sha256": "2bad41a6e2bd52078f5a8fffff85640a416332364c4c1721ff7496735d2660d4"
+    },
+    {
+      "remote_path": "/media/fat/_Arcade/cores/STVC0001.rbf",
+      "member": "media/fat/_Arcade/cores/STVC0001.rbf",
+      "local": "files/media/fat/_Arcade/cores/STVC0001.rbf",
+      "bytes": 4350396,
+      "sha256": "827e17bfb88a2e4120442472cbdd78ec2ee61a8aafd61fff284949759fc7b185"
+    },
+    {
+      "remote_path": "/media/fat/config/inputs/STVB0001_input_4711_0815_v3.map",
+      "member": "media/fat/config/inputs/STVB0001_input_4711_0815_v3.map",
+      "local": "files/media/fat/config/inputs/STVB0001_input_4711_0815_v3.map",
+      "bytes": 128,
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    },
+    {
+      "remote_path": "/media/fat/config/inputs/STVC0001_input_4711_0815_v3.map",
+      "member": "media/fat/config/inputs/STVC0001_input_4711_0815_v3.map",
+      "local": "files/media/fat/config/inputs/STVC0001_input_4711_0815_v3.map",
+      "bytes": 128,
+      "sha256": "6ccbf19ba1449a5569bf5854e60d27a5fa7be3f4ec7309f21e3074dffcccce97"
+    }
+  ]
+}

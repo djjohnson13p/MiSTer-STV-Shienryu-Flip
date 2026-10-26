@@ -1,0 +1,432 @@
+{
+  "BUILD_DATE": "261025",
+  "STA_hash_files": 1066,
+  "actual_STA_reports": 118,
+  "actual_trial_exit_code": 0,
+  "actual_trial_state": "COMPLETED_MEASUREMENT_REQUIRES_ROOT_REVIEW",
+  "all_native_stage_files_remote_restorable": false,
+  "assembled_files": 1051,
+  "backend_effort_not_separately_observable": true,
+  "baseline_seed05_QSF_sha256": "a7b89e1e946dbee5cca617b720618a5b1c7287219b3e6b3dfb230112b1e3ac6f",
+  "bit_identical_rebuild_demonstrated": false,
+  "completed_native_sequence": true,
+  "derived_STA_caches_remain_local": true,
+  "experimental_QSF_assignment": "TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT ON",
+  "experimental_setting_acceptance": {
+    "accepted_input_no_rejection_observed": true,
+    "actual_fit_report_sha256": "30913a47a7b2a0cf46652abdd9fec375f9a870ab173403cf617ddffd3332c4f6",
+    "backend_effort_use": "NOT_SEPARATELY_OBSERVABLE; input acceptance is not backend-use or efficacy proof",
+    "baseline_fit_report_sha256": "c9127596b71348f3571bde750d01dc2a869e8e1d79cd2e5e4bf9f7b8de2b79bc",
+    "combined_native_output_sha256": "22b806d8c4287f746edd06194b544cef9706bd13edf39432260a43dcca8f4915",
+    "disabled_hold_transfer_10929_or_table_messages": [],
+    "efficacy": "Must be assessed from actual all8 results versus original seed5; no promised repair.",
+    "explicit_setting_rejections": [],
+    "generic171167_or176250_not_rejection_by_ID_alone": true,
+    "ignored_hold_transfer_report_sections": [],
+    "ignored_rows_added": [],
+    "ignored_rows_removed": [],
+    "normalized_actual_ignored_rows": [
+      [
+        "Fast Output Register",
+        "sys_top",
+        "",
+        "HDMI_TX_CLK",
+        "ON",
+        "QSF Assignment"
+      ],
+      [
+        "HPS_LOCATION",
+        "sys_top",
+        "",
+        "spi",
+        "HPSINTERFACEPERIPHERALSPIMASTER_X52_Y72_N111",
+        "QSF Assignment"
+      ],
+      [
+        "Unforce Merging of PLL Output Counter",
+        "sys_top",
+        "",
+        "*pll_0002*|altera_pll:altera_pll_i*|*",
+        "ON",
+        "rtl/pll/pll_0002.qip"
+      ],
+      [
+        "Unforce Merging of PLL Output Counter",
+        "sys_top",
+        "",
+        "*pll_hdmi_0002*|altera_pll:altera_pll_i*|*",
+        "ON",
+        "sys/pll_hdmi/pll_hdmi_0002.qip"
+      ]
+    ],
+    "normalized_baseline_ignored_rows": [
+      [
+        "Fast Output Register",
+        "sys_top",
+        "",
+        "HDMI_TX_CLK",
+        "ON",
+        "QSF Assignment"
+      ],
+      [
+        "HPS_LOCATION",
+        "sys_top",
+        "",
+        "spi",
+        "HPSINTERFACEPERIPHERALSPIMASTER_X52_Y72_N111",
+        "QSF Assignment"
+      ],
+      [
+        "Unforce Merging of PLL Output Counter",
+        "sys_top",
+        "",
+        "*pll_0002*|altera_pll:altera_pll_i*|*",
+        "ON",
+        "rtl/pll/pll_0002.qip"
+      ],
+      [
+        "Unforce Merging of PLL Output Counter",
+        "sys_top",
+        "",
+        "*pll_hdmi_0002*|altera_pll:altera_pll_i*|*",
+        "ON",
+        "sys/pll_hdmi/pll_hdmi_0002.qip"
+      ]
+    ],
+    "readback_ON": true,
+    "requested_assignment": "TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT ON",
+    "stored_native_readback": [
+      "ON"
+    ]
+  },
+  "fit_checkpoint_files": 1050,
+  "fit_qualified": true,
+  "genuine_ASM_outputs": {
+    "output_files/STV_DS.rbf": {
+      "bytes": 4370160,
+      "sha256": "cbb1a1ad08d4b9bb9edf3d79d307047ba3db84f428221213a627cdf46cbe614d"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705017,
+      "sha256": "8dc4452b561e619d20b3ac978fd58f7ccb74c928ef6dd45bc2049fa548502fb6"
+    }
+  },
+  "genuine_ASM_programming_qualified": true,
+  "hardware_acceptance": false,
+  "native_matrix": [
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.647
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.399
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 1.184
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 1,
+          "pass": false,
+          "slack_ns": -0.017
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "f2c18e170148a8767910ce7ab4b8c022b3e5612eb0e57579621d88f68d5443c2",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 2,
+      "status": "FAIL",
+      "temperature_C": -40
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.673
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.397
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 1.173
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.048
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "347eade3e012c4854a871118eca12ea2567e724e57c1a0955b7dc3eb3c3fcaa4",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 4,
+      "status": "FAIL",
+      "temperature_C": 0
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.704
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.224
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 1.263
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.158
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "3f0e4ec59ae1f2d51a4ad0c63e1c9241276756784e9dfa07ce0bff1177c027cd",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 3,
+      "status": "FAIL",
+      "temperature_C": 85
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.723
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.171
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 1.284
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.108
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "95e9cc07f03b6a9f000346c2daa6df52800ed93c492c2bf2f310e08e6b416ac3",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "slow",
+      "native_corner": 1,
+      "status": "FAIL",
+      "temperature_C": 100
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.377
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 4.89
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.447
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.636
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "8f29d802e9ea5aad564fa9e08fe096699e5c3421679f142725efe90fe3451630",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 5,
+      "status": "FAIL",
+      "temperature_C": -40
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.38
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 4.809
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.471
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.55
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "66c3b3075b71deffec233742ff128249e2927f3d096bd237fb57712ed3112d0e",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 6,
+      "status": "FAIL",
+      "temperature_C": 0
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.38
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 4.555
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.524
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.231
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "18810a2bc5981b80805dcc0b92958142cf5551769e3dcc071a9968343c1104ed",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 7,
+      "status": "FAIL",
+      "temperature_C": 85
+    },
+    {
+      "checks": {
+        "hold": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 5,
+          "pass": false,
+          "slack_ns": -0.379
+        },
+        "recovery": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 4.473
+        },
+        "removal": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 0.548
+        },
+        "setup": {
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "native_report_violated_paths": 0,
+          "pass": true,
+          "slack_ns": 3.132
+        }
+      },
+      "minimum_pulse_width": {
+        "reported_paths": 50,
+        "sha256": "bd2415c0ed9ebe20298afe9ba2c1e746257a32efbf55d77500775c783b25b1db",
+        "slack_ns": 1.091,
+        "violated": 0
+      },
+      "model": "fast",
+      "native_corner": 8,
+      "status": "FAIL",
+      "temperature_C": 100
+    }
+  ],
+  "native_qualified_clean_candidate": false,
+  "raw_native_labels_preserved": true,
+  "remote_uploaded": false,
+  "root_create_admission_sha256": "cdd4b57fdd16a4322ea6a7dec49bdb09959ec42c63ddea979c060ec3821ef83a",
+  "seed": 5,
+  "seed_start_QSF_sha256": "ff61eae923d26ed3097ae2f61d8c1e527c1fa30243aca3ff0b43d42b1335fd19",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "state": "LOCAL_DRAFT_PENDING_ROOT_PACKAGE_REVIEW",
+  "timing_acceptance": false,
+  "variant_exact_sha256": "73ca65c64ef89e037e3995ca1faa56e3f7b8a1480b1a2f20190fb3d17b41ef57"
+}
