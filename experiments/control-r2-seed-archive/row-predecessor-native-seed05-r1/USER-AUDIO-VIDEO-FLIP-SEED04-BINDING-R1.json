@@ -1,0 +1,72 @@
+{
+  "reviewer": "agent:shienryu_source_review",
+  "recorded_utc": "2026-10-25T23:56:08.713337+00:00",
+  "human_evidence": {
+    "exact_quote": "audio video and flip work as intended",
+    "reported_by": "human user; quoted directly by root in delegated task",
+    "quote_received_timestamp": "Exact user-message timestamp unavailable to this agent; receipt time is recorded_utc",
+    "scope": [
+      "audio",
+      "video",
+      "flip as intended"
+    ]
+  },
+  "decision": "HUMAN_AUDIO_VIDEO_FLIP_CONFIRMATION_BOUND_TO_PRESERVED_7E9_SEED04",
+  "source_commit_if_bound": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "candidate_alias_if_bound": "SHYF0004",
+  "snapshot": {
+    "game": {
+      "core_name": "SHYF0004",
+      "core_path": "/media/fat/_Arcade/cores/SHYF0004.rbf",
+      "game_path": "/media/fat/_Arcade/_CoreLab/SHYF0004.mra",
+      "error": null
+    },
+    "control": {
+      "mode": "user",
+      "epoch": "392e813f-d4ea-4fe7-8845-28c5f91bfd09",
+      "active_input": null,
+      "active_action": null,
+      "cleanup_error": "",
+      "transition_in_progress": false
+    },
+    "User_idle": true,
+    "alias_matches_seed04": true,
+    "Main": {
+      "PID": 1064,
+      "version": "$VER:261010",
+      "sha256": "ba8746d91ced547845b743b7826d827cfd6c488de0bcf8b27112d8d77f8a7e27",
+      "CORENAME": "SHYF0004"
+    },
+    "staged_RBF_MRA_CFG_sha256": {
+      "/media/fat/_Arcade/_CoreLab/SHYF0004.mra": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3",
+      "/media/fat/_Arcade/cores/SHYF0004.rbf": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11",
+      "/media/fat/config/SHYF0004.CFG": "0007ce742536ed2e7cf949bae045978ca974afd6f000cdd69084ec7d3e620ba9"
+    },
+    "saved_CFG": {
+      "bytes": 16,
+      "status82": true,
+      "only_status82_set": true
+    },
+    "protected_original35_hashes_match": true,
+    "protected_original24_members_match": true,
+    "same_User_idle_epoch_and_core_at_end": true
+  },
+  "physical_confirmation": "Human report, not inferred from CFG or pre-ascal screenshots",
+  "not_inferred": [
+    "OSD orientation/framing",
+    "reset behavior",
+    "EEPROM or other persistence",
+    "industrial-range timing closure",
+    "6eb variant or new seed5 test"
+  ],
+  "actions": {
+    "read_only_status_shell_hash_CFG16B_only": true,
+    "control_acquisition": 0,
+    "input": 0,
+    "capture": 0,
+    "settings_reload_deploy_writes": 0,
+    "ROM_bytes_collected_or_recorded": 0
+  },
+  "prior_boot_ready_sha256": "0088198c749f2ec7ce635bf9cabdba9ce06d1a1e18412bc8be28a9705b1fc3d8",
+  "protected_reference_sha256": "1e5d3ce0446863e139d4c6837229d09c2c9435eb0ed681994dc03a1e88a5e1de"
+}

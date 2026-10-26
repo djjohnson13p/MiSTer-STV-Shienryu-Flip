@@ -1,0 +1,98 @@
+{
+  "reviewer": "root",
+  "decision": "COMPLETED_SEED05_REJECTED_AS_REPLACEMENT_FURTHER_BUILDS_HELD_FOR_USER_DISCUSSION",
+  "utc": "2026-10-26T00:16:08.893132+00:00",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 5,
+  "bindings": {
+    "ROOT-ROW-PREDECESSOR-SEED05-NATIVE-MEMBER-REVIEW.json": "e2a1512f95287f620c958a1727cba14be959326229fbd572a60a32efdb69db4e",
+    "INDEPENDENT-ROW-PREDECESSOR-SEED05-NATIVE-SOURCE-REVIEW.json": "6765bea41e5491c0cdaf648ec3a941d702d6e92de83b43ac3324c2d7e153f87e",
+    "INDEPENDENT-ROW-PREDECESSOR-SEED05-NATIVE-REPORT-REVIEW.json": "5be5c74dbadb2283c356504c3eec7bd48900f37d9505d9676e3e143b5bfa548f",
+    "ROW-PREDECESSOR-SEED05-HOLD-SETTINGS-REVIEW.json": "c31fca20eeaac8e5ec63bcbf7a55a438e96305204247c7283ee7a56c8ccdd0b3",
+    "USER-AUDIO-VIDEO-FLIP-SEED04-BINDING-R1.json": "1a0d35f7fa884f4e9c063eaceed758aa700afb06047709898c08fe61163e4f65"
+  },
+  "metadata_query_result_path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\hold-option-metadata-query-r1\\RESULT.json",
+  "metadata_query_result_sha256": "8726f6d14fd9cec4835d914df9db666f29c97585e8d3a53a80cc49a35af67112",
+  "actual_trial_result_sha256": "09ec599d49b5723ffaea9ec72428461cc21985d2d96ede9957fe4bf54c92b7f0",
+  "actual_cleanup_sha256": "71f47a6a5dfc12547f86130b80ecdc91e8017af0b21f02f21efedd5c0a567032",
+  "all3_native0_closed_and_exact_task_unregistered": true,
+  "setup_pass_conditions": 7,
+  "hold_pass_conditions": 0,
+  "recovery_removal_MPW_pass_all8": true,
+  "all8_setup_and_hold": [
+    {
+      "model": "slow",
+      "temperature_C": -40,
+      "setup_ns": -0.017,
+      "hold_ns": -0.647,
+      "result": "FAIL"
+    },
+    {
+      "model": "slow",
+      "temperature_C": 0,
+      "setup_ns": 0.048,
+      "hold_ns": -0.673,
+      "result": "FAIL"
+    },
+    {
+      "model": "slow",
+      "temperature_C": 85,
+      "setup_ns": 0.158,
+      "hold_ns": -0.704,
+      "result": "FAIL"
+    },
+    {
+      "model": "slow",
+      "temperature_C": 100,
+      "setup_ns": 0.108,
+      "hold_ns": -0.723,
+      "result": "FAIL"
+    },
+    {
+      "model": "fast",
+      "temperature_C": -40,
+      "setup_ns": 3.636,
+      "hold_ns": -0.377,
+      "result": "FAIL"
+    },
+    {
+      "model": "fast",
+      "temperature_C": 0,
+      "setup_ns": 3.55,
+      "hold_ns": -0.38,
+      "result": "FAIL"
+    },
+    {
+      "model": "fast",
+      "temperature_C": 85,
+      "setup_ns": 3.231,
+      "hold_ns": -0.38,
+      "result": "FAIL"
+    },
+    {
+      "model": "fast",
+      "temperature_C": 100,
+      "setup_ns": 3.132,
+      "hold_ns": -0.379,
+      "result": "FAIL"
+    }
+  ],
+  "failing_hold_paths": "Five physical pairs into four memory destination registers; unchanged VDP2-to-SDRAM1 and STV_CART-to-DDRAM, related corecounter0-to1 clocks",
+  "remaining_cold_setup": "HDMI vertical-counter feedback add/compare; not reflection cone",
+  "scaler_counter_companion_all16_targets_positive": true,
+  "ordinary_hold_repair_already_All_Paths": true,
+  "ordinary_fitter_multicorner_already_On": true,
+  "router_effort_already_MAXIMUM": true,
+  "extra_option": "TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT ON",
+  "installed_25_1_Standard_Lite_CLI_recognizes_extra_option": true,
+  "CycloneV_fitter_effect_proven": false,
+  "per_destination_max_setup_delay_budget_proven": false,
+  "baseline4_preferred_and_user_physical_audio_video_flip_confirmed": true,
+  "new5_deployment_accepted": false,
+  "next_recommendation": "One focused read-only setup/hold budget study on the four affected destinations before proposing any compile; no new seeds or RTL currently selected",
+  "user_latest_direction": "If we dont have concrete direction to clear timing do not randomly keep creating seeds; evaluate options and discuss next steps",
+  "new_FPGA_compilations_held_pending_joint_next_step": true,
+  "current_preservation_authorized_and_pending": true,
+  "full_board_signoff": false,
+  "bit_identical_recompile_verified": false
+}

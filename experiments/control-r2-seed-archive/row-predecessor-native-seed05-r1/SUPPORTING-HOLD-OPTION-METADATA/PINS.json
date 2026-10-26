@@ -1,0 +1,26 @@
+{
+  "QUERY-REVIEW.json": {
+    "bytes": 839,
+    "sha256": "f75f1aade830efd45d86cb6f5781004ff2d496b2ec989868b1de78c7706af6a3"
+  },
+  "RESULT.json": {
+    "bytes": 3241,
+    "sha256": "8726f6d14fd9cec4835d914df9db666f29c97585e8d3a53a80cc49a35af67112"
+  },
+  "query.tcl": {
+    "bytes": 430,
+    "sha256": "7e6e78e1eba7147aab60456e67db55f5846d8b05b94c66b9aa3bd17deead3cd6"
+  },
+  "utility-exit.json": {
+    "bytes": 857,
+    "sha256": "06cdf6715416b7a94d3f50a60b2d0bcdd3010b5fd0b72935cc73943637419e01"
+  },
+  "utility-stderr.txt": {
+    "bytes": 104,
+    "sha256": "29fa17e931c90fe8d26abdb72118d4eaa531db1a35629adeb4740f61bd264d52"
+  },
+  "utility-stdout.txt": {
+    "bytes": 2841,
+    "sha256": "349d1821210358cd7f4a4ae456cf6a58451cc8977d4e066f2cbbd10f9a0542b3"
+  }
+}

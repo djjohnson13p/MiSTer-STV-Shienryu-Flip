@@ -1,0 +1,43 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+    Info: Copyright (C) 2025  Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Altera and sold by Altera or its authorized distributors.  Please
+    Info: refer to the Altera Software License Subscription Agreements 
+    Info: on the Quartus Prime software download page.
+    Info: Processing started: Sun Oct 25 17:09:50 2026
+Info: Command: quartus_sh -t C:\Users\djjoh\Downloads\MiSTer-Rebuild-Kit\MiSTer-Rebuild-Kit\core-lab\research\shienryu-timing-20261024\hold-option-metadata-query-r1\query.tcl
+ASSIGNMENT_METADATA_BEGIN
+NAME=TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT
+TCL_CATCH_STATUS=0
+VALUE_BEGIN
+Name: TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT
+Type: Global
+Legal values: On, Off
+Description: Instructs the Fitter to aggressively optimize for hold timing closure.
+VALUE_END
+NAME=OPTIMIZE_HOLD_TIMING
+TCL_CATCH_STATUS=0
+VALUE_BEGIN
+Name: OPTIMIZE_HOLD_TIMING
+Type: Global
+Legal values: All Paths, IO Paths and Minimum TPD Paths, Off
+Description: Allows the Fitter to optimize hold time by adding delay to the appropriate paths. The Optimize Timing option must be turned on in order for this option to work. If you are using the Timing Analyzer, and specify the I/O paths and Minimum tpd Paths setting, all assignments involving I/O pins are optimized. Specifying the All Paths setting directs the Fitter to optimize the hold time of all paths. Turning off this option directs the Fitter not to optimize the hold time of any paths.
+VALUE_END
+ASSIGNMENT_METADATA_END
+Info (23030): Evaluation of Tcl script C:\Users\djjoh\Downloads\MiSTer-Rebuild-Kit\MiSTer-Rebuild-Kit\core-lab\research\shienryu-timing-20261024\hold-option-metadata-query-r1\query.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4650 megabytes
+    Info: Processing ended: Sun Oct 25 17:09:53 2026
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:00

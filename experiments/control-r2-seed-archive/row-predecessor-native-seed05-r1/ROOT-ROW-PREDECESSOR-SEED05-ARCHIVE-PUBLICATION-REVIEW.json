@@ -1,0 +1,23 @@
+{
+  "reviewer": "root",
+  "decision": "ACCEPT_TIMING_FAILURE_RECOVERY_UPLOAD_TO_USER_LAB_BRANCH_ONLY",
+  "utc": "2026-10-26T00:24:33.981591+00:00",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 5,
+  "package_index_sha256": "91a36f49ca50e0bac07c9d35fbf7944a6fbb2ffcce7b1e5ccc7597ca0d56c684",
+  "actual_archive_qc_sha256": "98a2447f60d99a0c68f65095e5a58dda56bf664eb90118ed90c2049fc277ee1f",
+  "actual_fit_and_asm_restore_sha256": "b7720b3b0f6ff2e7feffe372da0fdf204fba92960c0993da769d28b699cb3bd9",
+  "expected_parent": "5c4f40d770733763701355231641d98a59c996b5",
+  "only_changed_namespace": "experiments/control-r2-seed-archive/row-predecessor-native-seed05-r1",
+  "branch": "lab/shienryu-control-r2-seed-archive",
+  "fit_files": 1050,
+  "ASM_files": 1051,
+  "STA_reports": 118,
+  "ZIPs": 7,
+  "all3306_stage_files_remote_restorable": false,
+  "remote_verification_pending": true,
+  "new_FPGA_builds_held": true,
+  "timing_acceptance": false,
+  "hardware_acceptance": false,
+  "default_push_PR_release_author_contact": false
+}

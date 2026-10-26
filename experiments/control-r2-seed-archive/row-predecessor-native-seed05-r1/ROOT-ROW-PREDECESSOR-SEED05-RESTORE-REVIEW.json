@@ -1,0 +1,32 @@
+{
+  "reviewer": "root",
+  "decision": "ACTUAL_FIT_AND_ASSEMBLED_CHECKPOINT_RESTORATIONS_VERIFIED",
+  "utc": "2026-10-26T00:22:30.485165+00:00",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 5,
+  "package_index_sha256": "91a36f49ca50e0bac07c9d35fbf7944a6fbb2ffcce7b1e5ccc7597ca0d56c684",
+  "stage_restores": {
+    "fit": {
+      "files": 1050,
+      "bytes": 267235034,
+      "actual_restored_membership_and_hashes_verified": true,
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-seed05-restore-root-fit-r1"
+    },
+    "asm": {
+      "files": 1051,
+      "bytes": 267454269,
+      "actual_restored_membership_and_hashes_verified": true,
+      "target": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\row-predecessor-seed05-restore-root-asm-r1"
+    }
+  },
+  "total_actual_restored_files": 2101,
+  "actual_ASM_overlay_files": 11,
+  "deletion_inventory_empty": true,
+  "genuine_ASM_RBF_sha256": "cbb1a1ad08d4b9bb9edf3d79d307047ba3db84f428221213a627cdf46cbe614d",
+  "genuine_ASM_SOF_sha256": "1b878f6e19fa62824b547dd8f6adf315845d45bdaf4a661035f0d44547db4617",
+  "STA_working_cache_versions_archived": false,
+  "all3306_native_stage_files_remote_restorable": false,
+  "no_native_tool_or_project_code_run": true,
+  "remote_upload_pending": true,
+  "bit_identical_recompile_proven": false
+}

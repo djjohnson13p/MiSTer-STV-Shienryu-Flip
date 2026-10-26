@@ -1,0 +1,156 @@
+{
+ "reviewer": "agent:shienryu_constraints_review",
+ "decision": "ACTUAL_LOCAL_SEED05_ARCHIVE_QC_PASSED_FOR_ROOT_BACKUP_REVIEW",
+ "scope": "Required preservation only while further FPGA compiles are held. Read-only archives/metadata/reports; no original DB-byte rehash, filesystem restore, helper/native/Git/device execution or original/package edits.",
+ "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+ "seed": 5,
+ "BUILD_DATE": "261025",
+ "package_index_sha256": "91a36f49ca50e0bac07c9d35fbf7944a6fbb2ffcce7b1e5ccc7597ca0d56c684",
+ "member_hashes_sha256": "cd5247dbb5ea4b5936dff1fa856848700ea1bc003678c8a93014b6399fad029d",
+ "archive_checks": {
+  "ZIPs": 7,
+  "bytes": 215281785,
+  "members": 1261,
+  "every_ZIP_SHA_size_and_member_SHA_size_CRC_verified": true,
+  "unsafe_paths_duplicates_case_collisions_encryption_or_nonregular_entries": false,
+  "fixed1980_Unix_regular_metadata_verified": true,
+  "part_columns": [
+   "file",
+   "bytes",
+   "members",
+   "SHA256"
+  ],
+  "parts": [
+   [
+    "rowpred6eb-seed05-DRAFT-assembled-checkpoint-overlay-01.zip",
+    6698371,
+    11,
+    "1b0c33fbeea38c9735866453645e4ac0b8fe08a8c19d599a7426edf8c98803ef"
+   ],
+   [
+    "rowpred6eb-seed05-DRAFT-checkpoint-db-01.zip",
+    60722386,
+    688,
+    "36e577d0c20e1d772f31c951b8eeb378d8f697d4c440df76b4a19ef9eb2f4b6a"
+   ],
+   [
+    "rowpred6eb-seed05-DRAFT-checkpoint-db-02.zip",
+    51464245,
+    17,
+    "0036ce814c18f3aecb3a1ac603e40a1e9f05094266718dce35706889a670e4f0"
+   ],
+   [
+    "rowpred6eb-seed05-DRAFT-checkpoint-db-03.zip",
+    37670481,
+    92,
+    "c5efc9a2945aee91b266626df2d0089e11c8e481c96c6d93107ce7b6117a6b17"
+   ],
+   [
+    "rowpred6eb-seed05-DRAFT-checkpoint-incremental-db-01.zip",
+    46305505,
+    31,
+    "e0355aa9328b7fde899855720abcae6e3a9de27769f148e444fa217f963399ed"
+   ],
+   [
+    "rowpred6eb-seed05-DRAFT-checkpoint-project-and-outputs-01.zip",
+    5566241,
+    222,
+    "6e5a9349231f37ae655b6de2d628c2b264f8edb9d1d652d772ac70434605190f"
+   ],
+   [
+    "rowpred6eb-seed05-DRAFT-source-programming-and-evidence-01.zip",
+    6854556,
+    200,
+    "b73c08b9965e380784232f6184818305ee953303f913193535ef2078920a091d"
+   ]
+  ]
+ },
+ "fit_and_ASM": {
+  "fit_files": 1050,
+  "fit_bytes": 267235034,
+  "overlay_changed_or_added": 11,
+  "overlay_deleted": [],
+  "assembled_files": 1051,
+  "assembled_bytes": 267454269,
+  "archive_fit_union_equals_actual_completed_fit_checkpoint_JSON": true,
+  "in_memory_overlay_reconstruction_equals_every_actual_ASM_checkpoint_entry": true,
+  "genuine_RBF": {
+   "bytes": 4370160,
+   "sha256": "cbb1a1ad08d4b9bb9edf3d79d307047ba3db84f428221213a627cdf46cbe614d"
+  },
+  "genuine_SOF": {
+   "bytes": 6705017,
+   "sha256": "1b878f6e19fa62824b547dd8f6adf315845d45bdaf4a661035f0d44547db4617"
+  },
+  "qualified_programming_prefix_matches_ASM_and_overlay": true,
+  "inherited_fit_RBF": "Fit checkpoint RBF remains prior6ebseed4 SHA483da40e...; it is not relabeled seed5. Genuine seed5 outputs exist in programming/ and ASM overlay.",
+  "actual_both_filesystem_restores": "Root responsibility; not performed/reviewed here."
+ },
+ "reports_and_bindings": {
+  "all139_sealed_non_tree_stage_files_archived": true,
+  "all118_actual_current_STA_report_hashes_match_archive_and_REPORT_HASHES": true,
+  "actual15_frozen_members_current_and_archived_equal_frozen_pins": true,
+  "frozen_pins_sha256": "d398a7fec12cb60c64b9906ac33523cd9e11af766dd6fb0c0134a8acc8fc560b",
+  "all_closed_trial_and_actual_root_peer_receipts_match_admission_and_current_files": true,
+  "actual_review_hashes": {
+   "ROOT-ROW-PREDECESSOR-SEED05-NATIVE-MEMBER-REVIEW.json": "e2a1512f95287f620c958a1727cba14be959326229fbd572a60a32efdb69db4e",
+   "INDEPENDENT-ROW-PREDECESSOR-SEED05-NATIVE-SOURCE-REVIEW.json": "6765bea41e5491c0cdaf648ec3a941d702d6e92de83b43ac3324c2d7e153f87e",
+   "INDEPENDENT-ROW-PREDECESSOR-SEED05-NATIVE-REPORT-REVIEW.json": "5be5c74dbadb2283c356504c3eec7bd48900f37d9505d9676e3e143b5bfa548f",
+   "ROOT-ROW-PREDECESSOR-SEED05-FINAL-REVIEW-AND-DISCUSSION-GATE.json": "ff24c73ff00f6a7b73512da21f6d8ce5131da4233b66fc392340f51fdd9bdbff",
+   "ROOT-ROW-PREDECESSOR-SEED05-PRESERVATION-CODE-REVIEW.json": "dc900a0cfe6a051be2fc6576c04c2bc5c2a781ee7bf4f31ce637783977a59a5f",
+   "USER-AUDIO-VIDEO-FLIP-SEED04-BINDING-R1.json": "1a0d35f7fa884f4e9c063eaceed758aa700afb06047709898c08fe61163e4f65",
+   "ROW-PREDECESSOR-SEED05-HOLD-SETTINGS-REVIEW.json": "c31fca20eeaac8e5ec63bcbf7a55a438e96305204247c7283ee7a56c8ccdd0b3"
+  },
+  "native_stages": {
+   "fit": {
+    "exit": 0,
+    "elapsed": 2697.937,
+    "closed": true
+   },
+   "asm": {
+    "exit": 0,
+    "elapsed": 48.219,
+    "closed": true
+   },
+   "sta": {
+    "exit": 0,
+    "elapsed": 360.641,
+    "closed": true
+   }
+  },
+  "all32_native_global_violation_counts_match_raw_reports": true,
+  "all8_native_matrix_rows_equal_result_qualification_manifest_and_remain_FAIL": true,
+  "native_semantics": "native0 is completed measurement, not timing pass. pass requires finite displayed slack>=0 AND native violated count=0. A displayed0.000 with violations stays FAIL; no positive-margin claim. This package has no zero global slack.",
+  "exact_source_controls_and_remote_source_receipts_included": true,
+  "packager_sha256": "5e656f0dac240a4fdc4ca969a35270f2ee190883a1957b95bc2a6b895c480799",
+  "standalone_provider_sha256": "1f4def931bdef7ccf1ed7c52de6418582b2e2e1b1bcdd729867da077816d52b3",
+  "root_create_admission_sha256": "96c1dc5508f0c58b82d51280ac79b2965a6c2e2df5779112795cee20f420eac9"
+ },
+ "source_map_date": {
+  "protected_roles_equal_across_fit_ASM_STA": {
+   "source_names": 203,
+   "generated_names": 2,
+   "map_database_names": 4,
+   "primary_cmp_names": 1
+  },
+  "ascal_sha256": "73ca65c64ef89e037e3995ca1faa56e3f7b8a1480b1a2f20190fb3d17b41ef57",
+  "QSF_seed5_sha256": "a7b89e1e946dbee5cca617b720618a5b1c7287219b3e6b3dfb230112b1e3ac6f",
+  "generated_BUILD_DATE_exact261025": true
+ },
+ "explicit_STA_exclusion": {
+  "local_seal_members": 3306,
+  "STA_hash_inventory_files": 1066,
+  "derived_STA_versions_not_archived": 21,
+  "added_only_to_STA": 15,
+  "changed_from_ASM": 6,
+  "scope": "All21 final STA-copy versions are absent; these include secondary cmp.hdb/rdb and timing/cache tables. Full fit/ASM retain their own versions.1066-file STA hashes and complete3306 local seal are audit inventories, not a remotely restorable STA working DB.",
+  "all_native_stage_files_remotely_restorable": false
+ },
+ "unchanged": {
+  "original_package_files": 18,
+  "all_before_after_hashes_equal": true,
+  "eight_embedded_preservation_sidecars_match_outer_files": true
+ },
+ "findings": [],
+ "limitations": "Archive-layer verification, not remote upload, identical recompilation or relocated DB tool usability. Root owns actual fit+ASM restores/publication. Timing remains failed; original/control7e9seed4 retained. Included user HDMI/audio proof belongs to seed4, not6ebseed5; no new hardware acceptance or compile permission."
+}

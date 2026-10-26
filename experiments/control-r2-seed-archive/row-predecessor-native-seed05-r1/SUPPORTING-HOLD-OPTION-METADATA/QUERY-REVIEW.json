@@ -1,0 +1,15 @@
+{
+  "reviewer": "agent:shienryu_build_admission",
+  "scope": "Pre-execution static review of tiny metadata-only query; authorized by root.",
+  "query_sha256": "7e6e78e1eba7147aab60456e67db55f5846d8b05b94c66b9aa3bd17deead3cd6",
+  "commands": [
+    "package require ::quartus::project",
+    "get_assignment_name_info TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT",
+    "get_assignment_name_info OPTIMIZE_HOLD_TIMING",
+    "puts/foreach/set/catch only"
+  ],
+  "local_documentation": "C:/altera_lite/25.1std/quartus/common/help/webhelp/tafs/tafs/tcl_pkg_project_ver_6.0_cmd_get_assignment_name_info.htm",
+  "documented_API": "Returns assignment-name information; may return edition-unsupported message or illegal-name error. No family input is documented.",
+  "no_project_or_design_mutation_or_load": true,
+  "does_not_establish_fitter_efficacy": true
+}

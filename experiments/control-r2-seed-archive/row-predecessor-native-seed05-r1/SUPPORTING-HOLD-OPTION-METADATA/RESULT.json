@@ -1,0 +1,54 @@
+{
+  "reviewer": "agent:shienryu_build_admission",
+  "manual_root_review": false,
+  "utc": "2026-10-26T00:10:41.756109+00:00",
+  "decision": "STANDARD_CLI_RECOGNIZED_FAMILY_ENGINE_USE_AND_EFFICACY_UNVERIFIED_STOP",
+  "assignment": "TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT",
+  "utility": "Quartus Prime25.1std.0 Build1129 SC Lite Edition",
+  "native_exit_code": 0,
+  "elapsed_seconds": 4.109,
+  "actual_metadata": {
+    "Tcl_catch_status": 0,
+    "type": "Global",
+    "legal_values": [
+      "On",
+      "Off"
+    ],
+    "description": "Instructs the Fitter to aggressively optimize for hold timing closure.",
+    "edition_unsupported_or_illegal_name_message": false
+  },
+  "control_assignment": "OPTIMIZE_HOLD_TIMING: metadata returned legal All Paths, IO Paths and Minimum TPD Paths, Off and existing hold-delay description.",
+  "established": "Installed Standard/Lite CLI recognizes this legal assignment and supplies its intended meaning. This is stronger than only finding the name in assignment_defaults.qdf.",
+  "not_established": [
+    "CycloneV-specific applicability: API documents only assignment-name input; no target-family argument or family support list returned. Query intentionally had no project/family context.",
+    "Whether the CycloneV fitter actually consults this option, changes hold-repair effort or improves any measured path. No fitter/design implementation was invoked.",
+    "No timing/hardware success or next experiment selection. Recognition alone is not a repair hypothesis proof."
+  ],
+  "stop_boundary": "One cheap query only; no speculative second family query/project. All further FPGA compilations held pending joint discussion.",
+  "scope_review": {
+    "script_reviewed_before_execution": true,
+    "package": "::quartus::project",
+    "metadata_calls": [
+      "get_assignment_name_info TDC_AGGRESSIVE_HOLD_CLOSURE_EFFORT",
+      "get_assignment_name_info OPTIMIZE_HOLD_TIMING"
+    ],
+    "no_project_open_create_assignment_or_design_action": true,
+    "no_execute_module_map_fit_STA_ASM_netlist_or_DB_read": true
+  },
+  "diagnostics": {
+    "stdout": "Native utility successful,0 errors/0 warnings. Full unmodified stdout retained.",
+    "stderr": "TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize",
+    "stderr_not_suppressed": true
+  },
+  "bindings": {
+    "query_sha256": "7e6e78e1eba7147aab60456e67db55f5846d8b05b94c66b9aa3bd17deead3cd6",
+    "preexecution_review_sha256": "f75f1aade830efd45d86cb6f5781004ff2d496b2ec989868b1de78c7706af6a3",
+    "utility_exit_receipt_sha256": "06cdf6715416b7a94d3f50a60b2d0bcdd3010b5fd0b72935cc73943637419e01",
+    "utility_stdout_sha256": "349d1821210358cd7f4a4ae456cf6a58451cc8977d4e066f2cbbd10f9a0542b3",
+    "utility_stderr_sha256": "29fa17e931c90fe8d26abdb72118d4eaa531db1a35629adeb4740f61bd264d52",
+    "quartus_sh_sha256": "ba253d9086a5a1c8c8b4fd7e5c1019bd8ef77d2eb6205be1e7063dd03e7ca53a",
+    "local_API_help_path": "C:\\altera_lite\\25.1std\\quartus\\common\\help\\webhelp\\tafs\\tafs\\tcl_pkg_project_ver_6.0_cmd_get_assignment_name_info.htm",
+    "local_API_help_sha256": "6021a2a63a8d3f2e655963bcaa09929b1d553340212da4047ae1ff30957e02a2"
+  },
+  "no_frozen_trial_source_Git_or_device_changes": true
+}

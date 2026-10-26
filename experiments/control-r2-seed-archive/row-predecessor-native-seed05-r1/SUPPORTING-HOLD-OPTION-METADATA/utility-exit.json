@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\altera_lite\\25.1std\\quartus\\bin64\\quartus_sh.exe",
+    "-t",
+    "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\hold-option-metadata-query-r1\\query.tcl"
+  ],
+  "cwd": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\hold-option-metadata-query-r1",
+  "exit_code": 0,
+  "elapsed_seconds": 4.109,
+  "quartus_sh_sha256": "ba253d9086a5a1c8c8b4fd7e5c1019bd8ef77d2eb6205be1e7063dd03e7ca53a",
+  "query_sha256": "7e6e78e1eba7147aab60456e67db55f5846d8b05b94c66b9aa3bd17deead3cd6",
+  "stdout_sha256": "349d1821210358cd7f4a4ae456cf6a58451cc8977d4e066f2cbbd10f9a0542b3",
+  "stderr_sha256": "29fa17e931c90fe8d26abdb72118d4eaa531db1a35629adeb4740f61bd264d52",
+  "no_project_open_or_design_action": true
+}

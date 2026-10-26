@@ -1,0 +1,54 @@
+{
+  "reviewer": "root",
+  "decision": "ACCEPTED_6EB_SEED05_PRESERVATION_PACKAGER",
+  "utc": "2026-10-26T00:16:47.360507+00:00",
+  "script_sha256": "5e656f0dac240a4fdc4ca969a35270f2ee190883a1957b95bc2a6b895c480799",
+  "provider_sha256": "1f4def931bdef7ccf1ed7c52de6418582b2e2e1b1bcdd729867da077816d52b3",
+  "source_commit": "6eb9367e2d64c18b0b109d221a0bc07d35d493b4",
+  "seed": 5,
+  "derived_STA_caches_excluded": true,
+  "all_native_stage_files_remote_restorable": false,
+  "allow_closed_partial_failure_backup": false,
+  "closed_trial_evidence": {
+    "experiment-result.json": "09ec599d49b5723ffaea9ec72428461cc21985d2d96ede9957fe4bf54c92b7f0",
+    "preservation-index.json": "f0305027e8aa916caccf1f60d1278300ce87fb23be7dee95715ed319acd3f7a8",
+    "trial-manifest.json": "9e988839315a9107c5ea8ac1b0450545a8b98b116708ce203797097a11fc7d1e",
+    "frozen-pins.json": "d398a7fec12cb60c64b9906ac33523cd9e11af766dd6fb0c0134a8acc8fc560b",
+    "terminal-task-cleanup.json": "71f47a6a5dfc12547f86130b80ecdc91e8017af0b21f02f21efedd5c0a567032",
+    "scheduler-action-exit.json": "8dee5d4afe5cc628d39242ae0e6db236aeb4546c457c6721582ae488fc15eac5"
+  },
+  "actual_review_files": [
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-ROW-PREDECESSOR-SEED05-NATIVE-MEMBER-REVIEW.json",
+      "sha256": "e2a1512f95287f620c958a1727cba14be959326229fbd572a60a32efdb69db4e"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\INDEPENDENT-ROW-PREDECESSOR-SEED05-NATIVE-SOURCE-REVIEW.json",
+      "sha256": "6765bea41e5491c0cdaf648ec3a941d702d6e92de83b43ac3324c2d7e153f87e"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\INDEPENDENT-ROW-PREDECESSOR-SEED05-NATIVE-REPORT-REVIEW.json",
+      "sha256": "5be5c74dbadb2283c356504c3eec7bd48900f37d9505d9676e3e143b5bfa548f"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-ROW-PREDECESSOR-SEED05-FINAL-REVIEW-AND-DISCUSSION-GATE.json",
+      "sha256": "ff24c73ff00f6a7b73512da21f6d8ce5131da4233b66fc392340f51fdd9bdbff"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROOT-ROW-PREDECESSOR-SEED05-PRESERVATION-CODE-REVIEW.json",
+      "sha256": "dc900a0cfe6a051be2fc6576c04c2bc5c2a781ee7bf4f31ce637783977a59a5f"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\USER-AUDIO-VIDEO-FLIP-SEED04-BINDING-R1.json",
+      "sha256": "1a0d35f7fa884f4e9c063eaceed758aa700afb06047709898c08fe61163e4f65"
+    },
+    {
+      "path": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit\\core-lab\\research\\shienryu-timing-20261024\\ROW-PREDECESSOR-SEED05-HOLD-SETTINGS-REVIEW.json",
+      "sha256": "c31fca20eeaac8e5ec63bcbf7a55a438e96305204247c7283ee7a56c8ccdd0b3"
+    }
+  ],
+  "archive_creation_only_no_FPGA_compilation": true,
+  "new_builds_held_for_user_discussion": true,
+  "timing_acceptance": false,
+  "hardware_acceptance": false
+}
