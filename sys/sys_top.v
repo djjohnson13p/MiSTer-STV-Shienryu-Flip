@@ -290,10 +290,18 @@ reg        cfg_set      = 0;
 
 `ifdef MISTER_DEBUG_NOHDMI
 	wire    vga_fb       = 0;
+`ifdef SHIENRYU_ONLY
+	wire    direct_video = 0;
+`else
 	wire    direct_video = 1;
+`endif
 `else
 	wire    vga_fb       = cfg[12] | vga_force_scaler;
+`ifdef SHIENRYU_ONLY
+	wire    direct_video = 0;
+`else
 	wire    direct_video = cfg[10];
+`endif
 `endif
 
 wire       audio_96k    = cfg[6];

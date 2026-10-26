@@ -1,0 +1,293 @@
+{
+  "source_commit": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "seed": 4,
+  "experimental": true,
+  "full_range_timing_closed": false,
+  "physical_audio_video_flip_confirmation": "audio video and flip work as intended",
+  "hardware_alias": "SHYF0004",
+  "RBF_sha256": "99654dbf7a472b610f840f9dbbb0087bc6f508ce3dfdfe2ffbd48e6df5396d11",
+  "MRA_sha256": "2de3e62a46fa823dfd392029410e747bb27c2a97f3e4c205bb2d8e51df37a4d3",
+  "timing_voltage_V": 1.1,
+  "all8_matrix": [
+    {
+      "model": "slow",
+      "temperature_C": -40,
+      "status": "FAIL",
+      "native_corner": 2,
+      "checks": {
+        "setup": {
+          "slack_ns": -0.101,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false
+        },
+        "hold": {
+          "slack_ns": 0.174,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.437,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.932,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "e3c9bed2aca245ccefbb1e2d755559eaa6b629a8ceef6b07538b6afb8a6f0568"
+      }
+    },
+    {
+      "model": "slow",
+      "temperature_C": 0,
+      "status": "FAIL",
+      "native_corner": 4,
+      "checks": {
+        "setup": {
+          "slack_ns": -0.038,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": false
+        },
+        "hold": {
+          "slack_ns": 0.172,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.451,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.928,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "34938060059194576c54b9f3719930037512b08f54afa99535754256a4d941db"
+      }
+    },
+    {
+      "model": "slow",
+      "temperature_C": 85,
+      "status": "PASS",
+      "native_corner": 3,
+      "checks": {
+        "setup": {
+          "slack_ns": 0.07,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.242,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.334,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.999,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "d3bd7c9c987ff8e7bd57679d9f4009831f04312e20cbcc6180033f58cdc4f27a"
+      }
+    },
+    {
+      "model": "slow",
+      "temperature_C": 100,
+      "status": "PASS",
+      "native_corner": 1,
+      "checks": {
+        "setup": {
+          "slack_ns": 0.014,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.235,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 3.292,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 1.006,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "2851dfde0cb6f9fff50f6b000e701ffe4b99ed52d3da6394cafe0f699eafa433"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": -40,
+      "status": "PASS",
+      "native_corner": 5,
+      "checks": {
+        "setup": {
+          "slack_ns": 3.441,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.052,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 5.034,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.411,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "263ccd2adf6bdc13ed37157c71a365125bfc0e666bbff62aaa85ea1cb1683b89"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": 0,
+      "status": "PASS",
+      "native_corner": 6,
+      "checks": {
+        "setup": {
+          "slack_ns": 3.35,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.054,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.977,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.426,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "cbf45c11287e77402b0d118b94645d6c9b0b927390766b2cdf03fcf8c611e054"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": 85,
+      "status": "PASS",
+      "native_corner": 7,
+      "checks": {
+        "setup": {
+          "slack_ns": 2.972,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.089,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.761,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.474,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "a2af6e09cbd513db2a64d11bb50f68b0d9e1dda2b5eb89ee83c756feb8801871"
+      }
+    },
+    {
+      "model": "fast",
+      "temperature_C": 100,
+      "status": "PASS",
+      "native_corner": 8,
+      "checks": {
+        "setup": {
+          "slack_ns": 2.923,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "hold": {
+          "slack_ns": 0.093,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "recovery": {
+          "slack_ns": 4.697,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        },
+        "removal": {
+          "slack_ns": 0.487,
+          "classification": "PATH_FOUND_REQUIRES_TIMING_REVIEW",
+          "pass": true
+        }
+      },
+      "minimum_pulse_width": {
+        "slack_ns": 1.091,
+        "violated": 0,
+        "reported_paths": 50,
+        "sha256": "d2d0f477042ebc0f91ba72233b48ce550d0f6fba56357031b0a9d336cbc52034"
+      }
+    }
+  ],
+  "all_hold_recovery_removal_MPW_pass": true,
+  "unverified": [
+    "complete reset/EEPROM retention",
+    "every custom display geometry",
+    "25C static result",
+    "bit-identical fresh recompilation"
+  ],
+  "source_of_timing": "ROOT-SEED04-TIMING-RESULT.json SHA39941d73bb107e3930e5614c883f7ae783e67dae2b8c0f57f3899cfe929e7b58"
+}

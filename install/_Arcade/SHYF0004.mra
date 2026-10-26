@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
 <misterromdescription>
-		<rbf>stv_flip_v1.1_rc1</rbf>
-	<setname>shienryu</setname>
+		<rbf>SHYF0004</rbf>
+	<setname>SHYF0004</setname>
 	<mameversion>277</mameversion>
-		<description>Shienryu stv_flip_v1.1_rc1</description>
+		<description>CoreLab Shienryu HDMI-only flip candidate SHYF0004</description>
 	<rotation>vertical (ccw)</rotation>
 	<year>1997</year>
 	<manufacturer>Warashi</manufacturer>
