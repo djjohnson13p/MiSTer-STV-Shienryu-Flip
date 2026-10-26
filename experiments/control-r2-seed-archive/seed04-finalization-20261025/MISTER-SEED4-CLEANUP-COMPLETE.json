@@ -1,0 +1,19 @@
+{
+  "state": "EXACT_NINE_REMOVED_ALL174_PROTECTED_UNCHANGED",
+  "deleted": [
+    "/media/fat/_Arcade/Shienryu (JUET 961226 V1.000).mra",
+    "/media/fat/_Arcade/Shienryu stv_flip_v1.1_rc1.mra",
+    "/media/fat/_Arcade/_CoreLab/STVB0001.mra",
+    "/media/fat/_Arcade/_CoreLab/STVC0001.mra",
+    "/media/fat/_Arcade/cores/STVB0001.rbf",
+    "/media/fat/_Arcade/cores/STVC0001.rbf",
+    "/media/fat/_Arcade/cores/stv_flip_v1.1_rc1.rbf",
+    "/media/fat/config/inputs/STVB0001_input_4711_0815_v3.map",
+    "/media/fat/config/inputs/STVC0001_input_4711_0815_v3.map"
+  ],
+  "plan_sha256": "d27bcc4be5eae1af01c20610fef798f7b940c661abf5700bd3ff9a2e661b701b",
+  "script_sha256": "98fe55f69a31a85202270a855ec19e2e79af7e44299da687d195018fae5fc5b6",
+  "root_review_sha256": "416b8fe1ba60e7e74de9a1615f9f66b8cdbae6f20dce87cd82a426ced1996897",
+  "protected_postchecks_passed": true,
+  "active_seed4_unchanged": true
+}

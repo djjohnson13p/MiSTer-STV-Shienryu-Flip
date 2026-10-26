@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-26T04:38:10.517394+00:00",
+  "state": "PUBLIC_SEED4_AND_MISTER_CLEANUP_VERIFIED_PC_CLEANUP_AUTHORIZED_NEXT",
+  "release": "https://github.com/djjohnson13p/MiSTer-STV-Shienryu-Flip/releases/tag/v1.2-seed04-20261025",
+  "default_commit": "dddf174b48b0e6e36d8ba5797a4cb276cdf836f3",
+  "archive_commit_before_closeout_receipts": "b584977707958ea935cdd06d634661e7fae8234e",
+  "timing_qualification": "Experimental: Slow -40C setup -0.101ns and Slow 0C -0.038ns fail; all hold corners and other six setup corners pass. No full industrial closure claim.",
+  "human_final_directions": [
+    "Publish seed4 replacing current version on our GitHub",
+    "Remove project files and cores from PC; retain only seed4 among Shienryu MiSTer versions",
+    "Close Shienryu goal and create latest dual-RAM Saturn cheats goal, fit first"
+  ],
+  "pc_cleanup_scope": {
+    "clear_children_of": "C:\\Users\\djjoh\\Downloads\\MiSTer-Rebuild-Kit\\MiSTer-Rebuild-Kit",
+    "preserve_empty_workspace_root": true,
+    "remove_empty_task_visualization_root": "C:\\Users\\djjoh\\.codex\\visualizations\\2026\\10\\23\\01a168e6-56b6-7b12-b7cd-3d5da765454b",
+    "leave_installed_tools_and_unrelated_data": true
+  },
+  "backup_qualification": "Core source, binaries, native checkpoints, timing and experiment records verified on GitHub before deletion. Redundant derived STA caches and private runtime helpers intentionally not archived.",
+  "mister_result": {
+    "state": "EXACT_NINE_REMOVED_ALL174_PROTECTED_UNCHANGED",
+    "deleted": [
+      "/media/fat/_Arcade/Shienryu (JUET 961226 V1.000).mra",
+      "/media/fat/_Arcade/Shienryu stv_flip_v1.1_rc1.mra",
+      "/media/fat/_Arcade/_CoreLab/STVB0001.mra",
+      "/media/fat/_Arcade/_CoreLab/STVC0001.mra",
+      "/media/fat/_Arcade/cores/STVB0001.rbf",
+      "/media/fat/_Arcade/cores/STVC0001.rbf",
+      "/media/fat/_Arcade/cores/stv_flip_v1.1_rc1.rbf",
+      "/media/fat/config/inputs/STVB0001_input_4711_0815_v3.map",
+      "/media/fat/config/inputs/STVC0001_input_4711_0815_v3.map"
+    ],
+    "plan_sha256": "d27bcc4be5eae1af01c20610fef798f7b940c661abf5700bd3ff9a2e661b701b",
+    "script_sha256": "98fe55f69a31a85202270a855ec19e2e79af7e44299da687d195018fae5fc5b6",
+    "root_review_sha256": "416b8fe1ba60e7e74de9a1615f9f66b8cdbae6f20dce87cd82a426ced1996897",
+    "protected_postchecks_passed": true,
+    "active_seed4_unchanged": true
+  }
+}
