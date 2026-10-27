@@ -14,8 +14,8 @@
   "default_branch_change_authorized": false,
   "assets": {
     "MiSTer-STV-Shienryu-Flip-single-ram-hdmi-20261027.zip": {
-      "bytes": 2100545,
-      "sha256": "54fe8aa7cced60c667a577fed71fd9a9893be01e16f6462796a23f5e6ffeeace"
+      "bytes": 2100981,
+      "sha256": "960e25b8aa87e8eeba33b8cbdfda4dfdcac9c45c230573621712df3b574b5063"
     },
     "SHYSHD01.rbf": {
       "bytes": 4469432,
@@ -46,8 +46,8 @@
       "sha256": "ce977575f37b1092e96d9936fd7c7bc84e0646ca4b6e740735a285a82cbbebfb"
     },
     "README.md": {
-      "bytes": 3865,
-      "sha256": "71998ef0cd3cbc0b4726b8aba231712403232fa093e119ed3842787c785260a5"
+      "bytes": 5090,
+      "sha256": "a73b3debb8203d4e87a0e7180f4b65940c3467942ceb82dcbd4eefd279f47632"
     },
     "BUILD-AND-TEST.md": {
       "bytes": 7830,
@@ -62,5 +62,6 @@
       "sha256": "242abbbcc3ac18b87c616cffe6d45d8e7bfe6051857303de38ebba2323189eb1"
     }
   },
-  "note": "Asset manifest excludes itself and SHA256SUMS to avoid circular hashes. SHA256SUMS covers every release asset except itself. Current Git publication commit has the exact compiled-source commit as parent; docs/install additions are separately published."
+  "note": "Asset manifest excludes itself and SHA256SUMS to avoid circular hashes. SHA256SUMS covers every release asset except itself. Original build-publication commit 6a5bd97be18ba7d47c8b79163b5cee3d55799185 has compiled-source commit 069ac39e319503557fb344d600d8b4ffbaa7f587 as parent. Subsequent documentation-only commits do not change compiled inputs or move the original release tag.",
+  "documentation_revision": "Fresh single-RAM setup clarified 2026-10-27: no dual-RAM files required; compiled RBF/MRA and all source/fit/timing/hardware evidence assets unchanged."
 }
