@@ -177,11 +177,20 @@ mcp23009 mcp23009
 wire io_dig = mcp_en ? mcp_mode : SW[3];
 
 `ifndef MISTER_DUAL_SDRAM
+`ifdef SHIENRYU_ONLY
+	// The dedicated HDMI profile leaves analog header outputs inactive.
+	wire   av_dis    = 1'b1;
+`else
 	wire   av_dis    = io_dig | VGA_EN;
+`endif
 	assign LED_POWER = av_dis ? 1'bZ : mcp_en ? de1          : led_p ? 1'bZ : 1'b0;
 	assign LED_HDD   = av_dis ? 1'bZ : mcp_en ? (sog & ~cs1) : led_d ? 1'bZ : 1'b0;
 	//assign LED_USER  = av_dis ? 1'bZ : mcp_en ? ~vga_tx_clk  : led_u ? 1'bZ : 1'b0;
+`ifdef SHIENRYU_ONLY
+	assign LED_USER  = 1'bZ;
+`else
 	assign LED_USER  = VGA_TX_CLK;
+`endif
 	wire   BTN_DIS   = VGA_EN;
 `else
 	wire   BTN_RESET = 1'b1;
