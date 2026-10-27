@@ -22,4 +22,5 @@ set_global_assignment -name SYSTEMVERILOG_FILE rtl/cofi.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/jtframe_resync.v
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/hps2cdd.sv
 set_global_assignment -name SDC_FILE Saturn.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/shienryu_hq2x_mode.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Saturn.sv

@@ -318,7 +318,9 @@ module emu
 		"P1o[63:62],Aspect ratio,Original,Full Screen,[ARC1],[ARC2];",
 		"P1O[11],320x224 Aspect,Original,Corrected;",
 		"P1O[29],Deinterlacing, Weave, Bob;",
-//		"P1O[3:1],Scandoubler Fx,None,HQ2x,CRT 25%,CRT 50%,CRT 75%;",
+`ifdef STV_BUILD
+		"P1O[1],HQ2x,Off,On;",
+`endif
 		"P1-;",
 //		"P1O[12],Border,No,Yes;",
 		"P1o[50],Composite Blend,Off,On;",
@@ -2045,16 +2047,13 @@ module emu
 		if(old_vbl & ~VBL_N) res <= {VRES,HRES};
 	end
 	
-//`ifndef DEBUG
-	wire [2:0] scale = status[3:1];
-	wire [2:0] sl = scale ? scale - 1'd1 : 3'd0;
-//	wire scandoubler = ~INTERLACE & (|scale | forced_scandoubler);
-//	wire hq2x = (scale == 1);
-//`else
-//	wire [2:0] sl = '0;
-	wire scandoubler = 0;
-	wire hq2x = 0;
-//`endif
+	// HQ2x is the only exposed filter.  Use the qualified, frame-held mode
+	// for both raster selection and native 216-line crop suppression.
+	wire hq2x_active;
+	wire [2:0] scale = {2'b00, hq2x_active};
+	wire [2:0] sl = 3'd0;
+	wire scandoubler = hq2x_active;
+	wire hq2x = hq2x_active;
 
 	assign CLK_VIDEO = clk_sys;
 	assign VGA_SL = {~INTERLACE,~INTERLACE} & sl[1:0];
@@ -2123,6 +2122,22 @@ module emu
 	wire [7:0] crop_g = (hcrop_en && hcrop_blank) ? 8'd0 : cofi_g;
 	wire [7:0] crop_b = (hcrop_en && hcrop_blank) ? 8'd0 : cofi_b;
 `endif
+
+`ifdef STV_BUILD
+	wire hq2x_request = status[1];
+`else
+	wire hq2x_request = 1'b0;
+`endif
+
+	shienryu_hq2x_mode hq2x_mode (
+		.clk(clk_sys),
+		.reset(rst_sys),
+		.request(hq2x_request),
+		.vblank(cofi_vbl),
+		.interlaced(INTERLACE),
+		.hires(HRES[1]),
+		.enabled(hq2x_active)
+	);
 
 	video_mixer #(.LINE_LENGTH((352*2)+8), .HALF_DEPTH(0), .GAMMA(1)) video_mixer
 	(
