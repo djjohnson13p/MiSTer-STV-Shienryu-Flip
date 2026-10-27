@@ -1,0 +1,38 @@
+diff --git a/STV.qsf b/STV.qsf
+index 1458ac5..deba665 100644
+--- a/STV.qsf
++++ b/STV.qsf
+@@ -53,6 +53,8 @@ set_global_assignment -name SEED 1
+ 
+ set_global_assignment -name VERILOG_MACRO "MISTER_DISABLE_ALSA=1"
+ set_global_assignment -name VERILOG_MACRO "STV_BUILD=1"
++set_global_assignment -name VERILOG_MACRO "SHIENRYU_ONLY=1"
++set_global_assignment -name VERILOG_MACRO "MISTER_DISABLE_YC=1"
+ 
+ source sys/sys.tcl
+ source sys/sys_analog.tcl
+diff --git a/sys/sys_top.v b/sys/sys_top.v
+index eaf7dd8..9d3c487 100644
+--- a/sys/sys_top.v
++++ b/sys/sys_top.v
+@@ -177,11 +177,20 @@ mcp23009 mcp23009
+ wire io_dig = mcp_en ? mcp_mode : SW[3];
+ 
+ `ifndef MISTER_DUAL_SDRAM
++`ifdef SHIENRYU_ONLY
++	// The dedicated HDMI profile leaves analog header outputs inactive.
++	wire   av_dis    = 1'b1;
++`else
+ 	wire   av_dis    = io_dig | VGA_EN;
++`endif
+ 	assign LED_POWER = av_dis ? 1'bZ : mcp_en ? de1          : led_p ? 1'bZ : 1'b0;
+ 	assign LED_HDD   = av_dis ? 1'bZ : mcp_en ? (sog & ~cs1) : led_d ? 1'bZ : 1'b0;
+ 	//assign LED_USER  = av_dis ? 1'bZ : mcp_en ? ~vga_tx_clk  : led_u ? 1'bZ : 1'b0;
++`ifdef SHIENRYU_ONLY
++	assign LED_USER  = 1'bZ;
++`else
+ 	assign LED_USER  = VGA_TX_CLK;
++`endif
+ 	wire   BTN_DIS   = VGA_EN;
+ `else
+ 	wire   BTN_RESET = 1'b1;

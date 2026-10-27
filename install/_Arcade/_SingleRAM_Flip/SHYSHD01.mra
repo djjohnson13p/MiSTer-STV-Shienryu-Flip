@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
 <misterromdescription>
-	<rbf>ST-V</rbf>
-	<setname>shienryu</setname>
+		<rbf>SHYSHD01</rbf>
+	<setname>SHYSHD01</setname>
 	<mameversion>277</mameversion>
-	<description>Shienryu (JUET 961226 V1.000)</description>
+		<description>CoreLab Shienryu single-RAM HDMI-only profile SHYSHD01</description>
 	<rotation>vertical (ccw)</rotation>
 	<year>1997</year>
 	<manufacturer>Warashi</manufacturer>

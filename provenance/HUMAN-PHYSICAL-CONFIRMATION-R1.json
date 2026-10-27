@@ -1,0 +1,27 @@
+{
+  "schema": "ShienryuSingleRAMHumanPhysicalConfirmationR1",
+  "recorded_at_utc": "2026-10-27T13:08:20.564747+00:00",
+  "evidence_kind": "human_reported",
+  "report_method": "User-reported independent physical testing; prepared automated physical reload/demo helpers were not executed.",
+  "question": "Can you watch and listen at the MiSTer for the new single-RAM test? I’ll drive all controls. Your observation is needed to verify HDMI rotation, menu orientation and sound, which remote screenshots cannot capture.",
+  "answer": "tested and everything works as intended",
+  "question_item_id": [
+    "request_user_input_async",
+    "call_6368db8f00fc4c2b853994d10d3c37d2",
+    0
+  ],
+  "reported_behavior": {
+    "HDMI_rotation_working_as_intended": true,
+    "independent_menu_orientation_working_as_intended": true,
+    "game_sound_working_as_intended": true
+  },
+  "scope": "Accepted as the user’s confirmation of the three named physical behaviors. No per-step scripted demonstration, video or audio recording is inferred.",
+  "core_alias": "SHYSHD01",
+  "source_commit": "069ac39e319503557fb344d600d8b4ffbaa7f587",
+  "rbf_sha256": "cda57070c2aefe4a21dcd7295ec448fbb9d5ada7051f020d3179caf8bc337d6b",
+  "mra_sha256": "363429d08b7b46ab0991c71e8bda3892cefceb4db4a9adf8cc0ec2dbe991e449",
+  "prepared_physical_helpers_executed": false,
+  "physical_capture_attached": false,
+  "historical_automated_records_preserved": true,
+  "goal_status_changed_by_this_record": false
+}

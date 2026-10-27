@@ -1,0 +1,53 @@
+{
+  "HDL_build_date": "261025",
+  "Quartus": "25.1",
+  "archives": [
+    {
+      "CRC_and_every_member_bytes_sha256_verified": true,
+      "bytes": 211391250,
+      "deterministic_zip_metadata_verified": true,
+      "embedded_member_manifest_sha256": "929c206afb20d3a0b5a393c6cb631c45e5354b9aaa78c4ed7a3e51092ea4ad4d",
+      "filename": "Shienryu-Single-RAM-HDMI-Q251-Seed01-fit-checkpoint.zip",
+      "generated_evidence_members": 2,
+      "original_file_members": 1077,
+      "sha256": "6455bf9fb2d5acaa2696a63aa9722b057ab7841c563649898b87b3d32d1bc7c5",
+      "uncompressed_bytes": 279791513,
+      "zip_members": 1079
+    },
+    {
+      "CRC_and_every_member_bytes_sha256_verified": true,
+      "bytes": 2555310,
+      "deterministic_zip_metadata_verified": true,
+      "embedded_member_manifest_sha256": "d4506ac186d87dbaf78a6607ba7c5bba61884d2180afd05dd0a088f72b2fe4d4",
+      "filename": "Shienryu-Single-RAM-HDMI-Q251-Seed01-timing-validation.zip",
+      "generated_evidence_members": 2,
+      "original_file_members": 160,
+      "sha256": "b0ebf2d65126591cdf455e58fab7556288a77cf71293698a04afa973cbc0856d",
+      "uncompressed_bytes": 77161474,
+      "zip_members": 162
+    }
+  ],
+  "credential_pattern_findings": 0,
+  "full_range_timing_closed": false,
+  "hardware_acceptance_authority": "Root release documentation carries the latest explicit physical user confirmation; original qualification records are historical and unchanged.",
+  "original_files_verified_before_and_after": 1237,
+  "original_fit_checkpoint": {
+    "bytes": 278810761,
+    "files": 1068,
+    "manifest_sha256": "e639a75c17f667c32d138991afa5011e483c55f7f3cf8f72b09fbe6e87fe9eb2"
+  },
+  "project": "STV",
+  "recorded_lab_recipe_pins": {
+    "adapter_sha256": "5a811d6ffcd73f5f868cca8cc243958906067a3ca8a0621dc8924479442582b0",
+    "driver_sha256": "80c57f505faa0c2b1ce9b2cfce769a685f755ff74803891aefb9c244d32c210c",
+    "guard_sha256": "5d287472358720e99822c57a5b576508af60ef5c41db5131ffe2ea5b78ec04c9",
+    "plan_sha256": "d90a954dc864586ca628c478daf3f8cf63caa542557bbfb3d001251bb79d374b"
+  },
+  "revision": "STV",
+  "schema": 1,
+  "scope_note": "ARCHIVE-SCOPE.md; exact checkpoint contains explicitly listed source-tracked controller firmware and historical packages; no private runtime artifacts or downloaded game/system-BIOS files selected",
+  "seed": 1,
+  "source_commit": "069ac39e319503557fb344d600d8b4ffbaa7f587",
+  "source_input_manifest_sha256": "87f54f1e02ac3f8de53f5407e88f112fa56dc78f8152e8b93d0419beef994b42",
+  "status": "LOCAL_ARCHIVES_VERIFIED_NOT_PUBLISHED"
+}

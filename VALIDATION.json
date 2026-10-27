@@ -1,0 +1,260 @@
+{
+  "schema": "ShienryuSingleRAMExperimentalValidationR1",
+  "status": "Experimental prerelease; hardware behavior tested, full-range timing not closed.",
+  "source": {
+    "commit": "069ac39e319503557fb344d600d8b4ffbaa7f587",
+    "parent": "7e987bb9ef0361356be22be13551e4626902f3a7",
+    "project": "STV",
+    "revision": "STV",
+    "seed": 1,
+    "fixed_BUILD_DATE": "261025",
+    "Quartus": "25.1 Lite",
+    "changed_files": [
+      "STV.qsf",
+      "sys/sys_top.v"
+    ],
+    "changed_source_insertions": 11,
+    "upstream_rebase_performed": false,
+    "baseline_includes_earlier_Shienryu_flip": true,
+    "MISTER_DUAL_SDRAM": "undefined; defining it as 0 still activates ifdef",
+    "clocks_and_SDC_changed": false,
+    "complete_analog_removal_claim": false
+  },
+  "artifacts": {
+    "RBF": {
+      "install_path": "_Arcade/cores/SHYSHD01.rbf",
+      "bytes": 4469432,
+      "sha256": "cda57070c2aefe4a21dcd7295ec448fbb9d5ada7051f020d3179caf8bc337d6b"
+    },
+    "MRA": {
+      "install_path": "_Arcade/_SingleRAM_Flip/SHYSHD01.mra",
+      "bytes": 1432,
+      "sha256": "363429d08b7b46ab0991c71e8bda3892cefceb4db4a9adf8cc0ec2dbe991e449",
+      "tested_location": "_Arcade/_CoreLab/SHYSHD01.mra",
+      "same_bytes": true
+    },
+    "SOF": {
+      "bytes": 6705008,
+      "sha256": "0a99e7dfaaf6208028dcb8dbc419fe598a11edcc8d83a8b0f08656a2c5d7bfca"
+    }
+  },
+  "build": {
+    "fit_native_exit": 0,
+    "fit_guard_exit": 0,
+    "fit_elapsed_seconds": 3131.547,
+    "STA_native_exit": 0,
+    "STA_guard_exit": 0,
+    "STA_elapsed_seconds": 324.531,
+    "wall_clock_cutoff": null,
+    "fit_input_bindings_equal_before_after_current": 239,
+    "STA_input_bindings_equal_before_after_current": 2163,
+    "fit_input_manifest_sha256": "87f54f1e02ac3f8de53f5407e88f112fa56dc78f8152e8b93d0419beef994b42",
+    "fit_checkpoint_manifest_sha256": "e639a75c17f667c32d138991afa5011e483c55f7f3cf8f72b09fbe6e87fe9eb2",
+    "fit_checkpoint_members": 1068,
+    "fit_checkpoint_bytes": 278810761,
+    "owned_processes_terminal": true,
+    "owned_handles_closed": true,
+    "exact_inputs_and_saved_fit_preserve_tested_bytes": true,
+    "fresh_recompile_bit_identity_guaranteed": false,
+    "copied_RDB_semantic_equivalence_claim": false
+  },
+  "resources": {
+    "ALMs_needed": 36579,
+    "ALMs_physically_placed": 39273,
+    "ALMs_total": 41910,
+    "registers": 38483,
+    "LABs": 4141,
+    "LABs_total": 4191,
+    "packing": "Medium",
+    "M10Ks": 479,
+    "M10Ks_total": 553,
+    "RAM_bits": 3494604,
+    "DSP": 62,
+    "DSP_total": 112,
+    "PLL": 3,
+    "PLL_total": 6,
+    "pins": 145,
+    "pins_total": 314
+  },
+  "baseline_resources": {
+    "ALMs_needed": 41119,
+    "ALMs_physically_placed": 41122,
+    "registers": 41802,
+    "LABs": 4184,
+    "M10Ks": 553,
+    "RAM_bits": 4159424,
+    "DSP": 65,
+    "PLL": 3,
+    "pins": 145,
+    "packing": "High"
+  },
+  "resource_deltas_profile_minus_baseline": {
+    "ALMs_needed": -4540,
+    "ALMs_physically_placed": -1849,
+    "registers": -3319,
+    "LABs": -43,
+    "M10Ks": -74,
+    "RAM_bits": -664820,
+    "DSP": -3,
+    "PLL": 0,
+    "pins": 0
+  },
+  "hardware": {
+    "board": "First-generation MiSTer Pi with two SDRAM modules fitted",
+    "netlist": "Primary SDRAM interface only; no SDRAM2 pins/netlist; DDR high work RAM retained",
+    "physical_single_module_board_tested": false,
+    "default_Main_sha256": "ba8746d91ced547845b743b7826d827cfd6c488de0bcf8b27112d8d77f8a7e27",
+    "P1_movement_shot_bomb_verified": true,
+    "P2_independent_movement_shot_bomb_verified": true,
+    "keyboard_P1_restored": true,
+    "saved_status82_Off_On_Off_other_bits_unchanged": true,
+    "protected_files_unchanged_during_automated_phases": true,
+    "physical_evidence": {
+      "kind": "human_reported",
+      "question": "Can you watch and listen at the MiSTer for the new single-RAM test? I\u2019ll drive all controls. Your observation is needed to verify HDMI rotation, menu orientation and sound, which remote screenshots cannot capture.",
+      "answer": "tested and everything works as intended",
+      "reported_behavior": {
+        "HDMI_rotation_working_as_intended": true,
+        "independent_menu_orientation_working_as_intended": true,
+        "game_sound_working_as_intended": true
+      },
+      "source_record": "HUMAN-PHYSICAL-CONFIRMATION-R1.json",
+      "source_record_sha256": "d852e632cbfdbdabeda1256f48f000519de46dc688d754b223f180b842b24326",
+      "prepared_physical_helpers_executed": false,
+      "video_or_audio_capture_claim": false
+    },
+    "exhaustive_playthrough_or_long_duration_stress_test_claim": false
+  },
+  "timing": {
+    "full_range_closed": false,
+    "units": "ns",
+    "voltage_V": 1.1,
+    "measured_conditions": [
+      {
+        "model": "slow",
+        "temperature_C": -40,
+        "voltage_V": 1.1,
+        "setup_ns": -0.148,
+        "hold_ns": 0.138,
+        "recovery_ns": 3.704,
+        "removal_ns": 0.657,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 0,
+        "voltage_V": 1.1,
+        "setup_ns": -0.091,
+        "hold_ns": 0.144,
+        "recovery_ns": 3.7,
+        "removal_ns": 0.644,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 85,
+        "voltage_V": 1.1,
+        "setup_ns": 0.127,
+        "hold_ns": 0.247,
+        "recovery_ns": 3.514,
+        "removal_ns": 0.699,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "slow",
+        "temperature_C": 100,
+        "voltage_V": 1.1,
+        "setup_ns": 0.104,
+        "hold_ns": 0.232,
+        "recovery_ns": 3.466,
+        "removal_ns": 0.705,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": -40,
+        "voltage_V": 1.1,
+        "setup_ns": 3.553,
+        "hold_ns": 0.04,
+        "recovery_ns": 5.061,
+        "removal_ns": 0.261,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 0,
+        "voltage_V": 1.1,
+        "setup_ns": 3.434,
+        "hold_ns": 0.052,
+        "recovery_ns": 4.988,
+        "removal_ns": 0.267,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 85,
+        "voltage_V": 1.1,
+        "setup_ns": 3.02,
+        "hold_ns": 0.089,
+        "recovery_ns": 4.754,
+        "removal_ns": 0.299,
+        "mpw_ns": 1.091
+      },
+      {
+        "model": "fast",
+        "temperature_C": 100,
+        "voltage_V": 1.1,
+        "setup_ns": 2.882,
+        "hold_ns": 0.092,
+        "recovery_ns": 4.681,
+        "removal_ns": 0.303,
+        "mpw_ns": 1.091
+      }
+    ],
+    "coverage": {
+      "conditions": 8,
+      "clocks_each": 13,
+      "global_rows": 32,
+      "clock_rows": 416,
+      "empty_rows_unqualified": 192,
+      "no_clock_registers": 2480,
+      "multiple_clock_endpoints": 57,
+      "virtual_clock_issues": 1,
+      "no_input_delay": 31,
+      "no_output_delay": 130,
+      "unconstrained_clocks": 0,
+      "unconstrained_input_ports": 21,
+      "input_paths": 325,
+      "unconstrained_output_ports": 92,
+      "output_paths": 139,
+      "ignored": "Existing SPI/Hq2x filters plus four newly unmatched YC filters at unchanged sys_top.sdc63. Constraints unchanged; no adequacy claim."
+    },
+    "report_members": 61,
+    "report_counts": {
+      "mandatory": 59,
+      "conditional_negative_exact_clock": 2
+    },
+    "per_condition_minimum_pulse_width_results": 50,
+    "per_condition_minimum_pulse_width_violations": 0,
+    "no_25C_inference": true,
+    "no_constraint_adequacy_claim": true,
+    "remaining_negative_paths": "HDMI scaler divider/address paths; worst o_div[0][20] to o_div[1][20], with other scaler address paths also in top50",
+    "report_manifest_sha256": "503649224df96c5309a420c89431a6cfbb1d8842a37a161d4df9d44c3e65e2e6",
+    "actual_report_audit_sha256": "dcaa2bf3386a44d62f740fbb9a65c1cdeca87b761002f7c1c996863e6e0e9d8e"
+  },
+  "publication_scope": {
+    "additional_single_RAM_variant": true,
+    "keep_dual_RAM_alias": "SHYF0004",
+    "do_not_overwrite_existing_dual_RAM_files_or_release": true,
+    "no_upstream_endorsement_claim": true,
+    "excluded": [
+      "Externally supplied game ROM sets",
+      "Saturn/ST-V system BIOS files",
+      "Personal settings/input maps",
+      "Save data",
+      "Account credentials"
+    ],
+    "retained_source_initialization": "Source-tracked CD-controller MIFs, micro/nanorom/PLL initialization and default ST-V EEPROM data remain in exact source/checkpoint archives, under original notices.",
+    "archive_scope": "provenance/ARCHIVE-SCOPE.md"
+  }
+}

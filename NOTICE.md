@@ -1,14 +1,16 @@
 # Credits and license notices
 
-- **srg320** and the Saturn/ST-V contributors: the underlying FPGA core.
-- **MiSTer-devel**, **Alexey Melnikov**, and MiSTer framework contributors: the MiSTer platform and hardware abstraction.
-- **TEMLIB**: the Avalon scaler in `sys/ascal.vhd`.
-- **Dale / djjohnson13p**: the earlier Shienryu 180 Flip contribution and physical testing, retained from [original PR #516](https://github.com/MiSTer-devel/Saturn_MiSTer/pull/516).
+- **srg320** and Saturn/ST-V contributors: underlying FPGA core.
+- **MiSTer-devel**, **Alexey Melnikov** and MiSTer framework contributors: platform and hardware abstraction.
+- **TEMLIB**: Avalon scaler in `sys/ascal.vhd`.
+- **Dale / djjohnson13p**: earlier Shienryu 180 Flip contribution and physical testing, retained from [original PR #516](https://github.com/MiSTer-devel/Saturn_MiSTer/pull/516), and this single-RAM project/testing direction.
 
-The source retains its existing per-file license and copyright notices. In particular, `Saturn.sv` and `sys/sys_top.v` declare **GNU GPL version 2 or later**. A copy of GPL version 2 is included at [LICENSES/GPL-2.0.txt](LICENSES/GPL-2.0.txt).
+The single-RAM HDMI profile and validation work used Codex assistance. The owner's physical testing is recorded separately from automated test evidence. This is a derivative experimental build; no upstream endorsement or author review is claimed.
 
-`sys/ascal.vhd` retains TEMLIB’s notice permitting distribution and use for any purpose, with its request to report bugs or suggestions to TEMLIB. Preserve that notice when redistributing the scaler source.
+Preserve all existing per-file copyright and license notices in the accompanying complete source. In particular, `Saturn.sv` and `sys/sys_top.v` declare GNU GPL version 2 or later; the retained GPL v2 text is in `LICENSES/GPL-2.0.txt`. Other files retain their own applicable terms. This notice adds attribution and does not replace those terms.
 
-Other upstream files retain their own applicable notices and terms. This document adds attribution and does not replace those licenses. The [source branch](https://github.com/djjohnson13p/MiSTer-STV-Shienryu-Flip/tree/stv-flip-v1.1) contains the project sources and build files; [source provenance](docs/SOURCE-AND-TEST-STATUS.md) identifies the exact retained commit.
+`sys/ascal.vhd` retains TEMLIB's permission to distribute and use it for any purpose and its request to report bugs or suggestions to TEMLIB. Retain that notice when redistributing the scaler source. This publication does not contact contributors or create an upstream pull request.
 
-No game ROMs, BIOS files, personal settings, save files or account credentials are included in the install package.
+The install package contains no game ROMs, BIOS files, personal settings, save data or account credentials. Compatible game/BIOS data must be supplied separately. The existing dual-RAM release and its source/licenses remain separate and preserved.
+
+Exact source/checkpoint archives retain existing source-tracked CD-controller firmware MIFs and other initialization tables. These are disclosed dependencies inherited from the source, distinct from separately supplied game sets and Saturn/ST-V system BIOS files. See provenance/ARCHIVE-SCOPE.md.

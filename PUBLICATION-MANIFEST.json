@@ -1,0 +1,66 @@
+{
+  "schema": "SHIENRYU-SINGLE-RAM-ADDITIVE-PUBLICATION-1",
+  "repo": "djjohnson13p/MiSTer-STV-Shienryu-Flip",
+  "branch": "single-ram-hdmi-r1",
+  "release_tag": "single-ram-v1.0-experimental-20261027",
+  "compiled_source_commit": "069ac39e319503557fb344d600d8b4ffbaa7f587",
+  "compiled_source_parent": "7e987bb9ef0361356be22be13551e4626902f3a7",
+  "experimental": true,
+  "full_range_timing_closed": false,
+  "verified_functional_scope": "Bounded boot and P1/P2 controls/configuration checks plus owner-reported physical HDMI flip/menu/sound test; no physical single-module board test.",
+  "prepared_input_count": 208,
+  "source_inputs_in_publication_tree_equal_to_compiled_inputs": 199,
+  "retained_dual_release": "v1.2-seed04-20261025",
+  "default_branch_change_authorized": false,
+  "assets": {
+    "MiSTer-STV-Shienryu-Flip-single-ram-hdmi-20261027.zip": {
+      "bytes": 2100545,
+      "sha256": "54fe8aa7cced60c667a577fed71fd9a9893be01e16f6462796a23f5e6ffeeace"
+    },
+    "SHYSHD01.rbf": {
+      "bytes": 4469432,
+      "sha256": "cda57070c2aefe4a21dcd7295ec448fbb9d5ada7051f020d3179caf8bc337d6b"
+    },
+    "SHYSHD01.mra": {
+      "bytes": 1432,
+      "sha256": "363429d08b7b46ab0991c71e8bda3892cefceb4db4a9adf8cc0ec2dbe991e449"
+    },
+    "Shienryu-Single-RAM-HDMI-Q251-Seed01-exact-inputs.zip": {
+      "bytes": 5440068,
+      "sha256": "7c6a2d17eace4a0396c6074dec29de66a96bf587256df68ba7f430f78f27d4ed"
+    },
+    "INPUT-MANIFEST.json": {
+      "bytes": 51329,
+      "sha256": "87f54f1e02ac3f8de53f5407e88f112fa56dc78f8152e8b93d0419beef994b42"
+    },
+    "Shienryu-Single-RAM-HDMI-Q251-Seed01-fit-checkpoint.zip": {
+      "bytes": 211391250,
+      "sha256": "6455bf9fb2d5acaa2696a63aa9722b057ab7841c563649898b87b3d32d1bc7c5"
+    },
+    "Shienryu-Single-RAM-HDMI-Q251-Seed01-timing-validation.zip": {
+      "bytes": 2555310,
+      "sha256": "b0ebf2d65126591cdf455e58fab7556288a77cf71293698a04afa973cbc0856d"
+    },
+    "Shienryu-Single-RAM-HDMI-hardware-evidence.zip": {
+      "bytes": 1795955,
+      "sha256": "ce977575f37b1092e96d9936fd7c7bc84e0646ca4b6e740735a285a82cbbebfb"
+    },
+    "README.md": {
+      "bytes": 3865,
+      "sha256": "71998ef0cd3cbc0b4726b8aba231712403232fa093e119ed3842787c785260a5"
+    },
+    "BUILD-AND-TEST.md": {
+      "bytes": 7830,
+      "sha256": "6406ff20d7815ded86786640190ce70d1ddc003d60b5ef6713c0e47e7f3a22f6"
+    },
+    "NOTICE.md": {
+      "bytes": 1921,
+      "sha256": "93704678fbab0a11b84fe0deef460450f7f30af9a075b0fb900421d64534e4c7"
+    },
+    "VALIDATION.json": {
+      "bytes": 8797,
+      "sha256": "242abbbcc3ac18b87c616cffe6d45d8e7bfe6051857303de38ebba2323189eb1"
+    }
+  },
+  "note": "Asset manifest excludes itself and SHA256SUMS to avoid circular hashes. SHA256SUMS covers every release asset except itself. Current Git publication commit has the exact compiled-source commit as parent; docs/install additions are separately published."
+}
