@@ -487,6 +487,8 @@ ARCHITECTURE rtl OF ascal IS
 	SIGNAL o_adrs : unsigned(31 DOWNTO 0); -- Avalon address
 	SIGNAL o_adrs_pre : natural RANGE 0 TO 2**24-1;
 	SIGNAL o_flip_adrs_pre : natural RANGE 0 TO 2**24-1;
+	SIGNAL o_flip_row_pre : natural RANGE 0 TO 4095;
+	SIGNAL o_flip_stride_pre : unsigned(13 DOWNTO 0);
 	SIGNAL o_flip_fload2_adrs : natural RANGE 0 TO 2**24-1;
 	SIGNAL o_flip_fload1_adrs : natural RANGE 0 TO 2**24-1;
 	SIGNAL o_stride : unsigned(13 DOWNTO 0);
@@ -1874,6 +1876,7 @@ BEGIN
 		VARIABLE hcarry_v,vcarry_v : boolean;
 		VARIABLE dif_v : natural RANGE 0 TO 8*OHRESH-1;
 		VARIABLE off_v : natural RANGE 0 TO 15;
+		VARIABLE flip_row_v : natural RANGE 0 TO 4095;
 	BEGIN
 		IF o_reset_na='0' THEN
 			o_copy<=sWAIT;
@@ -1883,6 +1886,8 @@ BEGIN
 			o_flip_sync2<='0';
 			o_flip_180<='0';
 			o_flip_adrs_pre<=0;
+			o_flip_row_pre<=0;
+			o_flip_stride_pre<=(OTHERS=>'0');
 			o_flip_fload2_adrs<=0;
 			o_flip_fload1_adrs<=0;
 			o_readlev<=0;
@@ -2194,11 +2199,27 @@ BEGIN
 				o_adrs_pre<=to_integer(o_vacpt) * to_integer(o_stride);
 			END IF;
 
-			IF o_adrs_pre<=o_flip_fload2_adrs THEN
-				o_flip_adrs_pre<=o_flip_fload2_adrs - o_adrs_pre;
+			-- Research row-first candidate; same old-rline selector/latency.
+			IF o_inter='1' AND o_bob_deint='1' THEN
+				IF o_iwfl(o_obuf0)='0' THEN
+					IF o_vacpt=0 OR o_rline='1' THEN
+						flip_row_v := to_integer(o_vacpt);
+					ELSE
+						flip_row_v := to_integer(o_vacpt)-1;
+					END IF;
+				ELSE
+					flip_row_v := to_integer(o_vacpt(11 DOWNTO 1) & "0");
+				END IF;
 			ELSE
-				o_flip_adrs_pre<=0;
+				flip_row_v := to_integer(o_vacpt);
 			END IF;
+			IF o_ivsize>0 AND flip_row_v<o_ivsize THEN
+				o_flip_row_pre <= o_ivsize-1-flip_row_v;
+			ELSE
+				o_flip_row_pre <= 0;
+			END IF;
+			o_flip_stride_pre <= o_stride;
+			o_flip_adrs_pre <= o_flip_row_pre * to_integer(o_flip_stride_pre);
 
 			IF o_adrsa='1' THEN
 				IF o_fload=2 THEN
