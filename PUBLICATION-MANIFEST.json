@@ -1,0 +1,66 @@
+{
+  "schema": "SHIENRYU-DUAL-HQ-ADDITIVE-PUBLICATION-R1",
+  "repo": "djjohnson13p/MiSTer-STV-Shienryu-Flip",
+  "branch": "dual-ram-hq2x-r1",
+  "release_tag": "dual-ram-hq2x-v1.0-experimental-20261028",
+  "compiled_source_commit": "7f88c496fbfbed6678171175f95a9279f737933f",
+  "selected_seed": 8,
+  "source_manifest_sha256": "6c515128d8b35e64b6f84d1f48920e0ca869ac02a5e8b25a55b0a10eb9c5ca24",
+  "prepared_input_count": 205,
+  "root_build_review_sha256": "9eb4a67edfc29b0417b8f7fd7d358f7dfa019ddced60091174dae7a84bfd0275",
+  "root_STA_review_sha256": "f0b24f09b995aeaeb37b02802891c65edae88589d858f09d6553eef41215e479",
+  "comparison_sha256": "f5f72a5be934bfc93234f054adcbab93ad3deeb105407019c3215ed9494a63a3",
+  "selection_sha256": "74237bec2b8856f9e1565c9b02b71eb14a1d23db8cdff4729d9939a61a4e345f",
+  "selected_outputs": {
+    "db/STV_DS.cmp.cdb": {
+      "bytes": 34927942,
+      "sha256": "a19031c60ab5322a1ba298fa2c2131cabe658f85bc535d7c6e531421555bc221"
+    },
+    "output_files/STV_DS.rbf": {
+      "bytes": 4462056,
+      "sha256": "9f41129eb4beed7efbace2a0e7c288913b3bd194b3914089c899db3344a01124"
+    },
+    "output_files/STV_DS.sof": {
+      "bytes": 6705018,
+      "sha256": "526f5592ea71e1562be087ae84270c39a0822c301fed5776970a2a51fb9762fc"
+    }
+  },
+  "observed_timing_verdict": "TIMING_FAIL_REPORTED",
+  "global_timing_closure": false,
+  "all11_complete": false,
+  "other_three_modes_waived_not_tested": true,
+  "OnOn_hardware_evidence_has_explicit_per_seed_provenance": true,
+  "seed6_full_game_is_not_seed8_or_seed9_full_game": true,
+  "no_game_ROM_BIOS_settings_saves_or_credentials": true,
+  "commercial_ROM_BIOS_included": false,
+  "exclusion_scope": "Externally supplied game ROM sets and ST-V/Saturn system BIOS only; disclosed source-tracked CD-controller firmware MIF/initialization tables are retained.",
+  "source205_readback_sha256": "18406c8f785c77aebb3fd5ddd22632fc3a099ce1c8a8d2f0016e5b80393027d0",
+  "assets": {
+    "MiSTer-STV-Shienryu-DualRAM-HQ2x-Flip-seed8-20261028.zip": {
+      "bytes": 2070193,
+      "sha256": "7fc2c61a6262c0061063c0fcff0b71e8b4f9b3bee0942ff476d938829574c2b8"
+    },
+    "Shienryu-DualRAM-HQ2x-OnOn-hardware-evidence.zip": {
+      "bytes": 4511824,
+      "sha256": "8ef078fe61ec69c6c45b777c34256ea4f9d8998480ac4a1eaa294131bd38ae0f"
+    },
+    "Shienryu-DualRAM-HQ2x-Q251-Seed8-exact-source-inputs.zip": {
+      "bytes": 1131906,
+      "sha256": "625a18f327127b90778c99ad3a9b488ecc95094b9a3b2c9d44d25ced2acc1f3e"
+    },
+    "Shienryu-DualRAM-HQ2x-Q251-Seed8-timing-validation.zip": {
+      "bytes": 7298325,
+      "sha256": "421b25e038b51c6cf4fb7f38254d68766c16ea4361524ade4cfd557e8113f3ab"
+    },
+    "SHYHQ2X.mra": {
+      "bytes": 1428,
+      "sha256": "6660d562bec2e8eee69b289316fcec1dc8ce0dba87cbdf92cf85f51a4ff00c51"
+    },
+    "SHYHQ2X.rbf": {
+      "bytes": 4462056,
+      "sha256": "9f41129eb4beed7efbace2a0e7c288913b3bd194b3914089c899db3344a01124"
+    }
+  },
+  "self_and_SHA256SUMS_excluded_from_asset_hash_map": true,
+  "publication_commit_is_recorded_externally_in_READY_to_avoid_a_hash_cycle": true
+}
