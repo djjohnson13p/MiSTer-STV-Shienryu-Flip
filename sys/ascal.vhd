@@ -562,6 +562,8 @@ ARCHITECTURE rtl OF ascal IS
 	SIGNAL o_divstart : std_logic;
 	SIGNAL o_divrun : std_logic;
 	SIGNAL o_hacpt,o_vacpt : unsigned(11 DOWNTO 0);
+	-- Redundant previous-row value; no reset/init, matching o_vacpt.
+	SIGNAL o_vacpt_m1 : unsigned(11 DOWNTO 0);
 	SIGNAL o_vacptl : unsigned(1 DOWNTO 0);
 	signal o_newres : integer range 0 to 3;
 
@@ -2120,12 +2122,14 @@ BEGIN
 						o_vacc     <=o_vacc_ini;
 						o_vacc_next<=o_vacc_ini + 2*o_ivsize;
 						o_vacpt <=x"001";
+						o_vacpt_m1 <=x"000";
 						o_vacptl<="01";
 						vcarry_v:=false;
 					END IF;
 
 					IF vcarry_v THEN
 						o_vacpt<=o_vacpt+1;
+						o_vacpt_m1<=o_vacpt;
 					END IF;
 					IF vcarry_v AND o_prim THEN
 						o_vacptl<=o_vacptl+1;
@@ -2190,7 +2194,7 @@ BEGIN
 					IF o_vacpt=0 OR o_rline='1' THEN
 						o_adrs_pre <= to_integer(o_vacpt) * to_integer(o_stride);
 					ELSE
-						o_adrs_pre <= (to_integer(o_vacpt)-1) * to_integer(o_stride);
+						o_adrs_pre <= to_integer(o_vacpt_m1) * to_integer(o_stride);
 					END IF;
 				ELSE
 					o_adrs_pre <= to_integer(o_vacpt(11 DOWNTO 1) & "0") * to_integer(o_stride);
@@ -2205,7 +2209,7 @@ BEGIN
 					IF o_vacpt=0 OR o_rline='1' THEN
 						flip_row_v := to_integer(o_vacpt);
 					ELSE
-						flip_row_v := to_integer(o_vacpt)-1;
+						flip_row_v := to_integer(o_vacpt_m1);
 					END IF;
 				ELSE
 					flip_row_v := to_integer(o_vacpt(11 DOWNTO 1) & "0");
